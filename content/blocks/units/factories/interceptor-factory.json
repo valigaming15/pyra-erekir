@@ -1,0 +1,36 @@
+{
+  "type": "unitFactory",
+  "name": "Interceptor factory",
+  "description": "Creates fast and cheap units from the mod.",
+  "size": 3,
+  "consumes": {
+    "power": 1.2
+  },
+  "plans": [
+    {
+      "unit": "sapling",
+      "requirements": [
+        {"item": "titanium", "amount": 500},
+        {"item": "silicon", "amount": 1000},
+        {"item": "pyratite", "amount": 500}
+      ],
+      "time": 2400
+    }
+  ],
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 200
+    },
+    {
+      "item": "graphite",
+      "amount": 70
+    },
+    {
+      "item": "silicon",
+      "amount": 75
+    }
+  ],
+  "category": "units",
+  "research": "mod-gate-factories"
+}
