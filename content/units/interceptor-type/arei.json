@@ -1,6 +1,6 @@
 {
   "localizedName": "AREI",
-  "type": "flying",
+  "type": "payload",
   "abilities": [
     {
       "type": "RepairFieldAbility", 
