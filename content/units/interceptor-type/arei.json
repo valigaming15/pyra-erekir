@@ -1,0 +1,51 @@
+{
+  "localizedName": "AREI",
+  "type": "flying",
+  "description": "A medium sized support drone with mediocre health but high healing capabilities.",
+  "abilities": [
+    {
+      "type": "RepairFieldAbility", 
+      "range": 60, 
+      "amount": 10, 
+      "reload": 180, 
+      "activeEffect": {
+        "type": "WaveEffect", 
+        "sizeFrom": 0, 
+        "sizeTo": 60, 
+        "colorFrom": "00ff00", 
+        "colorTo": "ff6600"
+      }
+    }
+  ],
+  "lowAltitude": true,
+  "mineSpeed": 5,
+  "mineTier": 6,
+  "canAttack": false,
+  "buildSpeed": 2.5,
+  "canAttack": false,
+  "hitSize": 16,
+  "engineOffset": 11,
+  "engineSize": 3,
+  "engineColor": "ff6600",
+  "engineColorInner": "ff0000",
+  "payloadCapacity": 256,
+  "armor": 5,
+  "itemCapacity": 100,
+  "speed": 2.5,
+  "accel": 0.06,
+  "drag": 0.017
+  "canHeal": true,
+  "drawBuildBeam": true,
+  "health": 700,
+  "mineHardnessScaling": true,
+  "flying": true,
+  "research": {
+    "parent": "seed",
+    "requirements": [
+      {"item": "lead", "amount": 1500},
+      {"item": "graphite", "amount": 1200},
+      {"item": "silicon", "amount": 1000},
+      {"item": "titanium", "amount": 600}
+    ]
+  }
+}
