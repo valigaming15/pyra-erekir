@@ -10,11 +10,11 @@
     {
       "unit": "arei",
       "requirements": [
-        {"item": "titanium", "amount": 500},
-        {"item": "pyratite", "amount": 1000}
-	{"item": "silicon", "amount": 750}
+        {"item": "titanium", "amount": 1000},
+        {"item": "pyratite", "amount": 5000}
+	    {"item": "silicon", "amount": 2500}
       ],
-      "time": 2400
+      "time": 4800
     }
   ],
   "requirements": [
