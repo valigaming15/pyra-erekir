@@ -1,7 +1,7 @@
 {
-  "type": "unitFactory",
-  "name": "Interceptor factory",
-  "description": "Creates arei",
+  "type": "UnitFactory",
+  "name": "Interceptor Factory",
+  "description": "Creates Arei.",
   "size": 3,
   "consumes": {
     "power": 1.2
@@ -12,7 +12,7 @@
       "requirements": [
         {"item": "titanium", "amount": 500},
         {"item": "pyratite", "amount": 1000}
-		{"item": "silicon", "amount": 750}
+	{"item": "silicon", "amount": 750}
       ],
       "time": 2400
     }
@@ -32,5 +32,5 @@
     }
   ],
   "category": "units",
-  "research": "pyra-factories"
+  "research": "core-shard"
 }
