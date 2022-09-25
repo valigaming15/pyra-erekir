@@ -1,7 +1,6 @@
 {
   "localizedName": "AREI",
   "type": "flying",
-  "description": "A medium sized support drone with mediocre health but high healing capabilities.",
   "abilities": [
     {
       "type": "RepairFieldAbility", 
