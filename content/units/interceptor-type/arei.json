@@ -1,21 +1,6 @@
 {
   "localizedName": "AREI",
   "type": "payload",
-  "abilities": [
-    {
-      "type": "RepairFieldAbility", 
-      "range": 60, 
-      "amount": 10, 
-      "reload": 180, 
-      "activeEffect": {
-        "type": "WaveEffect", 
-        "sizeFrom": 0, 
-        "sizeTo": 60, 
-        "colorFrom": "00ff00", 
-        "colorTo": "ff6600"
-      }
-    }
-  ],
   "lowAltitude": true,
   "mineSpeed": 5,
   "mineTier": 6,
@@ -26,6 +11,7 @@
   "engineOffset": 11,
   "engineSize": 3,
   "engineColor": "ff6600",
+  "lowAltitude": true,
   "engineColorInner": "ff0000",
   "payloadCapacity": 256,
   "armor": 5,
@@ -38,6 +24,29 @@
   "health": 700,
   "mineHardnessScaling": true,
   "flying": true,
+  "weapons": [
+    {
+      "name": "nothing",
+      "mirror": "false",
+      "top": "true",
+      "shake": 1,
+      "x": 0,
+      "y": 0,
+      "reload": 120,
+      "recoil": 2.5,
+      "shootSound": "laser",
+      "bullet": {
+        "type": "LaserBulletType",
+        "collidesTeam": true,
+        "damage": 100,
+        "healPercent": 20,
+        "sideAngle": 0,
+        "sideWidth": 1,
+        "sideLength": 100,
+        "colors": ["ff6600", "ff6600", "ffffff"]
+      }
+    }
+  ],
   "research": {
     "parent": "tier-1-factory",
     "requirements": [
@@ -46,5 +55,20 @@
       {"item": "silicon", "amount": 1000},
       {"item": "titanium", "amount": 600}
     ]
-  }
+  },
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 35,
+      "regen": 0.25,
+      "max": 250,
+      "cooldown": 450
+    },
+    {
+      "type": "RepairFieldAbility",
+      "range": 50,
+      "amount": 10,
+      "reload": 120
+    }
+  ]
 }
