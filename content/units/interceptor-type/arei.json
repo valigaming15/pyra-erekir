@@ -39,7 +39,7 @@
   "mineHardnessScaling": true,
   "flying": true,
   "research": {
-    "parent": "seed",
+    "parent": "tier-1-factory",
     "requirements": [
       {"item": "lead", "amount": 1500},
       {"item": "graphite", "amount": 1200},
