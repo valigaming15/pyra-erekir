@@ -1,5 +1,6 @@
 {
   "localizedName": "AREI",
+  "description": "a mega-quasar hybrid it has powerfull single laser and advanced drill capable of mining all ores",
   "type": "payload",
   "lowAltitude": true,
   "mineSpeed": 5,
@@ -21,12 +22,12 @@
   "drag": 0.017
   "canHeal": true,
   "drawBuildBeam": true,
-  "health": 700,
+  "health": 500,
   "mineHardnessScaling": true,
   "flying": true,
   "weapons": [
     {
-      "name": "nothing",
+      "name": "electric-laser",
       "mirror": "false",
       "top": "true",
       "shake": 1,
@@ -59,9 +60,9 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 35,
-      "regen": 0.25,
-      "max": 250,
+      "radius": 50,
+      "regen": 0.5,
+      "max": 500,
       "cooldown": 450
     },
     {
