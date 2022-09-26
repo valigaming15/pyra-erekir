@@ -1,0 +1,50 @@
+{
+  "localizedName": "sterna",
+  "description": "a support drone equiped whit repair laser",
+  "type": "flying",
+  "lowAltitude": true,
+  "mineSpeed": 3,
+  "mineTier": 3,
+  "canAttack": false,
+  "buildSpeed": 2,
+  "hitSize": 8,
+  "engineOffset": 11,
+  "engineSize": 3,
+  "lowAltitude": true,
+  "armor": 5,
+  "itemCapacity": 40,
+  "speed": 2.5,
+  "accel": 0.06,
+  "drag": 0.017
+  "canHeal": true,
+  "drawBuildBeam": true,
+  "health": 500,
+  "mineHardnessScaling": true,
+  "flying": true,
+  "defaultController": "BuilderAI",
+"weapons": [
+    {
+      "type": "RepairBeamWeapon",
+      "name": "electric-laser",
+      "mirror": "false",
+      "x": 0,
+      "y": 0,
+      "beamWidth": 0.8,
+      "mirror": false,
+      "repairSpeed": 0.75
+      "bullet": {
+        "maxRange": 120
+      }
+    }
+  ],
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "silicon", "amount": 1000},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}

@@ -5,15 +5,12 @@
   "lowAltitude": true,
   "mineSpeed": 5,
   "mineTier": 6,
-  "canAttack": false,
+  "canAttack": true,
   "buildSpeed": 2.5,
-  "canAttack": false,
   "hitSize": 16,
   "engineOffset": 11,
   "engineSize": 3,
-  "engineColor": "ff6600",
   "lowAltitude": true,
-  "engineColorInner": "ff0000",
   "payloadCapacity": 256,
   "armor": 5,
   "itemCapacity": 100,
@@ -28,6 +25,7 @@
   "weapons": [
     {
       "name": "electric-laser",
+	  "ejectEffect": "casing3Double",
       "mirror": "false",
       "top": "true",
       "shake": 1,
@@ -51,10 +49,11 @@
   "research": {
     "parent": "tier-1-factory",
     "requirements": [
-      {"item": "lead", "amount": 1500},
-      {"item": "graphite", "amount": 1200},
-      {"item": "silicon", "amount": 1000},
-      {"item": "titanium", "amount": 600}
+      {"item": "lead", "amount": 2000},
+	  {"item": "copper", "amount": 2000},
+      {"item": "graphite", "amount": 1000},
+      {"item": "silicon", "amount": 2000},
+      {"item": "titanium", "amount": 1000}
     ]
   },
   "abilities": [
