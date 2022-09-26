@@ -1,0 +1,40 @@
+{
+  "type": "ContinuousLiquidTurret",
+  "localizedName": "blowtorch",
+  "description": "oil shotting turret it creates a blowtorch effect, unburnt oil covers the target setting them on fire",
+  "size": 3,
+  "category": "turret",
+  "research": "tier-1-factory",
+  "heatColor": "fa2859",
+  "requirements": [
+    "copper/250",
+    "lead/300",
+    "graphite/260",
+    "silicon/220",
+    "metaglass/200",
+    "pyratite/200",
+	"titanium/200"
+  ],
+  "liquidConsumed": 0.2,
+  "liquidCapacity": 40,
+  "targetInterval": 3,
+  "range": 220,
+  "loopSound": "torch",
+  "shootSound": "none",
+  "loopSoundVolume": 1.2,
+  "ammoTypes": {
+    "oil": {
+      "type": "ContinuousFlameBulletType",
+	  "status": "burning",
+	  "statusDuration": 180,
+      "ammoMultiplier": 1,
+      "damage": 10,
+      "length": 230,
+      "knockback": 1,
+      "pierce": true,
+      "pierceCap": 8,
+	  "colors": ["#ff4400", "#ff6600", "#ffdd00", "#ffaa00", "#ffffff"],
+      "buildingDamageMultiplier": 1,
+    }
+  }
+}
