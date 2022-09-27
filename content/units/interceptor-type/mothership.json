@@ -72,26 +72,27 @@
     },
 	{
       "name": "cannon",
-	  "alternate": false,
-	  "rotate": true,
+      "alternate": false,
+      "rotate": true,
       "mirror": false,
       "top": true,
       "shake": 1,
       "x": 0,
       "y": 10,
-      "reload": 120,
+      "reload": 60,
       "recoil": 2.5,
-	  "ejectEffect": "casing3",
+      "ejectEffect": "casing3",
       "shootSound": "artillery",
       "bullet": {
         "type": "ArtilleryBulletType",
-		"status": "burning"
-		"makeFire": true
-        "damage": 400,
-		"width": 14,
+        "status": "burning"
+        "makeFire": true
+        "splashDamage": 400,
+		"splashDamageRadius": 40,
+        "width": 14,
         "height": 50,
-		"lifetime": 96,
-		"speed": 4
+        "lifetime": 100,
+        "speed": 4
       }
     }
   ],
