@@ -1,0 +1,131 @@
+{
+  "localizedName": "AREI mothership",
+  "description": "a strong support unit capable of building areis",
+  "type": "payload",
+  "lowAltitude": true,
+  "mineSpeed": 0,
+  "mineTier": 0,
+  "canAttack": true,
+  "buildSpeed": 3,
+  "hitSize": 50,
+  "engineOffset": 20,
+  "engineSize": 5,
+  "lowAltitude": true,
+  "payloadCapacity": 2.034,
+  "armor": 10,
+  "itemCapacity": 250,
+  "speed": 1,
+  "accel": 0.06,
+  "drag": 0.02
+  "canHeal": true,
+  "drawBuildBeam": true,
+  "health": 8000,
+  "mineHardnessScaling": true,
+  "flying": true,
+  "weapons": [
+    {
+      "name": "electric-laser",
+	  "alternate": false,
+	  "rotate": true,
+      "mirror": false,
+      "top": "true",
+      "shake": 1,
+      "x": 18,
+      "y": -16,
+      "reload": 60,
+      "recoil": 2.5,
+      "shootSound": "laser",
+	  "ejectEffect": "casing3",
+      "bullet": {
+        "type": "LaserBulletType",
+        "collidesTeam": true,
+        "damage": 200,
+        "healPercent": 10,
+        "sideAngle": 0,
+        "sideWidth": 1,
+        "sideLength": 100,
+        "colors": ["ff6600", "ff6600", "ffffff"]
+      }
+    },
+	{
+      "name": "electric-laser",
+	  "alternate": false,
+	  "rotate": true,
+      "mirror": false,
+      "top": true,
+      "shake": 1,
+      "x": -18,
+      "y": -16,
+      "reload": 60,
+      "recoil": 2.5,
+      "shootSound": "laser",
+      "bullet": {
+        "type": "LaserBulletType",
+        "collidesTeam": true,
+        "damage": 200,
+        "healPercent": 10,
+        "sideAngle": 0,
+        "sideWidth": 1,
+        "sideLength": 100,
+        "colors": ["ff6600", "ff6600", "ffffff"]
+      }
+    },
+	{
+      "name": "cannon",
+	  "alternate": false,
+	  "rotate": true,
+      "mirror": false,
+      "top": true,
+      "shake": 1,
+      "x": 0,
+      "y": 10,
+      "reload": 120,
+      "recoil": 2.5,
+	  "ejectEffect": "casing3",
+      "shootSound": "artillery",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+		"status": "burning"
+		"makeFire": true
+        "damage": 400,
+		"width": 14,
+        "height": 50,
+		"lifetime": 96,
+		"speed": 4
+      }
+    }
+  ],
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 10000},
+	  {"item": "copper", "amount": 10000},
+      {"item": "graphite", "amount": 5000},
+      {"item": "silicon", "amount": 12000},
+      {"item": "titanium", "amount": 5000}
+	  {"item": "thorium", "amount": 5000}
+    ]
+  },
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 100,
+      "regen": 2,
+      "max": 2500,
+      "cooldown": 450
+    },
+    {
+      "type": "RepairFieldAbility",
+      "range": 200,
+      "amount": 100,
+      "reload": 120
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "arei",
+      "spawnX": 0,
+      "spawnY": -6,
+      "spawnTime": 2400
+    }
+  ]
+}

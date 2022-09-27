@@ -25,6 +25,17 @@
       ],
       "time": 2400
     }
+	{
+      "unit": "mothership",
+      "requirements": [
+        {"item": "plastanium", "amount": 750},
+		{"item": "titanium", "amount": 1000},
+	    {"item": "surge-alloy", "amount": 250},
+        {"item": "pyratite", "amount": 1000},
+	    {"item": "silicon", "amount": 1000}
+      ],
+      "time": 7200
+    }
   ],
   "requirements": [
     {
