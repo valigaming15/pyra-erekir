@@ -36,14 +36,15 @@
       "buildingDamageMultiplier": 1,
     }
   }
-}
 "research": {
-    "parent": "tier-1-factory",
+  "parent": "tier-1-factory",
     "requirements": [
       {"item": "lead", "amount": 2000},
 	  {"item": "copper", "amount": 2000},
       {"item": "graphite", "amount": 1000},
       {"item": "silicon", "amount": 2000},
-      {"item": "titanium", "amount": 1000}
+      {"item": "titanium", "amount": 1000},
+	  {"item": "metaglass", "amount": 1000}
     ]
+  }
 }

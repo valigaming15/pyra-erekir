@@ -74,7 +74,6 @@
 	  "speed": 4,
     }
   }
-}
 "research": {
     "parent": "tier-1-factory",
     "requirements": [
@@ -83,4 +82,5 @@
       {"item": "graphite", "amount": 2000},
       {"item": "titanium", "amount": 1000}
     ]
+  }
 }
