@@ -4,7 +4,6 @@
   "description": "oil shotting turret it creates a blowtorch effect, unburnt oil covers the target setting them on fire",
   "size": 3,
   "category": "turret",
-  "research": "tier-1-factory",
   "heatColor": "fa2859",
   "requirements": [
     "copper/250",
@@ -37,4 +36,14 @@
       "buildingDamageMultiplier": 1,
     }
   }
+}
+"research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 2000},
+	  {"item": "copper", "amount": 2000},
+      {"item": "graphite", "amount": 1000},
+      {"item": "silicon", "amount": 2000},
+      {"item": "titanium", "amount": 1000}
+    ]
 }

@@ -5,7 +5,6 @@
   "health": 750,
   "size": 2,
   "category": "turret",
-  "research": "tier-1-factory",
   "heatColor": "fa2859",
   "requirements": [
     "copper/300",
@@ -75,4 +74,13 @@
 	  "speed": 4,
     }
   }
+}
+"research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 2000},
+	  {"item": "copper", "amount": 2000},
+      {"item": "graphite", "amount": 2000},
+      {"item": "titanium", "amount": 1000}
+    ]
 }
