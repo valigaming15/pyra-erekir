@@ -1,6 +1,6 @@
 {
-  "localizedName": "AREI mothership",
-  "description": "a strong support unit capable of building areis",
+  "localizedName": "mothership",
+  "description": "a strong support unit capable of building AREI and sterna",
   "type": "payload",
   "lowAltitude": true,
   "mineSpeed": 0,
@@ -31,7 +31,7 @@
       "top": "true",
       "shake": 1,
       "x": 18,
-      "y": -16,
+      "y": 8,
       "reload": 60,
       "recoil": 2.5,
       "shootSound": "laser",
@@ -55,10 +55,11 @@
       "top": true,
       "shake": 1,
       "x": -18,
-      "y": -16,
+      "y": 8,
       "reload": 60,
       "recoil": 2.5,
       "shootSound": "laser",
+	  "ejectEffect": "casing3",
       "bullet": {
         "type": "LaserBulletType",
         "collidesTeam": true,
@@ -78,7 +79,7 @@
       "top": true,
       "shake": 1,
       "x": 0,
-      "y": 10,
+      "y": 14,
       "reload": 60,
       "recoil": 2.5,
       "ejectEffect": "casing3",
@@ -87,12 +88,26 @@
         "type": "ArtilleryBulletType",
         "status": "burning"
         "makeFire": true
+		"damage": 400,
         "splashDamage": 400,
 		"splashDamageRadius": 40,
         "width": 14,
         "height": 50,
         "lifetime": 100,
         "speed": 4
+      }
+    },
+	{
+      "type": "RepairBeamWeapon",
+      "name": "electric-laser",
+      "mirror": "false",
+      "x": 0,
+      "y": -6,
+      "beamWidth": 0.8,
+      "mirror": false,
+      "repairSpeed": 2
+      "bullet": {
+        "maxRange": 150
       }
     }
   ],
@@ -116,15 +131,16 @@
       "cooldown": 450
     },
     {
-      "type": "RepairFieldAbility",
-      "range": 100,
-      "amount": 100,
-      "reload": 120
-    },
-    {
       "type": "UnitSpawnAbility",
       "unit": "arei",
-      "spawnX": 0,
+      "spawnX": 12,
+      "spawnY": -6,
+      "spawnTime": 2400
+    },
+	{
+	  "type": "UnitSpawnAbility",
+      "unit": "sterna",
+      "spawnX": -12,
       "spawnY": -6,
       "spawnTime": 2400
     }

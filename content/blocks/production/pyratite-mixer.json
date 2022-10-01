@@ -9,17 +9,14 @@
   "size": 3,
   "craftTime": 60,
   "hasPower": false,
-  "hasLiquids": true,
+  "hasLiquids": false,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "liquid": {
-  "liquid": "slag",
-     "amount": 0.1
-  }
   "items": {
   "items": [
-  "coal/4"
+  "coal/2"
+  "graphite/1"
   ]
  }
  }
