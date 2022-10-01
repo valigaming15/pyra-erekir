@@ -22,7 +22,7 @@
   "mineHardnessScaling": true,
   "flying": true,
   "defaultController": "BuilderAI",
-"weapons": [
+  "weapons": [
     {
       "type": "RepairBeamWeapon",
       "name": "electric-laser",
@@ -31,9 +31,9 @@
       "y": 0,
       "beamWidth": 0.8,
       "mirror": false,
-      "repairSpeed": 0.75
+      "repairSpeed": 1
       "bullet": {
-        "maxRange": 120
+        "maxRange": 150
       }
     }
   ],

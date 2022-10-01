@@ -1,0 +1,42 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Pyratite press",
+  "description": "presses coal into pyratite",
+  "outputItem": "pyratite/4",
+  "health": 500,
+  "itemCapacity": 40,
+  "loquidCapacity": 40,
+  "size": 3,
+  "craftTime": 60,
+  "hasPower": false,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "liquid": {
+  "liquid": "slag",
+     "amount": 0.1
+  }
+  "items": {
+  "items": [
+  "coal/4"
+  ]
+ }
+ }
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}

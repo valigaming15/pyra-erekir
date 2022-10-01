@@ -21,7 +21,7 @@
       "requirements": [
         {"item": "titanium", "amount": 200},
         {"item": "pyratite", "amount": 250}
-	    {"item": "silicon", "amount": 250}
+	    {"item": "silicon", "amount": 500}
       ],
       "time": 2400
     }
