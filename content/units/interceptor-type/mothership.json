@@ -1,6 +1,6 @@
 {
   "localizedName": "mothership",
-  "description": "a strong support unit capable of building AREI and sterna",
+  "description": "a strong support unit",
   "type": "payload",
   "lowAltitude": true,
   "mineSpeed": 0,
@@ -24,7 +24,7 @@
   "flying": true,
   "weapons": [
     {
-      "name": "electric-laser",
+      "name": "cannon",
 	  "alternate": false,
 	  "rotate": true,
       "mirror": false,
@@ -32,77 +32,70 @@
       "shake": 1,
       "x": 18,
       "y": 8,
-      "reload": 60,
+      "reload": 15,
       "recoil": 2.5,
-      "shootSound": "laser",
-	  "ejectEffect": "casing3",
+      "shootSound": "artillery",
+	  "ejectEffect": "casing4",
       "bullet": {
-        "type": "LaserBulletType",
+        "type": "BasicBulletType",
         "collidesTeam": true,
-        "damage": 200,
-        "healPercent": 10,
-        "sideAngle": 0,
-        "sideWidth": 1,
-        "sideLength": 100,
-        "colors": ["ff6600", "ff6600", "ffffff"]
-      }
-    },
-	{
-      "name": "electric-laser",
-	  "alternate": false,
-	  "rotate": true,
-      "mirror": false,
-      "top": true,
-      "shake": 1,
-      "x": -18,
-      "y": 8,
-      "reload": 60,
-      "recoil": 2.5,
-      "shootSound": "laser",
-	  "ejectEffect": "casing3",
-      "bullet": {
-        "type": "LaserBulletType",
-        "collidesTeam": true,
-        "damage": 200,
-        "healPercent": 10,
-        "sideAngle": 0,
-        "sideWidth": 1,
-        "sideLength": 100,
-        "colors": ["ff6600", "ff6600", "ffffff"]
+		"pierce": true,
+		"pierceCap": 10,
+        "status": "burning"
+        "makeFire": true
+		"damage": 100,
+        "width": 14,
+        "height": 40,
+        "lifetime": 35,
+        "speed": 8
       }
     },
 	{
       "name": "cannon",
-      "alternate": false,
-      "rotate": true,
+	  "alternate": false,
+	  "rotate": true,
       "mirror": false,
-      "top": true,
+      "top": "true",
       "shake": 1,
-      "x": 0,
-      "y": 14,
-      "reload": 60,
+      "x": -18,
+      "y": 8,
+      "reload": 15,
       "recoil": 2.5,
-      "ejectEffect": "casing3",
       "shootSound": "artillery",
+	  "ejectEffect": "casing4",
       "bullet": {
-        "type": "ArtilleryBulletType",
+        "type": "BasicBulletType",
+        "collidesTeam": true,
+		"pierce": true,
+		"pierceCap": 10,
         "status": "burning"
         "makeFire": true
-		"damage": 400,
-        "splashDamage": 400,
-		"splashDamageRadius": 40,
+		"damage": 100,
         "width": 14,
-        "height": 50,
-        "lifetime": 100,
-        "speed": 4
+        "height": 40,
+        "lifetime": 35,
+        "speed": 8
       }
     },
 	{
       "type": "RepairBeamWeapon",
       "name": "electric-laser",
       "mirror": "false",
-      "x": 0,
-      "y": -6,
+      "x": 18,
+      "y": -12,
+      "beamWidth": 0.8,
+      "mirror": false,
+      "repairSpeed": 2
+      "bullet": {
+        "maxRange": 150
+      }
+    },
+		{
+      "type": "RepairBeamWeapon",
+      "name": "electric-laser",
+      "mirror": "false",
+      "x": -18,
+      "y": -12,
       "beamWidth": 0.8,
       "mirror": false,
       "repairSpeed": 2
@@ -126,23 +119,16 @@
     {
       "type": "ForceFieldAbility",
       "radius": 100,
-      "regen": 2,
-      "max": 2500,
+      "regen": 2.5,
+      "max": 3000,
       "cooldown": 450
-    },
-    {
-      "type": "UnitSpawnAbility",
-      "unit": "arei",
-      "spawnX": 12,
-      "spawnY": -6,
-      "spawnTime": 2400
     },
 	{
 	  "type": "UnitSpawnAbility",
-      "unit": "sterna",
-      "spawnX": -12,
-      "spawnY": -6,
-      "spawnTime": 2400
-    }
+	  "unit": "arei",
+	  "spawnX": 0,
+	  "spawnY": -6,
+	  "spawnTime": 2400
+	}
   ]
 }
