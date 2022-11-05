@@ -1,10 +1,10 @@
 {
   "localizedName": "mothership",
-  "description": "a strong support unit",
+  "description": "a strong support unit capable of carrying large payloads and slow produce arei",
   "type": "payload",
   "lowAltitude": true,
-  "mineSpeed": 0,
-  "mineTier": 0,
+  "mineSpeed": 1,
+  "mineTier": 3,
   "canAttack": true,
   "buildSpeed": 3,
   "hitSize": 50,
@@ -38,7 +38,7 @@
 	  "ejectEffect": "casing4",
       "bullet": {
         "type": "BasicBulletType",
-        "collidesTeam": true,
+        "collidesTeam": false,
 		"pierce": true,
 		"pierceCap": 10,
         "status": "burning"
@@ -65,7 +65,7 @@
 	  "ejectEffect": "casing4",
       "bullet": {
         "type": "BasicBulletType",
-        "collidesTeam": true,
+        "collidesTeam": false,
 		"pierce": true,
 		"pierceCap": 10,
         "status": "burning"
@@ -128,7 +128,7 @@
 	  "unit": "arei",
 	  "spawnX": 0,
 	  "spawnY": -6,
-	  "spawnTime": 2400
+	  "spawnTime": 7200
 	}
   ]
 }

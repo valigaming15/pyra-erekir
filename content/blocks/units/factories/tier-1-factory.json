@@ -11,26 +11,25 @@
       "unit": "arei",
       "requirements": [
         {"item": "titanium", "amount": 250},
-        {"item": "pyratite", "amount": 500}
-	    {"item": "silicon", "amount": 1000}
+        {"item": "pyratite", "amount": 250}
+	    {"item": "silicon", "amount": 250}
       ],
       "time": 4800
     }
 	{
       "unit": "sterna",
       "requirements": [
-        {"item": "titanium", "amount": 200},
-        {"item": "pyratite", "amount": 250}
-	    {"item": "silicon", "amount": 500}
+        {"item": "titanium", "amount": 100},
+        {"item": "pyratite", "amount": 25}
+	    {"item": "silicon", "amount": 200}
       ],
       "time": 2400
     }
 	{
       "unit": "mothership",
       "requirements": [
-        {"item": "plastanium", "amount": 750},
-		{"item": "titanium", "amount": 1000},
-	    {"item": "surge-alloy", "amount": 250},
+        {"item": "plastanium", "amount": 1000},
+	    {"item": "surge-alloy", "amount": 1000},
         {"item": "pyratite", "amount": 1000},
 	    {"item": "silicon", "amount": 1000}
       ],

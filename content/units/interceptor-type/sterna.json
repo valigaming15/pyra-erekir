@@ -33,7 +33,7 @@
       "mirror": false,
       "repairSpeed": 1
       "bullet": {
-        "maxRange": 200
+        "maxRange": 150
       }
     }
   ],

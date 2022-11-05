@@ -25,7 +25,7 @@
   "weapons": [
     {
       "name": "electric-laser",
-	  "ejectEffect": "casing3Double",
+	  "ejectEffect": "casing4",
       "mirror": "false",
       "top": "true",
       "shake": 1,
@@ -34,6 +34,7 @@
       "reload": 120,
       "recoil": 2.5,
       "shootSound": "laser",
+	  "shootSoundVolume": 2,
       "bullet": {
         "type": "LaserBulletType",
         "collidesTeam": true,
@@ -44,7 +45,33 @@
         "sideLength": 100,
         "colors": ["ff6600", "ff6600", "ffffff"]
       }
-    }
+    },
+	{
+      "type": "RepairBeamWeapon",
+      "name": "repair-turret",
+      "mirror": "false",
+      "x": 7,
+      "y": -6,
+      "beamWidth": 0.8,
+      "mirror": false,
+      "repairSpeed": 0.25
+      "bullet": {
+        "maxRange": 75
+      }
+	},
+    {
+      "type": "RepairBeamWeapon",
+      "name": "repair-turret",
+      "mirror": "false",
+      "x": -7,
+      "y": -6,
+      "beamWidth": 0.8,
+      "mirror": false,
+      "repairSpeed": 0.25
+      "bullet": {
+        "maxRange": 75
+      }
+	}
   ],
   "research": {
     "parent": "tier-1-factory",
@@ -63,12 +90,6 @@
       "regen": 0.5,
       "max": 500,
       "cooldown": 450
-    },
-    {
-      "type": "RepairFieldAbility",
-      "range": 50,
-      "amount": 10,
-      "reload": 120
     }
   ]
 }
