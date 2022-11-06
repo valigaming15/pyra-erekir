@@ -1,6 +1,6 @@
 {
   "localizedName": "mothership",
-  "description": "a strong support unit capable of carrying large payloads and slow produce arei",
+  "description": "a strong support unit capable of carrying large payloads and slowly produce arei",
   "type": "payload",
   "lowAltitude": true,
   "mineSpeed": 1,
@@ -43,7 +43,9 @@
 		"pierceCap": 10,
         "status": "burning"
         "makeFire": true
-		"damage": 100,
+	    "damage": 100,
+        "splashDamage": 100,
+		"splashDamageRadius": 35,
         "width": 14,
         "height": 40,
         "lifetime": 35,
@@ -70,7 +72,9 @@
 		"pierceCap": 10,
         "status": "burning"
         "makeFire": true
-		"damage": 100,
+	    "damage": 100,
+        "splashDamage": 100,
+		"splashDamageRadius": 35,
         "width": 14,
         "height": 40,
         "lifetime": 35,

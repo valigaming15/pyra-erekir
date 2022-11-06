@@ -17,14 +17,15 @@
   "range": 300,
   "reload": 60,
   "shootSound": "artilery",
+  "shootSoundVolume": 2,
   "ammoTypes": {
     "pyratite": {
       "type": "ArtilleryBulletType",
 	  "status": "burning",
       "makeFire": true,
 	  "statusDuration": 180,
-      "ammoMultiplier": 4,
-	  "reloadMultiplier": 1,
+      "ammoMultiplier": 3,
+	  "reloadMultiplier": 2,
 	  "damage": 75,
       "splashDamage": 75,
       "splashDamageRadius": 20,
@@ -69,7 +70,7 @@
     },
 	"thorium": {
       "type": "ArtilleryBulletType",
-      "ammoMultiplier": 6,
+      "ammoMultiplier": 4,
 	  "reloadMultiplier": 1.25,
 	  "damage": 100,
       "splashDamage": 100,

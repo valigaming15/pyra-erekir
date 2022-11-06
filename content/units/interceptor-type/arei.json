@@ -3,10 +3,10 @@
   "description": "a mega-quasar hybrid it has powerfull single laser and advanced drill capable of mining all ores",
   "type": "payload",
   "lowAltitude": true,
-  "mineSpeed": 5,
+  "mineSpeed": 3,
   "mineTier": 6,
   "canAttack": true,
-  "buildSpeed": 2.5,
+  "buildSpeed": 2,
   "hitSize": 16,
   "engineOffset": 11,
   "engineSize": 3,
@@ -23,55 +23,30 @@
   "mineHardnessScaling": true,
   "flying": true,
   "weapons": [
-    {
+	{
       "name": "electric-laser",
 	  "ejectEffect": "casing4",
-      "mirror": "false",
-      "top": "true",
-      "shake": 1,
       "x": 0,
-      "y": 0,
-      "reload": 120,
-      "recoil": 2.5,
-      "shootSound": "laser",
+      "y": 1,
+      "mirror": false,
+      "reload": 240,
+      "rotate": false,
+      "continuous": true,
+      "shootSound": "laserblast",
 	  "shootSoundVolume": 2,
       "bullet": {
-        "type": "LaserBulletType",
+        "type": "ContinuousLaserBulletType",
+        "length": 200,
+        "width": 2,
+        "damage": 15,
+        "lifetime": 120,
         "collidesTeam": true,
-        "damage": 100,
-        "healPercent": 20,
-        "sideAngle": 0,
-        "sideWidth": 1,
-        "sideLength": 100,
-        "colors": ["ff6600", "ff6600", "ffffff"]
+        "healPercent": 1,
+        "damageInterval": 10,
+        "colors": ["ff0000", "ff6600", "ffffff"],
+        "fadeTime": 30
       }
-    },
-	{
-      "type": "RepairBeamWeapon",
-      "name": "repair-turret",
-      "mirror": "false",
-      "x": 7,
-      "y": -6,
-      "beamWidth": 0.8,
-      "mirror": false,
-      "repairSpeed": 0.25
-      "bullet": {
-        "maxRange": 75
-      }
-	},
-    {
-      "type": "RepairBeamWeapon",
-      "name": "repair-turret",
-      "mirror": "false",
-      "x": -7,
-      "y": -6,
-      "beamWidth": 0.8,
-      "mirror": false,
-      "repairSpeed": 0.25
-      "bullet": {
-        "maxRange": 75
-      }
-	}
+    }
   ],
   "research": {
     "parent": "tier-1-factory",
