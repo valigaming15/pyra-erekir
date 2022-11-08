@@ -11,19 +11,19 @@
       "unit": "arei",
       "requirements": [
         {"item": "titanium", "amount": 200},
-        {"item": "molten-alloy", "amount": 100}
+        {"item": "molten-alloy", "amount": 25}
 	    {"item": "silicon", "amount": 300}
       ],
-      "time": 4800
+      "time": 2400
     }
 	{
       "unit": "sterna",
       "requirements": [
         {"item": "titanium", "amount": 100},
-		{"item": "molten-alloy", "amount": 25}
+        {"item": "molten-alloy", "amount": 5}
 	    {"item": "silicon", "amount": 200}
       ],
-      "time": 120
+      "time": 2400
     }
 	{
       "unit": "mothership",
