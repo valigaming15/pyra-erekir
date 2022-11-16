@@ -3,7 +3,7 @@
     repo : valigaming15/pyra-erekir
     name : pyra
     minGameVersion : 136
-    version : 1.0.3
+    version : 1.0.4
     author: 
     '''
     
@@ -13,6 +13,6 @@
     '''
     description:
     '''
-    Pyratite focused mod which adds units and turrets
+    Pyratite focused mod which adds units turrets and factorys
     '''
 }
