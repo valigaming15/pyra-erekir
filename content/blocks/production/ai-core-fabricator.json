@@ -1,25 +1,26 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "molten alloy forge",
-  "description": "forges pyratite into a strong alloy",
-  "outputItem": "molten-alloy/10",
+  "localizedName": "AI core fabricator",
+  "description": "",
+  "outputItem": "ai-core/1",
   "health": 500,
-  "itemCapacity": 100,
+  "itemCapacity": 20,
   "liquidCapacity": 60,
   "size": 3,
-  "craftTime": 240,
+  "craftTime": 120,
   "hasPower": true,
   "hasLiquids": false,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 10
+  "power": 2
   "items": {
   "items": [
-  "pyratite/50"
-  "titanium/50"
+  "molten-alloy/1"
+  "titanium/1"
+  "copper/5"
   ]
- },
+ }
  }
   "requirements": [
 	  {"item": "copper", "amount": 200},

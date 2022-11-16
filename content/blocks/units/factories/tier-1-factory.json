@@ -12,6 +12,7 @@
       "requirements": [
         {"item": "titanium", "amount": 200},
         {"item": "molten-alloy", "amount": 25}
+		{"item": "ai-core", "amount": 1}
 	    {"item": "silicon", "amount": 300}
       ],
       "time": 2400
@@ -21,6 +22,7 @@
       "requirements": [
         {"item": "titanium", "amount": 100},
         {"item": "molten-alloy", "amount": 5}
+		{"item": "ai-core", "amount": 1}
 	    {"item": "silicon", "amount": 200}
       ],
       "time": 2400
@@ -31,6 +33,7 @@
         {"item": "plastanium", "amount": 1000},
 	    {"item": "surge-alloy", "amount": 750}
 		{"item": "molten-alloy", "amount": 1000}
+		{"item": "ai-core", "amount": 100}
 	    {"item": "silicon", "amount": 1000}
 		{"item": "phase-fabric", "amount": 500}
       ],
