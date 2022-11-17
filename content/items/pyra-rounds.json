@@ -1,12 +1,12 @@
 {
-  "name": "AI core",
-  "description": "main component for AI systems",
+  "name": "pyratite rounds",
+  "description": "ammo produced from molten alloy",
   "cost": 2.5,
-  "color": "00ff00",
+  "color": "ff0000",
   "hardness": 5,
-  "flammability": 0,
-  "explosiveness": 0,
-   "research": {
+  "flammability": 1.0,
+  "explosiveness": 1.0,
+  "research": {
     "parent": "tier-1-factory",
     "requirements": [
       {

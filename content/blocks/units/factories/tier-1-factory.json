@@ -4,9 +4,28 @@
   "description": "",
   "size": 3,
   "consumes": {
-    "power": 1.2
+    "power": 2
   },
   "plans": [
+  	{
+      "unit": "pyra-miner",
+      "requirements": [
+        {"item": "molten-alloy", "amount": 5}
+		{"item": "ai-core", "amount": 1}
+	    {"item": "silicon", "amount": 100}
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "sterna",
+      "requirements": [
+        {"item": "titanium", "amount": 100},
+        {"item": "molten-alloy", "amount": 5}
+		{"item": "ai-core", "amount": 1}
+	    {"item": "silicon", "amount": 200}
+      ],
+      "time": 2400
+    },
     {
       "unit": "arei",
       "requirements": [
@@ -16,17 +35,7 @@
 	    {"item": "silicon", "amount": 300}
       ],
       "time": 2400
-    }
-	{
-      "unit": "sterna",
-      "requirements": [
-        {"item": "titanium", "amount": 100},
-        {"item": "molten-alloy", "amount": 5}
-		{"item": "ai-core", "amount": 1}
-	    {"item": "silicon", "amount": 200}
-      ],
-      "time": 2400
-    }
+    },
 	{
       "unit": "mothership",
       "requirements": [

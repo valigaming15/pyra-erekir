@@ -1,25 +1,24 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "molten alloy forge",
-  "description": "forges pyratite into a strong alloy",
-  "outputItem": "molten-alloy/1",
+  "localizedName": "Pyra ammo fabricator",
+  "description": "turns molten alloy into ammo",
+  "outputItem": "pyra-rounds/5",
   "health": 500,
   "itemCapacity": 20,
   "liquidCapacity": 60,
   "size": 3,
-  "craftTime": 120,
+  "craftTime": 60,
   "hasPower": true,
   "hasLiquids": false,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 2
+  "power": 1
   "items": {
   "items": [
-  "pyratite/5"
-  "titanium/5"
+  "molten-alloy/1"
   ]
- },
+ }
  }
   "requirements": [
 	  {"item": "copper", "amount": 200},
