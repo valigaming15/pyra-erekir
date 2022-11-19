@@ -7,7 +7,7 @@
   "flammability": 1.0,
   "explosiveness": 1.0,
   "research": {
-    "parent": "tier-1-factory",
+    "parent": "molten-alloy",
     "requirements": [
       {
         "item": "pyratite",

@@ -1,32 +1,44 @@
 {
   "name": "Pyra Drill",
-  "description": "A small drill for everything.",
+  "description": "A small but powerfull drill for everything.",
   "type": "Drill",
   "size": 2,
-  "health": 250,
+  "health": 300,
   "liquidCapacity": 10,
   "itemCapacity": 20,
   "tier": 5,
-  "drillTime": 300,
-  "liquidBoostIntensity": 3.0,
+  "drillTime": 200,
+  "liquidBoostIntensity": 2.0,
   "consumes": {
     "liquid": {
       "liquid": "cryofluid",
-      "amount": 0.05,
+      "amount": 0.025,
       "optional": true,
       "booster": true
     }
   },
   "requirements": [
-    {
-      "item": "thorium",
+	{
+      "item": "titanium",
+      "amount": 10
+    }
+	{
+      "item": "graphite",
       "amount": 10
     }
     {
       "item": "molten-alloy",
       "amount": 10
-    }
+    },
   ],
   "category": "production",
-  "research": "tier-1-factory"
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
 }
