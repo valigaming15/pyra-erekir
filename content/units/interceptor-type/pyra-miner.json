@@ -1,5 +1,5 @@
 {
-  "localizedName": "Pyra miner",
+  "localizedName": "[#ff66]Pyra miner",
   "description": "A mining drone equipped with repair laser.",
   "type": "flying",
   "lowAltitude": true,

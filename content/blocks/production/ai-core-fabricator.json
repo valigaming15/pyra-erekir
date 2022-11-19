@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "AI core fabricator",
+  "localizedName": "[#00ff]AI core fabricator",
   "description": "",
   "outputItem": "ai-core/1",
   "health": 500,

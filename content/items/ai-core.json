@@ -1,11 +1,11 @@
 {
-  "name": "AI core",
+  "name": "[#00ff]AI core",
   "description": "main component for AI systems",
   "cost": 2.5,
   "color": "00ff00",
   "hardness": 5,
-  "flammability": 0,
-  "explosiveness": 0,
+  "flammability": 1,
+  "explosiveness": 1,
    "research": {
     "parent": "molten-alloy",
     "requirements": [

@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "molten alloy forge",
+  "localizedName": "[#ff66]molten alloy forge",
   "description": "forges pyratite into a strong alloy",
   "outputItem": "molten-alloy/1",
   "health": 500,

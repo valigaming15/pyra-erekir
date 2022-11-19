@@ -1,5 +1,5 @@
 {
-  "name": "Pyra Drill",
+  "name": "[#ff66]Pyra Drill",
   "description": "A small but powerfull drill for everything.",
   "type": "Drill",
   "size": 2,
@@ -8,8 +8,8 @@
   "itemCapacity": 20,
   "tier": 5,
   "drillTime": 200,
-  "warmupSpeed": 0.0025,
-  "rotateSpeed": 4,
+  "warmupSpeed": 0.001,
+  "rotateSpeed": 8,
   "liquidBoostIntensity": 2.0,
   "consumes": {
     "liquid": {

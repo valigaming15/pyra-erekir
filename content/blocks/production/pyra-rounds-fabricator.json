@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "Pyra ammo fabricator",
+  "localizedName": "[#ff]Pyra ammo fabricator",
   "description": "turns molten alloy into ammo",
   "outputItem": "pyra-rounds/5",
   "health": 500,

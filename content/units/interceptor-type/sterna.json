@@ -1,5 +1,5 @@
 {
-  "localizedName": "Sterna",
+  "localizedName": "[#ff66]Sterna",
   "description": "A support drone equipped with repair lasers.",
   "type": "flying",
   "lowAltitude": true,
