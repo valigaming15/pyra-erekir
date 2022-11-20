@@ -1,6 +1,6 @@
 {
   "type": "itemTurret",
-  "localizedName": "[#ff66]artilery",
+  "localizedName": "[#ff66]Artilery",
   "description": "powerfull multi ammo artilery",
   "health": 750,
   "size": 2,

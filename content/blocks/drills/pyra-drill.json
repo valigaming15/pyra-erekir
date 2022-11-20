@@ -1,20 +1,21 @@
 {
   "name": "[#ff66]Pyra Drill",
-  "description": "A small but powerfull drill for everything.",
+  "description": "A medium sized but powerfull drill for everything.",
   "type": "Drill",
-  "size": 2,
-  "health": 300,
-  "liquidCapacity": 10,
+  "size": 3,
+  "health": 500,
+  "liquidCapacity": 5,
   "itemCapacity": 20,
-  "tier": 5,
+  "tier": 6,
   "drillTime": 200,
   "warmupSpeed": 0.001,
   "rotateSpeed": 8,
-  "liquidBoostIntensity": 2.0,
+  "blockedItem": "sand",
+  "liquidBoostIntensity": 1.74,
   "consumes": {
     "liquid": {
-      "liquid": "cryofluid",
-      "amount": 0.025,
+      "liquid": "slag",
+      "amount": 0.05,
       "optional": true,
       "booster": true
     }

@@ -1,6 +1,6 @@
 {
-  "localizedName": "[#ff]mothership",
-  "description": "a strong support unit capable of carrying large payloads and slowly produce arei",
+  "localizedName": "[#ff]Mothership",
+  "description": "a strong support unit capable of carrying large payloads and slowly produce Areis",
   "type": "payload",
   "lowAltitude": true,
   "mineSpeed": 1,
