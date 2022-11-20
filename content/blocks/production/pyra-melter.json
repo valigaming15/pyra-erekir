@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Pyra-melter",
+  "description": "Melts scrap into slag more effiencently",
+  "outputLiquid": "slag/0.4",
+  "health": 250,
+  "itemCapacity": 10,
+  "liquidCapacity": 50,
+  "size": 2,
+  "craftTime": 7.5,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 2
+  "items": {
+  "items": [
+  "scrap/1"
+  ]
+ }
+ }
+  "requirements": [
+	  {"item": "copper", "amount": 100},
+	  {"item": "lead", "amount": 100},
+	  {"item": "molten-alloy", "amount": 25}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 1000},
+      {"item": "titanium", "amount": 1000}
+    ]
+  }
+}
