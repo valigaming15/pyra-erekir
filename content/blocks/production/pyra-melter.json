@@ -5,12 +5,13 @@
   "outputLiquid": "slag/0.4",
   "health": 250,
   "itemCapacity": 10,
-  "liquidCapacity": 50,
+  "liquidCapacity": 25,
   "size": 2,
   "craftTime": 7.5,
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
+  "DrawLiquidTile": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
   "power": 2
@@ -19,6 +20,22 @@
   "scrap/1"
   ]
  }
+ }
+ "drawer": {
+	 "type": "DrawMulti",
+	 "drawers": [
+	 {
+		 "type": "DrawRegion",
+		 "suffix": "-bottom"
+	 },
+	 {
+		 "type": "DrawLiquidTile",
+		 "drawLiquid": "slag"
+	 },
+	 {
+		 "type": "DrawDefault"
+	 }
+   ]
  }
   "requirements": [
 	  {"item": "copper", "amount": 100},
