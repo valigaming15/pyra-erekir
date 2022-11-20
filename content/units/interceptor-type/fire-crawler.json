@@ -42,9 +42,9 @@
       "shootSound": "",
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "length": 125,
+        "length": 75,
         "width": 1.5,
-        "damage": 75,
+        "damage": 125,
         "lifetime": 900,
         "collidesTeam": false,
         "damageInterval": 60,
