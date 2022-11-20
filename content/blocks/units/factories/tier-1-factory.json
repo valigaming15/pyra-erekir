@@ -41,10 +41,10 @@
       "requirements": [
         {"item": "plastanium", "amount": 1000},
 	    {"item": "surge-alloy", "amount": 750}
-		{"item": "molten-alloy", "amount": 1000}
-		{"item": "ai-core", "amount": 100}
 	    {"item": "silicon", "amount": 1000}
 		{"item": "phase-fabric", "amount": 500}
+		{"item": "ai-core", "amount": 100}
+		{"item": "molten-alloy", "amount": 250}
       ],
       "time": 7200
     }
