@@ -129,7 +129,7 @@
     },
 	{
 	  "type": "UnitSpawnAbility",
-	  "unit": "arei",
+	  "unit": "fire-crawler",
 	  "spawnX": 0,
 	  "spawnY": -6,
 	  "spawnTime": 7200

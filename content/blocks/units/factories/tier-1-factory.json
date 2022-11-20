@@ -37,6 +37,16 @@
       "time": 2400
     },
 	{
+      "unit": "fire-crawler",
+      "requirements": [
+        {"item": "titanium", "amount": 200},
+        {"item": "molten-alloy", "amount": 25}
+		{"item": "ai-core", "amount": 1}
+	    {"item": "silicon", "amount": 300}
+      ],
+      "time": 2400
+    },
+	{
       "unit": "mothership",
       "requirements": [
         {"item": "plastanium", "amount": 1000},

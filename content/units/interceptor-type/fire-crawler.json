@@ -1,0 +1,105 @@
+{
+  "name": "[orange]Fire crawler",
+  "description": "Equipped with laser sword that lasts 15 seconds and twin sappers",
+  "health": 500,
+  "flying": false,
+  "legCount": 6,
+  "legLength": 20,
+  "legForwardScl": 0.7,
+  "legMoveSpace": 1.2,
+  "hovering": true,
+  "allowLegStep": true,
+  "drawBuildBeam": true,
+  "commandLimit": 4,
+  "buildSpeed": 2,
+  "speed": 0.75,
+  "rotateSpeed": 4,
+  "armor": 5,
+  "range": 80,
+  "mechSideSway": 0.25,
+  "type": "legs",
+  "hitSize": 16,
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 2000},
+	  {"item": "copper", "amount": 2000},
+      {"item": "graphite", "amount": 1000},
+      {"item": "silicon", "amount": 2000},
+      {"item": "titanium", "amount": 1000}
+    ]
+  },
+  "weapons": [
+	{
+      "name": "electric-laser",
+	  "ejectEffect": "casing4",
+      "x": 0,
+      "y": 1,
+      "mirror": false,
+      "reload": 300,
+      "rotate": false,
+      "continuous": true,
+      "shootSound": "",
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "length": 125,
+        "width": 1.5,
+        "damage": 75,
+        "lifetime": 900,
+        "collidesTeam": false,
+        "damageInterval": 60,
+        "colors": ["ff0000", "ff6600", "ffffff"],
+        "fadeTime": 30
+      }
+    },
+	{
+      "name": "pyra-miner-weapon",
+	  "ejectEffect": "casing2",
+      "x": 5,
+      "y": 2,
+      "mirror": false,
+      "reload": 25,
+      "rotate": true,
+      "continuous": true,
+      "shootSound": "shootSmall",
+      "bullet": {
+        "type": "SapBulletType",
+		"sapStrength": 5
+        "length": 75,
+        "width": 0.5,
+        "damage": 5,
+        "lifetime": 20,
+		"colors": "ff6600"
+      }
+    },
+	{
+      "name": "pyra-miner-weapon",
+	  "ejectEffect": "casing2",
+      "x": -5,
+      "y": 2,
+      "mirror": false,
+      "reload": 25,
+      "rotate": true,
+      "continuous": true,
+      "shootSound": "shootSmall",
+      "bullet": {
+        "type": "SapBulletType",
+		"sapStrength": 5
+        "length": 75,
+        "width": 0.5,
+        "damage": 5,
+        "lifetime": 20,
+		"colors": "ff6600"
+      }
+    }
+  ],
+	  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 30,
+      "regen": 0.25,
+      "max": 300,
+      "cooldown": 450
+    }
+  ],
+}

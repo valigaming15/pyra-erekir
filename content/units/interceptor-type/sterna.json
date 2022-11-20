@@ -7,7 +7,7 @@
   "mineTier": 3,
   "canAttack": false,
   "buildSpeed": 4,
-  "hitSize": 8,
+  "hitSize": 16,
   "engineOffset": 11,
   "engineSize": 3,
   "lowAltitude": true,
