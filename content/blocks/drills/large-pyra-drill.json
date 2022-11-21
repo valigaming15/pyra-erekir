@@ -1,0 +1,50 @@
+{ 
+"name": "[#ff66]Large pyra Drill", 
+"description": "An even better airblast drill. Cannot mine sand as it would break, requires slag to achive full potential.", 
+"type": "Drill", 
+"blockedItem": "sand",
+  "updateEffectChance": 0.1,
+  "drawMineItem": false,
+  "warmupSpeed": 0.0005,
+"size": 5, 
+"updateEffect": 
+    {
+      "type": "ParticleEffect",
+      "particles": 8,
+      "line": true,
+      "sizeFrom": 1,
+      "sizeTo": 2,
+      "interp": "pow2Out"
+      "colorFrom": "ff6600",
+      "colorTo": "ff0000"
+},
+"hasPower": true, 
+"drawRim": true, 
+"hasLiquids": true, 
+"liquidCapacity": 40, 
+"hasItems": true, 
+"itemCapacity": 60, 
+"tier": 15,
+"drillTime": 40, 
+"rotateSpeed": 12, 
+"liquidBoostIntensity": 1.3,
+"consumes": { 
+"power": 5, 
+"liquid": {
+ "liquid": "slag", 
+"amount": 0.1,
+"optional": true, 
+"booster": true,
+}
+ }, 
+"requirements": [
+  { "item": "copper", "amount": 130 },
+  { "item": "silicon", "amount": 120 }, 
+  { "item": "titanium", "amount": 100 },
+  { "item": "molten-alloy", "amount": 25 },
+  { "item": "thorium", "amount": 150 },
+  { "item": "plastanium", "amount": 75 }
+],
+"category": "production",
+  "research": "pyra-drill"
+}
