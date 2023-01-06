@@ -10,7 +10,6 @@
   "drillTime": 200,
   "warmupSpeed": 0.001,
   "rotateSpeed": 8,
-  "blockedItem": "sand",
   "liquidBoostIntensity": 1.74,
   "consumes": {
     "liquid": {

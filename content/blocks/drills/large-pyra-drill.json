@@ -3,21 +3,9 @@
 "description": "An even better airblast drill. Cannot mine sand as it would break, requires slag to achive full potential.", 
 "type": "Drill", 
 "blockedItem": "sand",
-  "updateEffectChance": 0.1,
   "drawMineItem": false,
   "warmupSpeed": 0.0005,
-"size": 5, 
-"updateEffect": 
-    {
-      "type": "ParticleEffect",
-      "particles": 8,
-      "line": true,
-      "sizeFrom": 1,
-      "sizeTo": 2,
-      "interp": "pow2Out"
-      "colorFrom": "ff6600",
-      "colorTo": "ff0000"
-},
+"size": 5,
 "hasPower": true, 
 "drawRim": true, 
 "hasLiquids": true, 
