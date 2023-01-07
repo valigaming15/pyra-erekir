@@ -40,7 +40,7 @@
         "damage": 1,
         "lifetime": 120,
         "collidesTeam": true,
-        "healPercent": 1,
+        "healPercent": 5,
         "damageInterval": 10,
         "colors": ["84f491", "ffffff", "62ae7f"],
         "fadeTime": 30

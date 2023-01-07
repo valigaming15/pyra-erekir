@@ -43,12 +43,12 @@
       ]
     }
   },
-	"requirements": [
-        "thorium/200",
-        "titanium/500",
-        "silicon/250",
+	"requirements": [  
+        "metaglass/250",	
         "lead/500",
-		"metaglass/500",
+	    "silicon/250",
+		"thorium/200",
+		"titanium/500",
 	],
   "category": "power",
   "research": "impact-reactor"

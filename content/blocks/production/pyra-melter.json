@@ -3,7 +3,7 @@
   "localizedName": "[#ff66]Pyra-melter",
   "description": "Melts scrap into slag more effiencently",
   "outputLiquid": "slag/0.4",
-  "health": 250,
+  "health": 200,
   "itemCapacity": 10,
   "liquidCapacity": 25,
   "size": 2,

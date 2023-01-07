@@ -28,7 +28,7 @@
       "name": "pyra-miner-weapon",
       "mirror": "false",
       "x": 0,
-      "y": 4,
+      "y": 3,
       "beamWidth": 0.4,
       "mirror": false,
       "repairSpeed": 0.25

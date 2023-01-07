@@ -4,8 +4,7 @@
   "description": "A pyratite based stackconveyor",
   "category": "distribution",
   "requirements": [
-    "pyratite/2"
-	"titanium/3",
+    "molten-alloy/1",
   ],
   "health": 200,
   "speed": 0.10,
@@ -15,7 +14,7 @@
     "sizeFrom": 0,
     "sizeTo": 5,
     "colorFrom": "FFFF00",
-    "colorTo": "FF6600"
+    "colorTo": "FF0000"
   },
   "outputRouter": true,
   "loadEffect": {
@@ -23,7 +22,7 @@
     "sizeFrom": 5,
     "sizeTo": 0,
     "colorFrom": "FFFF00",
-    "colorTo": "FF6600"
+    "colorTo": "FF0000"
   },
   "glowColor": "FF6600",
    "research": {
