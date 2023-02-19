@@ -26,7 +26,6 @@
 	"sprite": "pyra-heal-laser",
 	"collidesTeam": true,
 	"healAmount": 25,
-	"beamWidth": 0.25,
 }
 "research": {
     "parent": "tier-1-factory",
