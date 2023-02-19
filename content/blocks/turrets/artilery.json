@@ -1,77 +1,33 @@
 {
-  "type": "itemTurret",
+  "type": "ContinuousTurret",
   "localizedName": "[#ff66]Artilery",
-  "description": "powerfull multi ammo artilery",
-  "health": 750,
+  "description": "a single target block healing turret",
+  "health": 500,
   "size": 2,
   "category": "turret",
-  "heatColor": "fa2859",
   "requirements": [
-    "copper/300",
-    "lead/300",
+    "copper/100",
+    "lead/100",
     "graphite/50",
-	"titanium/100"
+	"titanium/50"
   ],
-  "itemCapacity": 25,
   "targetAir": false,
-  "range": 300,
-  "reload": 60,
-  "shootSound": "artilery",
-  "shootSoundVolume": 1,
-  "ammoTypes": {
-    "pyratite": {
-      "type": "ArtilleryBulletType",
-	  "status": "burning",
-      "makeFire": true,
-	  "statusDuration": 180,
-      "ammoMultiplier": 3,
-	  "reloadMultiplier": 2,
-	  "damage": 75,
-      "splashDamage": 75,
-      "splashDamageRadius": 20,
-      "width": 8,
-      "height": 25,
-	  "speed": 4,
-    }
-	"blast-compound": {
-      "type": "ArtilleryBulletType",
-	  "status": "blasted",
-	  "statusDuration": 180,
-      "ammoMultiplier": 4,
-	  "reloadMultiplier": 1,
-	  "damage": 100,
-      "splashDamage": 100,
-      "splashDamageRadius": 20,
-      "width": 8,
-      "height": 25,
-	  "speed": 4,
-    },
-	"copper": {
-      "type": "ArtilleryBulletType",
-      "ammoMultiplier": 2,
-	  "reloadMultiplier": 1,
-	  "damage": 20,
-      "splashDamage": 20,
-      "splashDamageRadius": 20,
-      "width": 8,
-      "height": 25,
-	  "speed": 4,
-	},
-    "pyra-rounds": {
-      "type": "ArtilleryBulletType",
-	  "status": "burning",
-      "makeFire": true,
-	  "statusDuration": 240,
-      "ammoMultiplier": 5,
-	  "reloadMultiplier": 2,
-	  "damage": 75,
-      "splashDamage": 75,
-      "splashDamageRadius": 20,
-      "width": 8,
-      "height": 25,
-	  "speed": 4,
-    }
-  }
+  "targetGround": false,
+  "targetHealing": true,
+  "range": 150,
+  "loopSound": "minebeam"
+  "loopSoundVolume": 1,
+  "shootSound": "none"
+  "consumes": {
+  "power": 2.5
+}
+  "shootType": {
+    "type": "PointLaserBulletType",
+	"sprite": "pyra-heal-laser",
+	"collidesTeam": true,
+	"healAmount": 25,
+	"beamWidth": 0.25,
+}
 "research": {
     "parent": "tier-1-factory",
     "requirements": [
