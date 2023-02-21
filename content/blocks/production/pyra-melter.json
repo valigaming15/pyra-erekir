@@ -1,46 +1,30 @@
 {
   "type": "GenericCrafter",
   "localizedName": "[#ff66]Pyra-melter",
-  "description": "Melts scrap into slag more effiencently",
-  "outputLiquid": "slag/0.4",
-  "health": 200,
-  "itemCapacity": 10,
-  "liquidCapacity": 25,
+  "description": "Melts pyratite scrap into something more usefull",
+  "outputItems": ["pyratite/5","titanium/5","scrap/15"]
+  "health": 300,
+  "itemCapacity": 50,
+  "liquidCapacity": 20,
   "size": 2,
-  "craftTime": 7.5,
+  "craftTime": 300,
   "hasPower": true,
-  "hasLiquids": true,
+  "hasLiquids": false,
   "hasItems": true,
-  "DrawLiquidTile": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 2
+  "power": 5
   "items": {
   "items": [
-  "scrap/1"
+  "pyratite-scrap/25"
   ]
- }
- }
- "drawer": {
-	 "type": "DrawMulti",
-	 "drawers": [
-	 {
-		 "type": "DrawRegion",
-		 "suffix": "-bottom"
-	 },
-	 {
-		 "type": "DrawLiquidTile",
-		 "drawLiquid": "slag"
-	 },
-	 {
-		 "type": "DrawDefault"
-	 }
-   ]
- }
+ },
+ },
   "requirements": [
 	  {"item": "copper", "amount": 100},
 	  {"item": "lead", "amount": 100},
-	  {"item": "molten-alloy", "amount": 25}
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
   ],
   "category": "crafting",
     "research": {
@@ -48,8 +32,8 @@
     "requirements": [
       {"item": "lead", "amount": 1000},
 	  {"item": "copper", "amount": 1000},
-      {"item": "graphite", "amount": 1000},
-      {"item": "titanium", "amount": 1000}
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
     ]
   }
 }
