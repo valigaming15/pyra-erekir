@@ -12,7 +12,7 @@
   "itemCapacity": 10,
   "liquidCapacity": 20,
   "itemDuration": 200,
-  "powerProduction": 60,
+  "powerProduction": 80,
   "warmupSpeed": 0.002,
   "explosionDamage": 1200,
   "explosionRadius": 10,
@@ -49,6 +49,7 @@
 	    "silicon/250",
 		"thorium/200",
 		"titanium/500",
+		"molten-alloy/100",
 	],
   "category": "power",
   "research": "impact-reactor"
