@@ -10,11 +10,10 @@
   	{
       "unit": "pyra-miner",
       "requirements": [
-        {"item": "molten-alloy", "amount": 5}
 		{"item": "ai-core", "amount": 1}
 	    {"item": "silicon", "amount": 100}
       ],
-      "time": 1200
+      "time": 600
     },
     {
       "unit": "sterna",

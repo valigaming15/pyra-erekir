@@ -1,23 +1,23 @@
 { 
 "name": "[#ff66]Large pyra Drill", 
-"description": "An even better airblast drill. Cannot mine sand as it would break, requires slag to achive full potential.", 
+"description": "An even better airblast drill, requires long time to start up and a loth of power. requires slag to achive full potential.", 
 "type": "Drill", 
-"blockedItem": "sand",
-  "drawMineItem": false,
+"blockedItems": "sand",
+  "drawMineItem": true,
   "warmupSpeed": 0.0005,
-"size": 5,
+"size": 4,
 "hasPower": true, 
 "drawRim": true, 
 "hasLiquids": true, 
-"liquidCapacity": 40, 
+"liquidCapacity": 10, 
 "hasItems": true, 
-"itemCapacity": 60, 
+"itemCapacity": 20, 
 "tier": 15,
 "drillTime": 100, 
 "rotateSpeed": 12, 
 "liquidBoostIntensity": 2.0,
 "consumes": { 
-"power": 5, 
+"power": 8.5, 
 "liquid": {
  "liquid": "slag", 
 "amount": 0.1,
@@ -26,12 +26,11 @@
 }
  }, 
 "requirements": [
-  { "item": "copper", "amount": 130 },
-  { "item": "silicon", "amount": 120 }, 
-  { "item": "titanium", "amount": 100 },
+  { "item": "copper", "amount": 80 },
+  { "item": "silicon", "amount": 80 }, 
+  { "item": "titanium", "amount": 80 },
+  { "item": "thorium", "amount": 80 },
   { "item": "molten-alloy", "amount": 25 },
-  { "item": "thorium", "amount": 150 },
-  { "item": "plastanium", "amount": 75 }
 ],
 "category": "production",
   "research": "pyra-drill"

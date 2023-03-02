@@ -3,7 +3,7 @@
   "description": "A mining drone equipped with repair laser.",
   "type": "flying",
   "lowAltitude": true,
-  "mineSpeed": 3,
+  "mineSpeed": 2,
   "mineTier": 3,
   "canAttack": false,
   "buildSpeed": 1,
@@ -16,7 +16,7 @@
   "speed": 2.5,
   "accel": 0.06,
   "drag": 0.017
-  "canHeal": true,
+  "canHeal": false,
   "drawBuildBeam": true,
   "health": 300,
   "mineHardnessScaling": true,
@@ -46,4 +46,20 @@
       {"item": "silicon", "amount": 500},
     ]
   }
+    "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 10,
+      "regen": 0.085,
+      "max": 50,
+      "cooldown": 450
+    },
+	{
+	  "type": "StatusFieldAbility",
+	  "effect": "regen",
+	  "range": 100,
+	  "reload": 600,
+	  "duration": 1800,
+	}
+  ]
 }

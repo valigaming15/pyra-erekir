@@ -33,7 +33,7 @@
       "rotate": false,
       "continuous": true,
       "shootSound": "laserblast",
-	  "shootSoundVolume": 2,
+	  "shootSoundVolume": 1,
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "length": 200,

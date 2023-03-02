@@ -1,6 +1,6 @@
 {
   "name": "[orange]Fire crawler",
-  "description": "Equipped with laser sword that lasts 15 seconds and twin sappers",
+  "description": "Equipped with laser sword"
   "health": 500,
   "flying": false,
   "legCount": 6,
@@ -39,7 +39,7 @@
       "reload": 300,
       "rotate": false,
       "continuous": true,
-      "shootSound": "",
+      "shootSound": "shootSmall",
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "length": 75,
@@ -52,46 +52,6 @@
         "fadeTime": 30
       }
     },
-	{
-      "name": "pyra-miner-weapon",
-	  "ejectEffect": "casing2",
-      "x": 5,
-      "y": 2,
-      "mirror": false,
-      "reload": 25,
-      "rotate": true,
-      "continuous": true,
-      "shootSound": "shootSmall",
-      "bullet": {
-        "type": "SapBulletType",
-		"sapStrength": 5
-        "length": 75,
-        "width": 0.5,
-        "damage": 5,
-        "lifetime": 20,
-		"colors": "ff6600"
-      }
-    },
-	{
-      "name": "pyra-miner-weapon",
-	  "ejectEffect": "casing2",
-      "x": -5,
-      "y": 2,
-      "mirror": false,
-      "reload": 25,
-      "rotate": true,
-      "continuous": true,
-      "shootSound": "shootSmall",
-      "bullet": {
-        "type": "SapBulletType",
-		"sapStrength": 5
-        "length": 75,
-        "width": 0.5,
-        "damage": 5,
-        "lifetime": 20,
-		"colors": "ff6600"
-      }
-    }
   ],
 	  "abilities": [
     {
