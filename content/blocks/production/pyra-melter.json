@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Pyra-melter",
+  "description": "Melts pyratite scrap into something more usefull",
+  "outputItems": ["pyratite/5","titanium/5","scrap/15"]
+  "health": 300,
+  "itemCapacity": 50,
+  "liquidCapacity": 20,
+  "size": 2,
+  "craftTime": 300,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 5
+  "items": {
+  "items": [
+  "pyratite-scrap/25"
+  ]
+ },
+ },
+  "requirements": [
+	  {"item": "copper", "amount": 100},
+	  {"item": "lead", "amount": 100},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
