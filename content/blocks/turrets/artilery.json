@@ -1,0 +1,43 @@
+{
+  "type": "ContinuousTurret",
+  "localizedName": "[#ff66]Artilery",
+  "description": "a small damaging laser turret not great at damage or healing",
+  "health": 150,
+  "size": 1,
+  "category": "turret",
+  "requirements": [
+    "copper/25",
+    "lead/25",
+	"titanium/25"
+	"ai-core/5"
+  ],
+  "targetAir": false,
+  "targetGround": true,
+  "targetHealing": true,
+  "outlineIcon": false,
+  "range": 100,
+  "loopSound": "minebeam"
+  "loopSoundVolume": 1,
+  "shootSound": "none"
+  "cooldownTime" : 300,
+  "recoilAmount": 15,
+  "rotateSpeed": 1,
+  "consumes": {
+  "power": 0.5
+}
+  "shootType": {
+    "type": "PointLaserBulletType",
+	"sprite": "pyra-small-heal-laser",
+	"collidesTeam": true,
+	"healAmount": 0.5,
+	"damage": 2,
+}
+"research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 1500},
+	  {"item": "copper", "amount": 1500},
+      {"item": "titanium", "amount": 1500}
+    ]
+  }
+}
