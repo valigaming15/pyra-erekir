@@ -54,11 +54,10 @@
       "cooldown": 450
     },
 	{
-	  "type": "StatusFieldAbility",
-	  "effect": "regen",
+	  "type": "RepairFieldAbility",
 	  "range": 100,
 	  "reload": 600,
-	  "duration": 1800,
+	  "amount": 25,
 	}
   ]
 }

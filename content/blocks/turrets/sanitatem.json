@@ -2,19 +2,20 @@
   "type": "ContinuousTurret",
   "localizedName": "[#ff66]Sanitatem",
   "description": "a single target block healing turret",
-  "health": 250,
-  "size": 1,
+  "health": 500,
+  "size": 2,
   "category": "turret",
   "requirements": [
-    "copper/50",
-    "lead/50",
-    "silicon/50",
+    "copper/150",
+    "lead/150",
+    "silicon/200",
+	"molten-alloy/20",
   ],
   "targetAir": false,
   "targetGround": false,
   "targetHealing": true,
   "outlineIcon": false,
-  "range": 100,
+  "range": 175,
   "loopSound": "minebeam"
   "loopSoundVolume": 1,
   "shootSound": "none"
@@ -22,13 +23,13 @@
   "recoilAmount": 15,
   "rotateSpeed": 1,
   "consumes": {
-  "power": 2.0
+  "power": 5.0
 }
   "shootType": {
     "type": "PointLaserBulletType",
 	"sprite": "pyra-small-heal-laser",
 	"collidesTeam": true,
-    "healAmount": 20,
+    "healAmount": 25,
 	"damage": 0.1,
 }
 "research": {
