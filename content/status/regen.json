@@ -1,0 +1,6 @@
+{
+    "name": "Regen Boost",
+    "description": "Regen",
+    "damageMultiplier": 1.0,
+    "damage": -0.085
+}
