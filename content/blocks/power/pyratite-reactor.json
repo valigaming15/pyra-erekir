@@ -1,0 +1,51 @@
+{
+  "type": "ImpactReactor",
+  "name": "Pyra reactor",
+  "description": "Uses the high flammability of Pyratite to create large amounts of power from it.",
+  "health": 600,
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "explosionShake": 5,
+  "lightColor": "ff6600",
+  "itemCapacity": 10,
+  "liquidCapacity": 50,
+  "itemDuration": 150,
+  "powerProduction": 80,
+  "warmupSpeed": 0.002,
+  "explosionDamage": 1200,
+  "explosionRadius": 10,
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.1,
+  "consumes": {
+    "power": 10,
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.15
+    },
+    "items": {
+      "items": [
+        {"item": "pyratite", "amount": 1}
+      ]
+    }
+  },
+	"requirements": [  	
+        "lead/500",
+		"metaglass/250",
+		"thorium/200",
+		"titanium/500",
+	    "silicon/250",
+		"molten-alloy/100",
+	],
+  "category": "power",
+"research": {
+    "parent": "impact-reactor",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "titanium", "amount": 500},
+	  {"item": "molten-alloy", "amount": 100}
+    ]
+  }
+}
