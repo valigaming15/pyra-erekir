@@ -1,0 +1,49 @@
+{
+  "type": "ContinuousTurret",
+  "localizedName": "[#ff66]Large Artilery",
+  "description": "a large high damage laser turret",
+  "health": 3500,
+  "size": 3,
+  "category": "turret",
+  "requirements": [
+    "copper/1000",
+    "lead/1000",
+	"titanium/500",
+	"thorium/500",
+    "ai-core/100"
+  ],
+  "targetAir": false,
+  "targetGround": true,
+  "targetHealing": false,
+  "outlineIcon": true,
+  "range": 275,
+  "loopSound": "minebeam"
+  "loopSoundVolume": 1,
+  "shootSound": "none"
+  "cooldownTime" : 300,
+  "recoilAmount": 15,
+  "rotateSpeed": 1,
+  "consumes": {
+  "power": 20.0
+  "liquid": {
+  "liquid": "cryofluid",
+  "amount": 0.2
+  },
+}
+  "shootType": {
+    "type": "PointLaserBulletType",
+	"sprite": "pyra-heal-laser",
+	"collidesTeam": true,
+	"healAmount": 1.0,
+	"damage": 50,
+}
+"research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 2500},
+	  {"item": "copper", "amount": 2500},
+      {"item": "titanium", "amount": 2500}
+      {"item": "thorium", "amount": 2500}
+    ]
+  }
+}
