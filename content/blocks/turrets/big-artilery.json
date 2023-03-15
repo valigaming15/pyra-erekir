@@ -12,7 +12,7 @@
 	"thorium/500",
     "ai-core/100"
   ],
-  "targetAir": false,
+  "targetAir": true,
   "targetGround": true,
   "targetHealing": false,
   "outlineIcon": true,
@@ -22,7 +22,7 @@
   "shootSound": "none"
   "cooldownTime" : 300,
   "recoilAmount": 15,
-  "rotateSpeed": 1,
+  "rotateSpeed": 0.25,
   "consumes": {
   "power": 20.0
   "liquid": {
