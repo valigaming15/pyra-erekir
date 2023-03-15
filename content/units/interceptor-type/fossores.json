@@ -4,7 +4,7 @@
   "type": "flying",
   "lowAltitude": true,
   "mineSpeed": 4,
-  "mineTier": 3,
+  "mineTier": 4,
   "canAttack": false,
   "buildSpeed": 1,
   "hitSize": 8,
