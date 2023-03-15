@@ -4,14 +4,14 @@
   "description": "",
   "size": 3,
   "consumes": {
-    "power": 2
+    "power": 10
   },
   "plans": [
   	{
       "unit": "fossores",
       "requirements": [
 		{"item": "ai-core", "amount": 1}
-	    {"item": "silicon", "amount": 100}
+	    {"item": "silicon", "amount": 200}
       ],
       "time": 600
     },
