@@ -1,6 +1,6 @@
 {
   "localizedName": "[#ff66]Fossores",
-  "description": "A mining drone equipped with repair laser.",
+  "description": "A mining drone equipped with repair laser and strong drill.",
   "type": "flying",
   "lowAltitude": true,
   "mineSpeed": 4,
