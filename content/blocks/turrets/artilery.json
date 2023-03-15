@@ -11,7 +11,7 @@
 	"titanium/100",
     "ai-core/20"
   ],
-  "targetAir": false,
+  "targetAir": true,
   "targetGround": true,
   "targetHealing": true,
   "outlineIcon": true,
