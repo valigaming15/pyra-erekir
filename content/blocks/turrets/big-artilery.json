@@ -22,7 +22,7 @@
   "shootSound": "none"
   "cooldownTime" : 300,
   "recoilAmount": 15,
-  "rotateSpeed": 0.25,
+  "rotateSpeed": 0.5,
   "consumes": {
   "power": 20.0
   "liquid": {
