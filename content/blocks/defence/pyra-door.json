@@ -1,0 +1,13 @@
+{ 
+    "type": "AutoDoor",
+    "health": 1500,
+    "size": 2,
+    "armor": 10,
+    "requirements": [
+        "molten-alloy/15"
+		"plastanium/5"
+		"phase-fabric/5"
+    ],
+    "category": "defense",
+    "research": "steel-wall"
+}

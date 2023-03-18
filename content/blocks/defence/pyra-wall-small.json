@@ -1,0 +1,17 @@
+{ 
+    "type": "Wall",
+    "health": 800,
+    "size": 1,
+    "armor": 10,
+    "chanceDeflect": 10,
+    "flashHit": "true",
+	"insulated": "true",
+    "absorbLasers": "true",
+    "requirements": [
+        "molten-alloy/4"
+		"plastanium/3"
+		"phase-fabric/3"
+    ],
+    "category": "defense",
+    "research": "titanium-wall"
+}
