@@ -1,0 +1,18 @@
+{
+  "name": "[#ff66]Molten alloy",
+  "description": "A pyratite alloy designed to be stronger then regular pyratite",
+  "cost": 2.5,
+  "color": "ff6600",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 2.0,
+   "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {
+        "item": "pyratite",
+        "amount": 250
+      }
+    ]
+  }
+}
