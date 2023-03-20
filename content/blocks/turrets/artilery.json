@@ -33,7 +33,7 @@
     "type": "PointLaserBulletType",
 	"sprite": "pyra-small-heal-laser",
 	"collidesTeam": true,
-	"healAmount": 0.5,
+	"healAmount": 1.0,
 	"damage": 10,
 }
 "research": {
