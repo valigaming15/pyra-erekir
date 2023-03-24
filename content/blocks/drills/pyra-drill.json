@@ -1,0 +1,38 @@
+{
+  "name": "[#ff66]Pyra Drill",
+  "description": "A medium sized but powerfull drill for everything.",
+  "type": "Drill",
+  "size": 3,
+  "health": 500,
+  "liquidCapacity": 5,
+  "itemCapacity": 20,
+  "tier": 6,
+  "drillTime": 200,
+  "warmupSpeed": 0.001,
+  "rotateSpeed": 8,
+  "liquidBoostIntensity": 1.74,
+  "consumes": {
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+"requirements": [
+  { "item": "copper", "amount": 50 },
+  { "item": "graphite", "amount": 25 },
+  { "item": "molten-alloy", "amount": 10 }, 
+  { "item": "silicon", "amount": 25 },
+],
+  "category": "production",
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
