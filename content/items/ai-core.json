@@ -1,0 +1,17 @@
+{
+  "name": "[#00ff]AI core",
+  "description": "main component for AI systems",
+  "cost": 2.5,
+  "color": "00ff00",
+  "hardness": 5,
+  "charge": 2,
+   "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {
+        "item": "pyratite",
+        "amount": 250
+      }
+    ]
+  }
+}
