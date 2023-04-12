@@ -1,0 +1,77 @@
+{
+  "type": "UnitFactory",
+  "name": "[#ff66]Pyratite units Factory",
+  "description": "",
+  "size": 3,
+  "consumes": {
+    "power": 10
+  },
+  "plans": [
+  	{
+      "unit": "fossores",
+      "requirements": [
+		{"item": "ai-core", "amount": 1}
+	    {"item": "silicon", "amount": 200}
+      ],
+      "time": 600
+    },
+    {
+      "unit": "sterna",
+      "requirements": [
+        {"item": "titanium", "amount": 100},
+        {"item": "molten-alloy", "amount": 5}
+		{"item": "ai-core", "amount": 1}
+	    {"item": "silicon", "amount": 200}
+      ],
+      "time": 2400
+    },
+    {
+      "unit": "arei",
+      "requirements": [
+        {"item": "titanium", "amount": 200},
+        {"item": "molten-alloy", "amount": 25}
+		{"item": "ai-core", "amount": 1}
+	    {"item": "silicon", "amount": 300}
+      ],
+      "time": 2400
+    },
+	{
+      "unit": "navis",
+      "requirements": [
+        {"item": "titanium", "amount": 1000},
+        {"item": "molten-alloy", "amount": 50}
+		{"item": "ai-core", "amount": 10}
+	    {"item": "silicon", "amount": 1000}
+      ],
+      "time": 2400
+    },
+	{
+      "unit": "mothership",
+      "requirements": [
+        {"item": "plastanium", "amount": 1000},
+	    {"item": "surge-alloy", "amount": 750}
+	    {"item": "silicon", "amount": 1000}
+		{"item": "phase-fabric", "amount": 500}
+		{"item": "ai-core", "amount": 100}
+		{"item": "molten-alloy", "amount": 250}
+      ],
+      "time": 7200
+    }
+  ],
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 200
+    },
+    {
+      "item": "graphite",
+      "amount": 100
+    },
+    {
+      "item": "silicon",
+      "amount": 100
+    }
+  ],
+  "category": "units",
+  "research": "core-shard"
+}
