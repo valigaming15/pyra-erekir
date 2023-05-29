@@ -1,0 +1,23 @@
+{
+  "type": "SolarGenerator",
+  "name": "Large pyra solar panel",
+  "description": "Uses the refined molten alloy for high efficency and strenght",
+  "health": 750,
+  "size": 3,
+  "powerProduction": 5,
+	"requirements": [
+	    "lead/200",
+	    "silicon/200",
+		"molten-alloy/20",
+	],
+  "category": "power",
+    "research": {
+    "parent": "pyra-panel",
+    "requirements": [
+      {"item": "lead", "amount": 2500},
+	  {"item": "copper", "amount": 2500},
+      {"item": "silicon", "amount": 2500},
+      {"item": "titanium", "amount": 2500}
+    ]
+  }
+}
