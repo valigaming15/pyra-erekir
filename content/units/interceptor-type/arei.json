@@ -32,19 +32,6 @@
       "continuous": true,
       "shootSound": "laserblast",
 	    "shootSoundVolume": 1,
-      "parts":[
-       {
-        "type": "RegionPart",
-        "suffix": "-shield",
-        "mirror": true,
-        "moveX": 0.5,
-        "moveY": -1,
-        "moveRot": 15,
-        "progress": {
-        "type": "warmup"
-        }
-       }
-      ],
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "length": 200,
