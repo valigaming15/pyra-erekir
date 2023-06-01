@@ -9,16 +9,16 @@
 	"insulated": "true",
     "absorbLasers": "true",
     "requirements": [
-        "molten-alloy/25"
-		"plastanium/5"
-		"phase-fabric/5"
+      "molten-alloy/25",
+		  "plastanium/5",
+  		"phase-fabric/5"
     ],
     "category": "defense",
     "research": {
     "parent": "molten-alloy",
     "requirements": [
       {"item": "lead", "amount": 2000},
-	  {"item": "copper", "amount": 2000},
+  	  {"item": "copper", "amount": 2000},
       {"item": "titanium", "amount": 2000}
     ]
   }

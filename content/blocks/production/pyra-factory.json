@@ -13,13 +13,13 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 2
+  "power": 2,
   "liquids": {
   "liquids": [
   "slag/0.02"
   ]
- },
  }
+ },
   "requirements": [
 	  {"item": "copper", "amount": 200},
 	  {"item": "lead", "amount": 200},

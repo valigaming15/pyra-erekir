@@ -7,7 +7,7 @@
   "flammability": 0,
   "explosiveness": 2.0,
    "research": {
-    "parent": "tier-1-factory",
+    "parent": "pyratite",
     "requirements": [
       {
         "item": "pyratite",

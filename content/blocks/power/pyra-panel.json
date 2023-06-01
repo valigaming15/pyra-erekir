@@ -8,7 +8,7 @@
 	"requirements": [
 	    "lead/20",
 	    "silicon/20",
-		"molten-alloy/1",
+		"molten-alloy/1"
 	],
   "category": "power",
     "research": {

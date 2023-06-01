@@ -13,14 +13,14 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 2
+  "power": 2,
   "items": {
   "items": [
-  "pyratite/5"
+  "pyratite/5",
   "thorium/5"
   ]
- },
  }
+ },
   "requirements": [
 	  {"item": "copper", "amount": 200},
 	  {"item": "lead", "amount": 200},
