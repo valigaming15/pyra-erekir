@@ -60,10 +60,10 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 40,
+      "radius": 50,
       "regen": 0.25,
       "max": 750,
-      "cooldown": 450
+      "cooldown": 480
     },
 	{
 	  "type": "RepairFieldAbility",

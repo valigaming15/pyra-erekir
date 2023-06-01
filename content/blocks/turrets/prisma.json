@@ -28,7 +28,7 @@
   "shootWarmupSpeed": 0.05,
   "shootY": 1,
   "consumes": {
-  "power": 20.0,
+  "power": 40.0,
   "liquid": {
   "liquid": "cryofluid",
   "amount": 0.2
@@ -51,7 +51,7 @@
       "under": true,
       "moveX": 4,
       "moveY": 2,
-      "moveRot": -20,
+      "moveRot": -25,
       "progress": {
         "type": "warmup"
       }
@@ -61,7 +61,7 @@
       "mirror": false,
       "under": true,
       "moveX": 0,
-      "moveY": -4,
+      "moveY": -5,
       "progress": {
         "type": "warmup"
       }
