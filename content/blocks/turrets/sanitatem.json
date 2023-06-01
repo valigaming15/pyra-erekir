@@ -22,7 +22,7 @@
   "cooldownTime" : 300,
   "recoilAmount": 15,
   "rotateSpeed": 1,
-  "shootY": -4,
+  "shootY": -3,
   "consumes": {
   "power": 8.0
 },
