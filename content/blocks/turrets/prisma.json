@@ -26,7 +26,7 @@
   "rotateSpeed": 0.5,
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
-  "shootY": -1,
+  "shootY": 1,
   "consumes": {
   "power": 20.0,
   "liquid": {
