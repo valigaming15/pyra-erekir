@@ -36,7 +36,7 @@
 	"sprite": "pyra-small-pyra-laser",
 	"collidesTeam": true,
 	"healAmount": 1.0,
-	"damage": 20
+	"damage": 10
 },
 "drawer": {
   "type": "DrawTurret",

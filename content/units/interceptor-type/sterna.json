@@ -85,7 +85,7 @@
       "radius": 25,
       "regen": 0.2,
       "max": 250,
-      "cooldown": 460
+      "cooldown": 480
     },
     {
 	  "type": "StatusFieldAbility",
