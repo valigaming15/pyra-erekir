@@ -23,7 +23,7 @@
   { "item": "copper", "amount": 50 },
   { "item": "graphite", "amount": 25 },
   { "item": "molten-alloy", "amount": 10 }, 
-  { "item": "silicon", "amount": 25 },
+  { "item": "silicon", "amount": 25 }
 ],
   "category": "production",
     "research": {

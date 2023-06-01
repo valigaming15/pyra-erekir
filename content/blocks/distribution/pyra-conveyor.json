@@ -4,7 +4,7 @@
   "description": "A pyratite based stackconveyor",
   "category": "distribution",
   "requirements": [
-    "molten-alloy/1",
+    "molten-alloy/1"
   ],
   "health": 200,
   "speed": 0.075,

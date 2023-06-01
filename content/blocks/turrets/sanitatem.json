@@ -9,31 +9,48 @@
     "copper/150",
     "lead/150",
     "silicon/200",
-	"molten-alloy/20",
+	"molten-alloy/20"
   ],
   "targetAir": false,
   "targetGround": false,
   "targetHealing": true,
   "outlineIcon": true,
   "range": 175,
-  "loopSound": "minebeam"
+  "loopSound": "minebeam",
   "loopSoundVolume": 1,
-  "shootSound": "none"
+  "shootSound": "none",
   "cooldownTime" : 300,
   "recoilAmount": 15,
   "rotateSpeed": 1,
   "consumes": {
   "power": 8.0
-}
-  "shootType": {
-    "type": "PointLaserBulletType",
-	"sprite": "pyra-small-heal-laser",
+},
+"shootType": {
+  "type": "PointLaserBulletType",
+  "sprite": "pyra-heal-laser",
 	"collidesTeam": true,
-    "healAmount": 10,
-	"damage": 1.0,
-}
+  "healAmount": 10,
+	"damage": 1.0
+},
+"drawer": {
+  "type": "DrawTurret",
+  "parts": [
+    {},
+    {
+      "suffix": "-shield",
+      "mirror": true,
+      "moveX": 0.5,
+      "moveY": -1,
+      "moveRot": 15,
+      "progress": {
+        "type": "warmup"
+      }
+    }
+  ]
+},
+
 "research": {
-    "parent": "tier-1-factory",
+    "parent": "molten-alloy",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},

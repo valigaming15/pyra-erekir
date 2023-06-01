@@ -10,13 +10,11 @@
   "hitSize": 16,
   "engineOffset": 11,
   "engineSize": 3,
-  "lowAltitude": true,
   "armor": 5,
   "itemCapacity": 40,
   "speed": 2.5,
   "accel": 0.06,
-  "drag": 0.017
-  "canHeal": true,
+  "drag": 0.017,
   "drawBuildBeam": true,
   "health": 500,
   "mineHardnessScaling": true,
@@ -50,12 +48,11 @@
 	{
       "type": "RepairBeamWeapon",
       "name": "repair-turret",
-      "mirror": "false",
       "x": 7,
       "y": -6,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.25
+      "repairSpeed": 0.25,
       "bullet": {
         "maxRange": 75
       }
@@ -63,12 +60,11 @@
     {
       "type": "RepairBeamWeapon",
       "name": "repair-turret",
-      "mirror": "false",
       "x": -7,
       "y": -6,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.25
+      "repairSpeed": 0.25,
       "bullet": {
         "maxRange": 75
       }
@@ -78,11 +74,11 @@
     "parent": "fossores",
     "requirements": [
       {"item": "lead", "amount": 1000},
-	  {"item": "copper", "amount": 1000},
+	    {"item": "copper", "amount": 1000},
       {"item": "silicon", "amount": 500},
       {"item": "titanium", "amount": 500}
     ]
-  }
+  },
   "abilities": [
     {
       "type": "ForceFieldAbility",
@@ -96,7 +92,7 @@
 	  "effect": "build",
 	  "range": 100,
 	  "reload": 600,
-	  "duration": 1800,
+	  "duration": 1800
 	}
   ]
 }

@@ -8,10 +8,8 @@
    "research": {
     "parent": "molten-alloy",
     "requirements": [
-      {
-        "item": "pyratite",
-        "amount": 250
-      }
+      {"item": "copper", "amount": 500},
+      {"item": "molten-alloy", "amount": 100}
     ]
   }
 }

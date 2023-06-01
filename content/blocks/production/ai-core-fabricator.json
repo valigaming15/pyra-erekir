@@ -12,14 +12,14 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 2
+  "power": 2,
   "items": {
-  "items": [
-  "molten-alloy/1"
-  "copper/50"
-  ]
- }
- }
+    "items": [
+      "molten-alloy/1",
+      "copper/50"
+    ]
+  }
+},
   "requirements": [
 	  {"item": "copper", "amount": 200},
 	  {"item": "lead", "amount": 200},

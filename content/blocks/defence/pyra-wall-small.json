@@ -9,16 +9,16 @@
 	"insulated": "true",
     "absorbLasers": "true",
     "requirements": [
-        "molten-alloy/4"
-		"plastanium/3"
-		"phase-fabric/3"
+     "molten-alloy/4",
+	  	"plastanium/3",
+		  "phase-fabric/3"
     ],
     "category": "defense",
     "research": {
     "parent": "pyra-wall",
     "requirements": [
       {"item": "lead", "amount": 500},
-	  {"item": "copper", "amount": 500},
+	    {"item": "copper", "amount": 500},
       {"item": "titanium", "amount": 500}
     ]
   }

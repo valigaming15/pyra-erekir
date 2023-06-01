@@ -22,7 +22,7 @@
  "liquid": "slag", 
 "amount": 0.1,
 "optional": true, 
-"booster": true,
+"booster": true
 }
  }, 
 "requirements": [
@@ -30,7 +30,7 @@
   { "item": "titanium", "amount": 100 },
   { "item": "thorium", "amount": 150 },
   { "item": "silicon", "amount": 160 }, 
-  { "item": "molten-alloy", "amount": 10 },
+  { "item": "molten-alloy", "amount": 10 }
 ],
 "category": "production",
     "research": {
@@ -40,7 +40,7 @@
 	  {"item": "copper", "amount": 1000},
       {"item": "silicon", "amount": 1000},
       {"item": "titanium", "amount": 1000},
-	  {"item": "molten-alloy", "amount": 100},
+	  {"item": "molten-alloy", "amount": 100}
     ]
   }
 }
