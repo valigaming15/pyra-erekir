@@ -124,7 +124,7 @@
     },
 	{
 	  "type": "UnitSpawnAbility",
-	  "unit": "fossores",
+	  "unit": "aa-fossores",
 	  "spawnX": 0,
 	  "spawnY": -6,
 	  "spawnTime": 3600

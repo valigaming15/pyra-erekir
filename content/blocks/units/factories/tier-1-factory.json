@@ -8,7 +8,7 @@
   },
   "plans": [
   	{
-      "unit": "fossores",
+      "unit": "aa-fossores",
       "requirements": [
 		  {"item": "ai-core", "amount": 1},
 	  	{"item": "molten-alloy", "amount": 5},
@@ -17,7 +17,7 @@
       "time": 600
     },
     {
-      "unit": "sterna",
+      "unit": "ab-sterna",
       "requirements": [
         {"item": "titanium", "amount": 100},
         {"item": "molten-alloy", "amount": 5},
@@ -27,7 +27,7 @@
       "time": 2400
     },
     {
-      "unit": "arei",
+      "unit": "ac-arei",
       "requirements": [
         {"item": "titanium", "amount": 200},
         {"item": "molten-alloy", "amount": 25},
@@ -37,7 +37,7 @@
       "time": 2400
     },
 	{
-      "unit": "navis",
+      "unit": "ad-navis",
       "requirements": [
         {"item": "titanium", "amount": 1000},
         {"item": "molten-alloy", "amount": 50},
@@ -47,7 +47,7 @@
       "time": 2400
     },
 	{
-      "unit": "mothership",
+      "unit": "ae-mothership",
       "requirements": [
         {"item": "plastanium", "amount": 1000},
 	      {"item": "surge-alloy", "amount": 750},
