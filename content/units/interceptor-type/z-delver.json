@@ -137,7 +137,7 @@
             "pierceEffect": "none",
             "damage": 0.001,
             "pierceDamageFactor": 1,
-            "collidesTiles": true,
+            "collidesTiles": false,
             "healPercent": 5,
             "collidesTeam": true
           }
