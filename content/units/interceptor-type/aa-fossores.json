@@ -8,7 +8,7 @@
   "canAttack": false,
   "buildSpeed": 1,
   "hitSize": 8,
-  "engineOffset": 7,
+  "engineOffset": 5,
   "engineSize": 2,
   "armor": 5,
   "itemCapacity": 50,
