@@ -26,9 +26,9 @@
         "rotate": true,
         "mirror": false,
         "x": 0,
-        "y": 3,
+        "y": -6,
         "beamWidth": 0.6,
-        "repairSpeed": 0.25,
+        "repairSpeed": 2,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -38,10 +38,10 @@
         "type": "RepairBeamWeapon",
         "rotate": true,
         "mirror": false,
-        "x": 3,
-        "y": 3,
+        "x": 0,
+        "y": 6,
         "beamWidth": 0.6,
-        "repairSpeed": 0.25,
+        "repairSpeed": 2,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -51,49 +51,23 @@
         "type": "RepairBeamWeapon",
         "rotate": true,
         "mirror": false,
-        "x": 3,
-        "y": -3,
-        "beamWidth": 0.6,
-        "repairSpeed": 0.25,
-        "targetBuildings": true,
-        "bullet": {
-          "maxRange": 75
-        }
-      },
-      {
-        "type": "RepairBeamWeapon",
-        "rotate": true,
-        "mirror": false,
-        "x": -3,
-        "y": -3,
-        "beamWidth": 0.6,
-        "repairSpeed": 0.25,
-        "targetBuildings": true,
-        "bullet": {
-          "maxRange": 75
-        }
-      },
-      {
-        "type": "RepairBeamWeapon",
-        "rotate": true,
-        "mirror": false,
-        "x": -3,
-        "y": 3,
-        "beamWidth": 0.6,
-        "repairSpeed": 0.25,
-        "targetBuildings": true,
-        "bullet": {
-          "maxRange": 75
-        }
-      },
-      {
-        "type": "RepairBeamWeapon",
-        "rotate": true,
-        "mirror": false,
-        "x": 3,
+        "x": -6,
         "y": 0,
         "beamWidth": 0.6,
-        "repairSpeed": 0.25,
+        "repairSpeed": 2,
+        "targetBuildings": true,
+        "bullet": {
+          "maxRange": 75
+        }
+      },
+      {
+        "type": "RepairBeamWeapon",
+        "rotate": true,
+        "mirror": false,
+        "x": 6,
+        "y": 0,
+        "beamWidth": 0.6,
+        "repairSpeed": 2,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -135,7 +109,7 @@
             "type": "RailBulletType",
             "length": 65,
             "pierceEffect": "none",
-            "damage": 20,
+            "damage": 0.08,
             "pierceDamageFactor": 1,
             "collidesTiles": false
           }
