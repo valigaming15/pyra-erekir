@@ -22,12 +22,13 @@
   "cooldownTime" : 300,
   "recoilAmount": 15,
   "rotateSpeed": 1,
+  "shootY": -1.5,
   "consumes": {
   "power": 8.0
 },
 "shootType": {
   "type": "PointLaserBulletType",
-  "sprite": "pyra-heal-laser",
+  "sprite": "pyra-pyra-laser",
 	"collidesTeam": true,
   "healAmount": 10,
 	"damage": 1.0
@@ -39,9 +40,9 @@
     {
       "suffix": "-shield",
       "mirror": true,
-      "moveX": 0.5,
+      "moveX": 1,
       "moveY": -1,
-      "moveRot": 15,
+      "moveRot": -15,
       "progress": {
         "type": "warmup"
       }

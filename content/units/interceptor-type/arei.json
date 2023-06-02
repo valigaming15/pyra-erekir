@@ -22,7 +22,7 @@
   "flying": true,
   "weapons": [
 	{
-      "name": "electric-laser",
+      "name": "sanitatem",
 	  "ejectEffect": "casing4",
       "x": 0,
       "y": 1,
@@ -31,7 +31,7 @@
       "rotate": false,
       "continuous": true,
       "shootSound": "laserblast",
-	  "shootSoundVolume": 1,
+	    "shootSoundVolume": 1,
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "length": 200,

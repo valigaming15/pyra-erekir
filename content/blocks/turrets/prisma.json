@@ -26,6 +26,7 @@
   "rotateSpeed": 0.5,
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
+  "shootY": 1,
   "consumes": {
   "power": 40.0,
   "liquid": {
@@ -60,7 +61,7 @@
       "mirror": false,
       "under": true,
       "moveX": 0,
-      "moveY": -5,
+      "moveY": -3,
       "progress": {
         "type": "warmup"
       }
