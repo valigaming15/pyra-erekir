@@ -23,16 +23,38 @@
   "weapons": [
 	{
       "type": "RepairBeamWeapon",
-      "name": "pyra-miner-weapon",
       "mirror": "false",
       "x": 0,
       "y": 2,
-      "beamWidth": 0.4,
+      "beamWidth": 0.6,
       "repairSpeed": 0.25,
       "bullet": {
         "maxRange": 75
       }
 	}
+  ],
+  "parts": [
+    {
+      "suffix": "-barrel",
+      "mirror": true,
+      "progress": "warmup",
+      "moves": [
+        {
+          "progress": {
+            "type": "smoothReload"
+          },
+          "x": 1,
+          "y": -2,
+          "rot": -15
+        }
+      ],
+      "moveX": 0.5,
+      "moveY": -1,
+      "moveRot": -7.5,
+      "weaponIndex": 1,
+      "layerOffset": 0.003,
+      "outlineLayerOffset": -0.003
+    }
   ],
   "research": {
     "parent": "tier-1-factory",

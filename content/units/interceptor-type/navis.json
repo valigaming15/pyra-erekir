@@ -49,7 +49,7 @@
     }
   ],
   "research": {
-    "parent": "fossores",
+    "parent": "arei",
     "requirements": [
       {"item": "lead", "amount": 1000},
 	    {"item": "copper", "amount": 1000},

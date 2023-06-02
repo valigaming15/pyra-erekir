@@ -47,7 +47,7 @@
     }
   ],
   "research": {
-    "parent": "fossores",
+    "parent": "sterna",
     "requirements": [
       {"item": "lead", "amount": 2000},
 	  {"item": "copper", "amount": 2000},
@@ -61,7 +61,7 @@
       "radius": 50,
       "regen": 0.5,
       "max": 500,
-      "cooldown": 480
+      "cooldown": 460
     }
   ]
 }
