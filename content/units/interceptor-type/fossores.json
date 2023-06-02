@@ -28,6 +28,8 @@
       "y": 0,
       "beamWidth": 0.6,
       "repairSpeed": 0.25,
+      "minWarmup": 0.9,
+      "shootWarmupSpeed": 0.03,
       "bullet": {
         "maxRange": 75
       }
