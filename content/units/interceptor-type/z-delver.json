@@ -116,7 +116,7 @@
             "followParent": true,
             "line": true,
             "particles": 2,
-            "lifetime": 80,
+            "lifetime": 100,
             "length": 65,
             "randLength": false,
             "interp": "pow2Out",
@@ -125,8 +125,8 @@
             "lenTo": 0,
             "strokeFrom": 0,
             "strokeTo": 8,
-            "colorFrom": "009900",
-            "colorTo": "006600",
+            "colorFrom": "CFC",
+            "colorTo": "CFC",
             "cap": false
           },
           "smokeEffect": "none",
@@ -135,9 +135,9 @@
             "type": "RailBulletType",
             "length": 65,
             "pierceEffect": "none",
-            "damage": 0.001,
+            "damage": 10,
             "pierceDamageFactor": 1,
-            "collidesTiles": false,
+            "collidesTiles": true,
             "healPercent": 5,
             "collidesTeam": true
           }
