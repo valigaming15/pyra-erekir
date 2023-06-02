@@ -109,7 +109,7 @@
             "type": "RailBulletType",
             "length": 65,
             "pierceEffect": "none",
-            "damage": 10,
+            "damage": 6,
             "pierceDamageFactor": 1,
             "collidesTiles": false
           }
