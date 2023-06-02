@@ -71,7 +71,7 @@
 	}
   ],
   "research": {
-    "parent": "fossores",
+    "parent": "aa-fossores",
     "requirements": [
       {"item": "lead", "amount": 1000},
 	    {"item": "copper", "amount": 1000},

@@ -105,7 +105,7 @@
     }
   ],
   "research": {
-    "parent": "navis",
+    "parent": "ad-navis",
     "requirements": [
       {"item": "lead", "amount": 10000},
 	    {"item": "copper", "amount": 10000},
