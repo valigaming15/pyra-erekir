@@ -25,7 +25,7 @@
       "type": "RepairBeamWeapon",
       "mirror": "false",
       "x": 0,
-      "y": 2,
+      "y": 0,
       "beamWidth": 0.6,
       "repairSpeed": 0.25,
       "bullet": {
@@ -38,22 +38,12 @@
       "suffix": "-barrel",
       "mirror": true,
       "progress": "warmup",
-      "moves": [
-        {
-          "progress": {
-            "type": "smoothReload"
-          },
-          "x": 1,
-          "y": -2,
-          "rot": -15
-        }
-      ],
       "moveX": 0.5,
       "moveY": -1,
       "moveRot": -7.5,
       "weaponIndex": 1,
-      "layerOffset": 0.003,
-      "outlineLayerOffset": -0.003
+      "layerOffset": -1,
+      "outlineLayerOffset": -2
     }
   ],
   "research": {
