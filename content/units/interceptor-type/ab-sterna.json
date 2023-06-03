@@ -24,7 +24,7 @@
       {
       "name": "small-blaster",
 	    "ejectEffect": "casing4",
-      "x": 3,
+      "x": -3.5,
       "y": 2,
       "mirror": true,
       "reload": 20,
@@ -43,14 +43,15 @@
         "lifetime": 20,
         "collidesTeam": true,
         "healPercent": 5,
-        "colors": ["84f491", "ffffff", "62ae7f"]
+        "backColor": "98ffa9",
+        "frontColor": "ffffff"
       }
     },
 	{
       "type": "RepairBeamWeapon",
       "name": "small-repair-point",
       "x": -3,
-      "y": -3,
+      "y": -3.5,
       "beamWidth": 0.5,
       "mirror": false,
       "repairSpeed": 1,
@@ -62,7 +63,7 @@
       "type": "RepairBeamWeapon",
       "name": "small-repair-point",
       "x": 3,
-      "y": -3,
+      "y": -3.5,
       "beamWidth": 0.5,
       "mirror": false,
       "repairSpeed": 1,
