@@ -16,7 +16,7 @@
     "accel": 0.06,
     "drag": 0.017,
     "drawBuildBeam": true,
-    "health": 500,
+    "health": 1000,
     "mineHardnessScaling": true,
     "flying": true,
     "defaultController": "MinerAI",
@@ -109,7 +109,7 @@
             "type": "RailBulletType",
             "length": 65,
             "pierceEffect": "none",
-            "damage": 4,
+            "damage": 2,
             "pierceDamageFactor": 1,
             "collidesTiles": false
           }

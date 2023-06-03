@@ -24,31 +24,33 @@
       {
       "name": "small-blaster",
 	    "ejectEffect": "casing4",
-      "x": 2,
-      "y": 1,
+      "x": 3,
+      "y": 2,
       "mirror": true,
-      "reload": 10,
+      "reload": 20,
       "rotate": true,
       "shootSound": "laserblast",
-      "inaccuracy": 4,
+      "inaccuracy": 8,
       "shoot": {
         "shots": 4
       },
       "bullet": {
         "type": "LaserBoltBulletType",
-        "length": 3,
-        "width": 2,
-        "damage": 2,
-        "lifetime": 120,
+        "length": 2,
+        "width": 1,
+        "damage": 4,
+        "speed": 6,
+        "lifetime": 20,
         "collidesTeam": true,
-        "healPercent": 5
+        "healPercent": 5,
+        "colors": ["84f491", "ffffff", "62ae7f"]
       }
     },
 	{
       "type": "RepairBeamWeapon",
       "name": "small-repair-point",
-      "x": -2,
-      "y": -2,
+      "x": -3,
+      "y": -3,
       "beamWidth": 0.5,
       "mirror": false,
       "repairSpeed": 1,
@@ -59,8 +61,8 @@
     {
       "type": "RepairBeamWeapon",
       "name": "small-repair-point",
-      "x": 2,
-      "y": -2,
+      "x": 3,
+      "y": -3,
       "beamWidth": 0.5,
       "mirror": false,
       "repairSpeed": 1,
