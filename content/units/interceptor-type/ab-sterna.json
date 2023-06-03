@@ -22,49 +22,48 @@
   "defaultController": "BuilderAI",
   "weapons": [
       {
-      "name": "electric-laser",
-	  "ejectEffect": "casing4",
-      "x": 0,
-      "y": 2,
-      "mirror": false,
-      "reload": 240,
-      "rotate": false,
-      "continuous": true,
+      "name": "small-blaster",
+	    "ejectEffect": "casing4",
+      "x": 2,
+      "y": 1,
+      "mirror": true,
+      "reload": 10,
+      "rotate": true,
       "shootSound": "laserblast",
-	  "shootSoundVolume": 0.5,
+      "inaccuracy": 4,
+      "shoot": {
+        "shots": 4
+      },
       "bullet": {
-        "type": "ContinuousLaserBulletType",
-        "length": 200,
+        "type": "LaserBoltBulletType",
+        "length": 3,
         "width": 2,
-        "damage": 1,
+        "damage": 2,
         "lifetime": 120,
         "collidesTeam": true,
-        "healPercent": 5,
-        "damageInterval": 10,
-        "colors": ["84f491", "ffffff", "62ae7f"],
-        "fadeTime": 30
+        "healPercent": 5
       }
     },
 	{
       "type": "RepairBeamWeapon",
-      "name": "repair-turret",
-      "x": 7,
-      "y": -6,
+      "name": "small-repair-point",
+      "x": -2,
+      "y": -2,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.25,
+      "repairSpeed": 1,
       "bullet": {
         "maxRange": 75
       }
 	},
     {
       "type": "RepairBeamWeapon",
-      "name": "repair-turret",
-      "x": -7,
-      "y": -6,
+      "name": "small-repair-point",
+      "x": 2,
+      "y": -2,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.25,
+      "repairSpeed": 1,
       "bullet": {
         "maxRange": 75
       }
