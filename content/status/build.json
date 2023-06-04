@@ -1,0 +1,5 @@
+{
+    "name": "Build Boost",
+    "description": "build faster",
+    "buildSpeedMultiplier": 2.0
+}
