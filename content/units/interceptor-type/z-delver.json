@@ -28,7 +28,7 @@
         "x": 0,
         "y": -6,
         "beamWidth": 0.6,
-        "repairSpeed": 2,
+        "repairSpeed": 1,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -41,7 +41,7 @@
         "x": 0,
         "y": 6,
         "beamWidth": 0.6,
-        "repairSpeed": 2,
+        "repairSpeed": 1,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -54,7 +54,7 @@
         "x": -6,
         "y": 0,
         "beamWidth": 0.6,
-        "repairSpeed": 2,
+        "repairSpeed": 1,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -67,54 +67,12 @@
         "x": 6,
         "y": 0,
         "beamWidth": 0.6,
-        "repairSpeed": 2,
+        "repairSpeed": 1,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
         }
-      },
-      {
-        "alwaysShooting": true,
-        "x": 0,
-        "shootY": 0,
-        "reload": 20,
-        "inaccuracy": 360,
-        "shootCone": 360,
-        "shootSound": "none",
-        "bullet": {
-          "type": "ExplosionBulletType",
-          "killShooter": "false",
-          "hitEffect": "none",
-          "despawnEffect": "none",
-          "shootEffect": {
-            "followParent": true,
-            "line": true,
-            "particles": 2,
-            "lifetime": 80,
-            "length": 65,
-            "randLength": false,
-            "interp": "pow2Out",
-            "sizeInterp": "pow2In",
-            "lenFrom": 16,
-            "lenTo": 0,
-            "strokeFrom": 0,
-            "strokeTo": 8,
-            "colorFrom": "7ACC7A",
-            "colorTo": "7ACC7A",
-            "cap": false
-          },
-          "smokeEffect": "none",
-          "fragBullets": 360,
-          "fragBullet": {
-            "type": "RailBulletType",
-            "length": 65,
-            "pierceEffect": "none",
-            "damage": 1,
-            "pierceDamageFactor": 1,
-            "collidesTiles": false
-          }
-        }
-    }
+      }
     ],
     "research": {
       "parent": "a-regis",
