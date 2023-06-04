@@ -15,7 +15,7 @@
     ],
     "category": "defense",
     "research": {
-    "parent": "molten-alloy",
+    "parent": "pyra-wall-small",
     "requirements": [
       {"item": "lead", "amount": 2000},
   	  {"item": "copper", "amount": 2000},

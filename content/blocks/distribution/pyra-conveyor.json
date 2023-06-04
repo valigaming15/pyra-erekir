@@ -26,7 +26,7 @@
   },
   "glowColor": "FF6600",
    "research": {
-    "parent": "tier-1-factory",
+    "parent": "a-regis",
     "requirements": [
     "pyratite/1000"
   ]

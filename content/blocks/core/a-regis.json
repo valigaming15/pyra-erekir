@@ -1,40 +1,36 @@
 {
   "type": "CoreBlock",
   "name": "[#ff66]Regis",
-  "description": "The Regis Core Builds a Delver to help defend it",
+  "description": "Sister to the Foundation. The Regis Core Builds a Delver to help defend it",
   "details": "",
   "size": 4,
   "researchCostMultiplier": 0.4,
-  "health": 10000,
-  "itemCapacity": 10000,
+  "health": 5000,
+  "itemCapacity": 12000,
   "requirements": [
     {
       "item": "copper",
-      "amount": 5000
+      "amount": 3000
     },
     {
       "item": "lead",
-      "amount": 5000
+      "amount": 3000
     },
     {
       "item": "silicon",
-      "amount": 5000
+      "amount": 2000
     },
     {
       "item": "titanium",
-      "amount": 5000
-    },
-    {
-      "item": "thorium",
-      "amount": 5000
+      "amount": 400
     },
     {
       "item": "molten-alloy",
-      "amount": 1000
+      "amount": 100
     }
   ],
   "category": "effect",
-  "research": "molten-alloy",
+  "research": "core-shard",
   "unitType": "z-delver",
   "unitCapModifier": 25
 }

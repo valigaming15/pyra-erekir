@@ -1,6 +1,6 @@
 {
-    "localizedName": "[#ff66]Delver",
-    "description": "A Fossores variant. Built to protect Regis cores",
+    "localizedName": "[#ff66]Dredge",
+    "description": "Upgrade to the delver. Built to protect Baratrous cores.",
     "type": "flying",
     "lowAltitude": true,
     "mineSpeed": 2,
@@ -16,7 +16,7 @@
     "accel": 0.06,
     "drag": 0.017,
     "drawBuildBeam": true,
-    "health": 1000,
+    "health": 1500,
     "mineHardnessScaling": true,
     "flying": true,
     "defaultController": "MinerAI",
@@ -26,7 +26,20 @@
         "rotate": true,
         "mirror": false,
         "x": 0,
-        "y": -6,
+        "y": -9,
+        "beamWidth": 0.6,
+        "repairSpeed": 2,
+        "targetBuildings": true,
+        "bullet": {
+          "maxRange": 75
+        }
+      },
+      {
+        "type": "RepairBeamWeapon",
+        "rotate": true,
+        "mirror": false,
+        "x": -9,
+        "y": -9,
         "beamWidth": 0.6,
         "repairSpeed": 2,
         "targetBuildings": true,
@@ -39,7 +52,7 @@
         "rotate": true,
         "mirror": false,
         "x": 0,
-        "y": 6,
+        "y": 9,
         "beamWidth": 0.6,
         "repairSpeed": 2,
         "targetBuildings": true,
@@ -51,7 +64,20 @@
         "type": "RepairBeamWeapon",
         "rotate": true,
         "mirror": false,
-        "x": -6,
+        "x": -9,
+        "y": 9,
+        "beamWidth": 0.6,
+        "repairSpeed": 2,
+        "targetBuildings": true,
+        "bullet": {
+          "maxRange": 75
+        }
+      },
+      {
+        "type": "RepairBeamWeapon",
+        "rotate": true,
+        "mirror": false,
+        "x": -9,
         "y": 0,
         "beamWidth": 0.6,
         "repairSpeed": 2,
@@ -64,8 +90,34 @@
         "type": "RepairBeamWeapon",
         "rotate": true,
         "mirror": false,
-        "x": 6,
+        "x": 9,
+        "y": -9,
+        "beamWidth": 0.6,
+        "repairSpeed": 2,
+        "targetBuildings": true,
+        "bullet": {
+          "maxRange": 75
+        }
+      },
+      {
+        "type": "RepairBeamWeapon",
+        "rotate": true,
+        "mirror": false,
+        "x": 9,
         "y": 0,
+        "beamWidth": 0.6,
+        "repairSpeed": 2,
+        "targetBuildings": true,
+        "bullet": {
+          "maxRange": 75
+        }
+      },
+      {
+        "type": "RepairBeamWeapon",
+        "rotate": true,
+        "mirror": false,
+        "x": 9,
+        "y": 9,
         "beamWidth": 0.6,
         "repairSpeed": 2,
         "targetBuildings": true,
@@ -109,7 +161,7 @@
             "type": "RailBulletType",
             "length": 65,
             "pierceEffect": "none",
-            "damage": 1,
+            "damage": 2,
             "pierceDamageFactor": 1,
             "collidesTiles": false
           }
@@ -117,7 +169,7 @@
     }
     ],
     "research": {
-      "parent": "a-regis",
+      "parent": "b-baratrous",
       "requirements": [
         {"item": "lead", "amount": 500},
         {"item": "copper", "amount": 500},
