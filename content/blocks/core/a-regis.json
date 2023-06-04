@@ -1,0 +1,36 @@
+{
+  "type": "CoreBlock",
+  "name": "[#ff66]Regis",
+  "description": "Sister to the Foundation. The Regis Core Builds a Delver to help defend it",
+  "details": "",
+  "size": 4,
+  "researchCostMultiplier": 0.4,
+  "health": 5000,
+  "itemCapacity": 12000,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 3000
+    },
+    {
+      "item": "lead",
+      "amount": 3000
+    },
+    {
+      "item": "silicon",
+      "amount": 2000
+    },
+    {
+      "item": "titanium",
+      "amount": 400
+    },
+    {
+      "item": "pyratite",
+      "amount": 100
+    }
+  ],
+  "category": "effect",
+  "research": "core-shard",
+  "unitType": "z-delver",
+  "unitCapModifier": 25
+}

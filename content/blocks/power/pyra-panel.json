@@ -12,7 +12,7 @@
 	],
   "category": "power",
     "research": {
-    "parent": "molten-alloy",
+    "parent": "a-regis",
     "requirements": [
       {"item": "lead", "amount": 500},
 	  {"item": "copper", "amount": 500},

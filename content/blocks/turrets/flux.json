@@ -67,7 +67,7 @@
   ]
 },
 "research": {
-    "parent": "molten-alloy",
+    "parent": "a-regis",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},
