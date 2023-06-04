@@ -22,51 +22,49 @@
   "defaultController": "BuilderAI",
   "weapons": [
       {
-      "name": "small-blaster",
-	    "ejectEffect": "casing4",
-      "x": -3.5,
+      "name": "electric-laser",
+	  "ejectEffect": "casing4",
+      "x": 0,
       "y": 2,
-      "mirror": true,
-      "reload": 20,
-      "rotate": true,
+      "mirror": false,
+      "reload": 240,
+      "rotate": false,
+      "continuous": true,
       "shootSound": "laserblast",
-      "inaccuracy": 8,
-      "shoot": {
-        "shots": 4
-      },
+	  "shootSoundVolume": 0.5,
       "bullet": {
-        "type": "LaserBoltBulletType",
-        "length": 2,
-        "width": 1,
-        "damage": 4,
-        "speed": 6,
-        "lifetime": 20,
+        "type": "ContinuousLaserBulletType",
+        "length": 200,
+        "width": 2,
+        "damage": 1,
+        "lifetime": 120,
         "collidesTeam": true,
         "healPercent": 5,
-        "backColor": "98ffa9",
-        "frontColor": "ffffff"
+        "damageInterval": 10,
+        "colors": ["84f491", "ffffff", "62ae7f"],
+        "fadeTime": 30
       }
     },
 	{
       "type": "RepairBeamWeapon",
-      "name": "small-repair-point",
-      "x": -3,
-      "y": -3.5,
+      "name": "repair-turret",
+      "x": 7,
+      "y": -6,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.5,
+      "repairSpeed": 0.25,
       "bullet": {
         "maxRange": 75
       }
 	},
     {
       "type": "RepairBeamWeapon",
-      "name": "small-repair-point",
-      "x": 3,
-      "y": -3.5,
+      "name": "repair-turret",
+      "x": -7,
+      "y": -6,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.5,
+      "repairSpeed": 0.25,
       "bullet": {
         "maxRange": 75
       }
