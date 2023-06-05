@@ -33,18 +33,25 @@
 	    "ejectEffect": "casing4",
       "bullet": {
         "type": "BasicBulletType",
-        "collidesTeam": false,
+        
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+
 		    "pierce": true,
+        "hitEffect": "titanExplosion",
 		    "pierceCap": 5,
         "status": "burning",
         "makeFire": true,
-	      "damage": 250,
-        "splashDamage": 250,
+	      "damage": 100,
+        "splashDamage": 400,
 		    "splashDamageRadius": 35,
         "width": 12,
         "height": 30,
-        "lifetime": 150,
-        "speed": 2
+        "lifetime": 250,
+        "speed": 2,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"
       }
     }
   ],

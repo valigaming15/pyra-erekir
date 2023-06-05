@@ -20,21 +20,6 @@
     "mineHardnessScaling": true,
     "flying": true,
     "defaultController": "none",
-    "weapons": [
-      {
-        "type": "RepairBeamWeapon",
-        "rotate": true,
-        "mirror": false,
-        "x": 0,
-        "y": 0,
-        "beamWidth": 0.6,
-        "repairSpeed": 2,
-        "targetBuildings": true,
-        "bullet": {
-          "maxRange": 75
-        }
-      },
-    ],
     "research": {
       "parent": "b-baratrous",
       "requirements": [
@@ -56,7 +41,7 @@
 		 "range": 120,
 		 "damage": 25,
 		 "reload": 60,
-		 "maxTargets": 30,
+		 "maxTargets": 30
 	  } 
     ]
   }

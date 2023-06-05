@@ -36,6 +36,11 @@
       },
       "bullet": {
         "type": "LaserBoltBulletType",
+
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+        
         "length": 2,
         "width": 1,
         "damage": 4,

@@ -72,7 +72,7 @@
         "bullet": {
           "maxRange": 75
         }
-      },
+      }
     ],
     "research": {
       "parent": "a-regis",
