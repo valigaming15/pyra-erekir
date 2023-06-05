@@ -1,0 +1,48 @@
+{
+    "localizedName": "[#ff66]Dredge",
+    "description": "Upgrade to the delver. Built to protect Baratrous cores.",
+    "type": "flying",
+    "lowAltitude": true,
+    "mineSpeed": 5,
+    "mineTier": 5,
+    "canAttack": false,
+    "buildSpeed": 1,
+    "hitSize": 8,
+    "engineOffset": 5,
+    "engineSize": 2,
+    "armor": 5,
+    "itemCapacity": 100,
+    "speed": 2.5,
+    "accel": 0.06,
+    "drag": 0.017,
+    "drawBuildBeam": true,
+    "health": 1000,
+    "mineHardnessScaling": true,
+    "flying": true,
+    "defaultController": "none",
+    "research": {
+      "parent": "b-baratrous",
+      "requirements": [
+        {"item": "lead", "amount": 500},
+        {"item": "copper", "amount": 500},
+        {"item": "silicon", "amount": 500}
+      ]
+    },
+      "abilities": [
+      {
+        "type": "ForceFieldAbility",
+        "radius": 25,
+        "regen": 0.5,
+        "max": 1000,
+        "cooldown": 600
+      },
+	  {
+		 "type": "EnergyFieldAbility",
+		 "range": 120,
+		 "damage": 25,
+		 "reload": 60,
+		 "maxTargets": 30
+	  } 
+    ]
+  }
+  

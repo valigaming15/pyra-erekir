@@ -1,0 +1,25 @@
+{
+  "type": "PowerNode",
+  "name": "Pyratite tower",
+  "description": "A large and strong node tower used for main power distribution to front lines",
+  "health": 1000,
+  "size": 2,
+  "maxNodes": 4,
+  "laserRange": 50,
+	"requirements": [
+	    "lead/10",
+	    "silicon/10",
+		"titanium/10",
+		"molten-alloy/5"
+	],
+  "category": "power",
+    "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
