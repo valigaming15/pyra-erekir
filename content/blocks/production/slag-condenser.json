@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Slag condenser",
+  "description": "creates scrap by cooling down slag",
+  "outputItem": "scrap/1",
+  "health": 500,
+  "itemCapacity": 20,
+  "liquidCapacity": 50,
+  "size": 3,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 2,
+  "liquids": {
+  "liquids": [
+  "slag/0.015"
+  ]
+ }
+ },
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}

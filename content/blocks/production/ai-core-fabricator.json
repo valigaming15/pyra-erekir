@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#00ff]AI core fabricator",
+  "description": "Produces AI cores used for units",
+  "outputItem": "ai-core/1",
+  "health": 500,
+  "itemCapacity": 20,
+  "size": 3,
+  "craftTime": 300,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 2,
+  "items": {
+    "items": [
+      "molten-alloy/1",
+      "copper/50"
+    ]
+  }
+},
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
