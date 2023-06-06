@@ -4,7 +4,7 @@
   "description": "Produces AI cores used for units",
   "outputItem": "ai-core/1",
   "health": 500,
-  "itemCapacity": 20,
+  "itemCapacity": 50,
   "size": 3,
   "craftTime": 300,
   "hasPower": true,
@@ -16,7 +16,8 @@
   "items": {
     "items": [
       "molten-alloy/1",
-      "copper/50"
+      "silicon/10",
+      "copper/25"
     ]
   }
 },
