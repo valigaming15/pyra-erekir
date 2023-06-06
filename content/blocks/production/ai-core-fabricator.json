@@ -3,7 +3,7 @@
   "localizedName": "[#00ff]AI core fabricator",
   "description": "Produces AI cores used for units",
   "outputItem": "ai-core/1",
-  "outputLiquid": "slag/0.1",
+  "outputLiquid": "slag/0.034",
   "health": 500,
   "itemCapacity": 100,
   "liquidCapacity": 20,
