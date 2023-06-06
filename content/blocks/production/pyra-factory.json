@@ -4,7 +4,7 @@
   "description": "Creates pyratite by mixing coal with scrap",
   "outputItem": "pyratite/1",
   "health": 500,
-  "itemCapacity": 100,
+  "itemCapacity": 20,
   "liquidCapacity": 20,
   "size": 3,
   "craftTime": 120,
