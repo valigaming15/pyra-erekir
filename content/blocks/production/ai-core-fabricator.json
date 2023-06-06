@@ -3,8 +3,10 @@
   "localizedName": "[#00ff]AI core fabricator",
   "description": "Produces AI cores used for units",
   "outputItem": "ai-core/1",
+  "outputLiquid": "slag/0.1",
   "health": 500,
-  "itemCapacity": 50,
+  "itemCapacity": 100,
+  "liquidCapacity": 20,
   "size": 3,
   "craftTime": 300,
   "hasPower": true,
@@ -12,7 +14,7 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 2,
+  "power": 4,
   "items": {
     "items": [
       "molten-alloy/1",
