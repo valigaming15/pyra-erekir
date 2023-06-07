@@ -8,9 +8,10 @@
     "pyratite/1"
   ],
   "health": 200,
-  "speed": 0.04,
+  "speed": 0.15,
+  "displayedSpeed": 20,
    "research": {
-    "parent": "a-regis",
+    "parent": "molten-alloy",
     "requirements": [
     "pyratite/1000"
   ]
