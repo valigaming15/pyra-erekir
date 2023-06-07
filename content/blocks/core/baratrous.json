@@ -1,0 +1,41 @@
+{
+    "type": "CoreBlock",
+    "name": "[#ff66]Baratrous",
+    "description": "The upgrade to the Regis Core. The Baratrous Builds a Dredge to help defend it",
+    "details": "",
+    "size": 5,
+    "researchCostMultiplier": 0.4,
+    "health": 10000,
+    "itemCapacity": 18000,
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 8000
+      },
+      {
+        "item": "lead",
+        "amount": 8000
+      },
+      {
+        "item": "silicon",
+        "amount": 5000
+      },
+      {
+        "item": "thorium",
+        "amount": 4000
+      },
+      {
+        "item": "titanium",
+        "amount": 2000
+      },
+      {
+        "item": "molten-alloy",
+        "amount": 1000
+      }
+    ],
+    "category": "effect",
+    "research": "regis",
+    "unitType": "dredge",
+    "unitCapModifier": 35
+  }
+  

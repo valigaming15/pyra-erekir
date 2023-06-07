@@ -1,0 +1,67 @@
+{
+  "localizedName": "[#ff66]AREI",
+  "description": "a mega-quasar hybrid it has powerfull single laser and advanced drill capable of mining all ores",
+  "type": "payload",
+  "lowAltitude": true,
+  "mineSpeed": 3,
+  "mineTier": 6,
+  "canAttack": true,
+  "buildSpeed": 2,
+  "hitSize": 16,
+  "engineOffset": 11,
+  "engineSize": 3,
+  "payloadCapacity": 256,
+  "armor": 5,
+  "itemCapacity": 100,
+  "speed": 2.5,
+  "accel": 0.06,
+  "drag": 0.017,
+  "drawBuildBeam": true,
+  "health": 500,
+  "mineHardnessScaling": true,
+  "flying": true,
+  "weapons": [
+	{
+      "name": "electric-laser",
+	  "ejectEffect": "casing4",
+      "x": 0,
+      "y": 1,
+      "mirror": false,
+      "reload": 240,
+      "rotate": false,
+      "continuous": true,
+      "shootSound": "laserblast",
+	    "shootSoundVolume": 1,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "length": 200,
+        "width": 2,
+        "damage": 20,
+        "lifetime": 120,
+        "collidesTeam": true,
+        "healPercent": 1,
+        "damageInterval": 10,
+        "colors": ["ff0000", "ff6600", "ffffff"],
+        "fadeTime": 30
+      }
+    }
+  ],
+  "research": {
+    "parent": "sterna",
+    "requirements": [
+      {"item": "lead", "amount": 2000},
+	  {"item": "copper", "amount": 2000},
+      {"item": "silicon", "amount": 2000},
+      {"item": "titanium", "amount": 2000}
+    ]
+  },
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 50,
+      "regen": 0.5,
+      "max": 500,
+      "cooldown": 600
+    }
+  ]
+}

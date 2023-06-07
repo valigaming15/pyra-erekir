@@ -1,0 +1,144 @@
+{
+  "localizedName": "[#ff]Mothership",
+  "description": "a strong support unit capable of carrying large payloads and slowly produce units",
+  "type": "payload",
+  "lowAltitude": true,
+  "mineSpeed": 1,
+  "mineTier": 3,
+  "canAttack": true,
+  "buildSpeed": 3,
+  "hitSize": 50,
+  "engineOffset": 20,
+  "engineSize": 5,
+  "payloadCapacity": 1940,
+  "armor": 10,
+  "itemCapacity": 250,
+  "speed": 1,
+  "accel": 0.06,
+  "drag": 0.02,
+  "drawBuildBeam": true,
+  "health": 8000,
+  "mineHardnessScaling": true,
+  "flying": true,
+  "weapons": [
+    {
+    "name": "cannon",
+	  "alternate": false,
+	  "rotate": true,
+    "mirror": true,
+    "top": "true",
+    "shake": 1,
+    "x": 14,
+    "y": 10,
+    "reload": 10,
+    "recoil": 2.5,
+    "shootSound": "artillery",
+	  "ejectEffect": "casing4",
+    "bullet": {
+        "type": "BasicBulletType",
+      
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+
+    		"pierce": true,
+	    	"pierceCap": 10,
+        "status": "burning",
+        "makeFire": true,
+	      "damage": 30,
+        "splashDamage": 60,
+		    "splashDamageRadius": 35,
+        "width": 14,
+        "height": 40,
+        "lifetime": 30,
+        "speed": 8
+      }
+    },
+    {
+      "name": "cannon",
+	  "alternate": false,
+	  "rotate": true,
+      "mirror": true,
+      "top": "true",
+      "shake": 1,
+      "x": 10,
+      "y": -18,
+      "reload": 60,
+      "recoil": 2.5,
+      "shootSound": "artillery",
+	    "ejectEffect": "casing4",
+      "bullet": {
+        "type": "BasicBulletType",
+        
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+
+		    "pierce": true,
+        "hitEffect": "titanExplosion",
+		    "pierceCap": 5,
+        "status": "burning",
+        "makeFire": true,
+	      "damage": 100,
+        "splashDamage": 400,
+		    "splashDamageRadius": 35,
+        "width": 12,
+        "height": 30,
+        "lifetime": 40,
+        "speed": 8,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"
+      }
+    },
+	{
+      "type": "RepairBeamWeapon",
+      "name": "repair-point",
+      "mirror": "false",
+      "x": 18,
+      "y": -12,
+      "beamWidth": 0.8,
+      "repairSpeed": 1,
+      "bullet": {
+        "maxRange": 150
+      }
+    },
+		{
+      "type": "RepairBeamWeapon",
+      "name": "repair-point",
+      "mirror": "false",
+      "x": -18,
+      "y": -12,
+      "beamWidth": 0.8,
+      "repairSpeed": 1,
+      "bullet": {
+        "maxRange": 150
+      }
+    }
+  ],
+  "research": {
+    "parent": "navis",
+    "requirements": [
+      {"item": "lead", "amount": 10000},
+	    {"item": "copper", "amount": 10000},
+      {"item": "silicon", "amount": 15000},
+      {"item": "titanium", "amount": 10000},
+	    {"item": "thorium", "amount": 5000}
+    ]
+  },
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 100,
+      "regen": 2.5,
+      "max": 3000,
+      "cooldown": 450
+    },
+	{
+	  "type": "UnitSpawnAbility",
+	  "unit": "fossores",
+	  "spawnX": 0,
+	  "spawnY": -6,
+	  "spawnTime": 3600
+	}
+  ]
+}
