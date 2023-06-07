@@ -15,8 +15,9 @@
   "accel": 0.04,
   "drag": 0.017,
   "drawBuildBeam": true,
-  "health": 1000,
+  "health": 4000,
   "flying": true,
+  "defaultController": "AttackAI",
     "weapons": [
     {
       "name": "cannon",
@@ -48,7 +49,7 @@
 		    "splashDamageRadius": 35,
         "width": 12,
         "height": 30,
-        "lifetime": 250,
+        "lifetime": 240,
         "speed": 2,
         "backColor": "ff6600",
         "frontColor": "ffffff"
