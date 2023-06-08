@@ -17,8 +17,9 @@
   "accel": 0.06,
   "drag": 0.02,
   "drawBuildBeam": true,
-  "health": 8000,
+  "health": 10000,
   "mineHardnessScaling": true,
+  "defaultController": "AttackAI",
   "flying": true,
   "weapons": [
     {
@@ -129,9 +130,9 @@
     {
       "type": "ForceFieldAbility",
       "radius": 100,
-      "regen": 2.5,
-      "max": 3000,
-      "cooldown": 450
+      "regen": 4.0,
+      "max": 5000,
+      "cooldown": 1800
     },
 	{
 	  "type": "UnitSpawnAbility",
