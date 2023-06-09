@@ -42,7 +42,7 @@
 		 "damage": 25,
 		 "reload": 60,
 		 "maxTargets": 30,
-     "effectRadius": 3
+     "effectRadius": 4
 	  } 
     ]
   }
