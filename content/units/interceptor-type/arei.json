@@ -22,10 +22,9 @@
   "flying": true,
   "weapons": [
 	{
-      "name": "electric-laser",
-	  "ejectEffect": "casing4",
+      "name": "arei-weapon",
       "x": 0,
-      "y": 1,
+      "y": 0,
       "mirror": false,
       "reload": 240,
       "rotate": false,
@@ -41,7 +40,7 @@
         "collidesTeam": true,
         "healPercent": 1,
         "damageInterval": 10,
-        "colors": ["ff0000", "ff6600", "ffffff"],
+        "colors": ["70d581", "98ffa9", "ffffff"],
         "fadeTime": 30
       }
     }
