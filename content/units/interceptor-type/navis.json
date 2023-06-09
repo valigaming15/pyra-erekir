@@ -1,6 +1,6 @@
 {
   "localizedName": "[#ff66]Navis",
-  "description": "A cargo ship design to carry items with a shield and slow reloading artilery",
+  "description": "A cargo ship design to carry items with a shield and slow reloading mortar",
   "type": "flying",
   "lowAltitude": true,
   "canMine": false,
@@ -20,12 +20,12 @@
   "defaultController": "AttackAI",
     "weapons": [
     {
-      "name": "cannon",
+      "name": "navis-heavy-mortar",
 	  "alternate": false,
 	  "rotate": false,
       "mirror": false,
       "top": "true",
-      "shake": 1,
+      "shake": 2,
       "x": 0,
       "y": 0,
       "reload": 300,
