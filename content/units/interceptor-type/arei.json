@@ -19,6 +19,7 @@
   "drawBuildBeam": true,
   "health": 500,
   "mineHardnessScaling": true,
+  "defaultController": "FlyingAI",
   "flying": true,
   "weapons": [
 	{
