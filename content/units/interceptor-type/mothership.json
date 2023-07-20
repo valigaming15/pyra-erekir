@@ -11,7 +11,7 @@
   "engineOffset": 20,
   "engineSize": 5,
   "payloadCapacity": 1940,
-  "armor": 10,
+  "armor": 20,
   "itemCapacity": 250,
   "speed": 1,
   "accel": 0.06,
@@ -19,7 +19,7 @@
   "drawBuildBeam": true,
   "health": 10000,
   "mineHardnessScaling": true,
-  "defaultController": "AttackAI",
+  "defaultController": "FlyingAI",
   "flying": true,
   "weapons": [
     {
@@ -64,7 +64,7 @@
       "shake": 1,
       "x": 10,
       "y": -18,
-      "reload": 60,
+      "reload": 120,
       "recoil": 2.5,
       "shootSound": "artillery",
 	    "ejectEffect": "casing4",
@@ -85,7 +85,7 @@
 		    "splashDamageRadius": 35,
         "width": 12,
         "height": 30,
-        "lifetime": 40,
+        "lifetime": 50,
         "speed": 8,
         "backColor": "ff6600",
         "frontColor": "ffffff"
