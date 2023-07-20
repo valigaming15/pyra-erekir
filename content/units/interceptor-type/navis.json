@@ -32,6 +32,7 @@
       "recoil": 2.5,
       "shootSound": "artillery",
 	    "ejectEffect": "casing4",
+	  
       "bullet": {
         "type": "BasicBulletType",
         
@@ -41,7 +42,8 @@
 
 		    "pierce": true,
         "hitEffect": "titanExplosion",
-		    "pierceCap": 5,
+		    "pierceCap": 2,
+			"pierceBuilding": true,
         "status": "burning",
         "makeFire": true,
 	      "damage": 100,
@@ -53,6 +55,28 @@
         "speed": 4,
         "backColor": "ff6600",
         "frontColor": "ffffff"
+		"fragBullets": 20,
+	    "fragSpread": 10,
+		"fragRandomSpread": 0,
+		"fragBullet": {
+			"type": "BasicBulletType"
+			
+			"laserAbsorb": true,
+            "hittable": true,
+            "absorbable": false,
+			"status": "burning",
+			
+			"homingPower": 0.1,
+			"width": 6,
+            "height": 15,
+            "lifetime": 120,
+            "speed": 2,
+			"makeFire": true,
+	        "damage": 5,
+            "splashDamage": 5,
+		    "splashDamageRadius": 10,
+		}
+			
       }
     }
   ],
