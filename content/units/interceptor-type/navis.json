@@ -4,8 +4,8 @@
   "type": "flying",
   "lowAltitude": true,
   "canMine": false,
-  "canAttack": false,
-  "buildSpeed": 0.25,
+  "canAttack": true,
+  "buildSpeed": 0.5,
   "hitSize": 24,
   "engineOffset": 18,
   "engineSize": 4,
@@ -15,9 +15,9 @@
   "accel": 0.04,
   "drag": 0.017,
   "drawBuildBeam": true,
-  "health": 4000,
+  "health": 5000,
   "flying": true,
-  "defaultController": "AttackAI",
+  "defaultController": "FlyingAI",
     "weapons": [
     {
       "name": "cannon",
@@ -49,8 +49,8 @@
 		    "splashDamageRadius": 35,
         "width": 12,
         "height": 30,
-        "lifetime": 240,
-        "speed": 2,
+        "lifetime": 120,
+        "speed": 4,
         "backColor": "ff6600",
         "frontColor": "ffffff"
       }
@@ -70,14 +70,14 @@
       "type": "ForceFieldAbility",
       "radius": 50,
       "regen": 0.5,
-      "max": 1000,
+      "max": 2500,
       "cooldown": 600
     },
 	{
 	  "type": "RepairFieldAbility",
 	  "range": 100,
 	  "reload": 600,
-	  "amount": 50
+	  "amount": 100
 	}
   ]
 }
