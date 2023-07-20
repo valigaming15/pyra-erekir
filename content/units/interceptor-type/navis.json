@@ -35,6 +35,7 @@
 	  
       "bullet": {
         "type": "BasicBulletType",
+	      "homingPower": 0.025,
         
         "laserAbsorb": true,
         "hittable": false,
