@@ -6,7 +6,7 @@
     "mineSpeed": 2,
     "mineTier": 6,
     "canAttack": false,
-    "buildSpeed": 1,
+    "buildSpeed": 2,
     "hitSize": 8,
     "engineOffset": 5,
     "engineSize": 2,
