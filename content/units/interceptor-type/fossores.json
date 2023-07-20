@@ -4,14 +4,14 @@
   "type": "flying",
   "lowAltitude": true,
   "mineSpeed": 2,
-  "mineTier": 4,
+  "mineTier": 6,
   "canAttack": false,
   "buildSpeed": 1,
   "hitSize": 8,
   "engineOffset": 5,
   "engineSize": 2,
   "armor": 5,
-  "itemCapacity": 50,
+  "itemCapacity": 100,
   "speed": 2.5,
   "accel": 0.06,
   "drag": 0.017,
@@ -44,18 +44,11 @@
     ]
   },
     "abilities": [
-    {
-      "type": "ForceFieldAbility",
-      "radius": 10,
-      "regen": 0.1,
-      "max": 250,
-      "cooldown": 600
-    },
 	  {
 	    "type": "RepairFieldAbility",
 	    "range": 75,
 	    "reload": 600,
-	    "amount": 25
+	    "amount": 50
 	  }
   ]
 }
