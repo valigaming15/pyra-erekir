@@ -29,7 +29,7 @@
   ],
   "category": "crafting",
     "research": {
-    "parent": "pyratite",
+    "parent": "regis",
     "requirements": [
       {"item": "lead", "amount": 1000},
 	  {"item": "copper", "amount": 1000},
