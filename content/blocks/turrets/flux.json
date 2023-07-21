@@ -37,7 +37,9 @@
 	"maxAmmo": 50,
     "ammoTypes": {
     "pyratite": {
-        "type": "BasicBulletType",
+        "type": "ArtilleryBulletType",
+	      "collidesTiles": true,
+	      "collides" : true
 	      "homingPower": 0.025,
         
         "laserAbsorb": true,
@@ -69,6 +71,7 @@
             "hittable": true,
             "absorbable": false,
 			"status": "burning",
+			"makeFire": true,
 			
 			"homingPower": 0.1,
 			"width": 6,
