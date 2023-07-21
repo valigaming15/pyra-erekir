@@ -19,7 +19,6 @@
     "health": 1000,
     "mineHardnessScaling": true,
     "flying": true,
-    "defaultController": "FlyingAI",
     "weapons": [
       {
         "type": "RepairBeamWeapon",
