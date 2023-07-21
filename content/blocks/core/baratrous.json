@@ -5,7 +5,7 @@
     "details": "",
     "size": 5,
     "researchCostMultiplier": 0.4,
-    "health": 15000,
+    "health": 20000,
     "itemCapacity": 25000,
     "requirements": [
       {
