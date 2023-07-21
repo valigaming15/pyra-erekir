@@ -35,6 +35,7 @@
 	  
       "bullet": {
         "type": "ArtilleryBulletType",
+	      "collidesTiles": true,
 	      "homingPower": 0.025,
         
         "laserAbsorb": true,
