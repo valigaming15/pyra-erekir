@@ -39,6 +39,7 @@
               "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
+	      "homingPower": 0.1,
         
         "laserAbsorb": true,
         "hittable": false,
@@ -52,7 +53,7 @@
         "makeFire": true,
 	      "damage": 500,
         "splashDamage": 500,
-		    "splashDamageRadius": 35,
+		    "splashDamageRadius": 40,
         "width": 12,
         "height": 30,
         "lifetime": 120,
