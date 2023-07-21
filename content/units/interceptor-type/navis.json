@@ -34,7 +34,7 @@
 	    "ejectEffect": "casing4",
 	  
       "bullet": {
-        "type": "BasicBulletType",
+        "type": "ArtilleryBulletType",
 	      "homingPower": 0.025,
         
         "laserAbsorb": true,
