@@ -24,7 +24,7 @@
   "weapons": [
     {
       "name": "cannon",
-	  "alternate": true,
+	  "alternate": false,
 	  "rotate": true,
       "mirror": true,
       "top": "true",
