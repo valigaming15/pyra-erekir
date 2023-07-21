@@ -24,7 +24,7 @@
   "weapons": [
     {
       "name": "cannon",
-	  "alternate": false,
+	  "alternate": true,
 	  "rotate": true,
       "mirror": true,
       "top": "true",
@@ -36,7 +36,7 @@
       "shootSound": "artillery",
 	    "ejectEffect": "casing4",
       "bullet": {
-              "type": "ArtilleryBulletType",
+              "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
         
