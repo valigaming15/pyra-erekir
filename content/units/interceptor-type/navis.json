@@ -34,7 +34,7 @@
 	    "ejectEffect": "casing4",
 	  
       "bullet": {
-              "type": "ArtilleryBulletType",
+              "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
         
