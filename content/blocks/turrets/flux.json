@@ -1,7 +1,7 @@
 {
-  "type": "ContinuousTurret",
+  "type": "ItemTurret",
   "localizedName": "[#ff66]Flux",
-  "description": "a medium damaging laser turret",
+  "description": "A larget version of the hail with fire starting frag bullets",
   "health": 1500,
   "size": 2,
   "category": "turret",
@@ -15,29 +15,72 @@
   "targetGround": true,
   "targetHealing": false,
   "outlineIcon": true,
-  "range": 175,
-  "loopSound": "minebeam",
-  "loopSoundVolume": 1,
-  "shootSound": "none",
   "cooldownTime" : 300,
   "recoilAmount": 15,
-  "rotateSpeed": 2,
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
   "shootY": 2,
   "consumes": {
-  "power": 8.0,
   "liquid": {
   "liquid": "water",
   "amount": 0.2
   }
-},
-  "shootType": {
-    "type": "PointLaserBulletType",
+}
+  
+  "shootSound": "artillery",
+  "maxAmmo": 50,
+  "ammoPerShot": 5,
+  "rotateSpeed": 2,
+  "reload": 300,
+  "range": 350,
 	"sprite": "pyra-small-pyra-laser",
-	"collidesTeam": true,
-	"healAmount": 1.0,
-	"damage": 10
+	"maxAmmo": 50,
+    "ammoTypes": {
+    "pyratite": {
+        "type": "BasicBulletType",
+	      "homingPower": 0.025,
+        
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+
+		    "pierce": true,
+        "hitEffect": "titanExplosion",
+		    "pierceCap": 2,
+			"pierceBuilding": true,
+        "status": "burning",
+        "makeFire": true,
+	      "damage": 100,
+        "splashDamage": 400,
+		    "splashDamageRadius": 35,
+        "width": 12,
+        "height": 30,
+        "lifetime": 100,
+        "speed": 4,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"
+		"fragBullets": 20,
+	    "fragSpread": 10,
+		"fragRandomSpread": 0,
+		"fragBullet": {
+			"type": "BasicBulletType"
+			
+			"laserAbsorb": true,
+            "hittable": true,
+            "absorbable": false,
+			"status": "burning",
+			
+			"homingPower": 0.1,
+			"width": 6,
+            "height": 15,
+            "lifetime": 120,
+            "speed": 2,
+			"makeFire": true,
+	        "damage": 5,
+            "splashDamage": 5,
+		    "splashDamageRadius": 10,
+		}			
+      }
 },
 "drawer": {
   "type": "DrawTurret",
