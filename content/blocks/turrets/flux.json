@@ -40,7 +40,7 @@
         "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
-	      "homingPower": 0.1,
+	      "homingPower": 0.025,
         
         "laserAbsorb": true,
         "hittable": false,
