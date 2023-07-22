@@ -54,9 +54,9 @@
         "pierceBuilding": true,
         "status": "burning",
         "makeFire": true,
-        "damage": 250,
-        "splashDamage": 1000,
-        "splashDamageRadius": 40,
+        "damage": 25,
+        "splashDamage": 100,
+        "splashDamageRadius": 80,
         "hitShake": 0.5,
         "despawnShake": 0.5,
         "width": 12,
@@ -99,8 +99,8 @@
           "pierceBuilding": true,
           "status": "burning",
           "makeFire": true,
-	      "damage": 250,
-          "splashDamage": 1000,
+	      "damage": 25,
+          "splashDamage": 100,
           "splashDamageRadius": 40,
         "hitShake": 0.5,
         "despawnShake": 0.5,
@@ -115,9 +115,9 @@
 	{
       "type": "RepairBeamWeapon",
       "name": "repair-point",
-      "mirror": "false",
-      "x": 18,
-      "y": -12,
+      "mirror": "true",
+      "x": -18,
+      "y": 8,
       "beamWidth": 0.8,
       "repairSpeed": 1,
       "bullet": {
@@ -127,9 +127,9 @@
 		{
       "type": "RepairBeamWeapon",
       "name": "repair-point",
-      "mirror": "false",
+      "mirror": "true",
       "x": -18,
-      "y": -12,
+      "y": -8,
       "beamWidth": 0.8,
       "repairSpeed": 1,
       "bullet": {
@@ -157,10 +157,24 @@
     },
 	{
 	  "type": "UnitSpawnAbility",
-	  "unit": "fossores",
+	  "unit": "arei",
 	  "spawnX": 0,
 	  "spawnY": 0,
 	  "spawnTime": 3600
-	}
+	},
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "fossores",
+      "spawnX": 4,
+      "spawnY": 0,
+      "spawnTime": 1800
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "fossores",
+      "spawnX": -4,
+      "spawnY": 0,
+      "spawnTime": 1800
+    }
   ]
 }
