@@ -83,7 +83,7 @@
       "shoot": {
         "shots": 8,
         "shotDelay": 2,
-        "firstShotDelay": 15,
+        "firstShotDelay": 30,
       },
       "bullet": {
           "type": "BasicBulletType",
