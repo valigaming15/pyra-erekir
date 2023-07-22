@@ -37,7 +37,7 @@
       "ejectEffect": "casing4",
       "inaccuracy": 10
       "shoot": {
-        "shots": 8,
+        "shots": 4,
         "shotDelay": 2
       },
       "bullet": {
@@ -81,7 +81,7 @@
       "ejectEffect": "casing4",
       "inaccuracy": 10
       "shoot": {
-        "shots": 8,
+        "shots": 4,
         "shotDelay": 2,
         "firstShotDelay": 30,
       },
