@@ -47,7 +47,7 @@
 
 		    "pierce": true,
         "hitEffect": "titanExplosion",
-		    "pierceCap": 2,
+		    "pierceCap": 5,
 			"pierceBuilding": true,
         "status": "burning",
         "makeFire": true,
