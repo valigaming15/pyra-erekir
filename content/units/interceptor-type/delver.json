@@ -4,9 +4,9 @@
     "type": "flying",
     "lowAltitude": true,
     "mineSpeed": 2,
-    "mineTier": 5,
+    "mineTier": 6,
     "canAttack": false,
-    "buildSpeed": 1,
+    "buildSpeed": 2,
     "hitSize": 8,
     "engineOffset": 5,
     "engineSize": 2,
@@ -19,7 +19,6 @@
     "health": 1000,
     "mineHardnessScaling": true,
     "flying": true,
-    "defaultController": "none",
     "weapons": [
       {
         "type": "RepairBeamWeapon",

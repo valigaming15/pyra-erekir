@@ -5,8 +5,8 @@
     "details": "",
     "size": 5,
     "researchCostMultiplier": 0.4,
-    "health": 10000,
-    "itemCapacity": 18000,
+    "health": 20000,
+    "itemCapacity": 25000,
     "requirements": [
       {
         "item": "copper",
@@ -22,11 +22,11 @@
       },
       {
         "item": "thorium",
-        "amount": 4000
+        "amount": 5000
       },
       {
         "item": "titanium",
-        "amount": 2000
+        "amount": 5000
       },
       {
         "item": "molten-alloy",
@@ -36,6 +36,6 @@
     "category": "effect",
     "research": "regis",
     "unitType": "dredge",
-    "unitCapModifier": 35
+    "unitCapModifier": 50
   }
   

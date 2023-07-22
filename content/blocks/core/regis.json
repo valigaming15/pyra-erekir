@@ -6,7 +6,7 @@
   "size": 4,
   "researchCostMultiplier": 0.4,
   "health": 5000,
-  "itemCapacity": 12000,
+  "itemCapacity": 15000,
   "requirements": [
     {
       "item": "copper",
@@ -22,7 +22,7 @@
     },
     {
       "item": "titanium",
-      "amount": 400
+      "amount": 500
     },
     {
       "item": "pyratite",

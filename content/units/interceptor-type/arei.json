@@ -19,6 +19,7 @@
   "drawBuildBeam": true,
   "health": 500,
   "mineHardnessScaling": true,
+  "defaultController": "FlyingAI",
   "flying": true,
   "weapons": [
 	{
@@ -30,7 +31,7 @@
       "rotate": false,
       "continuous": true,
       "shootSound": "laserblast",
-	    "shootSoundVolume": 1,
+	    "shootSoundVolume": 0.25,
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "length": 200,
