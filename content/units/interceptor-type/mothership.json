@@ -69,7 +69,6 @@
     },
     {
       "name": "cluster-cannon",
-	  "alternate": false,
 	  "rotate": true,
       "mirror": true,
       "top": "true",
