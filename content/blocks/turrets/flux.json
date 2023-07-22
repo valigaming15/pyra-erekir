@@ -37,7 +37,7 @@
 	"maxAmmo": 100,
     "ammoTypes": {
     "pyratite": {
-        "type": "ArtilleryBulletType",
+        "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
 	      "homingPower": 0.1,
@@ -61,7 +61,7 @@
         "speed": 4,
         "backColor": "ff6600",
         "frontColor": "ffffff"
-		"fragBullets": 5,
+		"fragBullets": 20,
 	    "fragSpread": 5,
 		"fragRandomSpread": 0,
 		"fragBullet": {
@@ -79,8 +79,8 @@
             "lifetime": 120,
             "speed": 2,
 			"makeFire": true,
-	        "damage": 10,
-            "splashDamage": 10,
+	        "damage": 5,
+            "splashDamage": 5,
 		    "splashDamageRadius": 20,
 		}			
       }
