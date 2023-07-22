@@ -23,7 +23,7 @@
   "flying": true,
   "weapons": [
     {
-      "name": "cannon",
+      "name": "cluster-cannon",
 	  "alternate": false,
 	  "rotate": true,
       "mirror": true,
@@ -34,26 +34,28 @@
       "reload": 60,
       "recoil": 2.5,
       "shootSound": "artillery",
-	    "ejectEffect": "casing4",
+      "ejectEffect": "casing4",
+      "shoot": {
+        "shots": 8,
+        "shotDelay": 2
+      },
       "bullet": {
-              "type": "BasicBulletType",
+          "type": "BasicBulletType",
 	      "collidesTiles": true,
-	      "collides" : true
-	      "homingPower": 0.025,
-        
-        "laserAbsorb": true,
-        "hittable": false,
-        "absorbable": false,
-
-		    "pierce": true,
-        "hitEffect": "titanExplosion",
-		    "pierceCap": 5,
-			"pierceBuilding": true,
-        "status": "burning",
-        "makeFire": true,
-	      "damage": 500,
-        "splashDamage": 500,
-		    "splashDamageRadius": 40,
+	      "collides" : true,
+	      "homingPower": 0.1,
+          "laserAbsorb": true,
+          "hittable": false,
+          "absorbable": false,
+          "pierce": true,
+          "hitEffect": "titanExplosion",
+          "pierceCap": 1,
+          "pierceBuilding": true,
+          "status": "burning",
+          "makeFire": true,
+	      "damage": 250,
+          "splashDamage": 1000,
+          "splashDamageRadius": 40,
         "width": 12,
         "height": 30,
         "lifetime": 120,
@@ -109,7 +111,7 @@
 	  "type": "UnitSpawnAbility",
 	  "unit": "fossores",
 	  "spawnX": 0,
-	  "spawnY": -6,
+	  "spawnY": 0,
 	  "spawnTime": 3600
 	}
   ]

@@ -20,8 +20,6 @@
   "defaultController": "FlyingAI",
     "weapons": [
     {
-      "name": "cannon",
-	  "alternate": false,
 	  "rotate": false,
       "mirror": false,
       "top": "true",
