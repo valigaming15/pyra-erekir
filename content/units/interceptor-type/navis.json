@@ -41,7 +41,7 @@
         "laserAbsorb": true,
         "hittable": false,
         "absorbable": false,
-	"homingPower": 0.1,
+	"homingPower": 0.025,
 
 		    "pierce": true,
         "hitEffect": "titanExplosion",
