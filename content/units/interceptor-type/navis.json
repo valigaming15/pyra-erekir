@@ -1,6 +1,6 @@
 {
   "localizedName": "[#ff66]Navis",
-  "description": "A cargo ship design to carry items with a shield and slow reloading artilery",
+  "description": "A cargo ship and artillery",
   "type": "flying",
   "lowAltitude": true,
   "canMine": false,
@@ -75,8 +75,8 @@
             "height": 15,
             "lifetime": 120,
             "speed": 2,
-	        "damage": 10,
-            "splashDamage": 10,
+	        "damage": 5,
+            "splashDamage": 5,
 		    "splashDamageRadius": 20,
 		}
 			
