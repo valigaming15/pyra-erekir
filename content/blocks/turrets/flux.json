@@ -61,7 +61,7 @@
         "speed": 4,
         "backColor": "ff6600",
         "frontColor": "ffffff"
-		"fragBullets": 25,
+		"fragBullets": 5,
 	    "fragSpread": 5,
 		"fragRandomSpread": 0,
 		"fragBullet": {
