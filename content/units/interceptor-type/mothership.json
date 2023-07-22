@@ -22,6 +22,52 @@
   "defaultController": "FlyingAI",
   "flying": true,
   "weapons": [
+
+    {
+      "name": "cluster-cannon",
+      "alternate": false,
+      "rotate": true,
+      "mirror": true,
+      "top": "true",
+      "shake": 1,
+      "x": 14,
+      "y": -10,
+      "reload": 60,
+      "recoil": 2.5,
+      "shootSound": "artillery",
+      "ejectEffect": "casing4",
+      "inaccuracy": 10
+      "shoot": {
+        "shots": 8,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "collidesTiles": true,
+        "collides" : true,
+        "homingPower": 0.1,
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+        "pierce": true,
+        "hitEffect": "titanExplosion",
+        "pierceCap": 1,
+        "pierceBuilding": true,
+        "status": "burning",
+        "makeFire": true,
+        "damage": 250,
+        "splashDamage": 1000,
+        "splashDamageRadius": 40,
+        "hitShake": 0.5,
+        "despawnShake": 0.5,
+        "width": 12,
+        "height": 30,
+        "lifetime": 120,
+        "speed": 4,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"
+      },
+    },
     {
       "name": "cluster-cannon",
 	  "alternate": false,
@@ -35,9 +81,11 @@
       "recoil": 2.5,
       "shootSound": "artillery",
       "ejectEffect": "casing4",
+      "inaccuracy": 10
       "shoot": {
         "shots": 8,
-        "shotDelay": 2
+        "shotDelay": 2,
+        "firstShotDelay": 30,
       },
       "bullet": {
           "type": "BasicBulletType",
@@ -56,6 +104,8 @@
 	      "damage": 250,
           "splashDamage": 1000,
           "splashDamageRadius": 40,
+        "hitShake": 0.5,
+        "despawnShake": 0.5,
         "width": 12,
         "height": 30,
         "lifetime": 120,
