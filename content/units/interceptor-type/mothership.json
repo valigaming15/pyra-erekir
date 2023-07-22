@@ -25,7 +25,6 @@
 
     {
       "name": "cluster-cannon",
-      "alternate": false,
       "rotate": true,
       "mirror": true,
       "top": "true",
@@ -45,7 +44,7 @@
         "type": "BasicBulletType",
         "collidesTiles": true,
         "collides" : true,
-        "homingPower": 0.1,
+        "homingPower": 0.001,
         "laserAbsorb": true,
         "hittable": false,
         "absorbable": false,
@@ -85,13 +84,13 @@
       "shoot": {
         "shots": 8,
         "shotDelay": 2,
-        "firstShotDelay": 30,
+        "firstShotDelay": 15,
       },
       "bullet": {
           "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true,
-	      "homingPower": 0.1,
+	      "homingPower": 0.001,
           "laserAbsorb": true,
           "hittable": false,
           "absorbable": false,
