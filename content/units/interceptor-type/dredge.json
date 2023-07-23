@@ -10,7 +10,7 @@
     "hitSize": 8,
     "engineOffset": 5,
     "engineSize": 2,
-    "armor": 5,
+    "armor": 10,
     "itemCapacity": 100,
     "speed": 2.5,
     "accel": 0.06,
@@ -38,11 +38,9 @@
 	  {
 		 "type": "EnergyFieldAbility",
 		 "range": 120,
-		 "damage": 25,
+		 "damage": 5,
 		 "reload": 60,
-		 "maxTargets": 30,
-     "effectRadius": 3
+		 "maxTargets": 100,
 	  } 
     ]
   }
-  
