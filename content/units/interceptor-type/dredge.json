@@ -28,19 +28,12 @@
       ]
     },
       "abilities": [
-      {
-        "type": "ForceFieldAbility",
-        "radius": 25,
-        "regen": 0.5,
-        "max": 1000,
-        "cooldown": 600
-      },
 	  {
 		 "type": "EnergyFieldAbility",
 		 "range": 120,
 		 "damage": 5,
 		 "reload": 60,
 		 "maxTargets": 100,
-	  } 
+	  }
     ]
   }
