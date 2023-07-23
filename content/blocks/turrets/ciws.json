@@ -11,7 +11,7 @@
     "molten-alloy/10"
   ],
   "targetAir": true,
-  "targetGround": false,
+  "targetGround": true,
   "targetHealing": false,
   "outlineIcon": true,
   "recoilAmount": 15,
