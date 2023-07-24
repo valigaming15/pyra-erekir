@@ -1,0 +1,44 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Thorium fabricator",
+  "description": "Creates thorium by growing it using thorium and water",
+  "outputItem": "thorium/11",
+  "health": 500,
+  "itemCapacity": 50,
+  "liquidCapacity": 50,
+  "size": 3,
+  "craftTime": 240,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 2,
+  "liquids": {
+   "liquids": [
+  "water/0.2"
+  ]
+ },
+  "items": {
+   "items": [
+   "thorium/10"
+   ]
+  }
+ },
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
