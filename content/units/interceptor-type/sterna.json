@@ -88,6 +88,12 @@
   },
   "abilities": [
     {
+    "type": "SpawnDeathAbility",
+    "amount": 1,
+    "faceOutwards": true,
+    "unit": "fossores"
+    },
+    {
       "type": "ForceFieldAbility",
       "radius": 25,
       "regen": 0.2,
