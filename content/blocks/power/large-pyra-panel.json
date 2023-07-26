@@ -1,7 +1,7 @@
 {
   "type": "SolarGenerator",
   "name": "Large pyra solar panel",
-  "description": "Uses the refined molten alloy for high efficency and strenght",
+  "description": "Uses the refined molten alloy for high efficency and strength",
   "health": 750,
   "size": 3,
   "powerProduction": 5,
