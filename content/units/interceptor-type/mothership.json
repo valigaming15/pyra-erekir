@@ -122,7 +122,7 @@
       "spawnY": 0,
       "spawnTime": 1800
     },
-	{
+    {
     "type": "SpawnDeathAbility",
     "amount": 5,
     "faceOutwards": true,
