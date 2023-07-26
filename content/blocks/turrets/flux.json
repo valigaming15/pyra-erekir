@@ -16,7 +16,7 @@
   "targetHealing": false,
   "outlineIcon": true,
   "cooldownTime" : 240,
-  "recoilAmount": 15,
+  "recoilAmount": 20,
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
   "shootY": 2,
@@ -36,7 +36,7 @@
 	"sprite": "pyra-small-pyra-laser",
 	"maxAmmo": 100,
     "ammoTypes": {
-		"molten-alloy": {
+		"pyra-shell": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
@@ -88,7 +88,7 @@
         "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
-	      "homingPower": 0.1,
+	      "homingPower": 0.025,
 		  "ammoMultiplier": 1,
         
         "laserAbsorb": true,
@@ -137,7 +137,6 @@
         "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
-	      "homingPower": 0.1,
         
         "laserAbsorb": true,
         "hittable": false,
@@ -169,7 +168,7 @@
       "under": true,
       "moveX": 2,
       "moveY": 1,
-      "moveRot": -15,
+      "moveRot": -20,
       "progress": {
         "type": "warmup"
       }
