@@ -1,0 +1,41 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Pyra shell fabricator",
+  "description": "Melts molten alloy into rounds for artillery and adds ai core for tracking",
+  "outputItem": "pyra-shell/1",
+  "health": 500,
+  "itemCapacity": 20,
+  "liquidCapacity": 40,
+  "size": 3,
+  "craftTime": 300,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 4,
+  "items": {
+  "items": [
+  "molten-alloy/1",
+  "ai-core/1"
+  "coal/10"
+  ]
+ }
+ },
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
