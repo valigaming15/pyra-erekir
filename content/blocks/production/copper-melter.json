@@ -13,7 +13,7 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 5,
+  "power": 2,
   "items": {
   "items": [
   "copper/10"
