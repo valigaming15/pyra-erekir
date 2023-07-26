@@ -15,6 +15,7 @@
   "targetGround": true,
   "targetHealing": false,
   "outlineIcon": true,
+  "shake": 2,
   "cooldownTime" : 240,
   "recoilAmount": 20,
   "minWarmup": 0.94,
