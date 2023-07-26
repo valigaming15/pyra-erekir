@@ -1,0 +1,18 @@
+{
+  "name": "[#ff]Pyra shell",
+  "description": "A strong shell made out of molten alloy",
+  "cost": 2.5,
+  "color": "ff0000",
+  "hardness": 10,
+  "flammability": 0,
+  "explosiveness": 5.0,
+   "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {
+        "item": "pyratite",
+        "amount": 250
+      }
+    ]
+  }
+}
