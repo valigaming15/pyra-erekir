@@ -9,6 +9,7 @@
     "copper/1000",
     "lead/1000",
     "titanium/500",
+    "thorium/500",
     "ai-core/200"
   ],
   "targetAir": true,
