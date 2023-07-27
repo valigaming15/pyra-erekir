@@ -20,7 +20,7 @@
   "loopSoundVolume": 1,
   "shootSound": "none",
   "cooldownTime" : 300,
-  "recoilAmount": 15,
+  "recoil": 3,
   "rotateSpeed": 2,
   "shootY": -1.5,
   "consumes": {
