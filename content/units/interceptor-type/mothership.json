@@ -62,7 +62,25 @@
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff6600",
-        "frontColor": "ffffff"
+        "frontColor": "ff6600"
+	    "fragBullets": 20,
+	    "fragSpread": 5,
+		"fragRandomSpread": 0,
+		"fragBullet": {
+			"type": "LiquidBulletType"
+			
+			"laserAbsorb": true,
+            "hittable": true,
+            "absorbable": false,
+			"status": "burning",
+			"makeFire": true,
+			"liquid": "slag",
+			"despawnHit": true
+			"puddleSize": 300,
+			"width": 8,
+            "height": 20,
+            "lifetime": 60,
+            "speed": 2,
       },
     },
 	{
