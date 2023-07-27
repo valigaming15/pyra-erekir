@@ -18,7 +18,7 @@
   "outlineIcon": true,
   "shake": 2,
   "cooldownTime" : 240,
-  "recoil": 10,
+  "recoil": 8,
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
   "shootY": 2,
