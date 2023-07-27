@@ -65,7 +65,7 @@
         "backColor": "ff0000",
         "frontColor": "ff0000"
 		"fragBullets": 20,
-	    "fragSpread": 10,
+	    "fragSpread": 5,
 		"fragRandomSpread": 0,
 		"fragBullet": {
 			"type": "LiquidBulletType"
