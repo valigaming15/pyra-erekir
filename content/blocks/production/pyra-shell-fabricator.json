@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "localizedName": "[#ff66]Pyra shell fabricator",
-  "description": "Melts molten alloy into rounds for artillery and adds ai core for tracking",
+  "description": "Molds molten alloy into rounds for artillery and adds ai core for tracking",
   "outputItem": "pyra-shell/1",
   "health": 500,
   "itemCapacity": 20,
