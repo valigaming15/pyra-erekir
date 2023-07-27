@@ -29,8 +29,8 @@
       }
     },
   
-  "shootSound": "artillery",
-  "shootVolume": 2,
+  "shootSound": "flux-artillery",
+  "shootVolume": 1,
   "maxAmmo": 100,
   "ammoPerShot": 5,
   "rotateSpeed": 1,
