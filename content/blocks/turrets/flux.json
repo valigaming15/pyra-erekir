@@ -42,6 +42,7 @@
 	      "collidesTiles": true,
 	      "collides" : true
 	      "homingPower": 0.1,
+	      "homingRange": 4,
 		  "reloadMultiplier": 0.5,
 		  "ammoMultiplier": 5,
         
