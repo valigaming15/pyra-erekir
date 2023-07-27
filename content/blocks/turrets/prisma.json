@@ -9,8 +9,7 @@
   "requirements": [
     "copper/1000",
     "lead/1000",
-	  "titanium/500",
-  	"thorium/500",
+    "titanium/500",
     "ai-core/100"
   ],
   "targetAir": true,
