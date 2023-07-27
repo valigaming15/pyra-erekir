@@ -14,7 +14,7 @@
   "targetGround": true,
   "targetHealing": false,
   "outlineIcon": true,
-  "recoil": 3,
+  "recoil": 1,
   "shootY": 2,
   "coolantMultiplier": 12,
 "consumes":{
