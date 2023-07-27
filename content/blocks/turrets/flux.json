@@ -21,7 +21,7 @@
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
   "shootY": 2,
-"coolantMultiplier": 3,
+"coolantMultiplier": 4,
 "consumes":{
       "coolant":{
         "amount": 0.4
