@@ -6,10 +6,10 @@
   "size": 4,
   "category": "turret",
   "requirements": [
-    "copper/2000",
-    "lead/2000",
-	"titanium/500",
-    "molten-alloy/250"
+    "copper/1000",
+    "lead/1000",
+    "titanium/500",
+    "ai-core/200"
   ],
   "targetAir": true,
   "targetGround": true,
@@ -55,15 +55,15 @@
 			"pierceBuilding": true,
         "status": "burning",
         "makeFire": true,
-	      "damage": 1500,
+	      "damage": 1250,
         "width": 12,
         "height": 30,
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff6600",
         "frontColor": "ffffff"
-		"fragBullets": 50,
-	    "fragSpread": 1,
+		"fragBullets": 5,
+	    "fragSpread": 10,
 		"fragRandomSpread": 0,
 		"fragBullet": {
 			"type": "BasicBulletType"
@@ -80,9 +80,7 @@
             "lifetime": 120,
             "speed": 2,
 			"makeFire": true,
-	        "damage": 5,
-            "splashDamage": 5,
-		    "splashDamageRadius": 20,
+	        "damage": 50,
 		}			
       },
     "pyratite": {
@@ -101,14 +99,14 @@
 			"pierceBuilding": true,
         "status": "burning",
         "makeFire": true,
-	    "damage": 500,
+	    "damage": 250,
         "width": 12,
         "height": 30,
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff6600",
         "frontColor": "ffffff"
-		"fragBullets": 20,
+		"fragBullets": 10,
 	    "fragSpread": 5,
 		"fragRandomSpread": 0,
 		"fragBullet": {
@@ -147,7 +145,7 @@
 		    "pierceCap": 2,
 			"pierceBuilding": true,
         "makeFire": true,
-	      "damage": 500,
+	      "damage": 250,
         "width": 12,
         "height": 30,
         "lifetime": 120,
