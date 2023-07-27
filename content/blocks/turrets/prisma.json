@@ -21,7 +21,7 @@
   "loopSoundVolume": 1,
   "shootSound": "none",
   "cooldownTime" : 300,
-  "recoil": 1,
+  "recoil": 2,
   "rotateSpeed": 1.0,
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
