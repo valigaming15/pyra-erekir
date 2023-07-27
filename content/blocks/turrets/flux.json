@@ -76,7 +76,7 @@
 			"makeFire": true,
 			"liquid": "slag",
 			"despawnHit": true
-			"puddleSize": 100,
+			"puddleSize": 200,
 			"width": 8,
             "height": 20,
             "lifetime": 60,
