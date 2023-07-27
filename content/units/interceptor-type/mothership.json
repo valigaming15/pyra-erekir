@@ -8,8 +8,20 @@
   "canAttack": true,
   "buildSpeed": 3,
   "hitSize": 50,
-  "engineOffset": 20,
-  "engineSize": 5,
+"engines": [
+  {
+    "x": 10,
+    "y": -20,
+    "radius": 5,
+    "rotation": 20 
+  },
+  {
+    "x": -10,
+    "y": -20,
+    "radius": 5,
+    "rotation": -20 
+  }
+]
   "payloadCapacity": 1940,
   "armor": 20,
   "itemCapacity": 1000,
