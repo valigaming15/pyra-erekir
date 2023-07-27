@@ -10,14 +10,14 @@
   "hitSize": 50,
 "engines": [
   {
-    "x": 20,
-    "y": -30,
+    "x": 30,
+    "y": -40,
     "radius": 5,
     "rotation": 20 
   },
   {
-    "x": -20,
-    "y": -30,
+    "x": -30,
+    "y": -40,
     "radius": 5,
     "rotation": -20 
   }
