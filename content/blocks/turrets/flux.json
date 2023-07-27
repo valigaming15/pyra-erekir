@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "localizedName": "[#ff66]Flux",
   "description": "A larget artillery with fire starting frag bullets",
-  "health": 2000,
+  "health": 3000,
   "size": 4,
   "category": "turret",
   "requirements": [
