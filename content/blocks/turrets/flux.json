@@ -17,7 +17,7 @@
   "outlineIcon": true,
   "shake": 2,
   "cooldownTime" : 240,
-  "recoilAmount": 20,
+  "recoil": 10,
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
   "shootY": 2,
@@ -29,13 +29,12 @@
     },
   
   "shootSound": "artillery",
-  "maxAmmo": 50,
+  "maxAmmo": 100,
   "ammoPerShot": 5,
   "rotateSpeed": 2,
   "reload": 300,
   "range": 400,
 	"sprite": "pyra-small-pyra-laser",
-	"maxAmmo": 100,
     "ammoTypes": {
 		"pyra-shell": {
         "type": "BasicBulletType",
@@ -61,10 +60,10 @@
         "height": 30,
         "lifetime": 120,
         "speed": 4,
-        "backColor": "ff6600",
+        "backColor": "ff0000",
         "frontColor": "ff0000"
 		"fragBullets": 20,
-	    "fragSpread": 5,
+	    "fragSpread": 10,
 		"fragRandomSpread": 0,
 		"fragBullet": {
 			"type": "LiquidBulletType"
@@ -76,7 +75,7 @@
 			"makeFire": true,
 			"liquid": "slag",
 			"despawnHit": true
-			"puddleSize": 200,
+			"puddleSize": 300,
 			"width": 8,
             "height": 20,
             "lifetime": 60,
@@ -105,7 +104,7 @@
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff6600",
-        "frontColor": "ffffff"
+        "frontColor": "ff6600"
 		"fragBullets": 10,
 	    "fragSpread": 5,
 		"fragRandomSpread": 0,
@@ -150,8 +149,8 @@
         "height": 30,
         "lifetime": 120,
         "speed": 4,
-        "backColor": "ff6600",
-        "frontColor": "ffffff"
+        "backColor": "#faa5df",
+        "frontColor": "#faa5df"
 		  }
 },
 "drawer": {
