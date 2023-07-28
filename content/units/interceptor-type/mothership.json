@@ -10,7 +10,7 @@
   "hitSize": 50,
 "engines": [
   {
-    "x": 45,
+    "x": 50,
     "y": -10,
     "radius": 5,
     "rotation": -20 
@@ -22,7 +22,7 @@
     "rotation": -20 
   },
   {
-    "x": -45,
+    "x": -50,
     "y": -10,
     "radius": 5,
     "rotation": 20 
@@ -31,7 +31,7 @@
     "x": -45,
     "y": -45,
     "radius": 5,
-    "rotation": -20 
+    "rotation": 20 
   }
 ]
   "payloadCapacity": 1940,
