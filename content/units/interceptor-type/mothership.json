@@ -10,40 +10,28 @@
   "hitSize": 50,
 "engines": [
   {
-    "x": 50,
-    "y": -20,
-    "radius": 5,
-    "rotation": -40 
+    "x": 45,
+    "y": -15,
+    "radius": 6,
+    "rotation": 40 
   },
   {
     "x": 35,
     "y": -45,
-    "radius": 5,
-    "rotation": -40 
+    "radius": 6,
+    "rotation": 40 
   },
   {
-    "x": -50,
-    "y": -20,
-    "radius": 5,
-    "rotation": 220
+    "x": -45,
+    "y": -15,
+    "radius": 6,
+    "rotation": 240
   },
   {
     "x": -35,
     "y": -45,
-    "radius": 5,
-    "rotation": 40 
-  },
-  {
-    "x": -50,
-    "y": -50,
-    "radius": 5,
+    "radius": 6,
     "rotation": 240 
-  },
-  {
-    "x": 60,
-    "y": -30,
-    "radius": 5,
-    "rotation": -40 
   }
 ]
   "payloadCapacity": 1940,
