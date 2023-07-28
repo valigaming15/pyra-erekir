@@ -13,25 +13,25 @@
     "x": 50,
     "y": -20,
     "radius": 5,
-    "rotation": -60 
+    "rotation": -130 
   },
   {
     "x": 35,
     "y": -45,
     "radius": 5,
-    "rotation": -60 
+    "rotation": -80 
   },
   {
     "x": -50,
     "y": -20,
     "radius": 5,
-    "rotation": 60 
+    "rotation": 130 
   },
   {
     "x": -35,
     "y": -45,
     "radius": 5,
-    "rotation": 60 
+    "rotation": 80 
   }
 ]
   "payloadCapacity": 1940,
