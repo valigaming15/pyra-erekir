@@ -11,27 +11,27 @@
 "engines": [
   {
     "x": 50,
-    "y": -10,
+    "y": -15,
     "radius": 5,
-    "rotation": -20 
+    "rotation": 30 
   },
   {
-    "x": 45,
+    "x": 42,
     "y": -45,
     "radius": 5,
-    "rotation": -20 
+    "rotation": 30 
   },
   {
     "x": -50,
-    "y": -10,
+    "y": -15,
     "radius": 5,
-    "rotation": 20 
+    "rotation": 30 
   },
   {
-    "x": -45,
+    "x": -42,
     "y": -45,
     "radius": 5,
-    "rotation": 20 
+    "rotation": 30 
   }
 ]
   "payloadCapacity": 1940,
