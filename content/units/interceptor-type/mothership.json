@@ -13,13 +13,13 @@
     "x": 50,
     "y": -20,
     "radius": 5,
-    "rotation": -220 
+    "rotation": 220 
   },
   {
     "x": 35,
     "y": -45,
     "radius": 5,
-    "rotation": -220 
+    "rotation": 220 
   },
   {
     "x": -50,
