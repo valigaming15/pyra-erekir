@@ -39,7 +39,7 @@
   "itemCapacity": 1000,
   "speed": 0.7,
   "accel": 0.04,
-  "drag": 0.06,
+  "drag": 0.04,
   "drawBuildBeam": true,
   "health": 20000,
   "mineHardnessScaling": true,
