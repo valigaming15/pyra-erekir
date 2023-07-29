@@ -1,10 +1,10 @@
 {
   "name": "[#ff]Pyra shell",
-  "description": "A strong shell made out of molten alloy",
+  "description": "A strong shell made out of molten alloy. Very unstable",
   "cost": 2.5,
   "color": "ff0000",
   "hardness": 10,
-  "flammability": 0,
+  "flammability": 5.0,
   "explosiveness": 5.0,
    "research": {
     "parent": "molten-alloy",
