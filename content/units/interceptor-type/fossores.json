@@ -10,13 +10,13 @@
   "hitSize": 8,
   "engineOffset": 5,
   "engineSize": 2,
-  "armor": 5,
-  "itemCapacity": 100,
+  "armor": 1,
+  "itemCapacity": 50,
   "speed": 2.5,
   "accel": 0.06,
   "drag": 0.017,
   "drawBuildBeam": true,
-  "health": 500,
+  "health": 300,
   "mineHardnessScaling": true,
   "flying": true,
   "defaultController": "MinerAI",
@@ -47,8 +47,8 @@
 	  {
 	    "type": "RepairFieldAbility",
 	    "range": 75,
-	    "reload": 600,
-	    "amount": 50
+	    "reload": 300,
+	    "amount": 10
 	  }
   ]
 }
