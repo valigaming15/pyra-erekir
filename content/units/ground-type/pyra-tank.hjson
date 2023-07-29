@@ -20,7 +20,7 @@ treadRects: [
 ]
 weapons: [
       {
-      name: small-blaster,
+      name: pyra-tank-weapon,
 	    ejectEffect: casing4,
       x: 0,
       y: 0,
