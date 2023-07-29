@@ -25,7 +25,7 @@
         "rotate": true,
         "mirror": false,
         "x": 0,
-        "y": -6,
+        "y": 0,
         "beamWidth": 0.6,
         "repairSpeed": 0.5,
         "targetBuildings": true,
