@@ -2,8 +2,8 @@
 type: tank
 localizedName: Pyra tank
 flying: false
-health: 850
-armor: 4
+health: 500
+armor: 5
 outlineRadius: 2
 faceTarget: false
 crushDamage: 1
