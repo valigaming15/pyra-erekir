@@ -1,6 +1,6 @@
 {
     "localizedName": "[#ff66]Delver",
-    "description": "A Fossores variant. Built to protect Regis cores",
+    "description": "A Fossores variant. Built to protect Regis cores, code name lil oct",
     "type": "flying",
     "lowAltitude": true,
     "mineSpeed": 2,
@@ -84,7 +84,7 @@
       "abilities": [
       {
         "type": "ForceFieldAbility",
-        "radius": 30,
+        "radius": 40,
         "regen": 0.5,
         "max": 1000,
         "cooldown": 1800
