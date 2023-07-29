@@ -32,45 +32,6 @@
         "bullet": {
           "maxRange": 75
         }
-      },
-      {
-        "type": "RepairBeamWeapon",
-        "rotate": true,
-        "mirror": false,
-        "x": 0,
-        "y": 6,
-        "beamWidth": 0.6,
-        "repairSpeed": 0.25,
-        "targetBuildings": true,
-        "bullet": {
-          "maxRange": 75
-        }
-      },
-      {
-        "type": "RepairBeamWeapon",
-        "rotate": true,
-        "mirror": false,
-        "x": -6,
-        "y": 0,
-        "beamWidth": 0.6,
-        "repairSpeed": 0.25,
-        "targetBuildings": true,
-        "bullet": {
-          "maxRange": 75
-        }
-      },
-      {
-        "type": "RepairBeamWeapon",
-        "rotate": true,
-        "mirror": false,
-        "x": 6,
-        "y": 0,
-        "beamWidth": 0.6,
-        "repairSpeed": 0.25,
-        "targetBuildings": true,
-        "bullet": {
-          "maxRange": 75
-        }
       }
     ],
     "research": {
