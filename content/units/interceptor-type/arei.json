@@ -1,6 +1,6 @@
 {
   "localizedName": "[#ff66]AREI",
-  "description": "a mega-quasar hybrid it has powerfull single laser and advanced drill capable of mining all ores",
+  "description": "A mega-quasar hybrid it has powerful single laser and advanced drill capable of mining all ores",
   "type": "payload",
   "lowAltitude": true,
   "mineSpeed": 3,
@@ -39,7 +39,7 @@
         "damage": 20,
         "lifetime": 120,
         "collidesTeam": true,
-        "healPercent": 1,
+        "healPercent": 2,
         "damageInterval": 10,
         "colors": ["70d581", "98ffa9", "ffffff"],
         "fadeTime": 30
