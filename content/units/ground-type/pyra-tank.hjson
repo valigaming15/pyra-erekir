@@ -1,0 +1,59 @@
+//WIP WIP WIP WIP WIP WIP WIP WIP
+type: tank
+localizedName: Pyra tank
+flying: false
+health: 850
+armor: 4
+outlineRadius: 2
+faceTarget: false
+crushDamage: 1
+hitSize: 8
+speed: 0.75
+rotateSpeed: 3.5
+treadRects: [
+  {
+  x: 6
+  y: -25
+  width: 14
+  height: 51
+  }
+]
+weapons: [
+      {
+      name: small-blaster,
+	    ejectEffect: casing4,
+      x: 0,
+      y: 0,
+      mirror: false,
+      reload: 20,
+      rotate: true,
+      shootSound": lasershoot,
+      inaccuracy: 6,
+      shoot: {
+        shots: 8
+      },
+      bullet: {
+        type: LaserBoltBulletType,
+
+        laserAbsorb: true,
+        hittable: false,
+        absorbable: false,
+        
+        length: 2,
+        width: 1,
+        damage: 4,
+        speed: 6,
+        lifetime: 32,
+        collidesTeam: true,
+        healPercent: 5,
+        backColor: 98ffa9,
+        frontColor: ffffff
+      }
+    }
+]
+research: {
+  parent: tier-1-factory
+  requirements: [
+    silicon/100
+  ]
+}
