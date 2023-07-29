@@ -27,10 +27,10 @@
         "x": 0,
         "y": -6,
         "beamWidth": 0.6,
-        "repairSpeed": 0.25,
+        "repairSpeed": 1,
         "targetBuildings": true,
         "bullet": {
-          "maxRange": 75
+          "maxRange": 80
         }
       }
     ],
