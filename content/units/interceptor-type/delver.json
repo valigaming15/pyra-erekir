@@ -10,13 +10,13 @@
     "hitSize": 8,
     "engineOffset": 5,
     "engineSize": 2,
-    "armor": 5,
+    "armor": 1,
     "itemCapacity": 50,
     "speed": 2.5,
     "accel": 0.06,
     "drag": 0.017,
     "drawBuildBeam": true,
-    "health": 500,
+    "health": 200,
     "mineHardnessScaling": true,
     "flying": true,
     "weapons": [
@@ -27,7 +27,7 @@
         "x": 0,
         "y": -6,
         "beamWidth": 0.6,
-        "repairSpeed": 1,
+        "repairSpeed": 0.25,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -40,7 +40,7 @@
         "x": 0,
         "y": 6,
         "beamWidth": 0.6,
-        "repairSpeed": 1,
+        "repairSpeed": 0.25,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -53,7 +53,7 @@
         "x": -6,
         "y": 0,
         "beamWidth": 0.6,
-        "repairSpeed": 1,
+        "repairSpeed": 0.25,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -66,7 +66,7 @@
         "x": 6,
         "y": 0,
         "beamWidth": 0.6,
-        "repairSpeed": 1,
+        "repairSpeed": 0.25,
         "targetBuildings": true,
         "bullet": {
           "maxRange": 75
@@ -84,11 +84,10 @@
       "abilities": [
       {
         "type": "ForceFieldAbility",
-        "radius": 15,
-        "regen": 0.25,
-        "max": 500,
-        "cooldown": 600
+        "radius": 20,
+        "regen": 0.5,
+        "max": 1000,
+        "cooldown": 1800
       }
     ]
   }
-  
