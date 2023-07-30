@@ -39,7 +39,7 @@
 	{
       "unit": "navis",
       "requirements": [
-        {"item": "titanium", "amount": 1000},
+        {"item": "plastanium", "amount": 1000},
         {"item": "molten-alloy", "amount": 50},
 		    {"item": "ai-core", "amount": 10},
 	      {"item": "silicon", "amount": 1000}
