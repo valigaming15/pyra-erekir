@@ -21,12 +21,12 @@
       "amount": 2000
     },
     {
-      "item": "titanium",
-      "amount": 500
+      "item": "thorium",
+      "amount": 1000
     },
     {
       "item": "pyratite",
-      "amount": 100
+      "amount": 1000
     }
   ],
   "category": "effect",
