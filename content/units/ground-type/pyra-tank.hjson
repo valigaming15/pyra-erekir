@@ -10,6 +10,7 @@ crushDamage: 1
 hitSize: 8
 speed: 0.75
 rotateSpeed: 3.5
+defaultController: GroundAI
 treadRects: [
   {
   x: 6
