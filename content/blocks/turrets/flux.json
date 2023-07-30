@@ -22,13 +22,6 @@
   "minWarmup": 0.94,
   "shootWarmupSpeed": 0.05,
   "shootY": 2,
-"consumes": {
-  "liquid": {
-  "liquid": "water",
-  "amount": 0.2
-  }
-},
-  
   "shootSound": "flux-artillery",
   "shootVolume": 1,
   "maxAmmo": 100,
