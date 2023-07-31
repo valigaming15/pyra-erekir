@@ -1,6 +1,7 @@
 {
   "type": "UnitFactory",
   "name": "[#ff66]Pyratite units Factory",
+  "health": 500,
   "description": "",
   "size": 3,
   "consumes": {
@@ -34,6 +35,10 @@
     },
     {
       "item": "lead",
+      "amount": 100
+    },
+    {
+      "item": "titanium",
       "amount": 100
     },
   ],
