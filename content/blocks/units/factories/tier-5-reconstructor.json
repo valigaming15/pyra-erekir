@@ -1,5 +1,7 @@
 {
   "type": "reconstructor",
+  "name": "[#ff66]Pyratite Tetrative Reconstructor",
+  "description": "",
   "size": "9",
   "consumes": {
     "power": 25,
