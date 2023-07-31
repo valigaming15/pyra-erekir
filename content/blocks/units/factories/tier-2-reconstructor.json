@@ -1,0 +1,53 @@
+{
+  "type": "reconstructor",
+  "size": "3",
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        {"item": "titanium", "amount": 100},
+        {"item": "molten-alloy", "amount": 10},
+        {"item": "ai-core", "amount": 1},
+        {"item": "silicon", "amount": 200}
+      ]
+    }
+  },
+  "constructTime": 600,
+  "upgrades": [
+    [
+      "fossores", "sterna"
+    ]
+  ],
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 200
+    },
+    {
+      "item": "graphite",
+      "amount": 100
+    },
+    {
+      "item": "silicon",
+      "amount": 100
+    }
+  ],
+  "category": "units",
+  "research": {
+    "parent": "teir-3-factory",
+    "requirements": [
+      {
+        "item": "lead",
+        "amount": 200
+      },
+      {
+        "item": "graphite",
+        "amount": 100
+      },
+      {
+        "item": "silicon",
+        "amount": 100
+      }
+    ]
+  }
+}
