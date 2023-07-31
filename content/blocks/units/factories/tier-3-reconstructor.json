@@ -1,8 +1,11 @@
 {
   "type": "reconstructor",
+  "name": "[#ff66]Pyratite Multiplicative Reconstructor",
+  "description": "",
+  "health": 1500,
   "size": "5",
   "consumes": {
-    "power": 2,
+    "power": 7,
     "items": {
       "items": [
         {"item": "titanium", "amount": 200},
@@ -12,7 +15,7 @@
       ]
     }
   },
-  "constructTime": 1200,
+  "constructTime": 1800,
   "upgrades": [
     [
       "sterna", "arei"
@@ -21,33 +24,41 @@
   "requirements": [
     {
       "item": "lead",
-      "amount": 200
+      "amount": 700
     },
     {
-      "item": "graphite",
-      "amount": 100
+      "item": "titanium",
+      "amount": 400
+    },
+    {
+      "item": "thorium",
+      "amount": 600
     },
     {
       "item": "silicon",
-      "amount": 100
+      "amount": 500
     }
   ],
   "category": "units",
   "research": {
     "parent": "teir-2-reconstructor",
     "requirements": [
-      {
-        "item": "lead",
-        "amount": 200
-      },
-      {
-        "item": "graphite",
-        "amount": 100
-      },
-      {
-        "item": "silicon",
-        "amount": 100
-      }
+    {
+      "item": "lead",
+      "amount": 700
+    },
+    {
+      "item": "titanium",
+      "amount": 400
+    },
+    {
+      "item": "thorium",
+      "amount": 600
+    },
+    {
+      "item": "silicon",
+      "amount": 500
+    }
     ]
   }
 }

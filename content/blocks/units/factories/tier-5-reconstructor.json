@@ -1,8 +1,16 @@
 {
   "type": "reconstructor",
+  "name": "[#ff66]Pyratite Tetrative Reconstructor",
+  "health": 6000,
+  "description": "",
   "size": "9",
   "consumes": {
-    "power": 2,
+    "power": 25,
+    "liquids": {
+    "liquids": [
+    "cryofluid/3"
+    ]
+  }
     "items": {
       "items": [
         {"item": "plastanium", "amount": 1000},
@@ -14,7 +22,7 @@
       ]
     }
   },
-  "constructTime": 4800,
+  "constructTime": 14400,
   "upgrades": [
     [
       "navis", "mothership"
@@ -23,33 +31,57 @@
   "requirements": [
     {
       "item": "lead",
-      "amount": 200
+      "amount": 4000
     },
     {
-      "item": "graphite",
-      "amount": 100
+      "item": "thorium",
+      "amount": 1000
     },
     {
       "item": "silicon",
-      "amount": 100
+      "amount": 3000
+    },
+    {
+      "item": "plastanium",
+      "amount": 750
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 750
+    },
+    {
+      "item": "ai-core",
+      "amount": 750
     }
   ],
   "category": "units",
   "research": {
-    "parent": "teir-2-reconstructor",
+    "parent": "teir-4-reconstructor",
     "requirements": [
-      {
-        "item": "lead",
-        "amount": 200
-      },
-      {
-        "item": "graphite",
-        "amount": 100
-      },
-      {
-        "item": "silicon",
-        "amount": 100
-      }
+    {
+      "item": "lead",
+      "amount": 4000
+    },
+    {
+      "item": "thorium",
+      "amount": 1000
+    },
+    {
+      "item": "silicon",
+      "amount": 3000
+    },
+    {
+      "item": "plastanium",
+      "amount": 750
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 750
+    },
+    {
+      "item": "ai-core",
+      "amount": 750
+    }
     ]
   }
 }

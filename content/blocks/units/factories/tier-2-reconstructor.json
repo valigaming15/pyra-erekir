@@ -1,13 +1,15 @@
 {
   "type": "reconstructor",
+  "name": "[#ff66]Pyratite Additive Reconstructor",
+  "description": "",
+  "health": 500,
   "size": "3",
   "consumes": {
-    "power": 2,
+    "power": 3,
     "items": {
       "items": [
         {"item": "titanium", "amount": 100},
         {"item": "molten-alloy", "amount": 10},
-        {"item": "ai-core", "amount": 1},
         {"item": "silicon", "amount": 200}
       ]
     }
@@ -20,12 +22,12 @@
   ],
   "requirements": [
     {
-      "item": "lead",
+      "item": "copper",
       "amount": 200
     },
     {
-      "item": "graphite",
-      "amount": 100
+      "item": "lead",
+      "amount": 200
     },
     {
       "item": "silicon",
@@ -34,7 +36,7 @@
   ],
   "category": "units",
   "research": {
-    "parent": "teir-3-factory",
+    "parent": "teir-1-factory",
     "requirements": [
       {
         "item": "lead",

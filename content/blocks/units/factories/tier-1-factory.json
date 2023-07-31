@@ -1,17 +1,18 @@
 {
   "type": "UnitFactory",
   "name": "[#ff66]Pyratite units Factory",
+  "health": 500,
   "description": "",
   "size": 3,
   "consumes": {
-    "power": 10
+    "power": 2
   },
   "plans": [
   	{
       "unit": "fossores",
       "requirements": [
 	    {"item": "molten-alloy", "amount": 10},
-		{"item": "ai-core", "amount": 1},
+	    {"item": "ai-core", "amount": 1},
 	    {"item": "silicon", "amount": 100}
       ],
       "time": 600
@@ -29,17 +30,17 @@
   ],
   "requirements": [
     {
+      "item": "copper",
+      "amount": 100
+    },
+    {
       "item": "lead",
-      "amount": 200
-    },
-    {
-      "item": "graphite",
       "amount": 100
     },
     {
-      "item": "silicon",
+      "item": "titanium",
       "amount": 100
-    }
+    },
   ],
   "category": "units",
   "research": "regis"
