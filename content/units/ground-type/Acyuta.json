@@ -38,8 +38,8 @@
     "bullet": {
       "type": "ShrapnelBulletType",
       "width": 15,
-      "length": 30,
-      "damage": 2,
+      "length": 15,
+      "damage": 3,
       "speed": 0,
       "lifetime": 1,
       "fragRandomSpread": 5,
@@ -56,14 +56,14 @@
         "despawnEffect": "none",
         "damage": 0,
         "speed": 14,
-        "lifetime": 3,
+        "lifetime": 2.5,
         "fragRandomSpread": 40,
         "fragBullets": 4,
         "fragBullet": {
           "type": "ShrapnelBulletType",
           "width": 15,
-          "length": 30,
-          "damage": 2,
+          "length": 15,
+          "damage": 3,
           "speed": 0,
           "lifetime": 1
         }
