@@ -1,0 +1,66 @@
+{
+"type": "tank"
+"localizedName": "Acyuta"
+"flying": false,
+"health": 500,
+"armor": 5,
+"outlineRadius": 2,
+"faceTarget": false,
+"crushDamage": 1,
+"hitSize": 8,
+"speed": 0.75,
+"rotateSpeed": 3.5,
+"drawBuildBeam": true,
+"buildSpeed": 0.25,
+"defaultController": "GroundAI",
+"treadRects": [
+  {
+  "x": 6,
+  "y": -25,
+  "width": 14,
+  "height": 51,
+  }
+]
+"weapons": [
+      {
+      "name": "Acyuta-weapon",
+	    "ejectEffect": "casing1",
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "reload": 20,
+      "rotate": true,
+      "shootSound": "lasershoot",
+      "inaccuracy": 6,
+      "shoot": {
+        "shots": 8
+      },
+      "bullet": {
+        "type": "LaserBoltBulletType",
+
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+        
+        "length": 2,
+        "width": 1,
+        "damage": 4,
+        "speed": 6,
+        "lifetime": 32,
+        "collidesTeam": true,
+        "healPercent": 5,
+        "backColor": "98ffa9",
+        "frontColor": "ffffff"
+      }
+    }
+]
+"research": {
+  "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+},
+}
