@@ -1,5 +1,8 @@
 {
   "type": "reconstructor",
+  "name": "[#ff66]Pyratite Additive Reconstructor",
+  "description": "",
+  "health": 500,
   "size": "3",
   "consumes": {
     "power": 3,
