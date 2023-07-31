@@ -1,0 +1,53 @@
+{
+  "type": "reconstructor",
+  "size": "7",
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        {"item": "plastanium", "amount": 1000},
+        {"item": "molten-alloy", "amount": 50},
+        {"item": "ai-core", "amount": 10},
+        {"item": "silicon", "amount": 1000}
+      ]
+    }
+  },
+  "constructTime": 2400,
+  "upgrades": [
+    [
+      "arei", "navis"
+    ]
+  ],
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 200
+    },
+    {
+      "item": "graphite",
+      "amount": 100
+    },
+    {
+      "item": "silicon",
+      "amount": 100
+    }
+  ],
+  "category": "units",
+  "research": {
+    "parent": "teir-2-reconstructor",
+    "requirements": [
+      {
+        "item": "lead",
+        "amount": 200
+      },
+      {
+        "item": "graphite",
+        "amount": 100
+      },
+      {
+        "item": "silicon",
+        "amount": 100
+      }
+    ]
+  }
+}
