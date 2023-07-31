@@ -1,5 +1,8 @@
 {
   "type": "reconstructor",
+  "name": "[#ff66]Pyratite Exponential Reconstructor",
+  "description": "",
+  "health": 3500,
   "size": "7",
   "consumes": {
     "power": 15,
