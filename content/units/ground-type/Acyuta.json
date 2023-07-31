@@ -37,8 +37,8 @@
     },
     "bullet": {
       "type": "ShrapnelBulletType",
-      "width": 30,
-      "length": 60,
+      "width": 15,
+      "length": 30,
       "damage": 2,
       "speed": 0,
       "lifetime": 1,
@@ -61,8 +61,8 @@
         "fragBullets": 4,
         "fragBullet": {
           "type": "ShrapnelBulletType",
-          "width": 30,
-          "length": 60,
+          "width": 15,
+          "length": 30,
           "damage": 2,
           "speed": 0,
           "lifetime": 1
