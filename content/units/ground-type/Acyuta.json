@@ -20,7 +20,7 @@
   "width": 14,
   "height": 51,
   }
-]
+],
 "weapons": [
       {
       "name": "Acyuta-weapon",
@@ -30,29 +30,93 @@
       "mirror": false,
       "reload": 20,
       "rotate": true,
-      "shootSound": "lasershoot",
+      "shootSound": "shotgun",
       "inaccuracy": 6,
       "shoot": {
-        "shots": 8
+        "shots": 6
       },
       "bullet": {
-        "type": "LaserBoltBulletType",
-
-        "laserAbsorb": true,
+        "type": "BulletType",
+        "despawnSound": "shotgun",
         "hittable": false,
+        "reflectable": false,
         "absorbable": false,
-        
-        "length": 2,
-        "width": 1,
-        "damage": 4,
-        "speed": 6,
-        "lifetime": 32,
-        "collidesTeam": true,
-        "healPercent": 5,
-        "backColor": "98ffa9",
-        "frontColor": "ffffff"
+        "collides": false,
+        "collideTerrain": true,
+        "hitEffect": "none",
+        "despawnEffect": "none",
+        "damage": 0,
+        "speed": 0,
+        "lifetime": 5,
+        "fragRandomSpread": 40,
+        "fragBullets": 1,
+        "fragBullet": {
+          "type": "ShrapnelBulletType",
+          "fromColor": "98ffa9",
+          "toColor": "70d581",
+          "width": 30,
+          "length": 60,
+          "damage": 10,
+          "speed": 0,
+          "lifetime": 1,
+          "fragRandomSpread": 5,
+          "fragBullets": 1,
+          "fragBullet": {
+            "type": "BulletType",
+            "despawnSound": "shotgun",
+            "hittable": false,
+            "reflectable": false,
+            "absorbable": false,
+            "collides": false,
+            "collideTerrain": true,
+            "hitEffect": "none",
+            "despawnEffect": "none",
+            "damage": 0,
+            "speed": 14,
+            "lifetime": 3,
+            "fragRandomSpread": 40,
+            "fragBullets": 2,
+            "fragBullet": {
+              "type": "ShrapnelBulletType",
+              "fromColor": "98ffa9",
+              "toColor": "70d581",
+              "width": 30,
+              "length": 60,
+              "damage": 10,
+              "speed": 0,
+              "lifetime": 1,
+              "fragRandomSpread": 5,
+              "fragBullets": 4,
+              "fragBullet": {
+                "type": "BulletType",
+                "despawnSound": "shotgun",
+                "hittable": false,
+                "reflectable": false,
+                "absorbable": false,
+                "collides": false,
+                "collideTerrain": true,
+                "hitEffect": "none",
+                "despawnEffect": "none",
+                "damage": 0,
+                "speed": 14,
+                "lifetime": 3,
+                "fragRandomSpread": 40,
+                "fragBullets": 2,
+                "fragBullet": {
+                  "type": "ShrapnelBulletType",
+                  "fromColor": "98ffa9",
+                  "toColor": "70d581",
+                  "width": 30,
+                  "length": 60,
+                  "damage": 10,
+                  "speed": 0,
+                  "lifetime": 1
+                }
+              }
+            }
+          }
+        }
       }
-    }
 ]
 "research": {
   "parent": "tier-1-factory",
