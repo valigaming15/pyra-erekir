@@ -27,17 +27,13 @@
       "amount": 200
     },
     {
-      "item": "graphite",
-      "amount": 100
-    },
-    {
       "item": "silicon",
       "amount": 100
     }
   ],
   "category": "units",
   "research": {
-    "parent": "teir-3-factory",
+    "parent": "teir-1-factory",
     "requirements": [
       {
         "item": "lead",
