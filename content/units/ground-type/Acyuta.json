@@ -126,5 +126,6 @@
       {"item": "silicon", "amount": 500},
       {"item": "titanium", "amount": 500}
     ]
-},
+  },
+ },
 }
