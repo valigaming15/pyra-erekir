@@ -59,7 +59,7 @@
       "time": 7200
     },
     {
-      "unit": "pyra-tank",
+      "unit": "Acyuta",
       "requirements": [
 	    {"item": "molten-alloy", "amount": 10},
 	    {"item": "ai-core", "amount": 1},
