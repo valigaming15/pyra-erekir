@@ -117,6 +117,7 @@
           }
         }
       }
+     }
 ]
 "research": {
   "parent": "tier-1-factory",
