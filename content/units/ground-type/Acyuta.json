@@ -2,17 +2,15 @@
 "type": "tank",
 "localizedName": "Acyuta",
 "flying": false,
-"health": 500,
-"armor": 5,
-"outlineRadius": 2,
+"health": 700,
+"armor": 8,
 "faceTarget": false,
-"crushDamage": 1,
+"crushDamage": 0.5,
 "hitSize": 8,
 "speed": 0.75,
 "rotateSpeed": 3.5,
-"drawBuildBeam": true,
-"buildSpeed": 0.25,
 "defaultController": "GroundAI",
+"range": 37.5,
 "treadRects": [
   {
   "x": 6,
@@ -30,7 +28,7 @@
     "mirror": false,
     "reload": 20,
     "rotate": true,
-    "shootSound": "shotgun",
+    "shootSound": "mediumCannon",
     "inaccuracy": 12,
     "shoot": {
       "shots": 6
@@ -46,7 +44,7 @@
       "fragBullets": 2,
       "fragBullet": {
         "type": "BulletType",
-        "despawnSound": "shotgun",
+        "despawnSound": "shootAlt",
         "hittable": false,
         "reflectable": false,
         "absorbable": false,
@@ -65,7 +63,9 @@
           "length": 15,
           "damage": 3,
           "speed": 0,
-          "lifetime": 1
+          "lifetime": 1,
+          "hitEffect": "none",
+          "despawnEffect": "none"
         }
       }
     }
