@@ -14,7 +14,7 @@
   "armor": 5,
   "itemCapacity": 100,
   "speed": 2.5,
-  "accel": 0.06,
+  "accel": 0.058,
   "drag": 0.017,
   "drawBuildBeam": true,
   "health": 500,
@@ -31,7 +31,9 @@
       "rotate": false,
       "continuous": true,
       "shootSound": "laserblast",
-	    "shootSoundVolume": 0.25,
+	  "shootSoundVolume": 0.25,
+	  "shootStatusDuration": "180"
+      "shootStatus": "slow"
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "length": 200,

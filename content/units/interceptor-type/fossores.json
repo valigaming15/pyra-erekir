@@ -3,15 +3,15 @@
   "description": "A strong mining drone equipped with repair laser and powerfull drill.",
   "type": "flying",
   "lowAltitude": true,
-  "mineSpeed": 2,
+  "mineSpeed": 0.75,
   "mineTier": 6,
   "canAttack": false,
-  "buildSpeed": 1,
+  "buildSpeed": 0.25,
   "hitSize": 8,
   "engineOffset": 5,
   "engineSize": 2,
   "armor": 1,
-  "itemCapacity": 50,
+  "itemCapacity": 10,
   "speed": 2.5,
   "accel": 0.06,
   "drag": 0.017,
@@ -29,7 +29,7 @@
       "x": 0,
       "y": 1,
       "beamWidth": 0.6,
-      "repairSpeed": 0.25,
+      "repairSpeed": 0.17,
       "bullet": {
         "maxRange": 75
       }
@@ -43,12 +43,4 @@
       {"item": "silicon", "amount": 500}
     ]
   },
-    "abilities": [
-	  {
-	    "type": "RepairFieldAbility",
-	    "range": 75,
-	    "reload": 300,
-	    "amount": 10
-	  }
-  ]
 }

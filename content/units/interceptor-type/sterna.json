@@ -30,7 +30,7 @@
       "reload": 20,
       "rotate": true,
       "shootSound": "lasershoot",
-      "inaccuracy": 6,
+      "inaccuracy": 8,
       "shoot": {
         "shots": 8
       },
@@ -43,11 +43,11 @@
         
         "length": 2,
         "width": 1,
-        "damage": 4,
+        "damage": 10,
         "speed": 6,
-        "lifetime": 32,
+        "lifetime": 25,
         "collidesTeam": true,
-        "healPercent": 5,
+        "healPercent": 1,
         "backColor": "98ffa9",
         "frontColor": "ffffff"
       }
@@ -59,7 +59,7 @@
       "y": -3.5,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.5,
+      "repairSpeed": 0.084,
       "bullet": {
         "maxRange": 75
       }
@@ -71,7 +71,7 @@
       "y": -3.5,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.5,
+      "repairSpeed": 0.084,
       "bullet": {
         "maxRange": 75
       }

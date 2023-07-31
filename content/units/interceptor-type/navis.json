@@ -6,12 +6,12 @@
   "canMine": false,
   "canAttack": true,
   "buildSpeed": 0.5,
-  "hitSize": 24,
+  "hitSize": 36
   "engineOffset": 18,
   "engineSize": 4,
   "armor": 10,
   "itemCapacity": 1000,
-  "speed": 2.0,
+  "speed": 1.0,
   "accel": 0.04,
   "drag": 0.017,
   "drawBuildBeam": true,
@@ -32,7 +32,7 @@
 	    "ejectEffect": "casing4",
 	  
       "bullet": {
-              "type": "BasicBulletType",
+          "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
         
@@ -46,18 +46,19 @@
 		    "pierceCap": 2,
 			"pierceBuilding": true,
         "status": "burning",
+		"statusDuration": 600,
         "makeFire": true,
-	      "damage": 500,
-        "splashDamage": 500,
-		    "splashDamageRadius": 40,
+	    "damage": 300,
+        "splashDamage": 600,
+		    "splashDamageRadius": 60,
         "width": 12,
         "height": 30,
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff6600",
         "frontColor": "ffffff"
-		"fragBullets": 25,
-	    "fragSpread": 5,
+		"fragBullets": 5,
+	    "fragSpread": 10,
 		"fragRandomSpread": 0,
 		"fragBullet": {
 			"type": "BasicBulletType"
@@ -66,15 +67,16 @@
             "hittable": true,
             "absorbable": false,
 			"status": "burning",
+			"statusDuration": 600,
 			"makeFire": true,
 			
 			"homingPower": 0.1,
 			"width": 6,
             "height": 15,
-            "lifetime": 120,
+            "lifetime": 60,
             "speed": 2,
-	        "damage": 5,
-            "splashDamage": 5,
+	        "damage": 10,
+            "splashDamage": 20,
 		    "splashDamageRadius": 20,
 		}
 			
@@ -100,15 +102,9 @@
     },
     {
     "type": "SpawnDeathAbility",
-    "amount": 10,
+    "amount": 5,
     "faceOutwards": true,
     "unit": "fossores"
     },
-	{
-	  "type": "RepairFieldAbility",
-	  "range": 100,
-	  "reload": 600,
-	  "amount": 100
-	}
   ]
 }

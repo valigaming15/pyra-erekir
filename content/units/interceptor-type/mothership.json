@@ -10,27 +10,27 @@
   "hitSize": 50,
 "engines": [
   {
-    "x": 45,
-    "y": -15,
-    "radius": 6,
+    "x": 46,
+    "y": -17,
+    "radius": 8,
     "rotation": 40 
   },
   {
-    "x": 35,
-    "y": -45,
-    "radius": 6,
+    "x": 36,
+    "y": -47,
+    "radius": 8,
     "rotation": 40 
   },
   {
-    "x": -45,
-    "y": -15,
-    "radius": 6,
+    "x": -44,
+    "y": -17,
+    "radius": 8,
     "rotation": 240
   },
   {
-    "x": -35,
-    "y": -45,
-    "radius": 6,
+    "x": -34,
+    "y": -47,
+    "radius": 8,
     "rotation": 240 
   }
 ]
@@ -112,7 +112,7 @@
       "x": -18,
       "y": 8,
       "beamWidth": 0.8,
-      "repairSpeed": 1,
+      "repairSpeed": 0.5
       "bullet": {
         "maxRange": 150
       }
@@ -124,7 +124,7 @@
       "x": -18,
       "y": -8,
       "beamWidth": 0.8,
-      "repairSpeed": 1,
+      "repairSpeed": 0.5
       "bullet": {
         "maxRange": 150
       }
