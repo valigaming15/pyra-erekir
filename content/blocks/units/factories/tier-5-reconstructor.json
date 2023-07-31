@@ -1,6 +1,7 @@
 {
   "type": "reconstructor",
   "name": "[#ff66]Pyratite Tetrative Reconstructor",
+  "health": 6000,
   "description": "",
   "size": "9",
   "consumes": {
