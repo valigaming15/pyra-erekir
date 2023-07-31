@@ -2,17 +2,22 @@
   "type": "reconstructor",
   "size": "7",
   "consumes": {
-    "power": 2,
+    "power": 15,
+    "liquids": {
+    "liquids": [
+    "cryofluid/0.75"
+    ]
+  }
     "items": {
       "items": [
         {"item": "plastanium", "amount": 1000},
         {"item": "molten-alloy", "amount": 50},
-        {"item": "ai-core", "amount": 10},
+        {"item": "ai-core", "amount": 7},
         {"item": "silicon", "amount": 1000}
       ]
     }
   },
-  "constructTime": 2400,
+  "constructTime": 5400,
   "upgrades": [
     [
       "arei", "navis"
@@ -21,33 +26,49 @@
   "requirements": [
     {
       "item": "lead",
-      "amount": 200
+      "amount": 2000
     },
     {
-      "item": "graphite",
-      "amount": 100
+      "item": "titanium",
+      "amount": 2000
+    },
+    {
+      "item": "thorium",
+      "amount": 1000
     },
     {
       "item": "silicon",
-      "amount": 100
+      "amount": 1000
+    },
+    {
+      "item": "plastanium",
+      "amount": 500
     }
   ],
   "category": "units",
   "research": {
-    "parent": "teir-2-reconstructor",
+    "parent": "teir-3-reconstructor",
     "requirements": [
-      {
-        "item": "lead",
-        "amount": 200
-      },
-      {
-        "item": "graphite",
-        "amount": 100
-      },
-      {
-        "item": "silicon",
-        "amount": 100
-      }
+    {
+      "item": "lead",
+      "amount": 2000
+    },
+    {
+      "item": "titanium",
+      "amount": 2000
+    },
+    {
+      "item": "thorium",
+      "amount": 1000
+    },
+    {
+      "item": "silicon",
+      "amount": 1000
+    },
+    {
+      "item": "plastanium",
+      "amount": 500
+    }
     ]
   }
 }
