@@ -1,5 +1,8 @@
 {
   "type": "reconstructor",
+  "name": "[#ff66]Pyratite Multiplicative Reconstructor",
+  "description": "",
+  "health": 1500,
   "size": "5",
   "consumes": {
     "power": 7,
