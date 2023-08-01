@@ -9,8 +9,8 @@
     "items": {
       "items": [
         {"item": "titanium", "amount": 200},
-        {"item": "molten-alloy", "amount": 25},
-        {"item": "ai-core", "amount": 2},
+        {"item": "molten-alloy", "amount": 50},
+        {"item": "ai-core", "amount": 5},
         {"item": "silicon", "amount": 300}
       ]
     }
