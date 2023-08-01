@@ -4,6 +4,7 @@
   "description": "",
   "health": 3500,
   "size": "7",
+  "liquidCapacity": 500,
   "consumes": {
     "power": 15,
     "liquids": {
