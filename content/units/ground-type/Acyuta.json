@@ -12,6 +12,9 @@
 "rotateSpeed": 3.5,
 "omniMovement": false,
 "range": 37.5,
+"immunities": [
+  "burning"
+],
 "treadRects": [
   {
   "x": 6,
