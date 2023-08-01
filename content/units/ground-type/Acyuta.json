@@ -5,10 +5,12 @@
 "health": 700,
 "armor": 8,
 "faceTarget": false,
+"outlineRadius": 2,
 "crushDamage": 0.5,
 "hitSize": 8,
 "speed": 0.75,
 "rotateSpeed": 3.5,
+"omniMovement": false,
 "range": 37.5,
 "treadRects": [
   {

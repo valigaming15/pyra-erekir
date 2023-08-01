@@ -5,10 +5,13 @@
 "health": 2100,
 "armor": 10,
 "faceTarget": false,
+"outlineRadius": 2,
 "crushDamage": 2,
 "hitSize": 12,
 "speed": 0.6,
 "rotateSpeed": 3.5,
+"omniMovement": false,
+"range": 60,
 "treadRects": [
   {
   "x": 13,
@@ -20,8 +23,8 @@
 "weapons": [
   {
     "name": "Akalbir-weapon",
-    "x": 2,
-    "y": 2,
+    "x": 4,
+    "y": 5,
     "mirror": true,
     "reload": 24,
     "rotate": true,
@@ -29,7 +32,10 @@
     "inaccuracy": 0,
     "bullet": {
       "type": "FireBulletType",
-      "damage": 30,
+      "status": "slow",
+      "statusDuration": 60,
+      "shootEffect": "shootSmallFlame",
+      "damage": 60,
       "radius": 2,
       "velMin": 1,
       "velMax": 3,
@@ -40,8 +46,8 @@
   },
   {
     "name": "Akalbir-weapon",
-    "x": 2,
-    "y": -2,
+    "x": 4,
+    "y": -5,
     "mirror": true,
     "reload": 24,
     "rotate": true,
@@ -52,7 +58,10 @@
     },
     "bullet": {
       "type": "FireBulletType",
-      "damage": 30,
+      "status": "slow",
+      "statusDuration": 60,
+      "shootEffect": "shootSmallFlame",
+      "damage": 60,
       "radius": 2,
       "velMin": 1,
       "velMax": 3,
