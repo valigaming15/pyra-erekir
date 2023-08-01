@@ -35,7 +35,7 @@
     "inaccuracy": 0,
     "bullet": {
       "type": "BulletType",
-      "status": ["burning","slow"],
+      "status": "burning",
       "statusDuration": 240,
       "shootEffect": "shootSmallFlame",
       "hitEffect": "hitFlameSmall",
@@ -64,7 +64,7 @@
     },
     "bullet": {
       "type": "BulletType",
-      "status": ["burning","slow"],
+      "status": "burning",
       "statusDuration": 240,
       "shootEffect": "shootSmallFlame",
       "hitEffect": "hitFlameSmall",
