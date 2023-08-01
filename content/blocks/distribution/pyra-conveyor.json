@@ -4,7 +4,7 @@
   "description": "A pyratite based conveyor",
   "category": "distribution",
   "requirements": [
-    "copper/1"
+    "thorium/1"
     "pyratite/1"
   ],
   "health": 200,
