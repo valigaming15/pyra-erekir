@@ -10,8 +10,11 @@
 "hitSize": 12,
 "speed": 0.6,
 "rotateSpeed": 3.5,
-"omniMovement": false,
+"defaultController": "GroundAI",
 "range": 60,
+"immunities": [
+  "burning"
+],
 "treadRects": [
   {
   "x": 13,
@@ -23,7 +26,7 @@
 "weapons": [
   {
     "name": "Akalbir-weapon",
-    "x": 4,
+    "x": 5,
     "y": 5,
     "mirror": true,
     "reload": 24,
@@ -31,22 +34,25 @@
     "shootSound": "flame2",
     "inaccuracy": 0,
     "bullet": {
-      "type": "FireBulletType",
-      "status": "slow",
-      "statusDuration": 60,
+      "type": "BulletType",
+      "status": ["burning","slow"],
+      "statusDuration": 240,
       "shootEffect": "shootSmallFlame",
-      "damage": 60,
-      "radius": 2,
-      "velMin": 1,
-      "velMax": 3,
-      "colorFrom": "FFFFFF",
-      "colorMid": "c1c3d4",
-      "colorTo": "a7b6d4"
+      "hitEffect": "hitFlameSmall",
+      "despawnEffect": "none",
+      "damage": 30,
+      "hitSize": 7,
+      "lifetime": 15,
+      "pierce": true,
+      "pierceBuilding": true,
+      "pierceCap": 2,
+      "keepVelocity": false,
+      "hittable": false
     }
   },
   {
     "name": "Akalbir-weapon",
-    "x": 4,
+    "x": 5,
     "y": -5,
     "mirror": true,
     "reload": 24,
@@ -57,17 +63,20 @@
         "firstShotDelay": 12
     },
     "bullet": {
-      "type": "FireBulletType",
-      "status": "slow",
-      "statusDuration": 60,
+      "type": "BulletType",
+      "status": ["burning","slow"],
+      "statusDuration": 240,
       "shootEffect": "shootSmallFlame",
-      "damage": 60,
-      "radius": 2,
-      "velMin": 1,
-      "velMax": 3,
-      "colorFrom": "FFFFFF",
-      "colorMid": "c1c3d4",
-      "colorTo": "a7b6d4"
+      "hitEffect": "hitFlameSmall",
+      "despawnEffect": "none",
+      "damage": 30,
+      "hitSize": 7,
+      "lifetime": 15,
+      "pierce": true,
+      "pierceBuilding": true,
+      "pierceCap": 2,
+      "keepVelocity": false,
+      "hittable": false
     }
   }
 ],

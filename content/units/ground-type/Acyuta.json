@@ -1,20 +1,17 @@
 {
 "type": "tank",
-"localizedName": "[#c1c3d4]Acy[][#a7b6d4]utar",
+"localizedName": "[#c1c3d4]Acy[][#a7b6d4]uta",
 "flying": false,
 "health": 700,
 "armor": 8,
 "faceTarget": false,
-"outlineRadius": 2,
+"outlineRadius": 3,
 "crushDamage": 0.5,
 "hitSize": 8,
 "speed": 0.75,
 "rotateSpeed": 3.5,
-"omniMovement": false,
+"defaultController": "GroundAI",
 "range": 37.5,
-"immunities": [
-  "burning"
-],
 "treadRects": [
   {
   "x": 6,
