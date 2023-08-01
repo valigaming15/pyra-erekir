@@ -32,7 +32,7 @@
 		 "type": "EnergyFieldAbility",
 		 "range": 120,
 		 "damage": 1,
-		 "reload": 60,
+		 "reload": 30,
 		 "maxTargets": 50,
 	  }
     ]
