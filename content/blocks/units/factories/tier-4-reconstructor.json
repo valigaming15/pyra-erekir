@@ -4,6 +4,7 @@
   "description": "",
   "health": 3500,
   "size": "7",
+  "liquidCapacity": 500,
   "consumes": {
     "power": 15,
     "liquids": {
@@ -14,8 +15,8 @@
     "items": {
       "items": [
         {"item": "plastanium", "amount": 1000},
-        {"item": "molten-alloy", "amount": 50},
-        {"item": "ai-core", "amount": 7},
+        {"item": "molten-alloy", "amount": 200},
+        {"item": "ai-core", "amount": 25},
         {"item": "silicon", "amount": 1000}
       ]
     }

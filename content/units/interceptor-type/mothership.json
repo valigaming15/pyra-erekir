@@ -7,7 +7,7 @@
   "mineTier": 6,
   "canAttack": true,
   "buildSpeed": 3,
-  "hitSize": 50,
+  "hitSize": 70,
 "engines": [
   {
     "x": 46,

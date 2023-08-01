@@ -59,7 +59,7 @@
       "y": -3.5,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.084,
+      "repairSpeed": 0.25,
       "bullet": {
         "maxRange": 75
       }
@@ -71,7 +71,7 @@
       "y": -3.5,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.084,
+      "repairSpeed": 0.25,
       "bullet": {
         "maxRange": 75
       }
