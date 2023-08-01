@@ -16,7 +16,7 @@
     "accel": 0.06,
     "drag": 0.017,
     "drawBuildBeam": true,
-    "health": 1000,
+    "health": 500,
     "mineHardnessScaling": true,
     "flying": true,
     "research": {
