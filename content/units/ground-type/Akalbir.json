@@ -29,7 +29,7 @@
     "x": 5,
     "y": 5,
     "mirror": true,
-    "reload": 24,
+    "reload": 20,
     "rotate": true,
     "shootSound": "flame2",
     "inaccuracy": 0,
@@ -55,12 +55,12 @@
     "x": 5,
     "y": -5,
     "mirror": true,
-    "reload": 24,
+    "reload": 20,
     "rotate": true,
     "shootSound": "flame2",
     "inaccuracy": 0,
     "shoot": {
-        "firstShotDelay": 12
+        "firstShotDelay": 10
     },
     "bullet": {
       "type": "BulletType",
