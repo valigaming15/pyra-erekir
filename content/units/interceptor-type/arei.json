@@ -32,7 +32,7 @@
       "continuous": true,
       "shootSound": "laserblast",
 	  "shootSoundVolume": 0.25,
-	  "shootStatusDuration": "180"
+	  "shootStatusDuration": "240"
       "shootStatus": "slow"
       "bullet": {
         "type": "ContinuousLaserBulletType",
