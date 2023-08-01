@@ -1,0 +1,75 @@
+{
+"type": "tank",
+"localizedName": "Akalbir",
+"flying": false,
+"health": 2100,
+"armor": 10,
+"faceTarget": false,
+"crushDamage": 2,
+"hitSize": 12,
+"speed": 0.6,
+"rotateSpeed": 3.5,
+"treadRects": [
+  {
+  "x": 13,
+  "y": -42,
+  "width": 18,
+  "height": 83
+  }
+],
+"weapons": [
+  {
+    "name": "Akalbir-weapon",
+    "x": 2,
+    "y": 2,
+    "mirror": true,
+    "reload": 24,
+    "rotate": true,
+    "shootSound": "flame2",
+    "inaccuracy": 0,
+    "bullet": {
+      "type": "FireBulletType",
+      "damage": 30,
+      "radius": 2,
+      "velMin": 1,
+      "velMax": 3,
+      "colorFrom": "FFFFFF",
+      "colorMid": "c1c3d4",
+      "colorTo": "a7b6d4"
+    }
+  },
+  {
+    "name": "Akalbir-weapon",
+    "x": 2,
+    "y": -2,
+    "mirror": true,
+    "reload": 24,
+    "rotate": true,
+    "shootSound": "flame2",
+    "inaccuracy": 0,
+    "shoot": {
+        "firstShotDelay": 12
+    },
+    "bullet": {
+      "type": "FireBulletType",
+      "damage": 30,
+      "radius": 2,
+      "velMin": 1,
+      "velMax": 3,
+      "colorFrom": "FFFFFF",
+      "colorMid": "c1c3d4",
+      "colorTo": "a7b6d4"
+    }
+  }
+],
+"research": {
+  "parent": "Acyuta",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
+
