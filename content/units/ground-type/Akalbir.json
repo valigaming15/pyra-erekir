@@ -9,7 +9,7 @@
 "crushDamage": 2,
 "hitSize": 12,
 "speed": 0.6,
-"rotateSpeed": 3.5,
+"rotateSpeed": 0.5,
 "defaultController": "GroundAI",
 "range": 60,
 "immunities": [

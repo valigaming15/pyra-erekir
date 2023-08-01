@@ -9,7 +9,7 @@
 "crushDamage": 0.5,
 "hitSize": 8,
 "speed": 0.75,
-"rotateSpeed": 3.5,
+"rotateSpeed": 0.5,
 "defaultController": "GroundAI",
 "range": 37.5,
 "treadRects": [
