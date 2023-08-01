@@ -38,11 +38,11 @@
         "type": "ContinuousLaserBulletType",
         "length": 200,
         "width": 2,
-        "damage": 20,
+        "damage": 50,
         "lifetime": 120,
         "collidesTeam": true,
         "healPercent": 2,
-        "damageInterval": 5,
+        "damageInterval": 10,
         "colors": ["70d581", "98ffa9", "ffffff"],
         "fadeTime": 30
       }
