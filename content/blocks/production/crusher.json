@@ -85,11 +85,16 @@
      },
      { 
        "type": "DrawPistons",
-       "suffix": "-arm",
+       "suffix": "-piston",
+       "progress": "warmup",
        "sinMag": 5,
        "sides": 2
+     },
+     {
+       "type": "DrawRegion",
+       "suffix": "-top"
      }
-   ]
+   ],
   "requirements": [
 	  {"item": "copper", "amount": 200},
 	  {"item": "lead", "amount": 200},
