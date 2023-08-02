@@ -3,6 +3,7 @@
     repo : valigaming15/pyra-erekir
     name : pyra
     minGameVersion : 140
+    dependencies: ["multi-crafter"]
     version : 1.2.3
     author: 
     '''
