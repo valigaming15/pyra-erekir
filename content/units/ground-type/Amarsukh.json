@@ -9,6 +9,7 @@
 "crushDamage": 3.5,
 "hitSize": 18,
 "speed": 0.55,
+"omniMovement": false,
 "defaultController": "GroundAI",
 "range": 60,
 "immunities": [
@@ -27,7 +28,7 @@
     "name": "Amar-weapon-1",
     "x": 0,
     "y": 0,
-    "shootX": 2,
+    "shootX": 3.5,
     "mirror": true,
     "reload": 30,
     "rotate": true,
@@ -72,7 +73,7 @@
     "chargeSound": "plasmadrop",
     "shootSound": "plasmaboom",
     "inaccuracy": 0,
-    "shoot": {"firstShotDelay": 15},
+    "shoot": {"firstShotDelay": 30},
     "bullet": {
       "type": "BasicBulletType",
       "sprite": "large-orb",

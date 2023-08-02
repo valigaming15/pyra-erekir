@@ -9,6 +9,7 @@
 "crushDamage": 2,
 "hitSize": 12,
 "speed": 0.6,
+"omniMovement": false,
 "defaultController": "GroundAI",
 "range": 60,
 "immunities": [
