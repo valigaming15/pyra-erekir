@@ -82,6 +82,7 @@
       "trailEffect": "none",
       "trailWidth": 14,
       "trailLength": 12,
+      "trailColor": "c1c3d4",
       "weaveScale": 4,
       "weaveMag": 4,
       "homingRange": 80,
