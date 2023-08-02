@@ -11,7 +11,8 @@
   "warmupSpeed": 0.001,
   "rotateSpeed": 8,
   "liquidBoostIntensity": 1.74,
-  "consumes": {
+  "consumes": { 
+    "power": 2.0,
     "liquid": {
       "liquid": "slag",
       "amount": 0.05,
