@@ -1,0 +1,98 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "localizedName": "[#ff66]Crusher",
+  "description": "Creates scrap by crushing a variaty of items",
+  "health": 500,
+  "itemCapacity": 50,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 5,
+  },
+ "recipes": 
+ [
+	 {
+	  "input": {
+       "items": [
+     {"item": "copper", "amount": 3},
+	   ]
+	 },
+	 "output": {
+      "items": [
+    {"item": "scrap", "amount": 1}
+      ]
+	 },
+	 "craftTime": 60
+     },
+	 	 {
+	  "input": {
+       "items": [
+     {"item": "lead", "amount": 3},
+	   ]
+	 },
+	 "output": {
+      "items": [
+    {"item": "scrap", "amount": 1}
+      ]
+	 },
+	 "craftTime": 60
+     },
+	 	 {
+	  "input": {
+       "items": [
+     {"item": "graphite", "amount": 3},
+	   ]
+	 },
+	 "output": {
+      "items": [
+    {"item": "scrap", "amount": 1}
+      ]
+	 },
+	 "craftTime": 60
+     },
+	 	 {
+	  "input": {
+       "items": [
+     {"item": "titanium", "amount": 2},
+	   ]
+	 },
+	 "output": {
+      "items": [
+    {"item": "scrap", "amount": 1}
+      ]
+	 },
+	 "craftTime": 60
+     },
+	 	 {
+	  "input": {
+       "items": [
+     {"item": "sand", "amount": 5},
+	   ]
+	 },
+	 "output": {
+      "items": [
+    {"item": "scrap", "amount": 1}
+      ]
+	 },
+	 "craftTime": 60
+     },
+ ],
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "titanium", "amount": 50},
+	  {"item": "molten-alloy", "amount": 10}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
