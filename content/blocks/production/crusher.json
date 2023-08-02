@@ -80,15 +80,16 @@
      },
  ],
 "drawer": [
-  {
-  "type": "DrawRegion",
-  "suffix": "-arm",
-  "mirror": true,
-  "under": true,
-  "moveX": 0,
-  "moveY": 5
-  }
-],
+     { 
+       "type": "DrawDefault" 
+     },
+     { 
+       "type": "DrawPistons",
+       "suffix": "-arm",
+       "sinMag": 5,
+       "sides": 2
+     }
+   ]
   "requirements": [
 	  {"item": "copper", "amount": 200},
 	  {"item": "lead", "amount": 200},
