@@ -93,6 +93,8 @@
       "frontColor": "a7b6d4",
       "pierce": true,
       "pierceBuilding": true,
+      "laserAbsorb": true,
+      "hittable": false,
       "pierceCap": 2,
       "keepVelocity": false,
       "shrinkY": 0,
