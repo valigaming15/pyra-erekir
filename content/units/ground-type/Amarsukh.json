@@ -2,7 +2,7 @@
 "type": "tank",
 "localizedName": "[#c1c3d4]Amar[][#a7b6d4]sukh",
 "flying": false,
-"health": 6300,
+"health": 6000,
 "armor": 12,
 "faceTarget": false,
 "outlineRadius": 3,
@@ -37,7 +37,7 @@
       "status": "energyDrain",
       "statusDuration": 240,
       "length": 80,
-      "damage": 10,
+      "damage": 20,
       "knockback": 2,
       "lifetime": 10,
       "speed": 0,
@@ -119,7 +119,7 @@
   "effect": "costRestore",
   "range": 100,
   "reload": 2400,
-  "duration": 180,
+  "duration": 300,
   }
 ],
 "research": {
