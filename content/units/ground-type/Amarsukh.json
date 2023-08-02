@@ -1,0 +1,135 @@
+{
+"type": "tank",
+"localizedName": "[#c1c3d4]Amar[][#a7b6d4]sukh",
+"flying": false,
+"health": 6300,
+"armor": 12,
+"faceTarget": false,
+"outlineRadius": 3,
+"crushDamage": 3.5,
+"hitSize": 18,
+"speed": 0.55,
+"defaultController": "GroundAI",
+"range": 60,
+"immunities": [
+  "energyDrain"
+],
+"treadRects": [
+  {
+  "x": 13,
+  "y": -42,
+  "width": 18,
+  "height": 83
+  }
+],
+"weapons": [
+  {
+    "name": "Amar-weapon-1",
+    "x": 0,
+    "y": 0,
+    "mirror": true,
+    "reload": 30,
+    "rotate": true,
+    "shootSound": "blaster",
+    "inaccuracy": 0,
+    "bullet": {
+      "type": "LaserBulletType",
+      "status": "energyDrain",
+      "statusDuration": 240,
+      "length": 80,
+      "damage": 10,
+      "knockback": 2,
+      "lifetime": 10,
+      "speed": 0,
+      "colors": ["a7b6d4", "c1c3d4", "FFFFFF"],
+      "fragBullets": 1,
+      fragBullet: {
+        "type": "BulletType",
+        "hitEffect": "none",
+        "despawnEffect": "none",
+        "shootEffect": "none",
+        "smokeEffect": "none",
+        "hittable": false,
+        "reflectable": false,
+        "absorbable": false,
+        "collides": false,
+        "width": 1,
+        "height": 1,
+        "damage": 0,
+        "lifetime": 30,
+        "speed": 10
+      }
+    }
+  },
+  {
+    "name": "Amar-weapon-2",
+    "x": 0,
+    "y": 0,
+    "mirror": true,
+    "reload": 30,
+    "rotate": true,
+    "chargeSound": "plasmaDrop",
+    "shootSound": "plasmaBoom",
+    "inaccuracy": 0,
+    "shoot": {"firstShotDelay": 7.5},
+    "bullet": {
+      "type": "BasicBulletType",
+      "sprite": "large-orb",
+      "backSprite": "large-orb-back",
+      "status": "energyDrain",
+      "statusDuration": 240,
+      "width": 15,
+      "height": 15,
+      "damage": 60,
+      "lifetime": 300,
+      "speed": 1,
+    }
+  },
+  {
+    "name": "Amar-weapon-3",
+    "x": 0,
+    "y": 0,
+    "mirror": false,
+    "reload": 30,
+    "rotate": true,
+    "shootSound": "blaster",
+    "inaccuracy": 0,
+    "recoil": 0,
+    "bullet": {
+      "type": "BulletType",
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "hittable": false,
+      "reflectable": false,
+      "absorbable": false,
+      "collides": false,
+      "width": 1,
+      "height": 1,
+      "damage": 0,
+      "lifetime": 30,
+      "speed": 10
+    }
+  }
+],
+"abilities": [
+  {
+  "type": "StatusFieldAbility",
+  "effect": "costRestore",
+  "range": 100,
+  "reload": 2400,
+  "duration": 180,
+  }
+],
+"research": {
+  "parent": "Akalbir",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
+

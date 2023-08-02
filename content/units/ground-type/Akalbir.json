@@ -5,11 +5,10 @@
 "health": 2100,
 "armor": 10,
 "faceTarget": false,
-"outlineRadius": 2,
+"outlineRadius": 3,
 "crushDamage": 2,
 "hitSize": 12,
 "speed": 0.6,
-"rotateSpeed": 0.5,
 "defaultController": "GroundAI",
 "range": 60,
 "immunities": [
@@ -42,7 +41,7 @@
       "despawnEffect": "none",
       "damage": 30,
       "hitSize": 7,
-      "lifetime": 15,
+      "lifetime": 30,
       "pierce": true,
       "pierceBuilding": true,
       "pierceCap": 2,
@@ -60,7 +59,7 @@
     "shootSound": "flame2",
     "inaccuracy": 0,
     "shoot": {
-        "firstShotDelay": 10
+        "firstShotDelay": 5
     },
     "bullet": {
       "type": "BulletType",
@@ -71,7 +70,7 @@
       "despawnEffect": "none",
       "damage": 30,
       "hitSize": 7,
-      "lifetime": 15,
+      "lifetime": 30,
       "pierce": true,
       "pierceBuilding": true,
       "pierceCap": 2,
