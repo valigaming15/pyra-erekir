@@ -1,7 +1,8 @@
 { 
 "name": "[#ff66]Large pyra Drill", 
-"description": "An even better airblast drill, requires long time to start up and a loth of power. requires slag to achive full potential.", 
+"description": "An even better airblast drill, requires long time to start up and a lot of power. requires slag to achive full potential.", 
 "type": "Drill", 
+"health": 800,
 "blockedItems": "sand",
   "drawMineItem": true,
   "warmupSpeed": 0.0005,
@@ -26,10 +27,10 @@
 }
  }, 
 "requirements": [
-  { "item": "copper", "amount": 125 },
+  { "item": "copper", "amount": 150 },
   { "item": "titanium", "amount": 100 },
   { "item": "thorium", "amount": 150 },
-  { "item": "silicon", "amount": 160 }, 
+  { "item": "silicon", "amount": 150 }, 
   { "item": "molten-alloy", "amount": 10 }
 ],
 "category": "production",
