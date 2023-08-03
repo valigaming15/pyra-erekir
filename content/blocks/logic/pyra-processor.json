@@ -4,13 +4,13 @@
   "description": "An armored processor made with molten alloy",
   "health": 750,
   "size": 2,
-     "instructionsPerTick": 9,
+     "instructionsPerTick": 10,
      "range": 200,
 	"requirements": [
 	    "lead/300",
 	    "silicon/100",
-		"molten-alloy/10"
-		"ai-core/10"
+		"molten-alloy/20"
+		"ai-core/20"
 	],
   "category": "logic",
     "research": {
