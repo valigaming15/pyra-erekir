@@ -9,7 +9,7 @@
 	"requirements": [
 	    "lead/300",
 	    "silicon/100",
-		"molten-alloy/20"
+		"molten-alloy/20",
 		"ai-core/20"
 	],
   "category": "logic",
