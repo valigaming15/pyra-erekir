@@ -10,7 +10,7 @@
   "drillTime": 200,
   "warmupSpeed": 0.001,
   "rotateSpeed": 8,
-  "liquidBoostIntensity": 1.74,
+  "liquidBoostIntensity": 2.0,
   "consumes": { 
     "power": 2.0,
     "liquid": {
@@ -22,9 +22,9 @@
   },
 "requirements": [
   { "item": "copper", "amount": 50 },
-  { "item": "graphite", "amount": 25 },
+  { "item": "graphite", "amount": 50 },
   { "item": "molten-alloy", "amount": 10 }, 
-  { "item": "silicon", "amount": 25 }
+  { "item": "silicon", "amount": 50 }
 ],
   "category": "production",
     "research": {
