@@ -1,0 +1,25 @@
+{
+  "type": "LogicBlock",
+  "name": "Pyra processor",
+  "description": "An armored processor made with molten alloy",
+  "health": 750,
+  "size": 2,
+     "instructionsPerTick": 9,
+     "range": 200,
+	"requirements": [
+	    "lead/300",
+	    "silicon/100",
+		"molten-alloy/10"
+		"ai-core/10"
+	],
+  "category": "logic",
+    "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 2000},
+      {"item": "thorium", "amount": 500}
+    ]
+  }
+}
