@@ -87,7 +87,8 @@
        "type": "DrawPistons",
        "suffix": "-piston",
        "progress": "warmup",
-       "sinMag": 5,
+       "sinMag": 6,
+       "sinMin": 3,
        "sides": 2
      },
      {
