@@ -25,7 +25,7 @@
 				"type": "BulletType",
 				"shootEffect": "sparkShoot",
 				"hitEffect": "pointHit",
-				"maxRange": 60,
+				"maxRange": 80,
 				"damage": 4
 			}
 		}

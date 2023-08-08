@@ -30,7 +30,7 @@
     "type": "ContinuousFlameBulletType",
     "length": 140,
     "width": 3,
-    "damage": 2,
+    "damage": 5,
     "lifetime": 10,
     "speed": 0
   }
