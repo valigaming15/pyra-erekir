@@ -21,7 +21,7 @@
      },
      "output": {
        "items": [
-         {"item": "packet-flare", "amount": 1}
+         {"item": "pyra-packet-flare", "amount": 1}
        ]
      },
      "craftTime": 200
@@ -29,14 +29,14 @@
    {
      "input": {
        "items": [
-         {"item": "packet-flare", "amount": 1},
+         {"item": "pyra-packet-flare", "amount": 1},
          {"item": "silicon", "amount": 40},
          {"item": "graphite", "amount": 40}
        ]
      },
      "output": {
        "items": [
-         {"item": "packet-horizon", "amount": 1}
+         {"item": "pyra-packet-horizon", "amount": 1}
        ]
      },
      "craftTime": 400
@@ -52,7 +52,7 @@
      },
      "output": {
        "items": [
-         {"item": "packet-mono", "amount": 1}
+         {"item": "pyra-packet-mono", "amount": 1}
        ]
      },
      "craftTime": 200
@@ -60,14 +60,14 @@
    {
      "input": {
        "items": [
-         {"item": "packet-mono", "amount": 1},
+         {"item": "pyra-packet-mono", "amount": 1},
          {"item": "silicon", "amount": 40},
          {"item": "graphite", "amount": 40}
        ]
      },
      "output": {
        "items": [
-         {"item": "packet-poly", "amount": 1}
+         {"item": "pyra-packet-poly", "amount": 1}
        ]
      },
      "craftTime": 400
@@ -77,14 +77,14 @@
    {
      "input": {
        "items": [
-         {"item": "molten-alloy", "amount": 10},
-         {"item": "ai-core", "amount": 1},
+         {"item": "pyra-molten-alloy", "amount": 10},
+         {"item": "pyra-ai-core", "amount": 1},
          {"item": "silicon", "amount": 100}
        ]
      },
      "output": {
        "items": [
-         {"item": "packet-fossores", "amount": 1}
+         {"item": "pyra-packet-fossores", "amount": 1}
        ]
      },
      "craftTime": 200
@@ -92,15 +92,15 @@
    {
      "input": {
        "items": [
-         {"item": "packet-fossores", "amount": 1},
-         {"item": "molten-alloy", "amount": 20},
+         {"item": "pyra-packet-fossores", "amount": 1},
+         {"item": "pyra-molten-alloy", "amount": 20},
          {"item": "titanium", "amount": 100},
          {"item": "silicon", "amount": 200}
        ]
      },
      "output": {
        "items": [
-         {"item": "packet-sterna", "amount": 1}
+         {"item": "pyra-packet-sterna", "amount": 1}
        ]
      },
      "craftTime": 400
