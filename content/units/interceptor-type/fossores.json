@@ -3,7 +3,7 @@
   "description": "A strong mining drone equipped with repair laser and powerfull drill.",
   "type": "flying",
   "lowAltitude": true,
-  "mineSpeed": 0.75,
+  "mineSpeed": 1.0,
   "mineTier": 6,
   "canAttack": false,
   "buildSpeed": 0.25,
