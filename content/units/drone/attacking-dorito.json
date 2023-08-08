@@ -2,8 +2,9 @@
 "type": "flying",
 "flying": true,
 "localizedName": "[orange]Edge",
-"description": "A drone that follows units and Attacks nearby enemies with a burst of Super Heated Plasma",
+"description": "A drone that attacks nearby enemies with a burst of Super Heated Plasma",
 "lowAltitude": true,
+"defaultController": "FlyingAI"
 "health": 100,
 "canAttack": true,
 "useUnitCap": false,
