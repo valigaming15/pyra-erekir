@@ -11,7 +11,6 @@
 "speed": 2.5,
 "accel": 0.058,
 "drag": 0.017,
-"defaultController": "DefenderAI",
 "weapons" : [
  {
   "x": 0,
