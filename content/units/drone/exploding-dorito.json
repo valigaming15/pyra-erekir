@@ -3,7 +3,7 @@
   "flying": true,
   "localizedName": "[purple]Boom",
   "description": "*KABoom* ur ded",
-  "defaultController": "SuicideAI",
+  "defaultController": "FlyingAI",
   "lowAltitude": true,
   "health": 100,
   "canAttack": true,
