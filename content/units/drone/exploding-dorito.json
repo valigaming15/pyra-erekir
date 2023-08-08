@@ -29,7 +29,7 @@
 		"overrideRange": 120,
 		"speed": 0,
 		"hitEffect": "none",
-		"despawnEffect": "sapExplosion",
+		"despawnEffect": "titanSmoke",
 		"splashDamageRadius": 200,
 		"instantDisappear": true,
 		"splashDamage": 200,

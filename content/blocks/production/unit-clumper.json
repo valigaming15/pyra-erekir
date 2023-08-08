@@ -1,15 +1,16 @@
 {
   "type": "multicraft.MultiCrafter",
-  "localizedName": "[#ff66]Crusher",
+  "localizedName": "[#ff66]Compressor",
   "description": "Creates Clumps of resources to produce units",
-  "health": 500,
-  "itemCapacity": 50,
-  "size": 3,
+  "health": 3,
+  "itemCapacity": 26,
+  "size": 2,
   "hasPower": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
+  "menu": "Simple",
   "consumes": {
-  "power": 5
+  "power": 2
   },
  "recipes": 
  [

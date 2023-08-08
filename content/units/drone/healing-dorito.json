@@ -12,6 +12,25 @@
 "accel": 0.058,
 "drag": 0.017,
 "defaultController": "DefenderAI",
+"weapons": [
+		{
+			"type": "PointDefenseWeapon",
+			"x": 0,
+			"y": 0,
+			"mirror": false,
+			"reload": 4,
+			"targetInterval": 2,
+			"targetSwitchInterval": 5,
+			"bullet": {
+				"type": "BulletType",
+				"shootEffect": "sparkShoot",
+				"hitEffect": "pointHit",
+				"maxRange": 60,
+				"damage": 4
+			}
+		}
+	],
+
 "abilities": [
 	  {
 	    "type": "RepairFieldAbility",

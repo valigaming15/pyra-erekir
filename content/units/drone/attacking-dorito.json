@@ -28,9 +28,8 @@
   },
   "bullet": {
     "type": "ContinuousFlameBulletType",
-    "length": 180,
+    "length": 140,
     "width": 3,
-    "recoil": 1,
     "damage": 2,
     "lifetime": 10,
     "speed": 0
