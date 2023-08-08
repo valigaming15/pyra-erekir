@@ -2,14 +2,14 @@
     "type": "ItemTurret",
 	"localizedName": "[#ff66]Isolde",
 	"description": "Fires drones",
-    "health": 500,
+    "health": 1000,
     "size": 2,
     "consumes": {
     "power": 5.0
 	},
     "range": 150,
     "reload": 600,
-	"maxAmmo": 100,
+	"maxAmmo": 10,
 	"ammoPerShot": 1,
     "ammoTypes": {
       "ai-core": {
