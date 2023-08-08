@@ -1,0 +1,35 @@
+{ 
+    "type": "ItemTurret",
+	"localizedName": "[#ff66]Drone turret",
+	"description": "Fires drones",
+    "health": 500,
+    "size": 2,
+    "consumes": {
+    "power": 5.0,
+	}
+    "range": 150,
+    "reload": 600
+	"maxAmmo": 100
+	"ammoPerShot": 20,
+    "ammoTypes": {
+    "silicon": {
+    "spawnUnit": "healing-dorito"
+	"ammoMultiplier": 1,
+	}
+	}
+    "requirements": [
+    "copper/200",
+    "lead/200",
+	"silicon/100",
+    "molten-alloy/10"
+    ],
+    "category": "turret",
+    "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {"item": "lead", "amount": 2000},
+  	  {"item": "copper", "amount": 2000},
+      {"item": "titanium", "amount": 2000}
+    ]
+  }
+}
