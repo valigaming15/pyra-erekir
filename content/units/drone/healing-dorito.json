@@ -6,7 +6,7 @@
 "lowAltitude": true,
 "health": 100,
 "canAttack": false,
-"useUnitCap": false,
+"useUnitCap": true,
 "isEnemy": false,
 "speed": 2.5,
 "accel": 0.058,
