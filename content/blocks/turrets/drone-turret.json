@@ -7,7 +7,7 @@
     "consumes": {
     "power": 5.0
 	},
-    "range": 150,
+    "range": 450,
     "reload": 600,
 	"maxAmmo": 10,
 	"ammoPerShot": 1,
