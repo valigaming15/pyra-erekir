@@ -1,0 +1,40 @@
+{
+"type": "flying",
+"flying": true,
+"localizedName": "[orange]Edge",
+"description": "A drone that follows units and Attacks nearby enemies with a burst of Super Heated Plasma",
+"lowAltitude": true,
+"health": 100,
+"canAttack": true,
+"useUnitCap": false,
+"isEnemy": false,
+"speed": 2.5,
+"accel": 0.058,
+"drag": 0.017,
+"defaultController": "DefenderAI",
+"weapons" : [
+ {
+  "x": 0,
+  "y": 0,
+  "mirror": false,
+  "top": false,
+  "rotate": true,
+  "rotateSpeed": 1,
+  "reload": 180,
+  "inaccuracy": 0,
+  "shoot": {
+    "shots": 20,
+    "shotDelay": 1
+  },
+  "bullet": {
+    "type": "ContinuousFlameBulletType",
+    "length": 180,
+    "width": 3,
+    "recoil": 1,
+    "damage": 2,
+    "lifetime": 10,
+    "speed": 0
+  }
+ }
+]
+}

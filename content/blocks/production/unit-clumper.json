@@ -1,0 +1,125 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "localizedName": "[#ff66]Crusher",
+  "description": "Creates Clumps of resources to produce units",
+  "health": 500,
+  "itemCapacity": 50,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 5
+  },
+ "recipes": 
+ [
+   {
+     "input": {
+       "items": [
+         {"item": "silicon", "amount": 15}
+       ]
+     },
+     "output": {
+       "items": [
+         {"item": "packet-flare", "amount": 1}
+       ]
+     },
+     "craftTime": 200
+   },
+   {
+     "input": {
+       "items": [
+         {"item": "packet-flare", "amount": 1},
+         {"item": "silicon", "amount": 40},
+         {"item": "graphite", "amount": 40}
+       ]
+     },
+     "output": {
+       "items": [
+         {"item": "packet-horizon", "amount": 1}
+       ]
+     },
+     "craftTime": 400
+   },
+
+
+   {
+     "input": {
+       "items": [
+         {"item": "silicon", "amount": 30},
+         {"item": "lead", "amount": 15}
+       ]
+     },
+     "output": {
+       "items": [
+         {"item": "packet-mono", "amount": 1}
+       ]
+     },
+     "craftTime": 200
+   },
+   {
+     "input": {
+       "items": [
+         {"item": "packet-mono", "amount": 1},
+         {"item": "silicon", "amount": 40},
+         {"item": "graphite", "amount": 40}
+       ]
+     },
+     "output": {
+       "items": [
+         {"item": "packet-poly", "amount": 1}
+       ]
+     },
+     "craftTime": 400
+   },
+
+
+   {
+     "input": {
+       "items": [
+         {"item": "molten-alloy", "amount": 10},
+         {"item": "ai-core", "amount": 1},
+         {"item": "silicon", "amount": 100}
+       ]
+     },
+     "output": {
+       "items": [
+         {"item": "packet-fossores", "amount": 1}
+       ]
+     },
+     "craftTime": 200
+   },
+   {
+     "input": {
+       "items": [
+         {"item": "packet-fossores", "amount": 1},
+         {"item": "molten-alloy", "amount": 20},
+         {"item": "titanium", "amount": 100},
+         {"item": "silicon", "amount": 200}
+       ]
+     },
+     "output": {
+       "items": [
+         {"item": "packet-sterna", "amount": 1}
+       ]
+     },
+     "craftTime": 400
+   }
+ ],
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "titanium", "amount": 50},
+	  {"item": "molten-alloy", "amount": 10}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}

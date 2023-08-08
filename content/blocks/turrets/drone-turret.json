@@ -1,22 +1,54 @@
 { 
     "type": "ItemTurret",
-	"localizedName": "[#ff66]Drone turret",
+	"localizedName": "[#ff66]Isolde",
 	"description": "Fires drones",
     "health": 500,
     "size": 2,
     "consumes": {
-    "power": 5.0,
-	}
+    "power": 5.0
+	},
     "range": 150,
-    "reload": 600
-	"maxAmmo": 100
-	"ammoPerShot": 20,
+    "reload": 600,
+	"maxAmmo": 100,
+	"ammoPerShot": 1,
     "ammoTypes": {
-    "silicon": {
-    "spawnUnit": "healing-dorito"
-	"ammoMultiplier": 1,
-	}
-	}
+      "ai-core": {
+        "spawnUnit": "healing-dorito",
+	    "ammoMultiplier": 1
+	  },
+      "molten-alloy": {
+        "spawnUnit": "attacking-dorito",
+        "ammoMultiplier": 1
+      },
+      "pyra-shell": {
+        "spawnUnit": "exploding-dorito",
+        "ammoMultiplier": 1
+      },
+      "packet-flare": {
+        "spawnUnit": "flare",
+        "ammoMultiplier": 1
+      },
+      "packet-horizon": {
+        "spawnUnit": "horizon",
+        "ammoMultiplier": 1
+      },
+      "packet-mono": {
+        "spawnUnit": "mono",
+        "ammoMultiplier": 1
+      },
+      "packet-poly": {
+        "spawnUnit": "poly",
+        "ammoMultiplier": 1
+      },
+      "packet-fossores": {
+        "spawnUnit": "fossores",
+        "ammoMultiplier": 1
+      },
+      "packet-sterna": {
+        "spawnUnit": "sterna",
+        "ammoMultiplier": 1
+      }
+	},
     "requirements": [
     "copper/200",
     "lead/200",
