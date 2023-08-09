@@ -28,7 +28,7 @@
   "coolantMultiplier": 2.5,
   "consumes":{
       "coolant":{
-        "amount": 0.4
+        "amount": 0.8
       }
     },
 	"shoot": {
@@ -49,11 +49,7 @@
         "absorbable": true,
 		"reloadMultiplier": 2.0,
 		"ammoMultiplier": 4,
-
-		    "pierce": true,
         "hitEffect": "blastExplosion",
-		    "pierceCap": 2,
-			"pierceBuilding": true,
         "makeFire": true,
 	      "damage": 75,
         "width": 10,
