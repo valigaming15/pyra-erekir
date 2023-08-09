@@ -25,7 +25,7 @@
   "reload": 20,
   "range": 300,
   "ammoUseEffect": "casing4",
-  "coolantMultiplier": 2.0,
+  "coolantMultiplier": 1.5,
   "consumes":{
       "coolant":{
         "amount": 0.8
