@@ -16,7 +16,7 @@
   "targetHealing": false,
   "outlineIcon": true,
   "shake": 2,
-  "recoil": 8,
+  "recoil": 4,
   "shootSound": "shootBig",
   "shootVolume": 1,
   "maxAmmo": 50,
@@ -25,7 +25,7 @@
   "reload": 20,
   "range": 300,
   "ammoUseEffect": "casing4",
-  "coolantMultiplier": 2,
+  "coolantMultiplier": 2.5,
   "consumes":{
       "coolant":{
         "amount": 0.4
@@ -37,11 +37,37 @@
     "spread": 8
   },
     "ammoTypes": {
+	 "graphite": {
+        "type": "BasicBulletType",
+	      "collidesTiles": true,
+	      "collides" : true
+		  "shootEffect": "shootBig",
+		  "knockback": 1,
+        
+        "laserAbsorb": true,
+        "hittable": true,
+        "absorbable": true,
+		"reloadMultiplier": 2.0,
+		"ammoMultiplier": 4,
+
+		    "pierce": true,
+        "hitEffect": "blastExplosion",
+		    "pierceCap": 2,
+			"pierceBuilding": true,
+        "makeFire": true,
+	      "damage": 75,
+        "width": 10,
+        "height": 25,
+        "lifetime": 35,
+        "speed": 8,
+        "backColor": "#646f99",
+        "frontColor": "#97abd7"
+		  },
     "pyratite": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
-		  "ammoMultiplier": 4,
+		  "ammoMultiplier": 2,
 		  "shootEffect": "shootBig",
 		  "knockback": 1,
         
