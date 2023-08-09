@@ -77,7 +77,7 @@
         "status": "burning",
         "makeFire": true,
 	    "damage": 200,
-		"splashDamage": 100,
+		"splashDamage": 50,
 		"splashDamageRadius": 40,
         "width": 12,
         "height": 30,
