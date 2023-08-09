@@ -25,7 +25,7 @@
   "reload": 20,
   "range": 300,
   "ammoUseEffect": "casing4",
-  "coolantMultiplier": 2.5,
+  "coolantMultiplier": 2.0,
   "consumes":{
       "coolant":{
         "amount": 0.8
@@ -51,7 +51,7 @@
 		"ammoMultiplier": 4,
         "hitEffect": "blastExplosion",
         "makeFire": true,
-	      "damage": 75,
+	      "damage": 80,
         "width": 10,
         "height": 25,
         "lifetime": 35,
@@ -77,8 +77,8 @@
         "status": "burning",
         "makeFire": true,
 	    "damage": 200,
-		"splashDamage": 50,
-		"splashDamageRadius": 30,
+		"splashDamage": 100,
+		"splashDamageRadius": 40,
         "width": 12,
         "height": 30,
         "lifetime": 35,
