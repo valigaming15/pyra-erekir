@@ -1,9 +1,9 @@
 {
-  "type": "crawler",
+  "type": "flying",
   "flying": true,
   "localizedName": "[purple]Boom",
   "description": "*KABoom* ur ded",
-  "defaultController": "SuicideAI",
+  "defaultController": "FlyingAI",
   "lowAltitude": true,
   "outlineColor": 222222
   "health": 100,
