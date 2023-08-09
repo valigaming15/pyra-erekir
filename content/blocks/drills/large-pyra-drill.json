@@ -21,7 +21,7 @@
 "power": 7.0, 
 "liquid": {
  "liquid": "slag", 
-"amount": 0.1,
+"amount": 0.05,
 "optional": true, 
 "booster": true
 }
