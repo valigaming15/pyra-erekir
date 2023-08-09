@@ -68,7 +68,7 @@
         "collides" : true,
         "laserAbsorb": true,
         "hittable": false,
-        "absorbable": false,
+        "absorbable": true,
         "pierce": true,
         "hitEffect": "titanExplosion",
         "pierceCap": 2,
