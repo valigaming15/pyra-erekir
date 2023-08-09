@@ -14,7 +14,7 @@
   "consumes": { 
     "power": 2.0,
     "liquid": {
-      "liquid": "slag",
+      "liquid": "cryofluid",
       "amount": 0.05,
       "optional": true,
       "booster": true
