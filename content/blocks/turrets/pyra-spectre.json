@@ -28,7 +28,7 @@
   "coolantMultiplier": 1.5,
   "consumes":{
       "coolant":{
-        "amount": 0.8
+        "amount": 1.0
       }
     },
 	"shoot": {
