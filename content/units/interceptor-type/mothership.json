@@ -54,7 +54,7 @@
       "shake": 1,
       "x": 0,
       "y": 0,
-      "reload": 300,
+      "reload": 240,
       "recoil": 5,
       "shootSound": "artillery",
       "ejectEffect": "casing4",
