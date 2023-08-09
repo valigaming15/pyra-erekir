@@ -5,6 +5,7 @@
   "description": "*KABoom* ur ded",
   "defaultController": "SuicideAI",
   "lowAltitude": true,
+  "outlineColor": 222222
   "health": 100,
   "canAttack": true,
   "useUnitCap": true,
