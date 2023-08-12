@@ -1,8 +1,8 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "[#ff66]Pyra shell fabricator",
-  "description": "Molds molten alloy into rounds for artillery and adds ai core for tracking",
-  "outputItem": "pyra-shell/1",
+  "localizedName": "[#ff66]Magmium Forge",
+  "description": "Molds multiple high temperature or combustible materials in 1 mass",
+  "outputItem": "magmium/1",
   "health": 500,
   "itemCapacity": 20,
   "liquidCapacity": 40,
@@ -17,8 +17,9 @@
   "items": {
   "items": [
   "molten-alloy/1",
-  "ai-core/1",
-  "coal/10"
+  "pyratite/2",
+  "blast-compound/2",
+  "coal/4"
   ]
  }
  },

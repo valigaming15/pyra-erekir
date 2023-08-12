@@ -29,9 +29,8 @@
   "rotateSpeed": 1,
   "reload": 300,
   "range": 400,
-	"sprite": "pyra-small-pyra-laser",
     "ammoTypes": {
-		"pyra-shell": {
+		"magmium": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true
@@ -56,12 +55,12 @@
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff0000",
-        "frontColor": "ff0000"
+        "frontColor": "ff0000",
 		"fragBullets": 20,
 	    "fragSpread": 5,
 		"fragRandomSpread": 0,
 		"fragBullet": {
-			"type": "LiquidBulletType"
+			"type": "LiquidBulletType",
 			
 			"laserAbsorb": true,
             "hittable": true,
@@ -69,7 +68,7 @@
 			"status": "burning",
 			"makeFire": true,
 			"liquid": "slag",
-			"despawnHit": true
+			"despawnHit": true,
 			"puddleSize": 300,
 			"width": 8,
             "height": 20,
@@ -176,7 +175,7 @@
   ]
 },
 "research": {
-    "parent": "molten-alloy",
+    "parent": "hail",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},

@@ -68,7 +68,7 @@
   ]
 },
 "research": {
-    "parent": "flux",
+    "parent": "lancer",
     "requirements": [
       {"item": "lead", "amount": 2500},
 	  {"item": "copper", "amount": 2500},

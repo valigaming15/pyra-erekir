@@ -30,54 +30,6 @@
    {
      "input": {
        "items": [
-         {"item": "pyra-packet-flare", "amount": 1},
-         {"item": "silicon", "amount": 40},
-         {"item": "graphite", "amount": 40}
-       ]
-     },
-     "output": {
-       "items": [
-         {"item": "pyra-packet-horizon", "amount": 1}
-       ]
-     },
-     "craftTime": 400
-   },
-
-
-   {
-     "input": {
-       "items": [
-         {"item": "silicon", "amount": 30},
-         {"item": "lead", "amount": 15}
-       ]
-     },
-     "output": {
-       "items": [
-         {"item": "pyra-packet-mono", "amount": 1}
-       ]
-     },
-     "craftTime": 200
-   },
-   {
-     "input": {
-       "items": [
-         {"item": "pyra-packet-mono", "amount": 1},
-         {"item": "silicon", "amount": 40},
-         {"item": "graphite", "amount": 40}
-       ]
-     },
-     "output": {
-       "items": [
-         {"item": "pyra-packet-poly", "amount": 1}
-       ]
-     },
-     "craftTime": 400
-   },
-
-
-   {
-     "input": {
-       "items": [
          {"item": "pyra-molten-alloy", "amount": 10},
          {"item": "pyra-ai-core", "amount": 1},
          {"item": "silicon", "amount": 100}

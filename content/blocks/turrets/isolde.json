@@ -57,7 +57,7 @@
     ],
     "category": "turret",
     "research": {
-    "parent": "molten-alloy",
+    "parent": "ripple",
     "requirements": [
       {"item": "lead", "amount": 2000},
   	  {"item": "copper", "amount": 2000},

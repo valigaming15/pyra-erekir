@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
-  "localizedName": "[#ff]CIWS",
-  "description": "A fast firring turret",
+  "localizedName": "[#ff]Gijima",
+  "description": "A fast firing turret great anti air",
   "health": 1000,
   "size": 2,
   "category": "turret",
@@ -28,7 +28,6 @@
   "rotateSpeed": 2,
   "reload": 8.0,
   "range": 230,
-	"sprite": "pyra-small-pyra-laser",
     "ammoTypes": {
     "pyratite": {
         "type": "BasicBulletType",
@@ -157,7 +156,7 @@
   ]
 },
 "research": {
-    "parent": "molten-alloy",
+    "parent": "salvo",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},

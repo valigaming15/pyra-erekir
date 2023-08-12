@@ -51,7 +51,7 @@
 },
 
 "research": {
-    "parent": "flux",
+    "parent": "segment",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},
