@@ -1,5 +1,5 @@
 {
-  "type": "TimedKillUnit",
+  "type": "flying",
   "flying": true,
   "localizedName": "[purple]Boom",
   "description": "*KABoom* ur ded",
@@ -10,7 +10,6 @@
   "canAttack": true,
   "useUnitCap": false,
   "isEnemy": true,
-  "lifetime": 200,
   "speed": 5,
   "accel": 0.058,
   "drag": 0.017,
