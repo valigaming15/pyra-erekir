@@ -31,9 +31,9 @@
 		"speed": 0,
 		"hitEffect": "none",
 		"despawnEffect": "titanSmoke",
-		"splashDamageRadius": 100,
+		"splashDamageRadius": 80,
 		"instantDisappear": true,
-		"splashDamage": 200,
+		"splashDamage": 140,
 		"hittable": false,
 		"killShooter": true,
 		"collidesAir": true,
@@ -54,6 +54,33 @@
 		  "speed": 2
 		}
 	  }
-	}
+	},
+	  {
+		  "reload": 24,
+		  "ejectEffect": "none",
+		  "shootSound": "none",
+		  "alwaysContinuous": true,
+		  "ignoreRotation": true,
+		  "alwaysShooting": true,
+		  "shoot": {
+			  "firstShotDelay": 500
+		  },
+		  "x": 0,
+		  "shootY": 0,
+		  "bullet": {
+			  "type": "BulletType",
+			  "collides": false,
+			  "collidesTiles": false,
+			  "hitSound": "none",
+			  "speed": 0,
+			  "hitEffect": "none",
+			  "despawnEffect": "none",
+			  "instantDisappear": true,
+			  "hittable": false,
+			  "killShooter": true,
+			  "collidesAir": false,
+			  "collidesGround": false
+		  }
+	  }
   ]
 }
