@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff]Magmium liquifier",
+  "description": "Mixes magmium with slag to create plasmatic slag",
+  "outputLiquid": "plasmatic-slag/0.2",
+  "health": 1000,
+  "itemCapacity": 20,
+  "liquidCapacity": 50,
+  "size": 3,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 10,
+  "liquid": "slag/0.2",
+  "items": {
+  "items": [
+  "magmium/1",
+   ]
+  },
+ }
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "lead", "amount": 200},
+	  {"item": "titanium", "amount": 100},
+	  {"item": "magmium", "amount": 40}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "magmium-forge",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
