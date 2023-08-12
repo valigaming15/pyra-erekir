@@ -10,7 +10,7 @@
   "canAttack": true,
   "useUnitCap": false,
   "isEnemy": true,
-  "speed": 5,
+  "speed": 2,
   "accel": 0.058,
   "drag": 0.017,
   "weapons": [
@@ -63,7 +63,7 @@
 		  "ignoreRotation": true,
 		  "alwaysShooting": true,
 		  "shoot": {
-			  "firstShotDelay": 500
+			  "firstShotDelay": 600
 		  },
 		  "x": 0,
 		  "shootY": 0,
