@@ -28,18 +28,6 @@
         "spawnUnit": "flare",
         "ammoMultiplier": 1
       },
-      "packet-horizon": {
-        "spawnUnit": "horizon",
-        "ammoMultiplier": 1
-      },
-      "packet-mono": {
-        "spawnUnit": "mono",
-        "ammoMultiplier": 1
-      },
-      "packet-poly": {
-        "spawnUnit": "poly",
-        "ammoMultiplier": 1
-      },
       "packet-fossores": {
         "spawnUnit": "fossores",
         "ammoMultiplier": 1
