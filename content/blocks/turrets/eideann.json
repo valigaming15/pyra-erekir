@@ -199,7 +199,7 @@
         "mirror": false,
         "under": false,
         "moveX": 0,
-        "moveY": 3,
+        "moveY": -3,
         "progress": {
           "type": "recoil"
         }
@@ -209,10 +209,10 @@
         "mirror": false,
         "under": false,
         "moveX": 0,
-        "moveY": 3,
+        "moveY": -3,
         "progress": {
           "type": "recoil",
-          "delay": 0.5
+          "start": 0.5
         }
       }
     ]
