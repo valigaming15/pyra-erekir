@@ -57,7 +57,7 @@
         "width": 10,
         "height": 25,
         "lifetime": 35,
-        "speed": 8,
+        "speed": 8
 		  },
     "pyratite": {
         "type": "BasicBulletType",
@@ -111,7 +111,7 @@
         "width": 12,
         "height": 30,
         "lifetime": 35,
-        "speed": 8,
+        "speed": 8
       },
       "molten-alloy": {
         "type": "BasicBulletType",
@@ -186,10 +186,37 @@
           "width": 8,
           "height": 20,
           "lifetime": 60,
-          "speed": 2,
+          "speed": 2
         }
       }
     },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {},
+      {
+        "suffix": "-barrel-l",
+        "mirror": false,
+        "under": false,
+        "moveX": 0,
+        "moveY": 3,
+        "progress": {
+          "type": "recoil"
+        }
+      },
+      {
+        "suffix": "-barrel-r",
+        "mirror": false,
+        "under": false,
+        "moveX": 0,
+        "moveY": 3,
+        "progress": {
+          "type": "recoil",
+          "delay": 0.5
+        }
+      }
+    ]
+  },
 "research": {
     "parent": "gijima",
     "requirements": [
