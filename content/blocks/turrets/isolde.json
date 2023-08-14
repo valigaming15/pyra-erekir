@@ -7,7 +7,7 @@
     "consumes": {
     "power": 5.0
 	},
-    "range": 450,
+    "range": 250,
     "reload": 600,
 	"maxAmmo": 10,
 	"ammoPerShot": 1,
@@ -27,6 +27,7 @@
       "packet-flare": {
         "spawnUnit": "flare",
         "ammoMultiplier": 1
+	"reloadMultiplier": 5.0,
       },
       "packet-fossores": {
         "spawnUnit": "fossores",
@@ -40,7 +41,7 @@
     "requirements": [
     "copper/200",
     "lead/200",
-	"silicon/100",
+    "silicon/100",
     "molten-alloy/10"
     ],
     "category": "turret",
