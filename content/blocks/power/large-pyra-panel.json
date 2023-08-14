@@ -1,14 +1,14 @@
 {
   "type": "SolarGenerator",
   "name": "Large pyra solar panel",
-  "description": "Uses the refined molten alloy for high efficiency and strength",
+  "description": "Uses refined Magmium for high efficiency and strength",
   "health": 750,
   "size": 3,
   "powerProduction": 5,
 	"requirements": [
 	    "lead/200",
 	    "silicon/200",
-		"molten-alloy/20"
+	    "magmium/20"
 	],
   "category": "power",
     "research": {
