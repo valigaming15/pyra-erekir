@@ -31,11 +31,11 @@
     }
   },
 	"requirements": [  	
-        "lead/500",
+                "lead/500",
 		"copper/500",
 		"titanium/500",
 		"metaglass/250",
-	    "silicon/250",
+	        "silicon/250",
 		"molten-alloy/100"
 	],
   "category": "power",
