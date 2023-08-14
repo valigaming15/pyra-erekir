@@ -1,14 +1,14 @@
 {
   "type": "SolarGenerator",
   "name": "Pyra solar panel",
-  "description": "Uses the refined molten alloy for increased efficency and strenght",
+  "description": "Uses the refined [#ff66]molten alloy[] for increased efficency and strenght",
   "health": 100,
   "size": 1,
   "powerProduction": 0.25,
 	"requirements": [
-	    "lead/20",
-	    "silicon/20",
-		"molten-alloy/1"
+	    "lead/25",
+	    "silicon/25",
+	    "molten-alloy/5"
 	],
   "category": "power",
     "research": {
