@@ -1,7 +1,7 @@
 {
   "type": "SolarGenerator",
   "name": "Large pyra solar panel",
-  "description": "Uses refined Magmium for high efficiency and strength",
+  "description": "Uses refined [#ff]Magmium[] for high efficiency and strength",
   "health": 750,
   "size": 3,
   "powerProduction": 5,
