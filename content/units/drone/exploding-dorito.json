@@ -33,7 +33,7 @@
 		"despawnEffect": "titanSmoke",
 		"splashDamageRadius": 80,
 		"instantDisappear": true,
-		"splashDamage": 140,
+		"splashDamage": 150,
 		"hittable": false,
 		"killShooter": true,
 		"collidesAir": true,
