@@ -20,19 +20,19 @@
   "requirements": [
     {
       "item": "lead",
-      "amount": 200
+      "amount": 500
     },
     {
       "item": "titanium",
-      "amount": 200
+      "amount": 500
     },
     {
       "item": "silicon",
-      "amount": 200
+      "amount": 500
     },
 	{
-      "item": "molten-alloy",
-      "amount": 40
+      "item": "magmium",
+      "amount": 100
     }
   ]
 "research": {
@@ -40,7 +40,7 @@
     "parent": "pyra-panel",
     "requirements": [
       {"item": "silicon", "amount": 500},
-	  {"item": "molten-alloy", "amount": 100}
+      {"item": "magmium", "amount": 100}
     ]
   }
 }
