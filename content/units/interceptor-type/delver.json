@@ -3,14 +3,14 @@
     "description": "A Fossores variant. Built to protect Regis cores, code name lil oct",
     "type": "flying",
     "lowAltitude": true,
-    "mineSpeed": 2,
+    "mineSpeed": 5,
     "mineTier": 6,
     "canAttack": false,
-    "buildSpeed": 2,
+    "buildSpeed": 1,
     "hitSize": 8,
     "engineOffset": 5,
     "engineSize": 2,
-    "armor": 1,
+    "armor": 0,
     "itemCapacity": 50,
     "speed": 2.5,
     "accel": 0.06,
@@ -47,7 +47,7 @@
         "type": "ForceFieldAbility",
         "radius": 50,
         "regen": 0.5,
-        "max": 1000,
+        "max": 300,
         "cooldown": 600
       }
     ]
