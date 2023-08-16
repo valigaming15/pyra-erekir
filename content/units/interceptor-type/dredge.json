@@ -33,7 +33,6 @@
 		 "range": 120,
 		 "damage": 5,
 		 "reload": 30,
-                 "healPercent": 100,
 		 "maxTargets": 10,
 	  }
     ]
