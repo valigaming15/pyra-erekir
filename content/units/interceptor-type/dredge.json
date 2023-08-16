@@ -31,9 +31,9 @@
 	  {
 		 "type": "EnergyFieldAbility",
 		 "range": 120,
-		 "damage": 1,
+		 "damage": 10,
 		 "reload": 30,
-		 "maxTargets": 25,
+		 "maxTargets": 10,
 	  }
     ]
   }
