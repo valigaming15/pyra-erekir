@@ -34,7 +34,7 @@
         "type": "BasicBulletType",
 	      "collidesTiles": true,
 	      "collides" : true,
-	      "homingPower": 0.1,
+	      "homingPower": 0.05,
 	      "homingRange": 10,
 		  "reloadMultiplier": 0.5,
 		  "ammoMultiplier": 5,
