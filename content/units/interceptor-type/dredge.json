@@ -3,7 +3,7 @@
     "description": "Upgrade to the delver. Built to protect Baratrous cores. Code name engineer",
     "type": "flying",
     "lowAltitude": true,
-    "mineSpeed": 8,
+    "mineSpeed": 5,
     "mineTier": 6,
     "canAttack": false,
     "buildSpeed": 1,
