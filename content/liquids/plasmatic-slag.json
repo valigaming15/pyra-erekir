@@ -4,8 +4,8 @@
   "heatCapacity": 2.0,
   "flammability": 1.0,
   "explosiveness": 2.0,
+  "viscosity": 0.85,
   "temperature": 5.0,
   "color": "#ff4400",
-  "research": "molten-alloy",
-  "coolant": false
+  "research": "magmium",
 }
