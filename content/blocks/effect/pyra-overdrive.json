@@ -35,8 +35,8 @@
       "amount": 100
     }
   ]
+"category": "effect",
 "research": {
-	"category": "effect",
     "parent": "pyra-panel",
     "requirements": [
       {"item": "silicon", "amount": 500},
