@@ -39,10 +39,8 @@
     "ammoTypes": {
 	 "graphite": {
         "type": "BasicBulletType",
-	      "collidesTiles": true,
-	      "collides" : true,
-		  "shootEffect": "shootBig",
-		  "knockback": 1,
+        "shootEffect": "shootBig",
+	"knockback": 0.5,
 
         "pierce": false,
         "pierceCap": 0,
@@ -61,8 +59,6 @@
 		  },
     "pyratite": {
         "type": "BasicBulletType",
-	      "collidesTiles": true,
-	      "collides" : true,
 		  "ammoMultiplier": 4,
 		  "shootEffect": "shootBig",
 		  "knockback": 1,
@@ -91,8 +87,6 @@
       },
 	      "thorium": {
         "type": "BasicBulletType",
-	      "collidesTiles": true,
-	      "collides" : true,
 		  "shootEffect": "shootBig",
 		  "knockback": 1,
         
@@ -115,8 +109,6 @@
       },
       "molten-alloy": {
         "type": "BasicBulletType",
-        "collidesTiles": true,
-        "collides" : true,
         "ammoMultiplier": 2,
         "shootEffect": "shootBig",
         "knockback": 1,
@@ -139,17 +131,12 @@
         "speed": 8,
         "backColor": "ff6600",
         "frontColor": "ff6600",
-        "fragBullets": 10,
-        "fragSpread": 5,
-        "fragRandomSpread": 0
       },
       "magmium": {
         "type": "BasicBulletType",
-        "collidesTiles": true,
-        "collides" : true,
         "ammoMultiplier": 4,
         "shootEffect": "shootBig",
-        "knockback": 1,
+        "knockback": 2,
 
         "laserAbsorb": true,
         "hittable": false,
