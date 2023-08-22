@@ -21,7 +21,7 @@
   "shootSound": "none",
   "cooldownTime" : 300,
   "recoil": 1,
-  "rotateSpeed": 4,
+  "rotateSpeed": 2,
   "shootY": -1.5,
   "consumes": {
   "power": 5.0
