@@ -9,7 +9,7 @@
     "copper/1000",
     "graphite/500",
     "plastanium/250",
-    "molten-alloy/100"
+    "magmium/100"
   ],
   "targetAir": true,
   "targetGround": true,
