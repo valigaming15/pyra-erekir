@@ -1,0 +1,62 @@
+{
+  "type": "ImpactReactor",
+  "name": "Pyra turbine",
+  "description": "An advanced steam turbine \nrequires time to spool up and power",
+  "health": 500,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "explosionShake": 15,
+  "lightColor": "996600",
+  "itemCapacity": 10,
+  "liquidCapacity": 25,
+  "itemDuration": 60,
+  "powerProduction": 12,
+  "warmupSpeed": 0.004,
+  "explosionDamage": 250,
+  "explosionRadius": 5,
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.2,
+  "consumes": {
+    "power": 0.5,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.2
+    },
+    "items": {
+      "items": [
+        {"item": "coal", "amount": 1}
+      ]
+    }
+  },
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+{
+"type": "DrawDefault"
+},
+{
+"type": "DrawWarmupRegion",
+"DrawRegion": "-turbine",
+"rotateSpeed": 2
+  },
+ ],
+}
+	"requirements": [  	
+		"copper/50",
+		"titanium/50",
+		"metaglass/50",
+		"molten-alloy/10"
+	],
+  "category": "power",
+  "research": {
+    "parent": "pyra-panel",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "titanium", "amount": 500},
+	  {"item": "molten-alloy", "amount": 100}
+    ]
+  }
+}
