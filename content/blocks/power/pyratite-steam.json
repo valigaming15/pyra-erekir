@@ -37,11 +37,10 @@
 "type": "DrawDefault"
 },
 {
-"type": "DrawWarmupRegion",
-"DrawRegion": "-turbine",
-"rotateSpeed": 2
-  },
- ],
+   type: DrawRegion
+   suffix: -turbine
+   spinSprite: true
+   rotateSpeed: 2
 }
 	"requirements": [  	
 		"copper/50",
