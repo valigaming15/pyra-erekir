@@ -63,6 +63,7 @@
         "hittable": false,
         "absorbable": true,
 		"hitEffect": "blastExplosion",
+	        "pierce": true,
 		"pierceBuilding": true,
         "status": "burning",
         "makeFire": true,
