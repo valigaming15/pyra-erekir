@@ -1,0 +1,72 @@
+{
+  "type": "naval",
+  "name": "[green]Auxilium",
+  "description": "Equipped with a small lightning gun and regen field",
+  "health": 350,
+  "armor": 3,
+  "speed": 1.2,
+  "drag": 0.14,
+  "hitSize": 9,
+  "accel": 0.5,
+  "rotateSpeed": 5.5,
+  "trailLength": 16,
+  "waveTrailX": 4,
+  "trailScl": 1.2,
+  "faceTarget": false,
+  "buildSpeed": 0.25,
+  "range": 120,
+  "weapons": [
+    {
+      "name": "small-repair-point",
+      "reload": 60,
+      "x": 0,
+      "rotate": true,
+      "shake": 1,
+      "shoot": {
+        "shots": 10,
+        "shotDelay": 2
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 10,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 8,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+        "keepVelocity": false,
+		"Damage": 5,
+	    "collidesTeam": true,
+        "healPercent": 1,
+        "lifetime": 60,
+        "trailColor": "00ff00",
+        "backColor": "98ffa9",
+        "frontColor": "66ff66",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+      }
+    }
+  ],
+"research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
+  "abilities": [
+	  {
+	    "type": "RepairFieldAbility",
+	    "range": 100,
+	    "reload": 600,
+	    "amount": 10
+	  }
+   ]
+}
