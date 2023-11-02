@@ -41,21 +41,12 @@
     }
   ],
   "category": "units",
-  "research": {
-    "parent": "teir-1-factory",
+"research": {
+    "parent": "tier-1-factory",
     "requirements": [
-      {
-        "item": "lead",
-        "amount": 200
-      },
-      {
-        "item": "graphite",
-        "amount": 100
-      },
-      {
-        "item": "silicon",
-        "amount": 100
-      }
+      {"item": "lead", "amount": 200},
+	  {"item": "graphite", "amount": 100},
+      {"item": "silicon", "amount": 100}
     ]
   }
 }
