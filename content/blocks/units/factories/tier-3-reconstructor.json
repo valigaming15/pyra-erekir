@@ -43,25 +43,13 @@
     }
   ],
   "category": "units",
-  "research": {
-    "parent": "teir-2-reconstructor",
+    "research": {
+    "parent": "tier-2-factory",
     "requirements": [
-    {
-      "item": "lead",
-      "amount": 700
-    },
-    {
-      "item": "titanium",
-      "amount": 400
-    },
-    {
-      "item": "thorium",
-      "amount": 600
-    },
-    {
-      "item": "silicon",
-      "amount": 500
-    }
+      {"item": "lead", "amount": 700},
+	    {"item": "titanium", "amount": 400},
+      {"item": "thorium", "amount": 600},
+      {"item": "silicon", "amount": 500}
     ]
   }
 }
