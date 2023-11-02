@@ -56,33 +56,15 @@
     }
   ],
   "category": "units",
-  "research": {
-    "parent": "teir-4-reconstructor",
+    "research": {
+    "parent": "tier-4-reconstructor",
     "requirements": [
-    {
-      "item": "lead",
-      "amount": 4000
-    },
-    {
-      "item": "thorium",
-      "amount": 1000
-    },
-    {
-      "item": "silicon",
-      "amount": 3000
-    },
-    {
-      "item": "plastanium",
-      "amount": 750
-    },
-    {
-      "item": "phase-fabric",
-      "amount": 750
-    },
-    {
-      "item": "ai-core",
-      "amount": 750
-    }
+      {"item": "lead", "amount": 4000},
+      {"item": "thorium", "amount": 1000},
+      {"item": "silicon", "amount": 3000},
+      {"item": "plastanium", "amount": 750},
+      {"item": "phase-fabric", "amount": 750},
+      {"item": "ai-core", "amount": 750}
     ]
   }
 }
