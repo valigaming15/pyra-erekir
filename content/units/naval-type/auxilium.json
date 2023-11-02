@@ -18,12 +18,13 @@
   "weapons": [
     {
       "name": "small-repair-point",
-      "reload": 120,
+      "reload": 60,
       "x": 0,
       "rotate": true,
+	  "mirror": false,
       "shake": 1,
       "shoot": {
-        "shots": 10,
+        "shots": 4,
         "shotDelay": 2
       },
       "velocityRnd": 0.2,
@@ -32,14 +33,17 @@
       "bullet": {
         "type": "MissileBulletType",
         "speed": 3,
-        "damage": 16,
-        "width": 8,
-        "height": 8,
+        "damage": 10,
+		"splashDamage": 10,
+		"splashDamageRadius": 20,
+		"status": "electrified",
+		"statusDuration": 600,
+        "width": 9,
+        "height": 9,
         "shrinkY": 0,
         "drag": -0.003,
         "homingRange": 60,
         "keepVelocity": false,
-		"Damage": 5,
 	    "collidesTeam": true,
         "healPercent": 1,
         "lifetime": 60,
