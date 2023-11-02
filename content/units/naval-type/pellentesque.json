@@ -1,0 +1,117 @@
+{
+  "type": "naval",
+  "name": "[green]Pellentesque",
+  "description": "Equipped with a precision missile launcher and regen field",
+  "health": 500,
+  "armor": 5,
+  "speed": 1.0,
+  "drag": 0.14,
+  "hitSize": 12,
+  "accel": 0.5,
+  "rotateSpeed": 5.5,
+  "trailLength": 20,
+  "waveTrailX": 5,
+  "trailScl": 1.5,
+  "faceTarget": false,
+  "buildSpeed": 1.0,
+  "range": 120,
+  "weapons": [
+    {
+      "name": "small-repair-point",
+      "reload": 60,
+      "x": 0,
+      "rotate": true,
+	  "mirror": false,
+	  "fragOnHit": true,
+      "shake": 2,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 2,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 6,
+		"damage": 50,
+		"splashDamage": 50,
+		"splashDamageRadius": 48,
+		"status": "electrified",
+		"statusDuration": 600,
+        "width": 12,
+        "height": 12,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+        "keepVelocity": false,
+	    "collidesTeam": true,
+        "healPercent": 5,
+        "lifetime": 40,
+        "trailColor": "00ff00",
+        "backColor": "98ffa9",
+        "frontColor": "66ff66",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+		   "fragBullets": 1,
+	       "fragSpread": 0,
+		   "fragRandomSpread": 0,
+		   "fragBullet": {
+	    "type": "BasicBulletType",
+        "speed": 12,
+        "width": 9,
+        "height": 12,
+        "keepVelocity": false,
+		"collidesAir": false
+		"collidesGround": false
+        "lifetime": 3,
+		   "fragBullets": 6,
+	       "fragSpread": 10,
+		   "fragRandomSpread": 0,
+		   "fragBullet": {
+		   "type": "MissileBulletType",
+        "speed": 6,
+        "damage": 10,
+		"status": "electrified",
+		"statusDuration": 600,
+        "width": 12,
+        "height": 12,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+		"homingPower": 0.25,
+        "keepVelocity": false,
+	    "collidesTeam": true,
+        "healPercent": 5,
+        "lifetime": 30,
+        "trailColor": "00ff00",
+        "backColor": "98ffa9",
+        "frontColor": "66ff66",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+		  }
+	    }
+      }
+    }
+  ],
+"research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
+  "abilities": [
+	  {
+	    "type": "RepairFieldAbility",
+	    "range": 100,
+	    "reload": 600,
+	    "amount": 50
+	  }
+   ]
+}
