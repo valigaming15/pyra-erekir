@@ -2,7 +2,7 @@
   "type": "multicraft.MultiCrafter",
   "localizedName": "[#ff66]Compressor",
   "description": "Creates Clumps of resources to produce units",
-  "health": 3,
+  "health": 300,
   "itemCapacity": 26,
   "size": 2,
   "hasPower": true,
