@@ -1,7 +1,7 @@
 {
   "type": "naval",
   "name": "[green]Pellentesque",
-  "description": "Equipped with a precision missile launcher and regen field",
+  "description": "Equipped with a precision cluster missile launcher and regen field",
   "health": 500,
   "armor": 5,
   "speed": 1.0,
