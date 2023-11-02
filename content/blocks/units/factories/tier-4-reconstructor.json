@@ -50,29 +50,14 @@
     }
   ],
   "category": "units",
-  "research": {
-    "parent": "teir-3-reconstructor",
+    "research": {
+    "parent": "tier-3-reconstructor",
     "requirements": [
-    {
-      "item": "lead",
-      "amount": 2000
-    },
-    {
-      "item": "titanium",
-      "amount": 2000
-    },
-    {
-      "item": "thorium",
-      "amount": 1000
-    },
-    {
-      "item": "silicon",
-      "amount": 1000
-    },
-    {
-      "item": "plastanium",
-      "amount": 500
-    }
+      {"item": "lead", "amount": 2000},
+      {"item": "titanium", "amount": 2000},
+      {"item": "thorium", "amount": 1000},
+      {"item": "silicon", "amount": 1000},
+      {"item": "plastanium", "amount": 500}
     ]
   }
 }
