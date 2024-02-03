@@ -179,7 +179,6 @@
       {},
       {
         "suffix": "-barrel-l",
-        "recoilIndex": 1,
         "mirror": false,
         "under": false,
         "moveX": 0,
@@ -190,19 +189,16 @@
       },
       {
         "suffix": "-barrel-r",
-        "recoilIndex": 2,
         "mirror": false,
         "under": false,
         "moveX": 0,
         "moveY": -3,
         "progress": {
-          "type": "recoil",
-          "start": 0.5
+          "type": "recoil"
         }
       }
     ]
   },
-  "recoils": 2,
   "research": {
     "parent": "gijima",
     "requirements": [

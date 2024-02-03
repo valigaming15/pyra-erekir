@@ -20,7 +20,7 @@
       "name": "large-rl",
       "reload": 60,
       "x": 0,
-	  "y": 5,
+	  "y": 0,
       "rotate": true,
 	  "mirror": false,
 	  "fragOnHit": true,
@@ -61,7 +61,7 @@
   {
       "name": "small-rl",
       "reload": 60,
-      "x": -9,
+      "x": -6,
 	  "y": -9,
       "rotate": true,
 	  "mirror": true,
