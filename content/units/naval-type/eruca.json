@@ -45,7 +45,7 @@
       "mirror": true,
       "shoot": {
         "shots": 6,
-        "shotDelay": 3
+        "shotDelay": 2
       },
       "velocityRnd": 0.2,
       "shootSound": "missile",
