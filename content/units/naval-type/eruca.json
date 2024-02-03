@@ -35,6 +35,81 @@
         "keepVelocity": false,
         "spawnUnit": "missile-u1"
       }
+    },
+    {
+      "name": "small-rl",
+      "reload": 40,
+      "x": -6,
+      "y": -9,
+      "rotate": true,
+      "mirror": true,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 3
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 10,
+      "bullet": {
+        "type": "FlakBulletType",
+        "sprite": "missile-large",
+        "lifetime": 45,
+        "width": 12,
+        "height": 22,
+        "hitSize": 7,
+        "shootEffect": "shootSmokeSquareBig",
+        "smokeEffect": "shootSmokeDisperse",
+        "ammoMultiplier": 1,
+        "hitColor":"66ff66",
+        "backColor":"98ffa9",
+        "trailColor": "00ff00",
+        "lightningColor": "00ff00",
+        "frontColor":"66ff66",
+        "trailWidth": 3,
+        "trailLength": 12,
+        "hitEffect": "hitBulletColor",
+        "despawnEffect": "hitBulletColor",
+
+        "trailEffect": "colorSpark",
+        "trailRotation": true,
+        "trailInterval": 3,
+        "lightning": 1,
+        "lightningCone": 15,
+        "lightningLength": 20,
+        "lightningLengthRand": 30,
+        "lightningDamage": 20,
+
+        "homingPower": 0.17,
+        "homingDelay": 19,
+        "homingRange": 160,
+
+        "explodeRange": 160,
+        "explodeDelay": 0,
+
+        "flakInterval": 20,
+        "despawnShake": 3,
+
+        "fragBullet": {
+          "type": "LaserBulletType",
+          "colors": ["70d581", "98ffa9", "ffffff"],
+          "width": 19,
+          "hitEffect": "hitLancer",
+          "sideAngle": 175,
+          "sideWidth": 1,
+          "sideLength": 40,
+          "lifetime": 22,
+          "drawSize": 40,
+          "length": 180,
+          "pierceCap": 2
+        },
+
+        "fragSpread": 0,
+        "fragRandomSpread": 0,
+
+        "splashDamage": 0,
+        "hitEffect": "hitSquaresColor",
+        "collidesGround": true
+      }
     }
   ],
 "research": {
