@@ -43,14 +43,13 @@
       "y": -9,
       "rotate": true,
       "mirror": true,
-      "inaccuracy": 20,
       "shoot": {
         "shots": 3,
         "shotDelay": 6
       },
       "velocityRnd": 0.2,
       "shootSound": "missile",
-      "inaccuracy": 10,
+      "inaccuracy": 20,
       "bullet": {
         "type": "FlakBulletType",
         "sprite": "missile-large",
@@ -97,7 +96,7 @@
           "colors": ["70d581", "98ffa9", "ffffff"],
           "width": 10,
           "hitEffect": "hitLancer",
-          "damage": 20,
+          "damage": 10,
           "sideAngle": 175,
           "sideWidth": 1,
           "sideLength": 40,
@@ -110,7 +109,9 @@
         "fragSpread": 45,
         "fragRandomSpread": 0,
 
-        "splashDamage": 0,
+        "splashDamage": 20,
+
+        "splashDamageRadius": 35,
         "hitEffect": "hitSquaresColor",
         "collidesGround": true
       }
