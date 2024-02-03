@@ -86,10 +86,10 @@
         "homingDelay": 5,
         "homingRange": 160,
 
-        "explodeRange": 70,
-        "explodeDelay": 0,
+        "explodeRange": 10,
+        "explodeDelay": 2,
 
-        "flakInterval": 20,
+        "flakInterval": 10,
         "despawnShake": 3,
 
         "fragBullet": {
@@ -103,7 +103,7 @@
           "sideLength": 40,
           "lifetime": 22,
           "drawSize": 40,
-          "length": 80,
+          "length": 30,
           "pierceCap": 2
         },
         "fragbullets": 8,
