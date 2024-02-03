@@ -4,11 +4,11 @@
   "playerControllable": false,
   "createWreck": false,
   "createScorch": false,
-  "logicControllable": false,
+  "logicControllable": true,
   "flying": true,
   "health": 100,
   "armor": 8,
-  "speed": 1,
+  "speed": 5,
   "drag": 0.14,
   "hitSize": 10,
   "accel": 2,
@@ -22,7 +22,7 @@
   "useUnitCap": false,
   "isEnemy": true,
   "buildSpeed": 1.0,
-  "range": 120,
+  "range": 30,
   "weapons": [
     {
       "shootOnDeath": true,
