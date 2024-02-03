@@ -38,14 +38,14 @@
     },
     {
       "name": "small-rl",
-      "reload": 40,
+      "reload": 20,
       "x": -6,
       "y": -9,
       "rotate": true,
       "mirror": true,
       "shoot": {
-        "shots": 3,
-        "shotDelay": 6
+        "shots": 6,
+        "shotDelay": 3
       },
       "velocityRnd": 0.2,
       "shootSound": "missile",
