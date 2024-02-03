@@ -75,10 +75,10 @@
         "trailEffect": "colorSpark",
         "trailRotation": true,
         "trailInterval": 3,
-        "lightning": 1,
-        "lightningCone": 15,
+        "lightning": 6,
+        "lightningCone": 360,
         "lightningLength": 20,
-        "lightningLengthRand": 30,
+        "lightningLengthRand": 10,
         "lightningDamage": 20,
 
         "homingPower": 0.17,
