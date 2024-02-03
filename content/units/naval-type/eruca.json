@@ -1,0 +1,126 @@
+{
+  "type": "naval",
+  "name": "[green]Eruca",
+  "description": "Equipped with cluster missile launchers",
+  "health": 800,
+  "armor": 8,
+  "speed": 1.0,
+  "drag": 0.14,
+  "hitSize": 32,
+  "accel": 0.5,
+  "rotateSpeed": 5.5,
+  "trailLength": 20,
+  "waveTrailX": 5,
+  "trailScl": 1.5,
+  "faceTarget": false,
+  "buildSpeed": 1.0,
+  "range": 120,
+  "weapons": [
+    {
+      "name": "large-rl",
+      "reload": 60,
+      "x": 0,
+	  "y": 0,
+      "rotate": true,
+	  "mirror": false,
+	  "fragOnHit": true,
+      "shake": 5,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 2,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 6,
+		"damage": 100,
+		"splashDamage": 100,
+		"splashDamageRadius": 56,
+		"status": "electrified",
+		"statusDuration": 600,
+        "width": 12,
+        "height": 12,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+        "keepVelocity": false,
+	    "collidesTeam": true,
+        "healPercent": 5,
+        "lifetime": 40,
+        "trailColor": "00ff00",
+        "backColor": "98ffa9",
+        "frontColor": "66ff66",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+      }
+    },
+  {
+      "name": "small-rl",
+      "reload": 60,
+      "x": -6,
+	  "y": -9,
+      "rotate": true,
+	  "mirror": true,
+      "shake": 1,
+      "shoot": {
+        "shots": 5,
+        "shotDelay": 3
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 10,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 10,
+		"splashDamage": 10,
+		"splashDamageRadius": 20,
+		"status": "electrified",
+		"statusDuration": 600,
+        "width": 9,
+        "height": 9,
+        "shrinkY": 0,
+        "drag": -0.003,
+		"homingPower": 0.5,
+        "keepVelocity": false,
+	    "collidesTeam": true,
+        "healPercent": 1,
+        "lifetime": 60,
+        "trailColor": "00ff00",
+        "backColor": "98ffa9",
+        "frontColor": "66ff66",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+      }
+    }
+  ],
+"research": {
+    "parent": "pellentesque",
+    "requirements": [
+      {"item": "lead", "amount": 2000},
+	  {"item": "copper", "amount": 2000},
+      {"item": "silicon", "amount": 2000},
+      {"item": "titanium", "amount": 2000}
+    ]
+  },
+  "abilities": [
+      {
+    "type": "SpawnDeathAbility",
+    "amount": 1,
+    "faceOutwards": true,
+    "unit": "pellentesque"
+      },
+	  {
+	    "type": "RepairFieldAbility",
+	    "range": 100,
+	    "reload": 300,
+	    "amount": 50
+	  }
+   ]
+}
