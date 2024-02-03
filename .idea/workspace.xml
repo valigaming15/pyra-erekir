@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5c1b035-5823-4e18-ae22-fcaeee33437f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/content/blocks/distribution/pyra-conveyor.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/distribution/pyra-conveyor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/effect/pyra-overdrive.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/effect/pyra-overdrive.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/power/pyratite-steam.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/power/pyratite-steam.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/production/magmium-liquifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/production/magmium-liquifier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/eideann.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/eideann.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/gijima.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/gijima.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/isolde.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/isolde.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/units/factories/tier-1-factory.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/factories/tier-1-factory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/units/factories/tier-4-reconstructor.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/factories/tier-4-reconstructor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/units/factories/tier-5-reconstructor.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/units/factories/tier-5-reconstructor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/liquids/plasmatic-slag.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/liquids/plasmatic-slag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/status/costRestore.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/status/costRestore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/status/energyDrain.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/status/energyDrain.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/interceptor-type/arei.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/interceptor-type/arei.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/interceptor-type/dredge.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/interceptor-type/dredge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/interceptor-type/fossores.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/interceptor-type/fossores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/interceptor-type/navis.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/interceptor-type/navis.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/naval-type/auxilium.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/naval-type/auxilium.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/naval-type/gladius.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/naval-type/gladius.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/units/naval-type/pellentesque.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/units/naval-type/pellentesque.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/turrets/eideann/eideann-barrel-l-heat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/turrets/eideann/eideann-barrel-r-heat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/ground-type/Amar-weapon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/ground-type/Amar-weapon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/ground-type/Amar-weapon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/naval-type/auxilium-cell.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/units/naval-type/auxilium-cell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/naval-type/auxilium.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/units/naval-type/auxilium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/naval-type/gladius-cell.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/units/naval-type/gladius-cell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/naval-type/gladius.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/units/naval-type/gladius.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/naval-type/pellentesque-cell.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/units/naval-type/pellentesque-cell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/units/naval-type/pellentesque.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/units/naval-type/pellentesque.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2bq0RCiYxluqqpOifwVYhvK8ojC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5c1b035-5823-4e18-ae22-fcaeee33437f" name="Changes" comment="" />
+      <created>1706927294511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706927294511</updated>
+    </task>
+    <servers />
+  </component>
+</project>

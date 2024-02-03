@@ -17,7 +17,7 @@
   "range": 120,
   "weapons": [
     {
-      "name": "small-repair-point",
+      "name": "small-rl",
       "reload": 60,
       "x": 0,
       "rotate": true,

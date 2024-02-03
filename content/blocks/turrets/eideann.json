@@ -126,7 +126,7 @@
         "lifetime": 35,
         "speed": 8,
         "backColor": "ff6600",
-        "frontColor": "ff6600",
+        "frontColor": "ff6600"
       },
       "magmium": {
         "type": "BasicBulletType",
@@ -179,6 +179,7 @@
       {},
       {
         "suffix": "-barrel-l",
+        "recoilIndex": 1,
         "mirror": false,
         "under": false,
         "moveX": 0,
@@ -189,6 +190,7 @@
       },
       {
         "suffix": "-barrel-r",
+        "recoilIndex": 2,
         "mirror": false,
         "under": false,
         "moveX": 0,
@@ -200,7 +202,8 @@
       }
     ]
   },
-"research": {
+  "recoils": 2,
+  "research": {
     "parent": "gijima",
     "requirements": [
       {"item": "lead", "amount": 1500},

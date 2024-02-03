@@ -6,7 +6,7 @@
   "canMine": false,
   "canAttack": true,
   "buildSpeed": 0.5,
-  "hitSize": 36
+  "hitSize": 36,
   "engineOffset": 18,
   "engineSize": 4,
   "armor": 10,
@@ -34,7 +34,7 @@
       "bullet": {
           "type": "BasicBulletType",
 	      "collidesTiles": true,
-	      "collides" : true
+	      "collides" : true,
         
         "laserAbsorb": true,
         "hittable": false,
@@ -56,12 +56,12 @@
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff6600",
-        "frontColor": "ffffff"
+        "frontColor": "ffffff",
 		"fragBullets": 5,
 	    "fragSpread": 10,
 		"fragRandomSpread": 0,
 		"fragBullet": {
-			"type": "BasicBulletType"
+			"type": "BasicBulletType",
 			
 			"laserAbsorb": true,
             "hittable": true,
@@ -77,7 +77,7 @@
             "speed": 2,
 	        "damage": 10,
             "splashDamage": 20,
-		    "splashDamageRadius": 20,
+		    "splashDamageRadius": 20
 		}
 			
       }
@@ -105,6 +105,6 @@
     "amount": 5,
     "faceOutwards": true,
     "unit": "fossores"
-    },
+    }
   ]
 }

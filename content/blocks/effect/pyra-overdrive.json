@@ -11,13 +11,13 @@
   "liquidCapacity": 100,
   "reload": 1,
   "consumes": {
-    "power": 20.0
+    "power": 20.0,
     "liquid": {
       "booster": true,
       "optional": true,
       "liquid": "plasmatic-slag",
       "amount": 0.05
-    },
+    }
   },
   "requirements": [
     {
@@ -36,7 +36,7 @@
       "item": "magmium",
       "amount": 100
     }
-  ]
+  ],
 "category": "effect",
 "research": {
     "parent": "pyra-panel",

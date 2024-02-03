@@ -17,7 +17,7 @@
   "range": 120,
   "weapons": [
     {
-      "name": "cannon",
+      "name": "large-rl",
       "reload": 60,
       "x": 0,
 	  "y": 5,
@@ -59,7 +59,7 @@
       }
     },
   {
-      "name": "small-repair-point",
+      "name": "small-rl",
       "reload": 60,
       "x": -9,
 	  "y": -9,

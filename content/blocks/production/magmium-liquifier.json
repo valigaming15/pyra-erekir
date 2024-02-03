@@ -17,10 +17,10 @@
   "liquid": "slag/0.2",
   "items": {
   "items": [
-  "magmium/1",
+  "magmium/1"
    ]
-  },
- }
+  }
+ },
   "requirements": [
 	  {"item": "copper", "amount": 200},
 	  {"item": "lead", "amount": 200},

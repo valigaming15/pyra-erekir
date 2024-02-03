@@ -32,7 +32,7 @@
     "pyratite": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
-	      "collides" : true
+	      "collides" : true,
 	      "homingPower": 0.1,
 		  "ammoMultiplier": 10,
 		  "reloadMultiplier": 1.0,
@@ -55,7 +55,7 @@
 	  "titanium": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
-	      "collides" : true
+	      "collides" : true,
 		  "ammoMultiplier": 5,
 		  "reloadMultiplier": 1.5,
         
@@ -73,7 +73,7 @@
 	  "thorium": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
-	      "collides" : true
+	      "collides" : true,
 		  "ammoMultiplier": 5,
 		  "reloadMultiplier": 1.0,
 		  "buildingDamageMultiplier": 1.5,
@@ -92,7 +92,7 @@
 	  "copper": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
-	      "collides" : true
+	      "collides" : true,
 		  "ammoMultiplier": 2,
 		  "reloadMultiplier": 1.0,
         
@@ -111,7 +111,7 @@
 	  	  "graphite": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
-	      "collides" : true
+	      "collides" : true,
 		  "ammoMultiplier": 5,
 		  "reloadMultiplier": 0.75,
         

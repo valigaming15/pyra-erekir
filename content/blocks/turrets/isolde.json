@@ -26,8 +26,8 @@
       },
       "packet-flare": {
         "spawnUnit": "flare",
-        "ammoMultiplier": 1
-	"reloadMultiplier": 5.0,
+        "ammoMultiplier": 1,
+	"reloadMultiplier": 5.0
       },
       "packet-fossores": {
         "spawnUnit": "fossores",

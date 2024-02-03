@@ -37,13 +37,13 @@
 "type": "DrawDefault"
 },
 {
-   "type": "DrawRegion"
-   "suffix": "-turbine"
+   "type": "DrawRegion",
+   "suffix": "-turbine",
    "spinSprite": true,
    "rotateSpeed": 8
-  },
- ],
-}
+  }
+ ]
+},
 	"requirements": [  	
 		"copper/50",
 		"titanium/50",

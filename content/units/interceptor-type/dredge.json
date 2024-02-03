@@ -33,7 +33,7 @@
 		 "range": 120,
 		 "damage": 5,
 		 "reload": 30,
-		 "maxTargets": 10,
+		 "maxTargets": 10
 	  }
     ]
   }

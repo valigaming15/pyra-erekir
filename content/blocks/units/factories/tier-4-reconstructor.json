@@ -11,7 +11,7 @@
     "liquids": [
     "cryofluid/0.75"
     ]
-  }
+  },
     "items": {
       "items": [
         {"item": "plastanium", "amount": 1000},

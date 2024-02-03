@@ -42,5 +42,5 @@
 	  {"item": "copper", "amount": 500},
       {"item": "silicon", "amount": 500}
     ]
-  },
+  }
 }
