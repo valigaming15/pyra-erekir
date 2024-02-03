@@ -56,7 +56,7 @@
         "sprite": "missile-large",
         "speed": 8,
         "damage": 40,
-        "lifetime": 45,
+        "lifetime": 30,
         "width": 6,
         "height": 11,
         "hitSize": 7,
@@ -83,7 +83,7 @@
         "lightningDamage": 20,
 
         "homingPower": 0.17,
-        "homingDelay": 19,
+        "homingDelay": 5,
         "homingRange": 160,
 
         "explodeRange": 70,
