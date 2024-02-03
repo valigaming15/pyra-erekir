@@ -1,5 +1,6 @@
 {
   "type": "flying",
+  "defaultController": "MissileAI",
   "flying": true,
   "health": 800,
   "armor": 8,
