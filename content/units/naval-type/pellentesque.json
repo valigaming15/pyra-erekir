@@ -47,7 +47,7 @@
         "keepVelocity": false,
 	    "collidesTeam": true,
         "healPercent": 5,
-        "lifetime": 40,
+        "lifetime": 30,
         "trailColor": "00ff00",
         "backColor": "98ffa9",
         "frontColor": "66ff66",
@@ -60,7 +60,7 @@
 		   "fragRandomSpread": 0,
 		   "fragBullet": {
 	    "type": "BasicBulletType",
-        "speed": 12,
+        "speed": 8,
         "width": 9,
         "height": 12,
         "keepVelocity": false,
