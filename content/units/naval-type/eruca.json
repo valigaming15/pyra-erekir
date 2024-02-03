@@ -53,9 +53,11 @@
       "bullet": {
         "type": "FlakBulletType",
         "sprite": "missile-large",
+        "speed": 8,
+        "damage": 40,
         "lifetime": 45,
-        "width": 12,
-        "height": 22,
+        "width": 6,
+        "height": 11,
         "hitSize": 7,
         "shootEffect": "shootSmokeSquareBig",
         "smokeEffect": "shootSmokeDisperse",
@@ -92,18 +94,19 @@
         "fragBullet": {
           "type": "LaserBulletType",
           "colors": ["70d581", "98ffa9", "ffffff"],
-          "width": 19,
+          "width": 10,
           "hitEffect": "hitLancer",
+          "damage": 50,
           "sideAngle": 175,
           "sideWidth": 1,
-          "sideLength": 40,
+          "sideLength": 10,
           "lifetime": 22,
           "drawSize": 40,
           "length": 180,
           "pierceCap": 2
         },
-
-        "fragSpread": 0,
+        "fragbullets": 8,
+        "fragSpread": 45,
         "fragRandomSpread": 0,
 
         "splashDamage": 0,
