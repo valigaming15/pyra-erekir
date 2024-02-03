@@ -57,7 +57,7 @@
       "ignoreRotation": true,
       "alwaysShooting": true,
       "shoot": {
-        "firstShotDelay": 400
+        "firstShotDelay": 200
       },
       "x": 0,
       "shootY": 0,
