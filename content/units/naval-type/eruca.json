@@ -43,9 +43,10 @@
       "y": -9,
       "rotate": true,
       "mirror": true,
+      "inaccuracy": 20,
       "shoot": {
         "shots": 3,
-        "shotDelay": 3
+        "shotDelay": 6
       },
       "velocityRnd": 0.2,
       "shootSound": "missile",
@@ -85,7 +86,7 @@
         "homingDelay": 19,
         "homingRange": 160,
 
-        "explodeRange": 160,
+        "explodeRange": 70,
         "explodeDelay": 0,
 
         "flakInterval": 20,
@@ -99,10 +100,10 @@
           "damage": 50,
           "sideAngle": 175,
           "sideWidth": 1,
-          "sideLength": 10,
+          "sideLength": 40,
           "lifetime": 22,
           "drawSize": 40,
-          "length": 180,
+          "length": 80,
           "pierceCap": 2
         },
         "fragbullets": 8,
