@@ -1,0 +1,71 @@
+{
+  "type": "flying",
+  "health": 800,
+  "armor": 8,
+  "speed": 6,
+  "drag": 0.14,
+  "hitSize": 10,
+  "accel": 2,
+  "hidden": true,
+  "rotateSpeed": 2.5,
+  "trailLength": 20,
+  "waveTrailX": 5,
+  "trailScl": 1.5,
+  "faceTarget": false,
+  "buildSpeed": 1.0,
+  "range": 120,
+  "weapons": [
+    {
+      "shootOnDeath": true,
+      "reload": 24,
+      "shootCone": 180,
+      "ejectEffect": "none",
+      "shootSound": "explosion",
+      "x": 0,
+      "shootY": 0,
+      "bullet": {
+        "type": "BulletType",
+        "collides": false,
+        "collidesTiles": false,
+        "hitSound": "explosion",
+        "overrideRange": 120,
+        "speed": 0,
+        "hitEffect": "none",
+        "despawnEffect": "titanSmoke",
+        "splashDamageRadius": 80,
+        "instantDisappear": true,
+        "splashDamage": 600,
+        "hittable": false,
+        "killShooter": true,
+        "collidesAir": true
+      }
+    },
+    {
+      "reload": 24,
+      "ejectEffect": "none",
+      "shootSound": "none",
+      "alwaysContinuous": true,
+      "ignoreRotation": true,
+      "alwaysShooting": true,
+      "shoot": {
+        "firstShotDelay": 600
+      },
+      "x": 0,
+      "shootY": 0,
+      "bullet": {
+        "type": "BulletType",
+        "collides": false,
+        "collidesTiles": false,
+        "hitSound": "none",
+        "speed": 0,
+        "hitEffect": "none",
+        "despawnEffect": "none",
+        "instantDisappear": true,
+        "hittable": false,
+        "killShooter": true,
+        "collidesAir": false,
+        "collidesGround": false
+      }
+    }
+  ]
+}

@@ -108,6 +108,12 @@
     ]
   },
   "abilities": [
+    {
+      "type": "SpawnDeathAbility",
+      "amount": 1,
+      "faceOutwards": true,
+      "unit": "auxilium"
+    },
 	  {
 	    "type": "RepairFieldAbility",
 	    "range": 100,
