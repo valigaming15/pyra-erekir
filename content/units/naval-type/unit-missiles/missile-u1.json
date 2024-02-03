@@ -1,5 +1,6 @@
 {
   "type": "flying",
+  "flying": true,
   "health": 800,
   "armor": 8,
   "speed": 6,
