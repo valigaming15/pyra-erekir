@@ -6,7 +6,7 @@
   "createScorch": false,
   "logicControllable": true,
   "flying": true,
-  "health": 1000,
+  "health": 500,
   "armor": 5,
   "speed": 2,
   "drag": 0.15,
