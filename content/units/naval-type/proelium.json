@@ -127,7 +127,7 @@
     },
     {
       "type": "UnitSpawnAbility",
-      "unit": "auxilium",
+      "unit": "pellentesque",
       "spawnX": 0,
       "spawnY": 0,
       "spawnTime": 1800
@@ -137,7 +137,7 @@
       "unit": "healing-dorito",
       "spawnX": 0,
       "spawnY": -4,
-      "spawnTime": 1800
+      "spawnTime": 600
     },
     {
     "type": "SpawnDeathAbility",
