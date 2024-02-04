@@ -1,12 +1,12 @@
 {
   "type": "flying",
   "defaultController": "MissileAI",
-  "playerControllable": false,
+  "playerControllable": true,
   "createWreck": false,
   "createScorch": false,
   "logicControllable": true,
   "flying": true,
-  "health": 500,
+  "health": 1000,
   "armor": 5,
   "speed": 3,
   "drag": 0.15,
@@ -22,7 +22,7 @@
   "useUnitCap": false,
   "isEnemy": true,
   "buildSpeed": 1.0,
-  "range": 40,
+  "range": 120,
   "weapons": [
     {
       "shootOnDeath": true,
