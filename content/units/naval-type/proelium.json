@@ -8,7 +8,7 @@
   "drag": 0.16,
   "hitSize": 60,
   "accel": 0.5,
-  "rotateSpeed": 5.5,
+  "rotateSpeed": 5,
   "trailLength": 20,
   "waveTrailX": 5,
   "trailScl": 1.5,
