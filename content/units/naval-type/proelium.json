@@ -4,7 +4,7 @@
   "description": "Equipped with cluster missile launchers",
   "health": 20000,
   "armor": 20,
-  "speed": 0.75,
+  "speed": 0.5,
   "drag": 0.16,
   "hitSize": 60,
   "accel": 0.5,
@@ -14,7 +14,7 @@
   "trailScl": 1.5,
   "faceTarget": false,
   "buildSpeed": 1.0,
-  "range": 120,
+  "range": 100,
   "weapons": [
     {
       "name": "large-rl",
