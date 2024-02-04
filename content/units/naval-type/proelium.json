@@ -2,11 +2,11 @@
   "type": "naval",
   "name": "[green]Eruca",
   "description": "Equipped with cluster missile launchers",
-  "health": 10000,
-  "armor": 10,
+  "health": 20000,
+  "armor": 20,
   "speed": 0.75,
   "drag": 0.16,
-  "hitSize": 40,
+  "hitSize": 60,
   "accel": 0.5,
   "rotateSpeed": 5.5,
   "trailLength": 20,
@@ -33,7 +33,7 @@
         "shake": 1,
         "speed": 0,
         "keepVelocity": false,
-        "spawnUnit": "missile-u1"
+        "spawnUnit": "missile-u2"
       }
     },
     {
@@ -109,26 +109,41 @@
     }
   ],
 "research": {
-    "parent": "gladius",
+    "parent": "eruca",
     "requirements": [
       {"item": "lead", "amount": 2000},
-	  {"item": "copper", "amount": 2000},
+      {"item": "copper", "amount": 2000},
       {"item": "silicon", "amount": 2000},
       {"item": "titanium", "amount": 2000}
     ]
   },
-  "abilities": [
-      {
+"abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 100,
+      "regen": 4.0,
+      "max": 5000,
+      "cooldown": 1800
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "auxilium",
+      "spawnX": 0,
+      "spawnY": 0,
+      "spawnTime": 1800
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "healing-dorito",
+      "spawnX": 0,
+      "spawnY": -4,
+      "spawnTime": 1800
+    },
+    {
     "type": "SpawnDeathAbility",
     "amount": 1,
     "faceOutwards": true,
-    "unit": "gladius"
-      },
-	  {
-	    "type": "RepairFieldAbility",
-	    "range": 100,
-	    "reload": 600,
-	    "amount": 100
-	  }
-   ]
+    "unit": "eruca"
+    }
+  ]
 }
