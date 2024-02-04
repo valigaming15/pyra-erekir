@@ -35,7 +35,23 @@
         "keepVelocity": false,
         "spawnUnit": "missile-u2"
       }
-    }
+    },
+    {
+		"type": "PointDefenseWeapon",
+		"x": 8,
+		"y": -8,
+		"mirror": true,
+		"reload": 5,
+	        "targetInterval": 5,
+		"targetSwitchInterval": 5,
+		"bullet": {
+	        "type": "BulletType",
+		"shootEffect": "sparkShoot",
+		"hitEffect": "pointHit",
+		"maxRange": 120,
+		"damage": 10
+			}
+		}
   ],
 "research": {
     "parent": "eruca",
