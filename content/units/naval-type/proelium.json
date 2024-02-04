@@ -42,14 +42,14 @@
 		"x": 8,
 		"y": -8,
 		"mirror": true,
-		"reload": 4,
+		"reload": 3,
 	        "targetInterval": 2,
 		"targetSwitchInterval": 5,
 		"bullet": {
 	        "type": "BulletType",
 		"shootEffect": "sparkShoot",
 		"hitEffect": "pointHit",
-		"maxRange": 120,
+		"maxRange": 180,
 		"damage": 20
 			}
 		}
