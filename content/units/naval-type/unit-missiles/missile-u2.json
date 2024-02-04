@@ -22,7 +22,7 @@
   "useUnitCap": false,
   "isEnemy": true,
   "buildSpeed": 1.0,
-  "range": 140,
+  "range": 60,
   "weapons": [
     {
       "shootOnDeath": true,
