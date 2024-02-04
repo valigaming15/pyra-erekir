@@ -48,7 +48,7 @@
         "hittable": false,
         "killShooter": true,
         "collidesAir": true
-          "fragBullets": 24,
+          "fragBullets": 30,
 	        "fragSpread": 15,
 		      "fragRandomSpread": 0,
         "fragBullet": {
