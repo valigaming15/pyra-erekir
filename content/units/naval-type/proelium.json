@@ -42,7 +42,7 @@
 		"x": 8,
 		"y": -8,
 		"mirror": true,
-		"reload": 3,
+		"reload": 2,
 	        "targetInterval": 1,
 		"targetSwitchInterval": 1,
 		"bullet": {
@@ -50,7 +50,7 @@
 		"shootEffect": "sparkShoot",
 		"hitEffect": "pointHit",
 		"maxRange": 180,
-		"damage": 20
+		"damage": 25
 			}
 		}
   ],
