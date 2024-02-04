@@ -43,8 +43,8 @@
 		"y": -8,
 		"mirror": true,
 		"reload": 3,
-	        "targetInterval": 2,
-		"targetSwitchInterval": 5,
+	        "targetInterval": 1,
+		"targetSwitchInterval": 1,
 		"bullet": {
 	        "type": "BulletType",
 		"shootEffect": "sparkShoot",
