@@ -44,7 +44,7 @@
         "splashDamageRadius": 80,
         "instantDisappear": true,
         "scaledSplashDamage": true,
-        "splashDamage": 1000,
+        "splashDamage": 500,
         "hittable": false,
         "killShooter": true,
         "collidesAir": true
