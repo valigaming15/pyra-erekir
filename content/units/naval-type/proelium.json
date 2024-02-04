@@ -38,7 +38,7 @@
     },
     {
       "name": "small-rl",
-      "reload": 80,
+      "reload": 160,
       "x": -6,
       "y": -9,
       "rotate": true,
@@ -55,7 +55,7 @@
         "sprite": "missile-large",
         "speed": 8,
         "lifetime": 30,
-	"damage": 10,
+	       "damage": 20,
         "width": 6,
         "height": 11,
         "hitSize": 7,
@@ -87,7 +87,7 @@
           "colors": ["70d581", "98ffa9", "ffffff"],
           "width": 10,
           "hitEffect": "hitLancer",
-          "damage": 20,
+          "damage": 40,
           "sideAngle": 175,
           "sideWidth": 1,
           "sideLength": 40,
@@ -100,7 +100,7 @@
         "fragSpread": 45,
         "fragRandomSpread": 0,
 
-        "splashDamage": 50,
+        "splashDamage": 100,
 
         "splashDamageRadius": 40,
         "hitEffect": "hitSquaresColor",
