@@ -48,6 +48,17 @@
         "hittable": false,
         "killShooter": true,
         "collidesAir": true
+          "fragBullets": 12,
+	        "fragSpread": 30,
+		      "fragRandomSpread": 0,
+        "fragBullet": {
+          "type": "LightningBulletType",
+        "damage": 80,
+        "collidesTeam": true,
+        "healAmount": 10,
+        "lightningLength": 30,
+        "lightningColor": "98ffa9"
+        }
       }
     },
     {
