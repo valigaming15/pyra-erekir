@@ -71,15 +71,6 @@
         "hitEffect": "hitBulletColor",
         "despawnEffect": "hitBulletColor",
 
-        "trailEffect": "colorSpark",
-        "trailRotation": true,
-        "trailInterval": 3,
-        "lightning": 6,
-        "lightningCone": 360,
-        "lightningLength": 20,
-        "lightningLengthRand": 10,
-        "lightningDamage": 20,
-
         "homingPower": 0.17,
         "homingDelay": 5,
         "homingRange": 160,
@@ -95,7 +86,7 @@
           "colors": ["70d581", "98ffa9", "ffffff"],
           "width": 10,
           "hitEffect": "hitLancer",
-          "damage": 10,
+          "damage": 20,
           "sideAngle": 175,
           "sideWidth": 1,
           "sideLength": 40,
@@ -108,7 +99,7 @@
         "fragSpread": 45,
         "fragRandomSpread": 0,
 
-        "splashDamage": 40,
+        "splashDamage": 50,
 
         "splashDamageRadius": 40,
         "hitEffect": "hitSquaresColor",
@@ -136,7 +127,7 @@
 	    "type": "RepairFieldAbility",
 	    "range": 100,
 	    "reload": 300,
-	    "amount": 50
+	    "amount": 100
 	  }
    ]
 }
