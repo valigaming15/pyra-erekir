@@ -55,7 +55,7 @@
           "type": "LightningBulletType",
         "damage": 80,
         "collidesTeam": true,
-        "healAmount": 10,
+        "healPercent": 5,
         "lightningLength": 30,
         "lightningColor": "98ffa9"
         }
