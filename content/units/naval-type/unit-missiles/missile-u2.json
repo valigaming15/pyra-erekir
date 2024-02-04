@@ -44,7 +44,7 @@
         "splashDamageRadius": 80,
         "instantDisappear": true,
         "scaledSplashDamage": true,
-        "splashDamage": 500,
+        "damage": 500,
         "hittable": false,
         "killShooter": true,
         "collidesAir": true
@@ -53,11 +53,11 @@
 		      "fragRandomSpread": 0,
         "fragBullet": {
           "type": "LightningBulletType",
-        "damage": 50,
+        "damage": 10,
         "collidesTeam": true,
         "healPercent": 5,
-        "lightningLength": 30,
-        "lightningColor": "98ffa9"
+        "lightningLength": 25,
+        "lightningColor": "00ff00"
         }
       }
     },
