@@ -50,6 +50,10 @@
         "collidesAir": true
         
               "fragBullet": {
+	"alwaysShooting": true,
+      "shoot": {
+        "firstShotDelay": 600
+      },
         "type": "FlakBulletType",
         "sprite": "missile-large",
         "speed": 0,
