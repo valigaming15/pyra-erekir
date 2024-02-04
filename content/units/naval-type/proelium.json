@@ -38,7 +38,7 @@
     },
     {
       "name": "small-rl",
-      "reload": 160,
+      "reload": 150,
       "x": -6,
       "y": -9,
       "rotate": true,
