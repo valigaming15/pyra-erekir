@@ -1,7 +1,7 @@
 {
   "type": "naval",
   "name": "[green]Proelium",
-  "description": "Equipped with cluster missile launchers",
+  "description": "Equipped with a large controlled missile",
   "health": 20000,
   "armor": 20,
   "speed": 0.5,
@@ -14,7 +14,7 @@
   "trailScl": 1.5,
   "faceTarget": false,
   "buildSpeed": 1.0,
-  "range": 100,
+  "range": 80,
   "weapons": [
     {
       "name": "large-rl",
@@ -34,77 +34,6 @@
         "speed": 0,
         "keepVelocity": false,
         "spawnUnit": "missile-u2"
-      }
-    },
-    {
-      "name": "small-rl",
-      "reload": 150,
-      "x": -6,
-      "y": -9,
-      "rotate": true,
-      "mirror": true,
-      "shoot": {
-        "shots": 6,
-        "shotDelay": 2
-      },
-      "velocityRnd": 0.2,
-      "shootSound": "missile",
-      "inaccuracy": 20,
-      "bullet": {
-        "type": "FlakBulletType",
-        "sprite": "missile-large",
-        "speed": 8,
-        "lifetime": 30,
-	       "damage": 20,
-        "width": 6,
-        "height": 11,
-        "hitSize": 7,
-        "shootEffect": "shootSmokeSquareBig",
-        "smokeEffect": "shootSmokeDisperse",
-        "ammoMultiplier": 1,
-        "hitColor":"66ff66",
-        "backColor":"98ffa9",
-        "trailColor": "00ff00",
-        "lightningColor": "00ff00",
-        "frontColor":"66ff66",
-        "trailWidth": 3,
-        "trailLength": 12,
-        "hitEffect": "hitBulletColor",
-        "despawnEffect": "hitBulletColor",
-
-        "homingPower": 0.17,
-        "homingDelay": 5,
-        "homingRange": 160,
-
-        "explodeRange": 10,
-        "explodeDelay": 2,
-
-        "flakInterval": 10,
-        "despawnShake": 3,
-
-        "fragBullet": {
-          "type": "LaserBulletType",
-          "colors": ["70d581", "98ffa9", "ffffff"],
-          "width": 10,
-          "hitEffect": "hitLancer",
-          "damage": 40,
-          "sideAngle": 175,
-          "sideWidth": 1,
-          "sideLength": 40,
-          "lifetime": 22,
-          "drawSize": 40,
-          "length": 30,
-          "pierceCap": 2
-        },
-        "fragbullets": 8,
-        "fragSpread": 45,
-        "fragRandomSpread": 0,
-
-        "splashDamage": 100,
-
-        "splashDamageRadius": 40,
-        "hitEffect": "hitSquaresColor",
-        "collidesGround": true
       }
     }
   ],
