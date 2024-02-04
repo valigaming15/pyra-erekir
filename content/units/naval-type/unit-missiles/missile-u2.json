@@ -53,7 +53,7 @@
 		      "fragRandomSpread": 0,
         "fragBullet": {
           "type": "LightningBulletType",
-        "damage": 10,
+        "damage": 25,
         "collidesTeam": true,
         "healPercent": 5,
         "lightningLength": 25,
