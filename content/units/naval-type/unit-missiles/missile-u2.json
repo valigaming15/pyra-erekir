@@ -8,7 +8,7 @@
   "flying": true,
   "health": 1000,
   "armor": 5,
-  "speed": 4,
+  "speed": 3,
   "drag": 0.15,
   "hitSize": 10,
   "accel": 2,
@@ -69,7 +69,7 @@
       "ignoreRotation": true,
       "alwaysShooting": true,
       "shoot": {
-        "firstShotDelay": 140
+        "firstShotDelay": 180
       },
       "x": 0,
       "shootY": 0,
