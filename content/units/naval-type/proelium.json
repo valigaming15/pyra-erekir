@@ -18,7 +18,7 @@
   "weapons": [
     {
       "name": "large-rl",
-      "reload": 60,
+      "reload": 120,
       "x": 0,
 	  "y": 0,
       "rotate": true,
