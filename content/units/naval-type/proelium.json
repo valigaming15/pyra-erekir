@@ -16,6 +16,7 @@
   "buildSpeed": 1.0,
   "weapons": [
     {
+      "shootOnDeath": true,
       "name": "large-rl",
       "reload": 300,
       "x": 0,
