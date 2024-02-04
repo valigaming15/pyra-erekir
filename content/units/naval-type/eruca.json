@@ -55,6 +55,7 @@
         "sprite": "missile-large",
         "speed": 8,
         "lifetime": 30,
+	"damage": 10,
         "width": 6,
         "height": 11,
         "hitSize": 7,
