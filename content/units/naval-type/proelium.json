@@ -42,7 +42,7 @@
 		"x": 8,
 		"y": -8,
 		"mirror": true,
-		"reload": 5.5,
+		"reload": 4,
 	        "targetInterval": 1,
 		"targetSwitchInterval": 1,
 		"bullet": {
