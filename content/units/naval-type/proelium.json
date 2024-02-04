@@ -73,6 +73,12 @@
     "amount": 1,
     "faceOutwards": true,
     "unit": "eruca"
+    },
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 25,
+    "faceOutwards": true,
+    "unit": "healing-dorito"
     }
   ]
 }
