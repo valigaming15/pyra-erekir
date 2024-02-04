@@ -2,11 +2,11 @@
   "type": "naval",
   "name": "[green]Eruca",
   "description": "Equipped with cluster missile launchers",
-  "health": 800,
-  "armor": 8,
+  "health": 1000,
+  "armor": 10,
   "speed": 1.0,
-  "drag": 0.14,
-  "hitSize": 32,
+  "drag": 0.16,
+  "hitSize": 42,
   "accel": 0.5,
   "rotateSpeed": 5.5,
   "trailLength": 20,
@@ -54,7 +54,6 @@
         "type": "FlakBulletType",
         "sprite": "missile-large",
         "speed": 8,
-        "damage": 20,
         "lifetime": 30,
         "width": 6,
         "height": 11,
@@ -109,9 +108,9 @@
         "fragSpread": 45,
         "fragRandomSpread": 0,
 
-        "splashDamage": 20,
+        "splashDamage": 40,
 
-        "splashDamageRadius": 35,
+        "splashDamageRadius": 40,
         "hitEffect": "hitSquaresColor",
         "collidesGround": true
       }
