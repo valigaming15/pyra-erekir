@@ -48,6 +48,36 @@
         "hittable": false,
         "killShooter": true,
         "collidesAir": true
+        
+              "fragBullet": {
+        "type": "FlakBulletType",
+        "sprite": "missile-large",
+        "speed": 0,
+        "lifetime": 3600,
+	      "splashDamage": 100,
+        "width": 6,
+        "height": 10,
+        "hitSize": 7,
+        "shootEffect": "shootSmokeSquareBig",
+        "smokeEffect": "shootSmokeDisperse",
+        "ammoMultiplier": 1,
+        "hitColor":"66ff66",
+        "backColor":"98ffa9",
+        "trailColor": "00ff00",
+        "lightningColor": "00ff00",
+        "frontColor":"66ff66",
+        "trailWidth": 3,
+        "trailLength": 12,
+        "hitEffect": "hitBulletColor",
+        "despawnEffect": "hitBulletColor",
+
+        "explodeRange": 10,
+        "explodeDelay": 2,
+
+        "flakInterval": 10,
+        "fragbullets": 10,
+        "fragSpread": 45,
+
       }
     },
     {
