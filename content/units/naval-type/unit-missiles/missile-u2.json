@@ -22,7 +22,7 @@
   "useUnitCap": false,
   "isEnemy": true,
   "buildSpeed": 1.0,
-  "range": 120,
+  "range": 140,
   "weapons": [
     {
       "shootOnDeath": true,
@@ -58,7 +58,7 @@
       "ignoreRotation": true,
       "alwaysShooting": true,
       "shoot": {
-        "firstShotDelay": 120
+        "firstShotDelay": 140
       },
       "x": 0,
       "shootY": 0,
