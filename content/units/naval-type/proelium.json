@@ -82,25 +82,11 @@
   },
 "abilities": [
     {
-      "type": "ForceFieldAbility",
-      "radius": 80,
-      "regen": 1.0,
-      "max": 5000,
-      "cooldown": 1800
-    },
-    {
       "type": "UnitSpawnAbility",
       "unit": "pellentesque",
       "spawnX": 0,
       "spawnY": 0,
       "spawnTime": 1800
-    },
-    {
-      "type": "UnitSpawnAbility",
-      "unit": "healing-dorito",
-      "spawnX": 0,
-      "spawnY": -4,
-      "spawnTime": 600
     },
     {
     "type": "SpawnDeathAbility",
