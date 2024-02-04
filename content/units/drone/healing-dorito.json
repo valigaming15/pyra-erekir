@@ -36,7 +36,7 @@
 	    "type": "RepairFieldAbility",
 	    "range": 100,
 	    "reload": 600,
-	    "amount": 25
+	    "amount": 50
 	  }
    ]
  }
