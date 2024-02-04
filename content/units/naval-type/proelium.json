@@ -39,8 +39,8 @@
     {
 		"type": "PointDefenseWeapon",
 	        "name": "repair-point"
-		"x": 8,
-		"y": -8,
+		"x": 12,
+		"y": -12,
 		"mirror": true,
 		"reload": 4,
 	        "targetInterval": 1,
@@ -50,7 +50,24 @@
 		"shootEffect": "sparkShoot",
 		"hitEffect": "pointHit",
 		"maxRange": 240,
-		"damage": 50
+		"damage": 25
+			}
+		},
+     {
+		"type": "PointDefenseWeapon",
+	        "name": "repair-point"
+		"x": 12,
+		"y": 12,
+		"mirror": true,
+		"reload": 4,
+	        "targetInterval": 1,
+		"targetSwitchInterval": 1,
+		"bullet": {
+	        "type": "BulletType",
+		"shootEffect": "sparkShoot",
+		"hitEffect": "pointHit",
+		"maxRange": 240,
+		"damage": 25
 			}
 		}
   ],
