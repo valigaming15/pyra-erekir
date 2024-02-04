@@ -8,7 +8,7 @@
   "flying": true,
   "health": 1000,
   "armor": 5,
-  "speed": 3,
+  "speed": 2,
   "drag": 0.15,
   "hitSize": 10,
   "accel": 1,
@@ -53,10 +53,10 @@
 		      "fragRandomSpread": 0,
         "fragBullet": {
           "type": "LightningBulletType",
-        "damage": 25,
+        "damage": 50,
         "collidesTeam": true,
         "healPercent": 5,
-        "lightningLength": 20,
+        "lightningLength": 30,
         "lightningColor": "98ffa9"
         }
       }
