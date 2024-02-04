@@ -14,7 +14,6 @@
   "trailScl": 1.5,
   "faceTarget": false,
   "buildSpeed": 1.0,
-  "range": 80,
   "weapons": [
     {
       "name": "large-rl",
