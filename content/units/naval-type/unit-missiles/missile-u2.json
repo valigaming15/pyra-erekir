@@ -6,7 +6,7 @@
   "createScorch": false,
   "logicControllable": true,
   "flying": true,
-  "health": 500,
+  "health": 1000,
   "armor": 5,
   "speed": 2,
   "drag": 0.15,
@@ -44,7 +44,7 @@
         "splashDamageRadius": 80,
         "instantDisappear": true,
         "scaledSplashDamage": true,
-        "damage": 500,
+        "splashDamage": 500,
         "hittable": false,
         "killShooter": true,
         "collidesAir": true
