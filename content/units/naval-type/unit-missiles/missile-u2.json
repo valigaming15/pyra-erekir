@@ -8,7 +8,7 @@
   "flying": true,
   "health": 1000,
   "armor": 5,
-  "speed": 3,
+  "speed": 4,
   "drag": 0.15,
   "hitSize": 10,
   "accel": 2,
