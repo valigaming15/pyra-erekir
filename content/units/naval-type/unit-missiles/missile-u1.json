@@ -12,7 +12,7 @@
   "drag": 0.14,
   "hitSize": 10,
   "accel": 2,
-  "hidden": false,
+  "hidden": true,
   "rotateSpeed": 2.5,
   "trailLength": 10,
   "waveTrailX": 5,
