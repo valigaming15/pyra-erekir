@@ -92,7 +92,7 @@
       "type": "UnitSpawnAbility",
       "unit": "healing-dorito",
       "spawnX": 0,
-      "spawnY": -8,
+      "spawnY": -12,
       "spawnTime": 600
     },
     {
