@@ -69,46 +69,7 @@
 		"maxRange": 240,
 		"damage": 25
 			}
-		},
-	  {
-      "name": "small-rl",
-      "reload": 60,
-      "x": 0,
-      "y": 12,
-      "rotate": true,
-      "mirror": false,
-      "shake": 1,
-      "shoot": {
-        "shots": 8,
-        "shotDelay": 2
-      },
-      "velocityRnd": 0.2,
-      "shootSound": "missile",
-      "inaccuracy": 10,
-      "bullet": {
-        "type": "MissileBulletType",
-        "speed": 3,
-        "damage": 10,
-	"status": "electrified",
-	"statusDuration": 600,
-        "width": 9,
-        "height": 9,
-        "shrinkY": 0,
-        "drag": -0.003,
-        "homingRange": 60,
-        "keepVelocity": false,
-	    "collidesTeam": true,
-        "healPercent": 1,
-        "lifetime": 60,
-        "trailColor": "00ff00",
-        "backColor": "98ffa9",
-        "frontColor": "66ff66",
-        "hitEffect": "blastExplosion",
-        "despawnEffect": "blastExplosion",
-        "weaveScale": 6,
-        "weaveMag": 1
-      }
-    }
+		}
   ],
 "research": {
     "parent": "eruca",
@@ -128,12 +89,12 @@
       "spawnTime": 1800
     },
     {
-      "type": "UnitSpawnAbility",
-      "unit": "healing-dorito",
-      "spawnX": 0,
-      "spawnY": -12,
-      "spawnTime": 600
-    },
+      "type": "EnergyFieldAbility",
+      "range": 180,
+      "damage": 25,
+      "reload": 60,
+      "maxTargets": 20
+    }
     {
     "type": "SpawnDeathAbility",
     "amount": 1,
