@@ -36,7 +36,7 @@
       "y": -3,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.1,
+      "repairSpeed": 0.085,
       "bullet": {
         "maxRange": 75
                 }
