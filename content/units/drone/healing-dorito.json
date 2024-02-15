@@ -37,6 +37,13 @@
 	    "range": 100,
 	    "reload": 600,
 	    "amount": 50
-	  }
+	  },
+   {
+      "type": "ForceFieldAbility",
+      "radius": 25,
+      "regen": 0.1,
+      "max": 100,
+      "cooldown": 600
+    }
    ]
  }
