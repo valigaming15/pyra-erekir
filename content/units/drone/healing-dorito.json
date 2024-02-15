@@ -28,22 +28,18 @@
 				"maxRange": 80,
 				"damage": 4
 			}
-		}
+		},
+	        {
+      "type": "RepairBeamWeapon",
+      "name": "small-repair-point",
+      "x": 0,
+      "y": -3,
+      "beamWidth": 0.5,
+      "mirror": false,
+      "repairSpeed": 0.1,
+      "bullet": {
+        "maxRange": 75
+                }
+	   }
 	],
-
-"abilities": [
-	  {
-	    "type": "RepairFieldAbility",
-	    "range": 100,
-	    "reload": 600,
-	    "amount": 50
-	  },
-   {
-      "type": "ForceFieldAbility",
-      "radius": 25,
-      "regen": 0.1,
-      "max": 100,
-      "cooldown": 600
-    }
-   ]
  }
