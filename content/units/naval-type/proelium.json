@@ -3,7 +3,7 @@
   "name": "[green]Proelium",
   "description": "Equipped with a large controlled missile",
   "health": 20000,
-  "armor": 20,
+  "armor": 25,
   "speed": 0.6,
   "drag": 0.16,
   "hitSize": 60,
