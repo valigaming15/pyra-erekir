@@ -44,7 +44,6 @@
 	      	"fragBullets": 1,
 		"fragBullet": {
                 "spawnUnit": "sterna",
-		"facetarget": true,
 		},
 	 },
     }
