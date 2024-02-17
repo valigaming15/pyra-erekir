@@ -19,12 +19,14 @@
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.2,
   "consumes": {
-    "itemFlammable": {}
     "power": 0.5,
     "liquid": {
       "liquid": "water",
       "amount": 0.2
     },
+   "items": [
+   "items": { "coal", "amount": 1},
+   ],
   },
 "drawer": {
     "type": "DrawMulti",
