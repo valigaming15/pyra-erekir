@@ -38,7 +38,7 @@
         "collidesTiles": true,
 	"hittable": false,
         "collides" : false,
-	"lifetime": 30,
+	"lifetime": 60,
         "speed": 5,
         "ammoMultiplier": 1
 	      	"fragBullets": 1,
