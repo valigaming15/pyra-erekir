@@ -25,6 +25,7 @@
       "liquid": "water",
       "amount": 0.2
     },
+  },
 "drawer": {
     "type": "DrawMulti",
     "drawers": [
