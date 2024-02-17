@@ -8,6 +8,12 @@
   "hasPower": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",	
+ "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.2
+    },
+  },
  "recipes": 
  [
 	 {
@@ -76,7 +82,6 @@
 	 "craftTime": 60
      }
  ],
-"consumes": { "power": 5 },
 "drawer": [
      { 
        "type": "DrawDefault" 
