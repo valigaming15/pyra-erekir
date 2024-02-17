@@ -7,12 +7,11 @@
   "size": 3,
   "hasPower": true,
   "hasItems": true,
-  "updateEffect": "smeltsmoke",
+  "updateEffect": "smeltsmoke",	
  "recipes": 
  [
 	 {
 	  "input": {
-	  "consumes": { "power": 5 },
        "items": [
      {"item": "copper", "amount": 3}
 	   ]
@@ -26,7 +25,6 @@
      },
 	 	 {
 	  "input": {
-	 "consumes": { "power": 5 },
        "items": [
      {"item": "lead", "amount": 3}
 	   ]
@@ -40,7 +38,6 @@
      },
 	 	 {
 	  "input": {
-	"consumes": { "power": 5 },
        "items": [
      {"item": "graphite", "amount": 3}
 	   ]
@@ -54,7 +51,6 @@
      },
 	 	 {
 	  "input": {
-	"consumes": { "power": 5 },
        "items": [
      {"item": "titanium", "amount": 2}
 	   ]
@@ -68,7 +64,6 @@
      },
 	 	 {
 	  "input": {
-	"consumes": { "power": 5 },
        "items": [
      {"item": "sand", "amount": 5}
 	   ]
@@ -81,6 +76,7 @@
 	 "craftTime": 60
      }
  ],
+"consumes": { "power": 5 },
 "drawer": [
      { 
        "type": "DrawDefault" 
