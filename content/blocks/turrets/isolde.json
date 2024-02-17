@@ -34,10 +34,17 @@
         "ammoMultiplier": 1
       },
       "packet-sterna": {
-	"speed": 30,
-        "spawnUnit": "sterna",
+	"type": "BasicBulletType",
+        "collidesTiles": true,
+	"hittable": false,
+        "collides" : false,
+	"lifetime": 30,
+        "speed": 4,
         "ammoMultiplier": 1
-      }
+	      	"fragBullets": 1,
+		"fragBullet": {
+                "spawnUnit": "sterna",
+		},
 	},
     "requirements": [
     "copper/200",
