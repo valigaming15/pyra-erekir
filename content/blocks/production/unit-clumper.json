@@ -9,9 +9,6 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "menu": "Simple",
-  "consumes": {
-  "power": 2
-  },
  "recipes": 
  [
    {
