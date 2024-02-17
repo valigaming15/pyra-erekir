@@ -45,7 +45,8 @@
 		"fragBullet": {
                 "spawnUnit": "sterna",
 		},
-	},
+	 },
+    }
     "requirements": [
     "copper/200",
     "lead/200",
