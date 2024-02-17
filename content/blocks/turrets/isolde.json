@@ -39,7 +39,7 @@
 	"hittable": false,
         "collides" : false,
 	"lifetime": 30,
-        "speed": 4,
+        "speed": 5,
         "ammoMultiplier": 1
 	      	"fragBullets": 1,
 		"fragBullet": {
