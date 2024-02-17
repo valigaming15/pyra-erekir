@@ -9,12 +9,6 @@
   "hasItems": true,
   "hasLiquids": true,
   "updateEffect": "smeltsmoke",	
- "consumes": {
-    "liquid": {
-      "liquid": "water",
-      "amount": 0.2
-    },
-  },
  "recipes": 
  [
 	 {
