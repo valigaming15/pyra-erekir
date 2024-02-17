@@ -25,7 +25,7 @@
       "amount": 0.2
     },
    "items": [
-   "items": { "coal", "amount": 1},
+   {"items": "coal", "amount": 1},
    ],
   },
 "drawer": {
