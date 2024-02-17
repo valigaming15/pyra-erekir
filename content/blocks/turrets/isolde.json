@@ -34,6 +34,7 @@
         "ammoMultiplier": 1
       },
       "packet-sterna": {
+	"speed": 30,
         "spawnUnit": "sterna",
         "ammoMultiplier": 1
       }
