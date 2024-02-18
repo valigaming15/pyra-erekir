@@ -13,6 +13,7 @@
  [
    {
      "input": {
+     "power": 2,
        "items": [
          {"item": "silicon", "amount": 15}
        ]
@@ -22,10 +23,11 @@
          {"item": "pyra-packet-flare", "amount": 1}
        ]
      },
-     "craftTime": 200
+     "craftTime": 60
    },
    {
      "input": {
+     "power": 5,
        "items": [
          {"item": "pyra-molten-alloy", "amount": 10},
          {"item": "pyra-ai-core", "amount": 1},
@@ -37,10 +39,11 @@
          {"item": "pyra-packet-fossores", "amount": 1}
        ]
      },
-     "craftTime": 200
+     "craftTime": 300
    },
    {
      "input": {
+       "power": 5,
        "items": [
          {"item": "pyra-packet-fossores", "amount": 1},
          {"item": "pyra-molten-alloy", "amount": 20},
@@ -53,7 +56,7 @@
          {"item": "pyra-packet-sterna", "amount": 1}
        ]
      },
-     "craftTime": 400
+     "craftTime": 600
    }
  ],
   "requirements": [
