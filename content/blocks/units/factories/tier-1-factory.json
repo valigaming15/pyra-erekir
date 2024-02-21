@@ -28,6 +28,15 @@
       "time": 600
     },
     {
+      "unit": "curativo",
+      "requirements": [
+	    {"item": "ai-core", "amount": 10},
+	    {"item": "titanium", "amount": 100},
+	    {"item": "silicon", "amount": 100}
+      ],
+      "time": 600
+    },
+    {
       "unit": "auxilium",
       "requirements": [
 	    {"item": "ai-core", "amount": 1},
