@@ -1,0 +1,86 @@
+{
+"type": "tank",
+"localizedName": "[#00ff00]Curativo",
+"description": "A support tank",
+"flying": false,
+"health": 500,
+"armor": 10,
+"faceTarget": false,
+"outlineRadius": 3,
+"crushDamage": 0.5,
+"hitSize": 8,
+"speed": 0.75,
+"omniMovement": false,
+"defaultController": "GroundAI",
+"range": 37.5,
+"treadRects": [
+  {
+  "x": 6,
+  "y": -25,
+  "width": 14,
+  "height": 51
+  }
+],
+"weapons": [
+  {
+    "name": "Acyuta-weapon",
+    "ejectEffect": "casing1",
+    "x": 0,
+    "y": 0,
+    "mirror": false,
+    "reload": 20,
+    "rotate": true,
+    "shootSound": "mediumCannon",
+    "inaccuracy": 12,
+    "shoot": {
+      "shots": 6
+    },
+    "bullet": {
+      "type": "ShrapnelBulletType",
+      "width": 10,
+      "length": 8,
+      "damage": 3,
+      "speed": 0,
+      "lifetime": 1,
+      "fragRandomSpread": 5,
+      "fragBullets": 2,
+      "fragBullet": {
+        "type": "BulletType",
+        "despawnSound": "shootAlt",
+        "hittable": false,
+        "reflectable": false,
+        "absorbable": false,
+        "collides": false,
+        "collideTerrain": true,
+        "hitEffect": "none",
+        "despawnEffect": "none",
+        "damage": 0,
+        "speed": 14,
+        "lifetime": 2.5,
+        "fragRandomSpread": 40,
+        "fragBullets": 4,
+        "fragBullet": {
+          "type": "ShrapnelBulletType",
+          "width": 10,
+          "length": 8,
+          "damage": 3,
+          "speed": 0,
+          "lifetime": 1,
+          "hitEffect": "none",
+          "despawnEffect": "none"
+        }
+      }
+    }
+  }
+],
+"research": {
+  "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
+
