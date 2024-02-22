@@ -31,12 +31,12 @@
       "x": 0,
       "y": 2,
       "mirror": false,
-      "reload": 30,
+      "reload": 60,
       "rotate": true,
       "shootSound": "lasershoot",
-      "inaccuracy": 2,
+      "inaccuracy": 5,
       "shoot": {
-        "shots": 4
+        "shots": 8
       },
       "bullet": {
         "type": "LaserBoltBulletType",
@@ -60,7 +60,7 @@
       "type": "RepairBeamWeapon",
       "name": "small-repair-point",
       "x": 0,
-      "y": -2,
+      "y": -4,
       "beamWidth": 0.5,
       "mirror": false,
       "repairSpeed": 0.25,
