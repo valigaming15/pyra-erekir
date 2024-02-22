@@ -5,7 +5,7 @@
 "flying": false,
 "health": 500,
 "armor": 10,
-"mineSpeed": 10,
+"mineSpeed": 15,
 "mineTier": 5,
 "buildSpeed": 2,
 "itemCapacity": 100,
@@ -25,42 +25,11 @@
   }
 ],
 "weapons": [
-      {
-      "name": "small-blaster",
-	    "ejectEffect": "casing2",
-      "x": 0,
-      "y": 2,
-      "mirror": false,
-      "reload": 60,
-      "rotate": true,
-      "shootSound": "lasershoot",
-      "inaccuracy": 5,
-      "shoot": {
-        "shots": 8
-      },
-      "bullet": {
-        "type": "LaserBoltBulletType",
-
-        "laserAbsorb": true,
-        "hittable": false,
-        "absorbable": true,
-        
-        "length": 2,
-        "width": 1,
-        "damage": 10,
-        "speed": 6,
-        "lifetime": 25,
-        "collidesTeam": true,
-        "healPercent": 1,
-        "backColor": "98ffa9",
-        "frontColor": "ffffff"
-      }
-    },
 	{
       "type": "RepairBeamWeapon",
       "name": "small-repair-point",
       "x": 0,
-      "y": -4,
+      "y": 0,
       "beamWidth": 0.5,
       "mirror": false,
       "repairSpeed": 0.25,
