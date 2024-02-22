@@ -7,6 +7,7 @@
 "armor": 10,
 "mineSpeed": 8,
 "mineTier": 4,
+"buildspeed": 2,
 "faceTarget": false,
 "outlineRadius": 3,
 "crushDamage": 0.5,
