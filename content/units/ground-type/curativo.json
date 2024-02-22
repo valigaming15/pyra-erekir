@@ -4,7 +4,7 @@
 "description": "A support tank and mining tank",
 "flying": false,
 "health": 500,
-"armor": 10,
+"armor": 5,
 "mineSpeed": 15,
 "mineTier": 5,
 "buildSpeed": 2,
