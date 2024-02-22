@@ -26,57 +26,50 @@
   }
 ],
 "weapons": [
-  {
-    "name": "Acyuta-weapon",
-    "ejectEffect": "casing1",
-    "x": 0,
-    "y": 0,
-    "mirror": false,
-    "reload": 20,
-    "rotate": true,
-    "shootSound": "mediumCannon",
-    "inaccuracy": 12,
-    "shoot": {
-      "shots": 6
-    },
-    "bullet": {
-      "type": "ShrapnelBulletType",
-      "width": 10,
-      "length": 8,
-      "damage": 3,
-      "speed": 0,
-      "lifetime": 1,
-      "fragRandomSpread": 5,
-      "fragBullets": 2,
-      "fragBullet": {
-        "type": "BulletType",
-        "despawnSound": "shootAlt",
+      {
+      "name": "small-blaster",
+	    "ejectEffect": "casing2",
+      "x": 2,
+      "y": 0,
+      "mirror": false,
+      "reload": 30,
+      "rotate": true,
+      "shootSound": "lasershoot",
+      "inaccuracy": 5,
+      "shoot": {
+        "shots": 8
+      },
+      "bullet": {
+        "type": "LaserBoltBulletType",
+
+        "laserAbsorb": true,
         "hittable": false,
-        "reflectable": false,
-        "absorbable": false,
-        "collides": false,
-        "collideTerrain": true,
-        "hitEffect": "none",
-        "despawnEffect": "none",
-        "damage": 0,
-        "speed": 14,
-        "lifetime": 2.5,
-        "fragRandomSpread": 40,
-        "fragBullets": 4,
-        "fragBullet": {
-          "type": "ShrapnelBulletType",
-          "width": 10,
-          "length": 8,
-          "damage": 3,
-          "speed": 0,
-          "lifetime": 1,
-          "hitEffect": "none",
-          "despawnEffect": "none"
-        }
+        "absorbable": true,
+        
+        "length": 2,
+        "width": 1,
+        "damage": 10,
+        "speed": 6,
+        "lifetime": 25,
+        "collidesTeam": true,
+        "healPercent": 1,
+        "backColor": "98ffa9",
+        "frontColor": "ffffff"
       }
-    }
-  }
-],
+    },
+	{
+      "type": "RepairBeamWeapon",
+      "name": "small-repair-point",
+      "x": -3,
+      "y": 0,
+      "beamWidth": 0.5,
+      "mirror": false,
+      "repairSpeed": 0.25,
+      "bullet": {
+        "maxRange": 75
+      }
+	   },
+  ]
 "research": {
   "parent": "tier-1-factory",
     "requirements": [
