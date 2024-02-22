@@ -80,6 +80,22 @@
       ]
 	 },
 	 "craftTime": 60
+     },
+ 	 {
+	  "input": {
+	  "power": 5,
+       "items": [
+     {"item": "ai-core", "amount": 1}
+	   ]
+	 },
+	 "output": {
+      "items": [
+    {"item": "molten-alloy", "amount": 1}
+    {"item": "copper", "amount": 10}
+    {"item": "silicon", "amount": 5}
+      ]
+	 },
+	 "craftTime": 60
      }
  ],
 "drawer": [
