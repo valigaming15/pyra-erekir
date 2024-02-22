@@ -90,7 +90,7 @@
 	 },
 	 "output": {
       "items": [
-    {"item": "molten-alloy", "amount": 1}
+ {"item": "molten-alloy", "amount": 1}
     {"item": "copper", "amount": 10}
     {"item": "silicon", "amount": 5}
       ]
