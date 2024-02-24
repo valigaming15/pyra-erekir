@@ -1,43 +1,29 @@
 {
 "type": "tank",
 "localizedName": "[#00ff00]Curativo",
-"description": "A support tank and mining tank",
+"description": "A great mining tank",
 "flying": false,
 "health": 500,
-"armor": 5,
+"armor": 1,
 "mineSpeed": 15,
 "mineTier": 5,
-"buildSpeed": 2,
+"buildSpeed": 1,
 "itemCapacity": 100,
-"faceTarget": false,
-"outlineRadius": 3,
+"faceTarget": true,
+"outlineRadius": 1,
 "crushDamage": 0.5,
-"hitSize": 8,
+"hitSize": 16,
 "speed": 0.75,
-"omniMovement": false, "defaultController": "MinerAI",
-"range": 37.5,
+"omniMovement": false,
+ "defaultController": "MinerAI",
 "treadRects": [
   {
   "x": 6,
   "y": -25,
-  "width": 14,
-  "height": 51
+  "width": 15,
+  "height": 70
   }
 ],
-"weapons": [
-	{
-      "type": "RepairBeamWeapon",
-      "name": "small-repair-point",
-      "x": 0,
-      "y": 0,
-      "beamWidth": 0.5,
-      "mirror": false,
-      "repairSpeed": 0.1,
-      "bullet": {
-        "maxRange": 75
-      }
-	   },
-  ]
 "research": {
   "parent": "tier-1-factory",
     "requirements": [
@@ -48,4 +34,3 @@
     ]
   }
 }
-
