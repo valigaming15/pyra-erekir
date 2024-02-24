@@ -26,7 +26,10 @@
   "constructTime": 14400,
   "upgrades": [
     [
-      "navis", "mothership", "proelium"
+      "navis", "mothership"
+    ],
+    [
+      "eruca", "proelium"
     ]
   ],
   "requirements": [
