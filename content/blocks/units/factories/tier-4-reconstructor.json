@@ -24,7 +24,10 @@
   "constructTime": 5400,
   "upgrades": [
     [
-      "arei", "navis","eruca"
+      "arei", "navis"
+    ],
+    [
+      "gladius", "eruca",
     ]
   ],
   "requirements": [
