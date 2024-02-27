@@ -16,6 +16,25 @@
 "speed": 0.75,
 "omniMovement": false,
  "defaultController": "MinerAI",
+ "weapons": [
+    {
+      "x": 0,
+      "y": 15,
+      "reload": 30,
+      "mirror": false,
+      "rotate": true,
+      "shootSound": "spark",
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 10,
+        "buildingDamageMultiplier": 1,
+        "collidesTeam": true,
+        "healAmount": 10,
+        "lightningLength": 5,
+        "lightningColor": "98ffa9"
+      }
+    }
+  ],
 "treadRects": [
   {
   "x": 8,
