@@ -21,13 +21,10 @@
       "x": 0,
       "y": 15,
       "reload": 30,
-      "mirror": false,
+      "mirror": true,
       "rotate": true,
       "shootSound": "none",
-         "fragBullets": 10,
-	 "fragSpread": 10,
-         "fragRandomSpread": 0,
-	 "fragBullet": {
+	"bullet": {
         "type": "LightningBulletType",
         "damage": 10,
         "buildingDamageMultiplier": 1,
