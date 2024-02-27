@@ -17,14 +17,14 @@
 "omniMovement": false,
  "defaultController": "MinerAI",
  "weapons": [
-    {
+{
       "x": 0,
       "y": 15,
       "reload": 30,
-      "mirror": true,
+      "mirror": false,
       "rotate": true,
-      "shootSound": "none",
-	"bullet": {
+      "shootSound": "spark",
+      "bullet": {
         "type": "LightningBulletType",
         "damage": 10,
         "buildingDamageMultiplier": 1,
