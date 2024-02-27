@@ -24,6 +24,27 @@
   "height": 88
   }
 ],
+"abilities": [
+  {
+    "type": "StatusFieldAbility",
+    "effect": "none"
+    "reload": 15
+    "effectY": 15
+    "parentizeEffects": true,
+    "activeEffect": {
+      "followParent": true
+      "rotWithParent": true
+      "particles": 1
+      "lifetime": 20
+      "length": 0
+      "region": "pyra-curativo-drill-spinner"
+      "sizeFrom": 3
+      "sizeTo": 3
+      "spin": 16
+      "layer": 95.1
+    }
+  }
+ ],
 "research": {
   "parent": "tier-1-factory",
     "requirements": [
