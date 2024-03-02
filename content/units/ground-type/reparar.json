@@ -1,39 +1,57 @@
 {
 "type": "tank",
 "localizedName": "[#00ff00]Reparar",
-"description": "A support tank",
+"description": "A great mining and support tank",
 "flying": false,
 "health": 800,
 "armor": 5,
 "mineSpeed": 15,
 "mineTier": 5,
-"buildSpeed": 1,
+"buildSpeed": 2,
 "itemCapacity": 100,
 "faceTarget": true,
 "outlineRadius": 1,
 "crushDamage": 5.0,
-"hitSize": 32,
+"hitSize": 16,
 "speed": 0.75,
 "omniMovement": false,
- "defaultController": "none",
+ "defaultController": "MinerAI",
  "weapons": [
-{
-      "x": 0,
-      "y": 15,
-      "reload": 10,
-      "mirror": false,
+      {
+      "name": "small-blaster",
+	    "ejectEffect": "casing2",
+      "x": -4,
+      "y": 1,
+      "mirror": true,
+      "reload": 15,
       "rotate": true,
-      "shootSound": "none",
+      "shootSound": "lightning",
+      "inaccuracy": 0,
+      "shoot": {
+        "shots": 1
+      },
       "bullet": {
         "type": "LightningBulletType",
-        "damage": 10,
+        "damage": 25,
         "buildingDamageMultiplier": 1,
         "collidesTeam": true,
-        "healAmount": 10,
-        "lightningLength": 5,
+        "healAmount": 25,
+        "lightningLength": 20,
         "lightningColor": "98ffa9"
       }
-    }
+    },
+	{
+      "type": "RepairBeamWeapon",
+      "name": "small-repair-point",
+      "x": 0,
+      "y": -10,
+      "beamWidth": 0.5,
+      "mirror": false,
+      "repairSpeed": 0.5,
+      "bullet": {
+        "maxRange": 75
+      }
+	}
   ],
 "treadRects": [
   {
@@ -43,8 +61,30 @@
   "height": 88
   }
 ],
+"abilities": [
+  {
+    "type": "StatusFieldAbility",
+    "effect": "none"
+    "reload": 15
+    "effectY": 15
+    "parentizeEffects": true,
+    "activeEffect": {
+      "followParent": true
+      "rotWithParent": true
+	  "under": true
+      "particles": 1
+      "lifetime": 20
+      "length": 0
+      "region": "pyra-curativo-drill-spinner"
+      "sizeFrom": 3
+      "sizeTo": 3
+      "spin": 16
+      "layer": 95.1
+    }
+  }
+ ],
 "research": {
-  "parent": "curativo",
+  "parent": "tier-1-factory",
     "requirements": [
       {"item": "lead", "amount": 500},
 	  {"item": "copper", "amount": 500},
