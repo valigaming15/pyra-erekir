@@ -30,6 +30,7 @@
       "abilities": [
 	  {
 		 "type": "EnergyFieldAbility",
+		 "effectRadius": 5,
 		 "range": 120,
 		 "damage": 5,
 		 "reload": 30,
