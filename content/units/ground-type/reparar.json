@@ -15,43 +15,6 @@
 "hitSize": 16,
 "speed": 0.75,
 "omniMovement": false,
- "weapons": [
-      {
-      "name": "small-blaster",
-	    "ejectEffect": "casing2",
-      "x": -4,
-      "y": 1,
-      "mirror": true,
-      "reload": 15,
-      "rotate": true,
-      "shootSound": "lightning",
-      "inaccuracy": 0,
-      "shoot": {
-        "shots": 1
-      },
-      "bullet": {
-        "type": "LightningBulletType",
-        "damage": 25,
-        "buildingDamageMultiplier": 1,
-        "collidesTeam": true,
-        "healAmount": 25,
-        "lightningLength": 20,
-        "lightningColor": "98ffa9"
-      }
-    },
-	{
-      "type": "RepairBeamWeapon",
-      "name": "small-repair-point",
-      "x": 0,
-      "y": -10,
-      "beamWidth": 0.5,
-      "mirror": false,
-      "repairSpeed": 0.5,
-      "bullet": {
-        "maxRange": 75
-      }
-	}
-  ],
 "treadRects": [
   {
   "x": 8,
@@ -80,7 +43,17 @@
       "spin": 16
       "layer": 95.1
     }
-  }
+  },
+	  {
+		 "type": "EnergyFieldAbility",
+		 "x": -4,
+                 "y": 1,
+		 "effectRadius": 1,
+		 "range": 120,
+		 "damage": 5,
+		 "reload": 30,
+		 "maxTargets": 10
+	  },
  ],
 "research": {
   "parent": "tier-1-factory",
