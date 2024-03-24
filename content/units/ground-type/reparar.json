@@ -46,12 +46,13 @@
   },
 	  {
 		 "type": "EnergyFieldAbility",
-		 "x": -4,
-                 "y": 1,
+		 "x": 0,
+                 "y": -2,
 		 "effectRadius": 1,
 		 "range": 120,
 		 "damage": 5,
-		 "reload": 30,
+                 "healAmount": 5,
+		 "reload": 60,
 		 "maxTargets": 10
 	  },
  ],
