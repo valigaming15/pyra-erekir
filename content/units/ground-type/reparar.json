@@ -51,7 +51,7 @@
 		 "effectRadius": 1,
 		 "range": 120,
 		 "damage": 5,
-                 "healAmount": 5,
+                 "healPercent": 5,
 		 "reload": 60,
 		 "maxTargets": 10
 	  },
