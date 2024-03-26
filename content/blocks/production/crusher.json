@@ -81,20 +81,6 @@
 	 },
 	 "craftTime": 60
      },
-	 	 {
-	  "input": {
-       "liquids": [
-     {"liquid": "slag", "amount": 12}
-	   ]
-	 },
-	 "output": {
-  "power": 2,
-      "items": [
-    {"item": "scrap", "amount": 6}
-      ]
-	 },
-	 "craftTime": 60
-     },
  ],
 "drawer": [
      { 
