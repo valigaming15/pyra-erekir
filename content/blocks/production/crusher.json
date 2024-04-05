@@ -81,6 +81,17 @@
 	 },
 	 "craftTime": 60
      },
+ 	 {
+	  "input": {
+	  "power": 5,
+	 },
+	 "output": {
+      "items": [
+    {"item": "scrap", "amount": 1}
+      ]
+	 },
+	 "craftTime": 300
+     },
  ],
 "drawer": [
      { 
