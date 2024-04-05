@@ -87,7 +87,7 @@
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 1}
+    {"item": "scrap", "amount": 5}
       ]
 	 },
 	 "craftTime": 300
