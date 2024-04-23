@@ -1,0 +1,37 @@
+{
+  "name": "[#ff66]Small pyra Drill",
+  "description": "A small sized but powerfull drill",
+  "type": "Drill",
+  "size": 2,
+  "health": 250,
+  "liquidCapacity": 5,
+  "itemCapacity": 20,
+  "tier": 5,
+  "drillTime": 400,
+  "warmupSpeed": 0.001,
+  "rotateSpeed": 6,
+  "liquidBoostIntensity": 2.0,
+  "consumes": { 
+    "liquid": {
+      "liquid": "water",
+      "amount": 1,
+      "optional": true,
+      "booster": true
+    }
+  },
+"requirements": [
+  { "item": "titanium", "amount": 50 },
+  { "item": "thorium", "amount": 50 },
+  { "item": "molten-alloy", "amount": 10 }, 
+],
+  "category": "production",
+    "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
