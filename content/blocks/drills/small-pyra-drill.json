@@ -7,16 +7,16 @@
   "liquidCapacity": 5,
   "itemCapacity": 20,
   "tier": 5,
-  "drillTime": 100,
+  "drillTime": 200,
   "warmupSpeed": 0.001,
   "rotateSpeed": 8,
-  "liquidBoostIntensity": 1.0,
+  "liquidBoostIntensity": 2.0,
   "consumes": { 
     "liquid": {
       "liquid": "water",
       "amount": 0.1,
-      "optional": false,
-      "booster": false
+      "optional": true,
+      "booster": true
     }
   },
 "requirements": [
