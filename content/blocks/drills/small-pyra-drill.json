@@ -10,7 +10,7 @@
   "drillTime": 200,
   "warmupSpeed": 0.001,
   "rotateSpeed": 8,
-  "liquidBoostIntensity": 1.0,
+  "liquidBoostIntensity": 1.5,
   "consumes": { 
     "liquid": {
       "liquid": "water",
