@@ -28,8 +28,8 @@
  {
       "name": "small-rl",
       "reload": 60,
-      "x": -2,
-	     "y": 12,
+      "x": 6,
+	     "y": -4,
       "rotate": true,
 	  "mirror": true,
       "shake": 1,
