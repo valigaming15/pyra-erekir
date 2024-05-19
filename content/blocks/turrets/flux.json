@@ -29,6 +29,13 @@
   "rotateSpeed": 1,
   "reload": 300,
   "range": 400,
+  "ammoUseEffect": "casing4",
+  "coolantMultiplier": 2.0,
+  "consumes":{
+      "coolant":{
+        "amount": 1.0
+      }
+    },
     "ammoTypes": {
 		"magmium": {
         "type": "BasicBulletType",
