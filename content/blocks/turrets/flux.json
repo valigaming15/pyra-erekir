@@ -7,7 +7,6 @@
   "category": "turret",
   "requirements": [
     "copper/1000",
-    "lead/1000",
     "thorium/500",
     "magmium/100",
     "ai-core/100"
