@@ -21,10 +21,10 @@
   "shootSound": "none",
   "rotateSpeed": 4,
   "shootY": -1.5,
-  "force": 15,
-  "scaledForce": 10,
+  "force": 20,
+  "scaledForce": 20,
   "damage": 0.1,
-  "laserWidth": 1,
+  "laserWidth": 0.2,
   "laserColor": "[#ff6600]"
   "consumes": {
   "power": 5.0
