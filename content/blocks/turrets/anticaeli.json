@@ -2,7 +2,7 @@
   "type": "TractorBeamTurret",
   "localizedName": "[#00ff]Anti caeli",
   "description": "A single target strong tractor beam",
-  "health": 1500,
+  "health": 500,
   "size": 2,
   "category": "turret",
   "requirements": [
@@ -21,8 +21,8 @@
   "shootSound": "none",
   "rotateSpeed": 4,
   "shootY": -1.5,
-  "force": 14,
-  "scaledForce": 8,
+  "force": 15,
+  "scaledForce": 10,
   "damage": 0.1,
   "laserWidth": 1,
   "laserColor": "[#ff6600]"
