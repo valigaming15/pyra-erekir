@@ -19,11 +19,13 @@
   "loopSound": "minebeam",
   "loopSoundVolume": 1,
   "shootSound": "none",
-  "rotateSpeed": 2,
+  "rotateSpeed": 4,
   "shootY": -1.5,
   "force": 14,
   "scaledForce": 8,
   "damage": 0.1,
+  "laserWidth": 1,
+  "laserColor": "[#ff6600]"
   "consumes": {
   "power": 5.0
 },
