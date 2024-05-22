@@ -11,9 +11,9 @@
     "silicon/200",
     "molten-alloy/20"
   ],
-  "targetAir": false,
+  "targetAir": true,
   "targetGround": false,
-  "targetHealing": true,
+  "targetHealing": false,
   "outlineIcon": true,
   "range": 250,
   "loopSound": "minebeam",
@@ -26,6 +26,22 @@
   "damage": 0.1,
   "consumes": {
   "power": 5.0
+},
+ "drawer": {
+  "type": "DrawTurret",
+  "parts": [
+    {},
+    {
+      "suffix": "-shield",
+      "mirror": true,
+      "moveX": 1,
+      "moveY": -1,
+      "moveRot": -15,
+      "progress": {
+        "type": "warmup"
+      }
+    }
+  ]
 },
 "research": {
     "parent": "segment",
