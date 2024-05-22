@@ -12,7 +12,7 @@
     "molten-alloy/25"
   ],
   "targetAir": true,
-  "targetGround": false,
+  "targetGround": true,
   "targetHealing": false,
   "outlineIcon": true,
   "range": 350,
