@@ -15,7 +15,7 @@
   "targetGround": false,
   "targetHealing": true,
   "outlineIcon": true,
-  "range": 175,
+  "range": 250,
   "loopSound": "minebeam",
   "loopSoundVolume": 1,
   "shootSound": "none",
@@ -24,8 +24,8 @@
   "rotateSpeed": 2,
   "shootY": -1.5,
   "force": 12,
-  "range": 300,
-  "damage": 1,
+  "scaledForce": 6,
+  "damage": 0.1,
   "consumes": {
   "power": 5.0
 },
