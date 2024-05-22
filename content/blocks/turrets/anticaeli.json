@@ -30,10 +30,10 @@
   "power": 5.0
 },
 "research": {
-    "parent": "segment",
+    "parent": "sanitatem",
     "requirements": [
       {"item": "lead", "amount": 1500},
-	  {"item": "copper", "amount": 1500},
+      {"item": "copper", "amount": 1500},
       {"item": "titanium", "amount": 1500}
     ]
   }
