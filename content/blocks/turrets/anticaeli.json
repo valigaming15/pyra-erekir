@@ -29,23 +29,6 @@
   "consumes": {
   "power": 5.0
 },
-"drawer": {
-  "type": "DrawTurret",
-  "parts": [
-    {},
-    {
-      "suffix": "-shield",
-      "mirror": true,
-      "moveX": 1,
-      "moveY": -1,
-      "moveRot": -15,
-      "progress": {
-        "type": "warmup"
-      }
-    }
-  ]
-},
-
 "research": {
     "parent": "segment",
     "requirements": [
