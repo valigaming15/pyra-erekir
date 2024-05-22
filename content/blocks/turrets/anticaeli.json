@@ -1,21 +1,21 @@
 {
   "type": "TractorBeamTurret",
   "localizedName": "[#00ff]Anti caeli",
-  "description": "A single target strong tractor beam",
+  "description": "A single target long range tractor beam",
   "health": 500,
   "size": 2,
   "category": "turret",
   "requirements": [
-    "copper/150",
-    "lead/150",
+    "copper/200",
+    "lead/200",
     "silicon/200",
-    "molten-alloy/20"
+    "molten-alloy/25"
   ],
   "targetAir": true,
   "targetGround": false,
   "targetHealing": false,
   "outlineIcon": true,
-  "range": 250,
+  "range": 350,
   "loopSound": "minebeam",
   "loopSoundVolume": 1,
   "shootSound": "none",
@@ -28,22 +28,6 @@
   "laserColor": "[#ff6600]"
   "consumes": {
   "power": 5.0
-},
- "drawer": {
-  "type": "DrawTurret",
-  "parts": [
-    {},
-    {
-      "suffix": "-shield",
-      "mirror": true,
-      "moveX": 1,
-      "moveY": -1,
-      "moveRot": -15,
-      "progress": {
-        "type": "warmup"
-      }
-    }
-  ]
 },
 "research": {
     "parent": "segment",
