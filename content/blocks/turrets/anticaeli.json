@@ -1,0 +1,57 @@
+{
+  "type": "TractorBeamTurret",
+  "localizedName": "[#00ff]Anti caeli",
+  "description": "A single target strong tractor beam",
+  "health": 1500,
+  "size": 2,
+  "category": "turret",
+  "requirements": [
+    "copper/150",
+    "lead/150",
+    "silicon/200",
+    "molten-alloy/20"
+  ],
+  "targetAir": false,
+  "targetGround": false,
+  "targetHealing": true,
+  "outlineIcon": true,
+  "range": 175,
+  "loopSound": "minebeam",
+  "loopSoundVolume": 1,
+  "shootSound": "none",
+  "cooldownTime" : 300,
+  "recoil": 1,
+  "rotateSpeed": 2,
+  "shootY": -1.5,
+  "force": 12,
+  "range": 300,
+  "damage": 1,
+  "consumes": {
+  "power": 5.0
+},
+"drawer": {
+  "type": "DrawTurret",
+  "parts": [
+    {},
+    {
+      "suffix": "-shield",
+      "mirror": true,
+      "moveX": 1,
+      "moveY": -1,
+      "moveRot": -15,
+      "progress": {
+        "type": "warmup"
+      }
+    }
+  ]
+},
+
+"research": {
+    "parent": "segment",
+    "requirements": [
+      {"item": "lead", "amount": 1500},
+	  {"item": "copper", "amount": 1500},
+      {"item": "titanium", "amount": 1500}
+    ]
+  }
+}
