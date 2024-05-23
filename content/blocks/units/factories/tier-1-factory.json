@@ -45,13 +45,6 @@
       ],
       "time": 600
     },
-    {
-      "unit": "test",
-      "requirements": [
-	    {"item": "copper", "amount": 1},
-      ],
-      "time": 600
-    }
   ],
   "requirements": [
     {
