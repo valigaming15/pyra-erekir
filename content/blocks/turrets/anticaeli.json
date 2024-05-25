@@ -25,6 +25,7 @@
   "scaledForce": 20,
   "damage": 0.5,
   "laserWidth": 0.2,
+  "laserColor": "#ff6600",
   "consumes": {
   "power": 5.0
 },
