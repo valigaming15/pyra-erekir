@@ -1,0 +1,21 @@
+{
+  "type": "Battery",
+  "name": "Pyra battery",
+  "description": "A more energy dense and strong battery",
+  "health": 250,
+  "size": 1,
+"consumes": { "powerBuffered": 10000 },
+	"requirements": [
+	"molten-alloy/1"
+	],
+  "category": "power",
+    "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
