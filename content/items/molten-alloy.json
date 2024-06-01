@@ -6,6 +6,7 @@
   "hardness": 5,
   "flammability": 0,
   "explosiveness": 2.0,
+  "charge": 1,
    "research": {
     "parent": "pyratite",
     "requirements": [
