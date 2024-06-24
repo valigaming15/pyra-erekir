@@ -1,0 +1,94 @@
+{
+"type": "tank",
+"localizedName": "[#c1c3d4]wip",
+"flying": false,
+"health": 12000,
+"armor": 15,
+"faceTarget": false,
+"outlineRadius": 3,
+"crushDamage": 3.5,
+"hitSize": 18,
+"speed": 0.55,
+"omniMovement": false,
+"defaultController": "GroundAI",
+"range": 60,
+"immunities": [
+  "energyDrain"
+],
+"treadRects": [
+  {
+  "x": 15,
+  "y": -40,
+  "width": 29,
+  "height": 104
+  }
+],
+  "weapons": [
+    {
+      "name": "small-rl",
+      "reload": 60,
+      "x": 0,
+      "rotate": true,
+	  "mirror": false,
+      "shake": 1,
+      "shoot": {
+        "shots": 5,
+        "shotDelay": 2
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 10,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 10,
+		"splashDamage": 10,
+		"splashDamageRadius": 20,
+		"status": "electrified",
+		"statusDuration": 600,
+        "width": 9,
+        "height": 9,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+        "keepVelocity": false,
+	    "collidesTeam": true,
+        "healPercent": 1,
+        "lifetime": 60,
+        "trailColor": "c1c3d4",
+        "backColor": "c1c3d4",
+        "frontColor": "c1c3d4",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+      }
+    }
+  ],
+"abilities": [
+  {
+  "type": "StatusFieldAbility",
+  "effect": "costRestore",
+  "range": 100,
+  "reload": 2400,
+  "duration": 300
+  },
+  {
+      "type": "UnitSpawnAbility",
+      "unit": "Acyuta",
+      "spawnX": 0,
+      "spawnY": 0,
+      "spawnTime": 1800
+  }
+],
+"research": {
+  "parent": "Akalbir",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
+
