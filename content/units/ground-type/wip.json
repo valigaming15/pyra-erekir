@@ -3,7 +3,7 @@
 "localizedName": "[#c1c3d4]wip",
 "flying": false,
 "health": 12000,
-"armor": 15,
+"armor": 20,
 "faceTarget": false,
 "outlineRadius": 3,
 "crushDamage": 3.5,
@@ -23,64 +23,69 @@
   "height": 104
   }
 ],
-  "weapons": [
+    "weapons": [
     {
-      "name": "small-rl",
-      "reload": 120,
-      "x": 0,
-      "rotate": true,
-	  "mirror": false,
+	  "name": "cannon",
+	  "rotate": true,
+      "mirror": false,
+      "top": "true",
       "shake": 1,
-      "shoot": {
-        "shots": 10,
-        "shotDelay": 5
-      },
-      "velocityRnd": 0.2,
-      "shootSound": "missile",
-      "inaccuracy": 10,
+      "x": 0,
+      "y": 0,
+      "reload": 120,
+      "recoil": 2.5,
+	  "shootStatusDuration": 120,
+      "shootStatus": "costRestore",
+      "shootSound": "artillery",
+	    "ejectEffect": "casing4",
+	  
       "bullet": {
-        "type": "MissileBulletType",
-        "speed": 3,
-        "damage": 10,
-		"splashDamage": 10,
-		"splashDamageRadius": 20,
-		"status": "electrified",
+          "type": "BasicBulletType",
+	      "collidesTiles": true,
+	      "collides" : true,
+        
+        "laserAbsorb": true,
+        "hittable": true,
+        "absorbable": true,
+
+		    "pierce": true,
+        "hitEffect": "titanExplosion",
+		    "pierceCap": 2,
+			"pierceBuilding": true,
+        "status": "burning",
 		"statusDuration": 600,
-        "width": 9,
-        "height": 9,
-        "shrinkY": 0,
-        "drag": -0.003,
-        "homingRange": 60,
-        "keepVelocity": false,
-	    "collidesTeam": true,
-        "healPercent": 1,
-        "lifetime": 60,
-        "trailColor": "c1c3d4",
-        "backColor": "c1c3d4",
-        "frontColor": "c1c3d4",
-        "hitEffect": "blastExplosion",
-        "despawnEffect": "blastExplosion",
-        "weaveScale": 6,
-        "weaveMag": 1
-      }
-    }
+        "makeFire": true,
+	    "damage": 400,
+        "splashDamage": 400,
+		    "splashDamageRadius": 60,
+        "width": 12,
+        "height": 30,
+        "lifetime": 45,
+        "speed": 6,
+        "backColor": "ff6600",
+        "frontColor": "ffffff",
+		"fragBullets": 5,
+	    "fragSpread": 10,
+		"fragRandomSpread": 0,
+		"fragBullet": {
+			"type": "LiquidBulletType",
+			
+			"laserAbsorb": true,
+            "hittable": true,
+            "absorbable": false,
+			"status": "burning",
+			"makeFire": true,
+			"liquid": "slag",
+			"despawnHit": true,
+			"puddleSize": 300,
+			"width": 8,
+            "height": 20,
+            "lifetime": 60,
+            "speed": 2
+        },	
+      },
+    },
   ],
-"abilities": [
-  {
-  "type": "StatusFieldAbility",
-  "effect": "costRestore",
-  "range": 100,
-  "reload": 2400,
-  "duration": 300
-  },
-  {
-      "type": "UnitSpawnAbility",
-      "unit": "Acyuta",
-      "spawnX": 0,
-      "spawnY": 0,
-      "spawnTime": 1800
-  }
-],
 "research": {
   "parent": "Akalbir",
     "requirements": [
