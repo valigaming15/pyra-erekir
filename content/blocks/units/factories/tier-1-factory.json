@@ -45,6 +45,14 @@
       ],
       "time": 600
     },
+    {
+      "unit": "healing-dorito",
+      "requirements": [
+	    {"item": "titanium", "amount": 25},
+	    {"item": "silicon", "amount": 25}
+      ],
+      "time": 600
+    },
   ],
   "requirements": [
     {
