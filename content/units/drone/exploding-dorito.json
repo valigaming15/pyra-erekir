@@ -86,5 +86,13 @@
 			  "collidesGround": false
 		  }
 	  }
-  ]
+  ],
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	     {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
 }
