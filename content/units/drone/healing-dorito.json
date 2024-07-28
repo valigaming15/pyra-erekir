@@ -36,10 +36,18 @@
       "y": -3,
       "beamWidth": 0.5,
       "mirror": false,
-      "repairSpeed": 0.085,
+      "repairSpeed": 0.17,
       "bullet": {
         "maxRange": 75
                 }
 	   }
 	],
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	     {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
  }
