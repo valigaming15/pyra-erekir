@@ -8,7 +8,7 @@
 "mineSpeed": 15,
 "mineTier": 5,
 "buildSpeed": 2,
-"itemCapacity": 100,
+"itemCapacity": 500,
 "faceTarget": true,
 "outlineRadius": 1,
 "crushDamage": 5.0,
