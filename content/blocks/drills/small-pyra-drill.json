@@ -20,9 +20,8 @@
     }
   },
 "requirements": [
-  { "item": "titanium", "amount": 50 },
-  { "item": "thorium", "amount": 50 },
-  { "item": "molten-alloy", "amount": 10 }, 
+  { "item": "titanium", "amount": 25 },
+  { "item": "thorium", "amount": 25 },
 ],
   "category": "production",
     "research": {
