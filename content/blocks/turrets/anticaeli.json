@@ -11,9 +11,8 @@
     "silicon/200",
     "molten-alloy/20"
   ],
-  "targetAir": false,
-  "targetGround": false,
-  "targetHealing": true,
+  "targetAir": true,
+  "targetGround": true,
   "outlineIcon": true,
   "range": 175,
   "loopSound": "minebeam",
@@ -30,8 +29,8 @@
   "type": "PointLaserBulletType",
   "sprite": "pyra-pyra-laser",
 	"collidesTeam": true,
-  "healAmount": 20,
-	"damage": 2.0
+ "healAmount": 2,
+	"damage": 20.0
 },
 "drawer": {
   "type": "DrawTurret",
