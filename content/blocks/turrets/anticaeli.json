@@ -28,6 +28,7 @@
 "shootType": {
   "type": "PointLaserBulletType",
   "sprite": "pyra-pyra-laser",
+	 "collidesTeam": true,
   "healAmount": 5,
   	"damage": 20.0,
 },
