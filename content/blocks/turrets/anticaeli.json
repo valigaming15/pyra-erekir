@@ -28,9 +28,7 @@
 "shootType": {
   "type": "PointLaserBulletType",
   "sprite": "pyra-pyra-laser",
-	"collidesTeam": true,
- "healAmount": 2,
-	"damage": 20.0
+	"damage": 20.0,
 },
 "drawer": {
   "type": "DrawTurret",
