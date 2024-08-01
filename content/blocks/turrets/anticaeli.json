@@ -1,7 +1,7 @@
 {
   "type": "TractorBeamTurret",
-  "localizedName": "[#00ff]Anti caeli",
-  "description": "A single target long range tractor beam",
+  "localizedName": "[#00ff]Anti terram",
+  "description": "A single target laser turret",
   "health": 500,
   "size": 2,
   "category": "turret",
