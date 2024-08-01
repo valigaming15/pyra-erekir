@@ -28,7 +28,8 @@
 "shootType": {
   "type": "PointLaserBulletType",
   "sprite": "pyra-pyra-laser",
-	"damage": 20.0,
+  "healAmount": 5,
+  	"damage": 20.0,
 },
 "drawer": {
   "type": "DrawTurret",
