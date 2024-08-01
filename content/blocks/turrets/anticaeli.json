@@ -2,38 +2,59 @@
   "type": "TractorBeamTurret",
   "localizedName": "[#00ff]Anti terram",
   "description": "A single target laser turret",
-  "health": 500,
+  "health": 1500,
   "size": 2,
   "category": "turret",
   "requirements": [
-    "copper/200",
-    "lead/200",
+    "copper/150",
+    "lead/150",
     "silicon/200",
-    "molten-alloy/25"
+    "molten-alloy/20"
   ],
-  "targetAir": true,
-  "targetGround": true,
-  "targetHealing": false,
+  "targetAir": false,
+  "targetGround": false,
+  "targetHealing": true,
   "outlineIcon": true,
-  "range": 350,
+  "range": 175,
   "loopSound": "minebeam",
-  "loopSoundVolume": 5,
+  "loopSoundVolume": 1,
   "shootSound": "none",
-  "rotateSpeed": 4,
-  "shootY": 0,
-  "force": 20,
-  "scaledForce": 20,
-  "damage": 0.5,
-  "laserWidth": 0.2,
-  "laserColor": "ff6600",
+  "cooldownTime" : 300,
+  "recoil": 1,
+  "rotateSpeed": 2,
+  "shootY": -1.5,
   "consumes": {
   "power": 5.0
 },
+"shootType": {
+  "type": "PointLaserBulletType",
+  "sprite": "pyra-pyra-laser",
+	"collidesTeam": true,
+  "healAmount": 20,
+	"damage": 2.0
+},
+"drawer": {
+  "type": "DrawTurret",
+  "parts": [
+    {},
+    {
+      "suffix": "-shield",
+      "mirror": true,
+      "moveX": 1,
+      "moveY": -1,
+      "moveRot": -15,
+      "progress": {
+        "type": "warmup"
+      }
+    }
+  ]
+},
+
 "research": {
-    "parent": "sanitatem",
+    "parent": "segment",
     "requirements": [
       {"item": "lead", "amount": 1500},
-      {"item": "copper", "amount": 1500},
+	  {"item": "copper", "amount": 1500},
       {"item": "titanium", "amount": 1500}
     ]
   }
