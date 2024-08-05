@@ -28,8 +28,8 @@
   "type": "PointLaserBulletType",
   "sprite": "pyra-tiny-laser",
   "collidesTeam": true,
-  "healAmount": 4,
-	"damage": 0.5
+  "healAmount": 5,
+	"damage": 1,
 },
 "drawer": {
   "type": "DrawTurret",
