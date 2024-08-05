@@ -8,8 +8,7 @@
   "requirements": [
     "copper/50",
     "lead/50",
-    "silicon/50",
-    "molten-alloy/5"
+    "molten-alloy/1"
   ],
   "targetAir": false,
   "targetGround": false,
