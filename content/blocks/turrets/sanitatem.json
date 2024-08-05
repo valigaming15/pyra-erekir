@@ -8,7 +8,6 @@
   "requirements": [
     "copper/150",
     "lead/150",
-    "silicon/200",
     "molten-alloy/20"
   ],
   "targetAir": false,
