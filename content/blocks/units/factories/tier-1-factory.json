@@ -11,7 +11,7 @@
   	{
       "unit": "fossores",
       "requirements": [
-	    {"item": "molten-alloy", "amount": 10},
+	    {"item": "molten-alloy", "amount": 1},
 	    {"item": "ai-core", "amount": 1},
 	    {"item": "silicon", "amount": 100}
       ],
@@ -48,8 +48,8 @@
     {
       "unit": "healing-dorito",
       "requirements": [
-	    {"item": "titanium", "amount": 25},
-	    {"item": "silicon", "amount": 25}
+	    {"item": "titanium", "amount": 10},
+	    {"item": "silicon", "amount": 10}
       ],
       "time": 600
     },
