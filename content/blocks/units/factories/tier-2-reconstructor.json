@@ -17,6 +17,9 @@
   "constructTime": 600,
   "upgrades": [
     [
+      "healing-dorito", "rose"
+    ],
+    [
       "fossores", "sterna"
     ],
     [
