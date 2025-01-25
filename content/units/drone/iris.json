@@ -1,0 +1,89 @@
+{
+"type": "flying",
+"flying": true,
+"localizedName": "[green]Iris",
+"description": "A drone that follows units and heals",
+"lowAltitude": true,
+"health": 1000,
+"canAttack": false,
+"useUnitCap": true,
+"isEnemy": false,
+  "hitSize": 16,
+  "engineOffset": 9,
+  "engineSize": 3,
+  "armor": 15,
+  "itemCapacity": 100,
+  "speed": 2.0,
+  "accel": 0.06,
+  "drag": 0.017,
+  "drawBuildBeam": true,
+  "buildSpeed": 2,
+  "mineSpeed": 5,
+  "mineTier": 4,
+"defaultController": "DefenderAI",
+"weapons": [
+		{
+			"type": "PointDefenseWeapon",
+			"x": 4,
+			"y": -3,
+			"mirror": true,
+			"reload": 3,
+			"targetInterval": 1,
+			"targetSwitchInterval": 1,
+			"bullet": {
+				"type": "BulletType",
+				"shootEffect": "sparkShoot",
+				"hitEffect": "pointHit",
+				"maxRange": 160,
+				"damage": 15
+			}
+		},
+				{
+			"type": "PointDefenseWeapon",
+			"x": -2,
+			"y": -3,
+			"mirror": true,
+			"reload": 3,
+			"targetInterval": 1,
+			"targetSwitchInterval": 1,
+			"bullet": {
+				"type": "BulletType",
+				"shootEffect": "sparkShoot",
+				"hitEffect": "pointHit",
+				"maxRange": 160,
+				"damage": 15
+			}
+		}
+	],
+  "research": {
+    "parent": "rose",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	     {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
+    "abilities": [
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 1,
+    "faceOutwards": true,
+    "unit": "rose"
+    },
+	  {
+		 "type": "EnergyFieldAbility",
+		 "effectRadius": 1,
+		 "range": 90,
+		 "damage": 5,
+		 "reload": 30,
+		 "maxTargets": 50
+	  },
+	  {
+      "type": "ForceFieldAbility",
+      "radius": 10,
+      "regen": 0.25,
+      "max": 1000,
+      "cooldown": 300
+      }
+  ]
+ }
