@@ -13,7 +13,7 @@
   "engineSize": 3,
   "armor": 25,
   "itemCapacity": 100,
-  "speed": 2.0,
+  "speed": 2.5,
   "accel": 0.06,
   "drag": 0.017,
   "drawBuildBeam": true,
