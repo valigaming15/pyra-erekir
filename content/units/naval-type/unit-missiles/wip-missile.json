@@ -7,7 +7,7 @@
   "logicControllable": true,
   "flying": true,
   "health": 250,
-  "armor": 1,
+  "armor": 10,
   "speed": 3,
   "drag": 0.15,
   "hitSize": 10,
@@ -47,15 +47,15 @@
         "hittable": false,
         "killShooter": true,
         "collidesAir": true
-          "fragBullets": 50,
-	        "fragSpread": 15,
+          "fragBullets": 60,
+	        "fragSpread": 5,
 		      "fragRandomSpread": 0,
         "fragBullet": {
           "type": "LightningBulletType",
         "damage": 10,
         "collidesTeam": true,
         "healPercent": 15,
-        "lightningLength": 30,
+        "lightningLength": 20,
         "lightningColor": "66ff66"
         }
       }
