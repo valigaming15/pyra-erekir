@@ -5,13 +5,19 @@
 "health": 12000,
 "armor": 20,
 "faceTarget": false,
+"mineSpeed": 5,
+"mineTier": 4,
+"buildSpeed": 1,
+"itemCapacity": 250,
+"mineHardnessScaling": true,
+"drawBuildBeam": true,
 "outlineRadius": 3,
-"crushDamage": 3.5,
+"crushDamage": 4.0,
 "hitSize": 18,
 "speed": 0.55,
 "omniMovement": false,
 "defaultController": "GroundAI",
-"range": 60,
+"range": 10,
 "immunities": [
   "energyDrain"
 ],
@@ -24,66 +30,25 @@
   }
 ],
     "weapons": [
-    {
-	  "name": "cannon",
-	  "rotate": true,
-      "mirror": false,
-      "top": "true",
-      "shake": 1,
+        {
+      "name": "cannon",
+      "reload": 60,
       "x": 0,
-      "y": 0,
-      "reload": 120,
-      "recoil": 2.5,
-	  "shootStatusDuration": 120,
-      "shootStatus": "costRestore",
-      "shootSound": "artillery",
-	    "ejectEffect": "casing4",
-	  
+	  "y": 0,
+      "rotate": true,
+	  "mirror": false,
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 0,
       "bullet": {
-          "type": "BasicBulletType",
-	      "collidesTiles": true,
-	      "collides" : true,
-        
-        "laserAbsorb": true,
-        "hittable": true,
-        "absorbable": true,
-
-		    "pierce": true,
-        "hitEffect": "titanExplosion",
-		    "pierceCap": 2,
-			"pierceBuilding": true,
-        "status": "burning",
-		"statusDuration": 600,
-        "makeFire": true,
-	    "damage": 400,
-        "splashDamage": 400,
-		    "splashDamageRadius": 60,
-        "width": 12,
-        "height": 30,
-        "lifetime": 45,
-        "speed": 6,
-        "backColor": "ff6600",
-        "frontColor": "ffffff",
-		"fragBullets": 5,
-	    "fragSpread": 10,
-		"fragRandomSpread": 0,
-		"fragBullet": {
-			"type": "LiquidBulletType",
-			
-			"laserAbsorb": true,
-            "hittable": true,
-            "absorbable": false,
-			"status": "burning",
-			"makeFire": true,
-			"liquid": "slag",
-			"despawnHit": true,
-			"puddleSize": 300,
-			"width": 8,
-            "height": 20,
-            "lifetime": 60,
-            "speed": 2
-        },	
-      },
+        "type": "BulletType",
+        "shootEffect": "sparkShoot",
+        "smokeEffect": "shootSmokeTitan",
+        "shake": 1,
+        "speed": 0,
+        "keepVelocity": false,
+        "spawnUnit": "wip-missile"
+      }
     },
   ],
 "research": {
@@ -94,6 +59,16 @@
       {"item": "silicon", "amount": 500},
       {"item": "titanium", "amount": 500}
     ]
-  }
+  },
+  "abilities": [
+      {
+		 "type": "EnergyFieldAbility",
+		 "effectRadius": 1,
+		 "range": 90,
+		 "damage": 5,
+		 "reload": 30,
+		 "maxTargets": 10
+	  },
+    ]
 }
 
