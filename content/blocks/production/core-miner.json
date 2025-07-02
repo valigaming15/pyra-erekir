@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Core miner",
+  "description": "Drills deep into the earth to extract valuable resources",
+  "outputItems": [ "pyratite/50", "scrap/100", "sand/100","coal/50" ],
+  "health": 1000,
+  "itemCapacity": 500,
+  "liquidCapacity": 40,
+  "size": 3,
+  "craftTime": 600,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 5,
+ },
+  "requirements": [
+	  {"item": "copper", "amount": 1000},
+	  {"item": "lead", "amount": 1000},
+	  {"item": "magmium", "amount": 100},
+	  {"item": "titanium", "amount": 100}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
