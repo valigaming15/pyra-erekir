@@ -110,6 +110,25 @@
         "backColor": "ff6600",
         "frontColor": "ffffff"			
       },
+	  "lead": {
+        "type": "BasicBulletType",
+	      "collidesTiles": true,
+	      "collides" : true,
+		  "ammoMultiplier": 2,
+		  "reloadMultiplier": 0.75,
+        
+        "laserAbsorb": true,
+        "hittable": true,
+        "absorbable": true,
+
+	      "damage": 15,
+        "width": 5,
+        "height": 14,
+        "lifetime": 30,
+        "speed": 8,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"			
+      },
 	  	  "graphite": {
         "type": "BasicBulletType",
 	      "collidesTiles": true,
