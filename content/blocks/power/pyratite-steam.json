@@ -1,7 +1,7 @@
 {
   "type": "ImpactReactor",
   "name": "Pyra turbine",
-  "description": "An advanced steam turbine \nrequires time to spool up and power",
+  "description": "An advanced steam turbine 40% more efficient then steam generator \nrequires time to spool up and power",
   "health": 500,
   "size": 2,
   "hasPower": true,
