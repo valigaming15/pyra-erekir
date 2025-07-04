@@ -12,7 +12,7 @@
   "itemCapacity": 10,
   "liquidCapacity": 25,
   "itemDuration": 60,
-  "powerProduction": 12,
+  "powerProduction": 13,
   "warmupSpeed": 0.003,
   "explosionDamage": 250,
   "explosionRadius": 5,
