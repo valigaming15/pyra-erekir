@@ -15,12 +15,12 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "copper", "amount": 3}
+     {"item": "copper", "amount": 5}
 	   ]
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 1}
+    {"item": "scrap", "amount": 5}
       ]
 	 },
 	 "craftTime": 60
@@ -29,12 +29,12 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "lead", "amount": 3}
+     {"item": "lead", "amount": 5}
 	   ]
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 1}
+    {"item": "scrap", "amount": 5}
       ]
 	 },
 	 "craftTime": 60
@@ -43,12 +43,12 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "graphite", "amount": 3}
+     {"item": "graphite", "amount": 5}
 	   ]
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 1}
+    {"item": "scrap", "amount": 5}
       ]
 	 },
 	 "craftTime": 60
@@ -57,12 +57,12 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "titanium", "amount": 2}
+     {"item": "titanium", "amount": 5}
 	   ]
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 1}
+    {"item": "scrap", "amount": 5}
       ]
 	 },
 	 "craftTime": 60
@@ -71,12 +71,12 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "sand", "amount": 5}
+     {"item": "sand", "amount": 10}
 	   ]
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 1}
+    {"item": "scrap", "amount": 10}
       ]
 	 },
 	 "craftTime": 60
