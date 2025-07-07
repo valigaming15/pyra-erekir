@@ -42,7 +42,6 @@
         "laserAbsorb": true,
         "hittable": true,
         "absorbable": true,
-        "status": "burning",
         "makeFire": true,
 	      "damage": 10,
         "splashDamage": 10,
