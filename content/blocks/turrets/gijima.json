@@ -34,6 +34,8 @@
 	      "collidesTiles": true,
 	      "collides" : true,
 	      "homingPower": 0.1,
+      "status": "energyDrain",
+      "statusDuration": 300,
 		  "ammoMultiplier": 10,
 		  "reloadMultiplier": 1.0,
         
