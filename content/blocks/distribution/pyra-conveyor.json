@@ -8,7 +8,7 @@
     "pyratite/1"
   ],
   "health": 200,
-  "speed": 0.25,
+  "speed": 0.3,
   "displayedSpeed": 30,
    "research": {
     "parent": "molten-alloy",
