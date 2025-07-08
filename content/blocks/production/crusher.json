@@ -20,7 +20,7 @@
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 5}
+    {"item": "scrap", "amount": 2}
       ]
 	 },
 	 "craftTime": 60
@@ -34,7 +34,7 @@
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 5}
+    {"item": "scrap", "amount": 2}
       ]
 	 },
 	 "craftTime": 60
@@ -48,21 +48,7 @@
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 5}
-      ]
-	 },
-	 "craftTime": 60
-     },
-	 	 {
-	  "input": {
-	  "power": 2,
-       "items": [
-     {"item": "titanium", "amount": 5}
-	   ]
-	 },
-	 "output": {
-      "items": [
-    {"item": "scrap", "amount": 5}
+    {"item": "scrap", "amount": 2}
       ]
 	 },
 	 "craftTime": 60
@@ -76,7 +62,7 @@
 	 },
 	 "output": {
       "items": [
-    {"item": "scrap", "amount": 10}
+    {"item": "scrap", "amount": 2}
       ]
 	 },
 	 "craftTime": 60
