@@ -1,7 +1,7 @@
 {
     "type": "CoreBlock",
     "name": "[#ff66]Baratrous",
-    "description": "The upgrade to the Regis Core. The Baratrous Builds a Dredge to help defend it",
+    "description": "The upgrade to the Regis Core. The Baratrous builds a Sterna to help defend it",
     "details": "",
     "size": 5,
     "researchCostMultiplier": 0.4,
@@ -35,7 +35,7 @@
     ],
     "category": "effect",
     "research": "regis",
-    "unitType": "dredge",
-    "unitCapModifier": 50
+    "unitType": "sterna",
+    "unitCapModifier": 100
   }
   
