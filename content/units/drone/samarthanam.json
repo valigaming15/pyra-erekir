@@ -1,0 +1,63 @@
+{
+"type": "tank",
+"localizedName": "Samarthanam",
+"flying": false,
+"health": 500,
+"armor": 10,
+"faceTarget": false,
+"outlineRadius": 3,
+"crushDamage": 0.5,
+"hitSize": 8,
+"speed": 0.75,
+"omniMovement": false,
+"canAttack": false,
+"useUnitCap": false,
+"range": 37.5,
+"treadRects": [
+  {
+  "x": 6,
+  "y": -25,
+  "width": 14,
+  "height": 51
+  }
+],
+"defaultController": "DefenderAI",
+"weapons": [
+		{
+			"type": "PointDefenseWeapon",
+			"x": 0,
+			"y": 0,
+			"mirror": false,
+			"reload": 4,
+			"targetInterval": 1,
+			"targetSwitchInterval": 1,
+			"bullet": {
+				"type": "BulletType",
+				"shootEffect": "sparkShoot",
+				"hitEffect": "pointHit",
+				"maxRange": 80,
+				"damage": 4
+			}
+		},
+	        {
+      "type": "RepairBeamWeapon",
+      "name": "small-repair-point",
+      "x": 0,
+      "y": -3,
+      "beamWidth": 0.5,
+      "mirror": false,
+      "repairSpeed": 0.25,
+      "bullet": {
+        "maxRange": 75
+                }
+	   }
+	],
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	     {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
+ }
