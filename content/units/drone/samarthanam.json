@@ -1,6 +1,7 @@
 {
 "type": "tank",
 "localizedName": "[green]Samarthanam",
+"description": "A tank that follows units and heals",
 "flying": false,
 "health": 500,
 "armor": 10,
