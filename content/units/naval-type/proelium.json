@@ -125,13 +125,6 @@
       "unit": "pellentesque",
       "spawnX": 0,
       "spawnY": 0,
-      "spawnTime": 1800
-    },
-    {
-      "type": "UnitSpawnAbility",
-      "unit": "healing-dorito",
-      "spawnX": 0,
-      "spawnY": 0,
       "spawnTime": 600
     },
     {
