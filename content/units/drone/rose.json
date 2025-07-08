@@ -48,7 +48,7 @@
 	   }
 	],
   "research": {
-    "parent": "healing-dorito",
+    "parent": "samarthanam",
     "requirements": [
       {"item": "lead", "amount": 500},
 	     {"item": "copper", "amount": 500},
@@ -60,7 +60,7 @@
     "type": "SpawnDeathAbility",
     "amount": 1,
     "faceOutwards": true,
-    "unit": "healing-dorito"
+    "unit": "samarthanam"
     }
   ]
  }
