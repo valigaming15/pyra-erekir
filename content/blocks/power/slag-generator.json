@@ -1,0 +1,37 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Slag generator",
+  "description": "Consumes slag to create power",
+  "health": 250,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": false,
+  "lightColor": "ff6600",
+  "liquidCapacity": 50,
+  "powerProduction": 6,
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.2,
+  "consumes": {
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.1
+    },
+  },
+	"requirements": [  	
+		"copper/50",
+		"lead/50",
+		"titanium/50",
+		"pyratite/10"
+	],
+  "category": "power",
+  "research": {
+    "parent": "pyra-panel",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "titanium", "amount": 500},
+	  {"item": "molten-alloy", "amount": 100}
+    ]
+  }
+}
