@@ -15,7 +15,7 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "copper", "amount": 5}
+     {"item": "copper", "amount": 4}
 	   ]
 	 },
 	 "output": {
@@ -29,7 +29,7 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "lead", "amount": 5}
+     {"item": "lead", "amount": 4}
 	   ]
 	 },
 	 "output": {
@@ -43,7 +43,7 @@
 	  "input": {
 	  "power": 2,
        "items": [
-     {"item": "graphite", "amount": 5}
+     {"item": "graphite", "amount": 4}
 	   ]
 	 },
 	 "output": {
