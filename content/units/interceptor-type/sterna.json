@@ -27,12 +27,12 @@
       "x": -3.5,
       "y": 2,
       "mirror": true,
-      "reload": 30,
+      "reload": 15,
       "rotate": true,
       "shootSound": "lasershoot",
       "inaccuracy": 10,
       "shoot": {
-        "shots": 25
+        "shots": 15
       },
       "bullet": {
         "type": "LaserBoltBulletType",
