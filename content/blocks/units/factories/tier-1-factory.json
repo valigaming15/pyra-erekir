@@ -24,8 +24,10 @@
       ],
       "time": 600
     },
+      "time": 600
+    },
     {
-      "unit": "curativo",
+      "unit": "auxilium",
       "requirements": [
 	    {"item": "titanium", "amount": 25},
 	    {"item": "silicon", "amount": 50}
@@ -33,16 +35,7 @@
       "time": 600
     },
     {
-      "unit": "auxilium",
-      "requirements": [
-	    {"item": "ai-core", "amount": 1},
-	    {"item": "titanium", "amount": 100},
-	    {"item": "silicon", "amount": 100}
-      ],
-      "time": 600
-    },
-    {
-      "unit": "samarthanam",
+      "unit": "healing-dorito",
       "requirements": [
 	    {"item": "titanium", "amount": 10},
 	    {"item": "silicon", "amount": 10}
