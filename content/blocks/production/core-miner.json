@@ -13,7 +13,11 @@
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 5,
+  "power": 10,
+    "liquid": {
+      "liquid": "water",
+      "amount": 10
+    },
  },
   "requirements": [
 	  {"item": "copper", "amount": 1000},
