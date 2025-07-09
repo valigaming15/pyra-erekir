@@ -3,12 +3,12 @@
   "localizedName": "[#00ff]AI core fabricator",
   "description": "Produces AI cores used for units",
   "outputItem": "ai-core/1",
-  "outputLiquid": "slag/0.1",
+  "outputLiquid": "slag/0.05",
   "health": 500,
   "itemCapacity": 50,
   "liquidCapacity": 50,
   "size": 3,
-  "craftTime": 300,
+  "craftTime": 120,
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
@@ -17,9 +17,9 @@
   "power": 4,
   "items": {
     "items": [
-      "pyratite/1",
-      "thorium/5",
-      "silicon/5"
+      "pyratite/2",
+      "thorium/2",
+      "silicon/2"
     ]
   }
 },
