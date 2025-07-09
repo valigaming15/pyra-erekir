@@ -15,7 +15,7 @@
   "powerProduction": 13,
   "warmupSpeed": 0.003,
   "explosionDamage": 1000,
-  "explosionRadius": 10,
+  "explosionRadius": 5,
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.2,
   "consumes": {
