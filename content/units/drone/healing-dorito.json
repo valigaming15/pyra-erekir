@@ -1,0 +1,53 @@
+{
+"type": "flying",
+"flying": true,
+"localizedName": "[green]Pedal",
+"description": "A drone that follows units and heals",
+"lowAltitude": true,
+"health": 100,
+"isEnemy": false,
+"speed": 2.5,
+"accel": 0.058,
+"drag": 0.017,
+"canAttack": false,
+"useUnitCap": false,
+"defaultController": "DefenderAI",
+"weapons": [
+		{
+			"type": "PointDefenseWeapon",
+			"x": 0,
+			"y": 0,
+			"mirror": false,
+			"reload": 4,
+			"targetInterval": 1,
+			"targetSwitchInterval": 1,
+			"bullet": {
+				"type": "BulletType",
+				"shootEffect": "sparkShoot",
+				"hitEffect": "pointHit",
+				"maxRange": 80,
+				"damage": 4
+			}
+		},
+	        {
+      "type": "RepairBeamWeapon",
+      "name": "small-repair-point",
+      "x": 0,
+      "y": -3,
+      "beamWidth": 0.5,
+      "mirror": false,
+      "repairSpeed": 0.25,
+      "bullet": {
+        "maxRange": 75
+                }
+	   }
+	],
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	     {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
+ }
