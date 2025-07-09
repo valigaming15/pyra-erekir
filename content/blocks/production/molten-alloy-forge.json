@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "localizedName": "[#ff66]Molten alloy forge",
-  "description": "forges pyratite into a strong alloy",
+  "localizedName": "[#ff66]Pyratite composite manufacturer",
+  "description": "Manufactures pyratite into a strong composite",
   "outputItem": "molten-alloy/1",
   "health": 500,
   "itemCapacity": 20,
