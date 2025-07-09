@@ -4,7 +4,7 @@
   "description": "Sister to the Foundation. The Regis Core Builds a Dredge to help defend it",
   "details": "",
   "size": 4,
-  "researchCostMultiplier": 0.4,
+  "researchCostMultiplier": 0.1,
   "health": 5000,
   "itemCapacity": 15000,
   "requirements": [
