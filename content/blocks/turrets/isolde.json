@@ -24,28 +24,6 @@
         "spawnUnit": "exploding-dorito",
         "ammoMultiplier": 1
       },
-      "packet-flare": {
-        "spawnUnit": "flare",
-        "ammoMultiplier": 1,
-	"reloadMultiplier": 5.0
-      },
-      "packet-fossores": {
-        "spawnUnit": "fossores",
-        "ammoMultiplier": 1
-      },
-      "packet-sterna": {
-	"type": "BasicBulletType",
-        "collidesTiles": true,
-	"hittable": false,
-        "collides" : false,
-	"lifetime": 120,
-        "speed": 3,
-        "ammoMultiplier": 1
-	      	"fragBullets": 1,
-		"fragBullet": {
-                "spawnUnit": "sterna",
-		},
-	 },
     }
     "requirements": [
     "copper/200",
@@ -55,7 +33,7 @@
     ],
     "category": "turret",
     "research": {
-    "parent": "ripple",
+    "parent": "vita",
     "requirements": [
       {"item": "lead", "amount": 2000},
   	  {"item": "copper", "amount": 2000},
