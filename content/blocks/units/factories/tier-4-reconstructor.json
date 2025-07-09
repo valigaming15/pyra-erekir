@@ -15,7 +15,7 @@
     "items": {
       "items": [
         {"item": "plastanium", "amount": 1000},
-        {"item": "molten-alloy", "amount": 200},
+        {"item": "molten-alloy", "amount": 100},
         {"item": "ai-core", "amount": 25},
         {"item": "silicon", "amount": 1000}
       ]
