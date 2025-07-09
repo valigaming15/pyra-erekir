@@ -8,7 +8,7 @@
   "requirements": [
     "copper/200",
     "lead/200",
-    "molten-alloy/10"
+    "piratite/10"
   ],
   "targetAir": true,
   "targetGround": true,
@@ -177,7 +177,7 @@
   ]
 },
 "research": {
-    "parent": "salvo",
+    "parent": "regis",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},
