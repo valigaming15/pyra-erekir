@@ -5,11 +5,11 @@
   "outputItems": [ "scrap/10", "coal/10", "lead/10", "sand/10" ],
   "health": 1000,
   "itemCapacity": 100,
-  "liquidCapacity": 40,
+  "liquidCapacity": 100,
   "size": 3,
   "craftTime": 60,
   "hasPower": true,
-  "hasLiquids": false,
+  "hasLiquids": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
