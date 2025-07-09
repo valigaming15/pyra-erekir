@@ -8,7 +8,7 @@
   "requirements": [
     "copper/200",
     "lead/200",
-    "piratite/10"
+    "pyratite/10"
   ],
   "targetAir": true,
   "targetGround": true,
