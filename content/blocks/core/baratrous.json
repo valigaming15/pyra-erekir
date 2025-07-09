@@ -4,7 +4,7 @@
     "description": "The upgrade to the Regis Core. The Baratrous builds a Sterna to help defend it",
     "details": "",
     "size": 5,
-    "researchCostMultiplier": 0.4,
+    "researchCostMultiplier": 0.1,
     "health": 20000,
     "itemCapacity": 25000,
     "requirements": [
