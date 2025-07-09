@@ -7,7 +7,7 @@
   "itemCapacity": 20,
   "liquidCapacity": 60,
   "size": 3,
-  "craftTime": 300,
+  "craftTime": 30,
   "hasPower": true,
   "hasLiquids": false,
   "hasItems": true,
