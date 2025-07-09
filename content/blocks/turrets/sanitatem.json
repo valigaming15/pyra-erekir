@@ -50,7 +50,7 @@
 },
 
 "research": {
-    "parent": "segment",
+    "parent": "vita",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},
