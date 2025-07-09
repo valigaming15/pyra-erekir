@@ -13,7 +13,7 @@
 	"ammoPerShot": 1,
     "ammoTypes": {
       "ai-core": {
-        "spawnUnit": "samarthanam",
+        "spawnUnit": "healing-dorito",
 	    "ammoMultiplier": 1
 	  },
       "molten-alloy": {
