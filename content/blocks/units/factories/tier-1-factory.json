@@ -11,28 +11,24 @@
   	{
       "unit": "fossores",
       "requirements": [
-	    {"item": "molten-alloy", "amount": 1},
-	    {"item": "ai-core", "amount": 1},
-	    {"item": "silicon", "amount": 100}
+	    {"item": "titanium", "amount": 25},
+	    {"item": "silicon", "amount": 50}
       ],
       "time": 600
     },
     {
       "unit": "Acyuta",
       "requirements": [
-	    {"item": "molten-alloy", "amount": 10},
-	    {"item": "ai-core", "amount": 1},
-	    {"item": "titanium", "amount": 100},
-	    {"item": "silicon", "amount": 100}
+	    {"item": "titanium", "amount": 25},
+	    {"item": "silicon", "amount": 50}
       ],
       "time": 600
     },
     {
       "unit": "curativo",
       "requirements": [
-	    {"item": "ai-core", "amount": 10},
-	    {"item": "titanium", "amount": 100},
-	    {"item": "silicon", "amount": 100}
+	    {"item": "titanium", "amount": 25},
+	    {"item": "silicon", "amount": 50}
       ],
       "time": 600
     },
