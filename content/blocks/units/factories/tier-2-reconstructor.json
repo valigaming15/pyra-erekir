@@ -8,9 +8,9 @@
     "power": 3,
     "items": {
       "items": [
-        {"item": "titanium", "amount": 100},
-        {"item": "molten-alloy", "amount": 20},
-        {"item": "silicon", "amount": 200}
+        {"item": "titanium", "amount": 50},
+        {"item": "molten-alloy", "amount": 10},
+        {"item": "silicon", "amount": 50}
       ]
     }
   },
