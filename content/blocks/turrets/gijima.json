@@ -177,7 +177,7 @@
   ]
 },
 "research": {
-    "parent": "regis",
+    "parent": "shard",
     "requirements": [
       {"item": "lead", "amount": 1500},
 	  {"item": "copper", "amount": 1500},
