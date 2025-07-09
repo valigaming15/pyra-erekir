@@ -15,11 +15,11 @@
     "items": {
       "items": [
         {"item": "plastanium", "amount": 1000},
-        {"item": "surge-alloy", "amount": 750},
+        {"item": "surge-alloy", "amount": 100},
         {"item": "silicon", "amount": 1000},
-        {"item": "phase-fabric", "amount": 500},
+        {"item": "phase-fabric", "amount": 100},
         {"item": "ai-core", "amount": 100},
-        {"item": "molten-alloy", "amount": 500}
+        {"item": "molten-alloy", "amount": 250}
       ]
     }
   },
