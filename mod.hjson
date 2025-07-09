@@ -13,9 +13,10 @@
     Spriter and Coder: "[purple[]]Otamamori#4716[[]]"
     
     '''
-    description: requires Multicrafter lib
+    description:
     '''
-    Pyratite focused mod which adds units turrets drills and factorys
+    Pyratite focused mod which adds units turrets drills and factory
+    Requires Multicrafter lib!
     NOT the most balanced
     '''
 }
