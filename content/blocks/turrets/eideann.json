@@ -51,7 +51,7 @@
         "width": 10,
         "height": 25,
         "lifetime": 35,
-        "speed": 8
+        "speed": 9
 		  },
     "pyratite": {
         "type": "BasicBulletType",
@@ -74,7 +74,7 @@
         "width": 12,
         "height": 30,
         "lifetime": 35,
-        "speed": 8,
+        "speed": 9,
         "backColor": "f68021",
         "frontColor": "f8ad42",
 		"fragBullets": 10,
@@ -101,7 +101,7 @@
         "width": 12,
         "height": 30,
         "lifetime": 35,
-        "speed": 8
+        "speed": 9
       },
       "molten-alloy": {
         "type": "BasicBulletType",
@@ -124,7 +124,7 @@
         "width": 12,
         "height": 30,
         "lifetime": 35,
-        "speed": 8,
+        "speed": 9,
         "backColor": "ff6600",
         "frontColor": "ff6600"
       },
@@ -148,8 +148,8 @@
         "splashDamageRadius": 40,
         "width": 12,
         "height": 30,
-        "lifetime": 35,
-        "speed": 8,
+        "lifetime": 40,
+        "speed": 9,
         "backColor": "ff0000",
         "frontColor": "ff0000",
         "fragBullets": 10,
@@ -169,7 +169,7 @@
           "width": 8,
           "height": 20,
           "lifetime": 60,
-          "speed": 2
+          "speed": 3
         }
       }
     },
