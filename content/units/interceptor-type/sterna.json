@@ -99,6 +99,12 @@
       "regen": 0.1,
       "max": 250,
       "cooldown": 600
+    },
+    {
+     "type": "RepairFieldAbility",
+      "range": 60,
+      "reload": 300,
+      "amount": 50
     }
   ]
 }
