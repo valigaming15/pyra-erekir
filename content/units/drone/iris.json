@@ -77,6 +77,12 @@
 		 "damage": 25,
 		 "reload": 30,
 		 "maxTargets": 25
-	  }
+	  },
+          {
+                 "type": "RepairFieldAbility",
+                 "range": 60,
+                 "reload": 300,
+                 "amount": 50
+    }
   ]
  }
