@@ -54,18 +54,7 @@
         "lifetime": 120,
         "speed": 4,
         "backColor": "ff6600",
-        "frontColor": "ffffff",
-          "fragBullets": 50,
-	        "fragSpread": 5,
-		      "fragRandomSpread": 0,
-        "fragBullet": {
-          "type": "LightningBulletType",
-        "damage": 20,
-        "collidesTeam": true,
-        "healPercent": 15,
-        "lightningLength": 20,
-        "lightningColor": "66ff66"
-        }		
+        "frontColor": "ffffff",		
       }
     }
   ],
@@ -91,6 +80,14 @@
     "amount": 5,
     "faceOutwards": true,
     "unit": "fossores"
+    },
+    {
+	 "type": "EnergyFieldAbility",
+	 "effectRadius": 3,
+	 "range": 120,
+	 "damage": 50,
+	 "reload": 60,
+	 "maxTargets": 10
     }
   ]
 }
