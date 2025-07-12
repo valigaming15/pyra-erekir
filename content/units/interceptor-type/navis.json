@@ -87,9 +87,9 @@
 	 "type": "EnergyFieldAbility",
 	 "effectRadius": 3,
 	 "range": 120,
-	 "damage": 50,
+	 "damage": 25,
 	 "reload": 60,
-	 "maxTargets": 10
+	 "maxTargets": 20
     }
   ]
 }
