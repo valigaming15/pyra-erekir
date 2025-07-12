@@ -49,6 +49,8 @@
 	"statusDuration": 600,
         "makeFire": true,
 	"damage": 1000,
+        "splashDamage": 1000,
+        "splashDamageRadius": 60,
         "width": 12,
         "height": 30,
         "lifetime": 120,
