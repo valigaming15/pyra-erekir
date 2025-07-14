@@ -82,14 +82,6 @@
     "amount": 5,
     "faceOutwards": true,
     "unit": "fossores"
-    },
-    {
-	 "type": "EnergyFieldAbility",
-	 "effectRadius": 3,
-	 "range": 120,
-	 "damage": 25,
-	 "reload": 60,
-	 "maxTargets": 20
     }
   ]
 }
