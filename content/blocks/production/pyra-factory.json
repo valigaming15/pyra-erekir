@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "localizedName": "[#ff66]Ammo manufacturing",
   "description": "Creates armor piercing ammo",
-  "outputItem": "AP/1",
+  "outputItem": "AP/3",
   "health": 500,
   "itemCapacity": 20,
   "liquidCapacity": 20,
