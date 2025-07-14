@@ -16,7 +16,7 @@
   "outlineIcon": true,
   "recoil": 1,
   "shootY": 2,
-  "coolantMultiplier": 12,
+  "coolantMultiplier": 16,
 "consumes":{
       "coolant":{
         "amount": 0.1
@@ -26,7 +26,7 @@
   "shootSound": "shoot",
   "maxAmmo": 500,
   "rotateSpeed": 3,
-  "reload": 4,
+  "reload": 5,
   "range": 250,
     "ammoTypes": {
     "pyratite": {
