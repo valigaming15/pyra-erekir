@@ -24,7 +24,7 @@
     },
   
   "shootSound": "shoot",
-  "maxAmmo": 100,
+  "maxAmmo": 500,
   "rotateSpeed": 3,
   "reload": 4,
   "range": 250,
