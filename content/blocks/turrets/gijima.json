@@ -24,9 +24,9 @@
     },
   
   "shootSound": "shoot",
-  "maxAmmo": 500,
+  "maxAmmo": 100,
   "rotateSpeed": 3,
-  "reload": 5,
+  "reload": 6,
   "range": 250,
     "ammoTypes": {
     "pyratite": {
