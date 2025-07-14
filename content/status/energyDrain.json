@@ -1,6 +1,6 @@
 {
     "name": "[#c1c3d4]Energy[] [#a7b6d4]Drain",
-    "description": "[#c1c3d4]Yo[][#a7b6d4]ur[] [#c1c3d4]Pow[][#a7b6d4]er[] [#c1c3d4]Rese[][#a7b6d4]rves[] [#c1c3d4]Wa[][#a7b6d4]s[] [#c1c3d4]Suc[][#a7b6d4]ked[] [#c1c3d4]Fr[][#a7b6d4]om[] [#c1c3d4]Yo[][#a7b6d4]u[] \n [orange]Build stuned[]",
+    "description": "[#c1c3d4]Yo[][#a7b6d4]ur[] [#c1c3d4]Pow[][#a7b6d4]er[] [#c1c3d4]Rese[][#a7b6d4]rves[] [#c1c3d4]Wa[][#a7b6d4]s[] [#c1c3d4]depleted[] [#c1c3d4]Fr[][#a7b6d4]om[] [#c1c3d4]Yo[][#a7b6d4]u[] \n [orange]Build stuned[]",
     "buildSpeedMultiplier": 0.0,
     "reloadMultiplier": 0.80,
     "speedMultiplier": 0.50
