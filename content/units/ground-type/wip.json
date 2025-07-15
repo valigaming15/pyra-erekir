@@ -60,15 +60,5 @@
       {"item": "titanium", "amount": 500}
     ]
   },
-  "abilities": [
-      {
-		 "type": "EnergyFieldAbility",
-		 "effectRadius": 1,
-		 "range": 90,
-		 "damage": 5,
-		 "reload": 30,
-		 "maxTargets": 10
-	  },
-    ]
 }
 
