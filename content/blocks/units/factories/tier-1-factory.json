@@ -32,6 +32,14 @@
       ],
       "time": 600
     },
+	    {
+      "unit": "samarthanam",
+      "requirements": [
+	    {"item": "titanium", "amount": 25},
+	    {"item": "silicon", "amount": 50}
+      ],
+      "time": 600
+    },
     {
       "unit": "healing-dorito",
       "requirements": [
