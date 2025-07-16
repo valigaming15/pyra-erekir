@@ -1,0 +1,157 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "[#ff66]Artiglieria",
+  "description": "A large precision artillery",
+  "health": 3500,
+  "size": 3,
+  "category": "turret",
+  "requirements": [
+    "copper/1000",
+    "lead/1000",
+    "titanium/500",
+    "ai-core/10"
+  ],
+  "targetAir": false,
+  "targetGround": true,
+  "targetHealing": false,
+  "outlineIcon": true,
+  "range": 320,
+  "shootSound": "shootBig",
+  "shootVolume": 1,
+  "reload": 60,
+  "recoil": 2,
+  "rotateSpeed": 1.0,
+  "ammoUseEffect": "casing4",
+  "maxAmmo": 100,
+  "coolantMultiplier": 2.0,
+  "consumes":{
+      "coolant":{
+        "amount": 0.3
+      }
+    },
+    "ammoTypes": {
+    "pyratite": {
+        "type": "ArtilleryBulletType",
+	      "collidesTiles": true,
+	      "collides" : false,
+	      "homingPower": 0.1,
+      "status": "energyDrain",
+      "statusDuration": 600,
+		  "ammoMultiplier": 5,
+		  "reloadMultiplier": 1.0,
+        "absorbable": true,
+        "makeFire": true,
+        "splashDamage": 300,
+		    "splashDamageRadius": 60,
+        "width": 12,
+        "height": 24,
+        "lifetime": 100,
+        "speed": 3,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"			
+      },
+    "titanium": {
+        "type": "ArtilleryBulletType",
+	      "collidesTiles": true,
+	      "collides" : false,
+		  "ammoMultiplier": 4,
+		  "reloadMultiplier": 2.0,
+        "absorbable": true,
+        "splashDamage": 200,
+		    "splashDamageRadius": 30,
+        "width": 12,
+        "height": 24,
+        "lifetime": 100,
+        "speed": 3,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"			
+      },
+	      "thorium": {
+        "type": "ArtilleryBulletType",
+	      "collidesTiles": true,
+	      "collides" : false,
+		  "ammoMultiplier": 4,
+		  "reloadMultiplier": 1.0,
+        "absorbable": true,
+        "splashDamage": 300,
+		    "splashDamageRadius": 60,
+        "width": 12,
+        "height": 24,
+        "lifetime": 100,
+        "speed": 3,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"			
+      },
+    "plastanium": {
+        "type": "ArtilleryBulletType",
+	      "collidesTiles": true,
+	      "collides" : false,
+		  "ammoMultiplier": 4,
+		  "reloadMultiplier": 1.0,
+        "absorbable": true,
+        "makeFire": true,
+        "splashDamage": 200,
+		    "splashDamageRadius": 90,
+        "width": 12,
+        "height": 24,
+        "lifetime": 100,
+        "speed": 3,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"			
+      },
+    "graphite": {
+        "type": "ArtilleryBulletType",
+	      "collidesTiles": true,
+	      "collides" : false,
+		  "ammoMultiplier": 2,
+		  "reloadMultiplier": 0.75,
+        "laserAbsorb": true,
+        "hittable": true,
+        "absorbable": true,
+        "splashDamage": 100,
+		    "splashDamageRadius": 30,
+        "width": 12,
+        "height": 24,
+        "lifetime": 100,
+        "speed": 3,
+        "backColor": "ff6600",
+        "frontColor": "ffffff"			
+      },
+},
+"drawer": {
+  "type": "DrawTurret",
+  "parts": [
+    {},
+    {
+      "suffix": "-blade",
+      "mirror": true,
+      "under": true,
+      "moveX": 4,
+      "moveY": 2,
+      "moveRot": -25,
+      "progress": {
+        "type": "warmup"
+      }
+    },
+    {
+      "suffix": "-back",
+      "mirror": false,
+      "under": true,
+      "moveX": 0,
+      "moveY": -3,
+      "progress": {
+        "type": "warmup"
+      }
+    }
+  ]
+},
+"research": {
+    "parent": "vita",
+    "requirements": [
+      {"item": "lead", "amount": 2500},
+	  {"item": "copper", "amount": 2500},
+      {"item": "titanium", "amount": 2500},
+      {"item": "thorium", "amount": 2500}
+    ]
+  }
+}
