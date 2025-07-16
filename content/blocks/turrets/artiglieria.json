@@ -23,7 +23,7 @@
   "rotateSpeed": 1.0,
   "ammoUseEffect": "casing4",
   "maxAmmo": 100,
-  "coolantMultiplier": 2.0,
+  "coolantMultiplier": 5.0,
   "consumes":{
       "coolant":{
         "amount": 0.3
