@@ -13,7 +13,7 @@
 "hasItems": true, 
 "itemCapacity": 20, 
 "tier": 15,
-"drillTime": 175, 
+"drillTime": 160, 
 "rotateSpeed": 12, 
 "liquidBoostIntensity": 2.0,
 "hardnessDrillMultiplier": 23,
