@@ -3,8 +3,8 @@
     repo : valigaming15/pyra-erekir
     name : pyra
     minGameVersion : 140
-    dependencies: ["multi-crafter"]
-    version : 1.3.6
+    dependencies:
+    version : 1.3.7
     author: 
     '''
     
@@ -17,7 +17,6 @@
     description:
     '''
     Pyratite focused mod which adds units turrets drills and factory
-    Requires Multicrafter lib!
     NOT the most balanced
     '''
 }
