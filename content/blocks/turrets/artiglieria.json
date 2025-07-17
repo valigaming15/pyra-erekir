@@ -17,13 +17,13 @@
   "outlineIcon": true,
   "range": 320,
   "shootSound": "shootBig",
-  "shootVolume": 1,
+  "shootVolume": 5,
   "reload": 60,
-  "recoil": 2,
+  "recoil": 10,
   "rotateSpeed": 1.0,
   "ammoUseEffect": "casing4",
   "maxAmmo": 100,
-  "coolantMultiplier": 5.0,
+  "coolantMultiplier": 6.0,
   "consumes":{
       "coolant":{
         "amount": 0.3
@@ -135,7 +135,7 @@
       "under": true,
       "moveX": 4,
       "moveY": 2,
-      "moveRot": -25,
+      "moveRot": -45,
       "progress": {
         "type": "warmup"
       }
@@ -145,7 +145,7 @@
       "mirror": false,
       "under": true,
       "moveX": 0,
-      "moveY": -3,
+      "moveY": -4,
       "progress": {
         "type": "warmup"
       }
