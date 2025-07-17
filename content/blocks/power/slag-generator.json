@@ -9,7 +9,7 @@
   "hasItems": false,
   "lightColor": "ff6600",
   "liquidCapacity": 50,
-  "powerProduction": 6,
+  "powerProduction": 7,
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.2,
   "consumes": {
