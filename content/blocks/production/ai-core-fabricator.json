@@ -17,10 +17,10 @@
   "power": 4,
   "items": {
     "items": [
-      "pyratite/2",
-      "thorium/2",
-      "silicon/2",
-      "copper/5"
+      "titanium/1",
+      "thorium/1",
+      "silicon/1",
+      "copper/1"
     ]
   }
 },
