@@ -17,8 +17,7 @@
   "power": 4,
   "items": {
     "items": [
-      "titanium/1",
-      "thorium/1",
+      "molten-alloy/1",
       "silicon/1",
       "copper/1"
     ]
