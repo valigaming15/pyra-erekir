@@ -30,7 +30,7 @@
 		 "range": 40,
 		 "damage": 10,
 		 "reload": 120,
-		 "maxTargets": 20
+		 "maxTargets": 10
 	  },
           {
                  "type": "StatusFieldAbility",
