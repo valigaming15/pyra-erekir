@@ -9,7 +9,7 @@
 "outlineRadius": 3,
 "crushDamage": 0.5,
 "hitSize": 8,
-"speed": 0.75,
+"speed": 1.5,
 "omniMovement": false,
 "canAttack": false,
 "useUnitCap": false,
@@ -23,24 +23,6 @@
   }
 ],
 "defaultController": "DefenderAI",
-"weapons": [
-		{
-			"type": "PointDefenseWeapon",
-			"x": 0,
-			"y": 0,
-			"mirror": false,
-			"reload": 4,
-			"targetInterval": 1,
-			"targetSwitchInterval": 1,
-			"bullet": {
-				"type": "BulletType",
-				"shootEffect": "sparkShoot",
-				"hitEffect": "pointHit",
-				"maxRange": 80,
-				"damage": 4
-			}
-		}
-	],
 	 "abilities": [
 	  {
 		 "type": "EnergyFieldAbility",
