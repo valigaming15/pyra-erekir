@@ -31,6 +31,7 @@
 		 "damage": 10,
 		 "reload": 120,
 		 "maxTargets": 10
+                 "sameTypeHealMult": 0.1,
 	  },
           {
                  "type": "StatusFieldAbility",
