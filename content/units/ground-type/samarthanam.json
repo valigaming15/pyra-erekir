@@ -1,6 +1,6 @@
 {
 "type": "tank",
-"localizedName": "Samarthanam",
+"localizedName": "[#00ff00]Samarthanam",
 "flying": false,
 "health": 500,
 "armor": 10,
@@ -45,11 +45,18 @@
 	  {
 		 "type": "EnergyFieldAbility",
 		 "effectRadius": 1,
-		 "range": 90,
-		 "damage": 25,
-		 "reload": 60,
+		 "range": 40,
+		 "damage": 10,
+		 "reload": 120,
 		 "maxTargets": 20
-	  }
+	  },
+          {
+                 "type": "StatusFieldAbility",
+                 "effect": "weapon-overdrive",
+                 "range": 80,
+                 "reload": 600,
+                 "duration": 600
+          }
     ],
   "research": {
     "parent": "tier-1-factory",
