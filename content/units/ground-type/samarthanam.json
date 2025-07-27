@@ -28,8 +28,8 @@
                  "type": "StatusFieldAbility",
                  "effect": "weapon-overdrive",
                  "range": 80,
-                 "reload": 600,
-                 "duration": 600
+                 "reload": 300,
+                 "duration": 7200
           }
     ],
   "research": {
