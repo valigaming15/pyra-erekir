@@ -8,6 +8,7 @@
   "liquidCapacity": 40,
   "size": 3,
   "craftTime": 300,
+  "conductivePower": true,
   "hasPower": true,
   "hasLiquids": false,
   "hasItems": true,
@@ -18,7 +19,6 @@
   "items": [
   "molten-alloy/1",
   "pyratite/1",
-  "blast-compound/1",
   "coal/1"
   ]
  }
