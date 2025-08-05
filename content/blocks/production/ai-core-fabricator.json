@@ -2,8 +2,7 @@
   "type": "GenericCrafter",
   "localizedName": "[#00ff]AI core fabricator",
   "description": "Produces AI cores used for units",
-  "outputItem": "ai-core/1",
-  "outputLiquid": "slag/0.05",
+  "outputItems": ["ai-core/1", "scrap/4"]
   "health": 500,
   "conductivePower": true,
   "itemCapacity": 50,
@@ -20,7 +19,7 @@
     "items": [
       "molten-alloy/1",
       "silicon/1",
-      "copper/1"
+      "copper/2"
     ]
   }
 },
