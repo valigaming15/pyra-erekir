@@ -15,8 +15,8 @@
     "liquid": {
       "booster": true,
       "optional": true,
-      "liquid": "plasmatic-slag",
-      "amount": 0.05
+      "liquid": "slag",
+      "amount": 0.1
     }
   },
   "requirements": [
