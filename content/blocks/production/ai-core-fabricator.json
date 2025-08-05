@@ -5,6 +5,7 @@
   "outputItem": "ai-core/1",
   "outputLiquid": "slag/0.05",
   "health": 500,
+  "conductivePower": true,
   "itemCapacity": 50,
   "liquidCapacity": 50,
   "size": 3,
