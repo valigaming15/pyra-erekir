@@ -17,7 +17,7 @@
   "ambientSound": "diesel-generator",
   "ambientSoundVolume": 0.05,
   "consumes": {
-    "power": 2.0,
+    "power": 1.0,
   "liquids": {
     "liquids": [
       "diesel/0.05",
