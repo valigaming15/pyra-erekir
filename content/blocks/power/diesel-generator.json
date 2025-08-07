@@ -1,7 +1,7 @@
 {
   "type": "ImpactReactor",
   "name": "Diesel generator",
-  "description": "An advanced diesel generator \nrequires a lot of power to start",
+  "description": "An advanced diesel generator \nrequires power to start",
   "health": 250,
   "size": 2,
   "hasPower": true,
@@ -10,17 +10,17 @@
   "lightColor": "996600",
   "liquidCapacity": 25,
   "liquidDuration": 60,
-  "powerProduction": 20,
+  "powerProduction": 10,
   "warmupSpeed": 0.006,
   "explosionDamage": 250,
   "explosionRadius": 5,
   "ambientSound": "diesel-generator",
   "ambientSoundVolume": 0.05,
   "consumes": {
-    "power": 3.5,
+    "power": 1.0,
   "liquids": {
     "liquids": [
-      "diesel/0.05",
+      "diesel/0.025",
 	  "water/0.1"
     ],
    },
