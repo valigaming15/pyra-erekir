@@ -16,7 +16,7 @@
   "power": 5,
   "liquids": {
     "liquids": [
-      "oil/1.0"
+      "oil/0.5"
     ]
   }
 },
