@@ -10,14 +10,14 @@
   "lightColor": "996600",
   "liquidCapacity": 25,
   "liquidDuration": 60,
-  "powerProduction": 10,
+  "powerProduction": 15,
   "warmupSpeed": 0.006,
   "explosionDamage": 250,
   "explosionRadius": 5,
   "ambientSound": "diesel-generator",
   "ambientSoundVolume": 0.05,
   "consumes": {
-    "power": 1.0,
+    "power": 3.0,
   "liquids": {
     "liquids": [
       "diesel/0.05",
