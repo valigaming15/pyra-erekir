@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "localizedName": "[#ff66]Oil refinery",
   "description": "Refines oil into diesel any byproducts are recycled to create more diesel",
-  "outputLiquid": "diesel/0.5"
+  "outputLiquid": "diesel/0.8"
   "health": 500,
   "conductivePower": true,
   "liquidCapacity": 100,
@@ -16,7 +16,7 @@
   "power": 5,
   "liquids": {
     "liquids": [
-      "oil/0.5"
+      "oil/0.8"
     ]
   }
 },
