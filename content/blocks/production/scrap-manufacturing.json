@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "localizedName": "[#ff66]Scrap-manufacturing",
   "description": "Melts sand copper and lead to create scrap",
-  "outputItem": "scrap/12",
+  "outputItem": "scrap/6",
   "health": 250,
   "itemCapacity": 20,
   "size": 2,
