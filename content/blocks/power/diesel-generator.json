@@ -1,0 +1,58 @@
+{
+  "type": "ImpactReactor",
+  "name": "Diesel generator",
+  "description": "An advanced diesel generator \nrequires a lot of power to start",
+  "health": 250,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "explosionShake": 1,
+  "lightColor": "996600",
+  "liquidCapacity": 25,
+  "liquidDuration": 60,
+  "powerProduction": 20,
+  "warmupSpeed": 0.006,
+  "explosionDamage": 250,
+  "explosionRadius": 5,
+  "ambientSound": "diesel-generator",
+  "ambientSoundVolume": 0.05,
+  "consumes": {
+    "power": 3.5,
+  "liquids": {
+    "liquids": [
+      "diesel/0.05",
+	  "water/0.1"
+    ],
+   },
+  },
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+{
+"type": "DrawDefault"
+},
+{
+   "type": "DrawRegion",
+   "suffix": "-turbine",
+   "spinSprite": true,
+   "rotateSpeed": 8
+  }
+ ]
+},
+	"requirements": [  	
+		"copper/50",
+		"titanium/50",
+		"metaglass/50",
+		"molten-alloy/10"
+	],
+  "category": "power",
+  "research": {
+    "parent": "pyra-panel",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	  {"item": "copper", "amount": 500},
+      {"item": "titanium", "amount": 500},
+	  {"item": "molten-alloy", "amount": 100}
+    ]
+  }
+}
