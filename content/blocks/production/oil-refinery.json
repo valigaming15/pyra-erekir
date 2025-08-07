@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Oil refinery",
+  "description": "Refines oil into diesel any byproducts are recycled to create more diesel",
+  "outputLiquid": "diesel/0.5"
+  "health": 500,
+  "conductivePower": true,
+  "liquidCapacity": 100,
+  "size": 3,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": false,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+  "power": 5,
+  "liquids": {
+    "liquids": [
+      "oil/0.75"
+    ]
+  }
+},
+  "requirements": [
+	  {"item": "copper", "amount": 200},
+	  {"item": "metaglass", "amount": 200},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "molten-alloy-forge",
+    "requirements": [
+      {"item": "lead", "amount": 100},
+	  {"item": "copper", "amount": 100},
+      {"item": "graphite", "amount": 50},
+      {"item": "titanium", "amount": 50}
+    ]
+  }
+}
