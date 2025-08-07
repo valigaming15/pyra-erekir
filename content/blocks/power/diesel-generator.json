@@ -10,7 +10,7 @@
   "lightColor": "996600",
   "liquidCapacity": 25,
   "liquidDuration": 60,
-  "powerProduction": 13,
+  "powerProduction": 12,
   "warmupSpeed": 0.006,
   "explosionDamage": 250,
   "explosionRadius": 5,
