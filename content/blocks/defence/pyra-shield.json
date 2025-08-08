@@ -11,7 +11,7 @@
   "hasItems": true,
   "squareSprite": false
   "shieldHealth": 500
-  "cooldownNormal": 0.1
+  "cooldownNormal": 0.2
   "cooldownLiquid": 0.5
   "cooldownBrokenBase": 0.5
   "coolantConsumption": 0.1
