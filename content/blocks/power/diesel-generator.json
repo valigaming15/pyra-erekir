@@ -35,7 +35,16 @@
    "type": "DrawRegion",
    "suffix": "-turbine",
    "spinSprite": true,
-   "rotateSpeed": 8
+   "rotateSpeed": 12
+  },
+  {
+   "type": "DrawGlowRegion",
+   "suffix": "-heat",
+  },
+  {
+   "type": "DrawLiquidRegion",
+   "suffix": "-liquid",
+   "drawLiquid": "diesel",
   }
  ]
 },
