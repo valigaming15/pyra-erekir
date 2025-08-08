@@ -1,6 +1,6 @@
 {
   "type": "ForceProjector",
-  "localizedName": "[#ff66]Pyra core",
+  "localizedName": "[#ff66]Pyra shield generator",
 "description": "[#ff66]Tiny shield generator",
   "outputItem": "pyratite/1",
   "health": 420,
