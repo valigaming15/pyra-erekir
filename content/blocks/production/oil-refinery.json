@@ -3,7 +3,6 @@
   "localizedName": "[#ff66]Oil refinery",
   "description": "Refines oil into diesel any byproducts are recycled to create more diesel",
   "outputLiquid": "diesel/0.8"
-  "outputItem": "scrap/1",
   "health": 500,
   "conductivePower": true,
   "liquidCapacity": 100,
@@ -21,11 +20,6 @@
       "oil/0.8"
     ]
   },
-    "items": {
-    "items": [
-      "titanium/1"
-    ]
-  }
 },
   "requirements": [
 	  {"item": "copper", "amount": 200},
