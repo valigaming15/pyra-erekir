@@ -13,7 +13,7 @@
   "shieldHealth": 500
   "cooldownNormal": 5.0
   "cooldownLiquid": 2.5
-  "cooldownBrokenBase": 0.35
+  "cooldownBrokenBase": 2.0
   "coolantConsumption": 0.1
   "consumes": {
   "power": 1,
