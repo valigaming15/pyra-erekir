@@ -1,5 +1,5 @@
 {
-  "type": "ForceProjector",
+  "type": "BaseShield",
   "localizedName": "[#ff66]Pyra core",
 "description": "[#ff66]Tiny shield generator",
   "outputItem": "pyratite/1",
