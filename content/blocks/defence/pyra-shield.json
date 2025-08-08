@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "[#ff66]Pyra core",
+"description": "[#ff66]Tiny shield generator",
+  "outputItem": "pyratite/1",
+  "health": 420,
+  "itemCapacity": 20,
+  "size": 3,
+  "craftTime": 60,
+  "conductivePower": true,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "requirements": [
+	  {"item": "pyratite", "amount": 4200},
+	  {"item": "molten-alloy", "amount": 4200},
+	  {"item": "magmium", "amount": 4200}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "regis",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	  {"item": "copper", "amount": 1000},
+      {"item": "graphite", "amount": 500},
+      {"item": "titanium", "amount": 500}
+    ]
+  }
+}
