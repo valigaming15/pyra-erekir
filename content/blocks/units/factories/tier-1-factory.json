@@ -48,6 +48,15 @@
       ],
       "time": 600
     },
+	{
+      "unit": "curativo",
+      "requirements": [
+	    {"item": "titanium", "amount": 250},
+	    {"item": "silicon", "amount": 250},
+		{"item": "molten-alloy", "amount": 100}
+      ],
+      "time": 600
+    },
   ],
   "requirements": [
     {
