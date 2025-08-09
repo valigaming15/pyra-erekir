@@ -5,10 +5,10 @@
 "flying": false,
 "health": 500,
 "armor": 0,
-"mineSpeed": 50,
+"mineSpeed": 10,
 "mineTier": 6,
 "buildSpeed": 1,
-"itemCapacity": 500,
+"itemCapacity": 100,
 "faceTarget": true,
 "outlineRadius": 1,
 "crushDamage": 5.0,
@@ -55,3 +55,4 @@
     ]
   }
 }
+
