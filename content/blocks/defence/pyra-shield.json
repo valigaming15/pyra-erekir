@@ -3,34 +3,21 @@
   "localizedName": "[#ff66]Pyra shield generator",
   "description": "[#ff66]Tiny shield generator",
   "health": 420,
-  "itemCapacity": 10,
   "size": 1,
   "conductivePower": true,
   "hasPower": true,
-  "hasLiquids": true,
-  "hasItems": true,
+  "hasLiquids": false,
+  "hasItems": false,
   "squareSprite": false
   "shieldHealth": 500
-  "cooldownNormal": 0.2
-  "cooldownLiquid": 0.5
-  "cooldownBrokenBase": 0.5
-  "coolantConsumption": 0.1
+  "cooldownNormal": 0.75
+  "cooldownBrokenBase": 0.75
   "consumes": {
   "power": 1,
-  "items": {
-    "items": [
-      "coal/1"
-    ]
-    "optional": true
-    "booster": true,
-  }
 },
 "radius": 60
-"phaseRadiusBoost": 120
-"phaseShieldBoost": 750
-"phaseUseTime": 600
-"sides": 4
-"shieldRotation": 45
+"sides": 6
+"shieldRotation": 0
   "requirements": [
 	  {"item": "pyratite", "amount": 100},
 	  {"item": "silicon", "amount": 50}
