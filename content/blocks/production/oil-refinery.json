@@ -2,30 +2,29 @@
   "type": "GenericCrafter",
   "localizedName": "[#ff66]Oil refinery",
   "description": "Refines oil into diesel any byproducts are recycled to create more diesel",
-  "outputLiquid": "diesel/0.8"
-  "health": 500,
+  "outputLiquid": "diesel/0.2"
+  "health": 250,
   "conductivePower": true,
-  "liquidCapacity": 100,
-  "itemCapacity": 10,
-  "size": 4,
+  "liquidCapacity": 25,
+  "size": 2,
   "craftTime": 60,
   "hasPower": true,
   "hasLiquids": true,
-  "hasItems": true,
+  "hasItems": false,
   "updateEffect": "smeltsmoke",
   "consumes": {
-  "power": 5,
+  "power": 1,
   "liquids": {
     "liquids": [
-      "oil/0.8"
+      "oil/0.2"
     ]
   },
 },
   "requirements": [
-	  {"item": "copper", "amount": 500},
-	  {"item": "metaglass", "amount": 500},
-	  {"item": "graphite", "amount": 250},
-	  {"item": "titanium", "amount": 250}
+	  {"item": "copper", "amount": 250},
+	  {"item": "metaglass", "amount": 250},
+	  {"item": "graphite", "amount": 50},
+	  {"item": "titanium", "amount": 50}
   ],
   "category": "crafting",
     "research": {
