@@ -22,10 +22,10 @@
   },
 },
   "requirements": [
-	  {"item": "copper", "amount": 200},
-	  {"item": "metaglass", "amount": 200},
-	  {"item": "graphite", "amount": 50},
-	  {"item": "titanium", "amount": 50}
+	  {"item": "copper", "amount": 500},
+	  {"item": "metaglass", "amount": 500},
+	  {"item": "graphite", "amount": 250},
+	  {"item": "titanium", "amount": 250}
   ],
   "category": "crafting",
     "research": {
