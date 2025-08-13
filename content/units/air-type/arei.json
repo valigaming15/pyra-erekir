@@ -37,7 +37,7 @@
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "status": "energyDrain",
-        "statusDuration": 240,
+        "statusDuration": 300,
         "length": 250,
         "width": 2,
         "damage": 100,
