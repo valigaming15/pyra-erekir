@@ -27,7 +27,7 @@
       "x": 0,
       "y": 0,
       "mirror": false,
-      "reload": 75,
+      "reload": 90,
       "rotate": false,
       "continuous": true,
       "shootSound": "laserblast",
