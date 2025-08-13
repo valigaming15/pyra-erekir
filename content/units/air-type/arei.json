@@ -38,7 +38,7 @@
         "type": "ContinuousLaserBulletType",
         "length": 250,
         "width": 2,
-        "damage": 50,
+        "damage": 100,
         "lifetime": 120,
         "collidesTeam": true,
         "healPercent": 5,
