@@ -84,7 +84,7 @@
     {
       "type": "ForceFieldAbility",
       "radius": 15,
-      "regen": 1.0,
+      "regen": 0.5,
       "max": 500,
       "cooldown": 600
     }
@@ -98,6 +98,7 @@
     ]
   },
  }
+
 
 
 
