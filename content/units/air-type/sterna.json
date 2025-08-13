@@ -23,7 +23,7 @@
   "weapons": [
       {
       "name": "small-blaster",
-	    "ejectEffect": "casing2",
+	    "ejectEffect": "casing1",
       "x": -3.5,
       "y": 2,
       "mirror": true,
