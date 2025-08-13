@@ -1,0 +1,225 @@
+{
+  "localizedName": "[#ff]Mothership",
+  "description": "A strong attack and support unit capable of carrying large payloads and slowly produce units",
+  "type": "payload",
+  "lowAltitude": true,
+  "mineSpeed": 10,
+  "mineTier": 6,
+  "canAttack": true,
+  "buildSpeed": 3,
+  "hitSize": 70,
+"engines": [
+  {
+    "x": 46,
+    "y": -17,
+    "radius": 8,
+    "rotation": 40 
+  },
+  {
+    "x": 36,
+    "y": -47,
+    "radius": 8,
+    "rotation": 40 
+  },
+  {
+    "x": -44,
+    "y": -17,
+    "radius": 8,
+    "rotation": 240
+  },
+  {
+    "x": -34,
+    "y": -47,
+    "radius": 8,
+    "rotation": 240 
+  }
+],
+  "payloadCapacity": 1940,
+  "armor": 20,
+  "itemCapacity": 1000,
+  "speed": 0.7,
+  "accel": 0.04,
+  "drag": 0.04,
+  "drawBuildBeam": true,
+  "health": 20000,
+  "mineHardnessScaling": true,
+  "defaultController": "FlyingAI",
+  "flying": true,
+  "weapons": [
+    {
+      "name": "big-cannon",
+      "rotate": false,
+      "mirror": false,
+      "top": "true",
+      "shake": 1,
+      "x": 0,
+      "y": 0,
+      "reload": 60,
+      "recoil": 5,
+      "shootSound": "artillery",
+      "ejectEffect": "casing4",
+      "inaccuracy": 0,
+      "shoot": {
+        "shots": 1
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "collidesTiles": true,
+        "collides" : true,
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": true,
+        "pierce": true,
+        "hitEffect": "titanExplosion",
+        "pierceCap": 2,
+        "pierceBuilding": true,
+        "status": "burning",
+        "makeFire": true,
+        "damage": 500,
+        "hitShake": 0.5,
+        "despawnShake": 0.5,
+        "width": 14,
+        "height": 35,
+        "lifetime": 60,
+        "speed": 6,
+        "backColor": "ff6600",
+        "frontColor": "ff6600",
+      }
+    },
+	    {
+      "name": "cannon",
+      "rotate": true,
+      "mirror": true,
+      "top": "true",
+	  "ShootAlternate": true,
+      "shake": 1,
+      "x": 12,
+      "y": 30,
+      "reload": 15,
+      "recoil": 5,
+      "shootSound": "shootBig",
+      "ejectEffect": "casing4",
+      "inaccuracy": 0,
+      "shoot": {
+        "shots": 1
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "laserAbsorb": true,
+        "hittable": true,
+        "absorbable": true,
+        "hitEffect": "explosion",
+        "status": "burning",
+        "makeFire": true,
+        "damage": 100,
+        "hitShake": 0.5,
+        "despawnShake": 0.5,
+        "width": 8,
+        "height": 20,
+        "lifetime": 60,
+        "speed": 5,
+        "backColor": "ff6600",
+        "frontColor": "ff6600",
+      }
+    },
+		    {
+      "name": "cannon",
+      "rotate": true,
+      "mirror": true,
+      "top": "true",
+	  "ShootAlternate": true,
+      "shake": 1,
+      "x": 34,
+      "y": 4,
+      "reload": 15,
+      "recoil": 5,
+      "shootSound": "shootBig",
+      "ejectEffect": "casing4",
+      "inaccuracy": 0,
+      "shoot": {
+        "shots": 1
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "laserAbsorb": true,
+        "hittable": true,
+        "absorbable": true,
+        "hitEffect": "explosion",
+        "status": "burning",
+        "makeFire": true,
+        "damage": 100,
+        "hitShake": 0.5,
+        "despawnShake": 0.5,
+        "width": 8,
+        "height": 20,
+        "lifetime": 60,
+        "speed": 5,
+        "backColor": "ff6600",
+        "frontColor": "ff6600",
+      }
+    },
+	{
+      "type": "RepairBeamWeapon",
+      "name": "repair-point",
+      "mirror": "true",
+      "x": -18,
+      "y": 8,
+      "beamWidth": 0.8,
+      "repairSpeed": 0.5,
+      "bullet": {
+        "maxRange": 150
+      }
+    },
+		{
+      "type": "RepairBeamWeapon",
+      "name": "repair-point",
+      "mirror": "true",
+      "x": -18,
+      "y": -8,
+      "beamWidth": 0.8,
+      "repairSpeed": 0.5,
+      "bullet": {
+        "maxRange": 150
+      }
+    }
+  ],
+  "research": {
+    "parent": "navis",
+    "requirements": [
+      {"item": "lead", "amount": 10000},
+	    {"item": "copper", "amount": 10000},
+      {"item": "silicon", "amount": 15000},
+      {"item": "titanium", "amount": 10000},
+	    {"item": "thorium", "amount": 5000}
+    ]
+  },
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 100,
+      "regen": 4.0,
+      "max": 5000,
+      "cooldown": 1800
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "fossores",
+      "spawnX": 4,
+      "spawnY": 0,
+      "spawnTime": 1800
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "fossores",
+      "spawnX": -4,
+      "spawnY": 0,
+      "spawnTime": 1800
+    },
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 5,
+    "faceOutwards": true,
+    "unit": "sterna"
+    }
+  ]
+}

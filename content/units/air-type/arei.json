@@ -1,0 +1,75 @@
+{
+  "localizedName": "[#ff66]AREI",
+  "description": "A mega-quasar hybrid it has powerful single laser and advanced drill capable of mining all ores",
+  "type": "payload",
+  "lowAltitude": true,
+  "mineSpeed": 5,
+  "mineTier": 6,
+  "canAttack": true,
+  "buildSpeed": 2.5,
+  "hitSize": 16,
+  "engineOffset": 11,
+  "engineSize": 3,
+  "payloadCapacity": 256,
+  "armor": 10,
+  "itemCapacity": 100,
+  "speed": 2.5,
+  "accel": 0.058,
+  "drag": 0.017,
+  "drawBuildBeam": true,
+  "health": 500,
+  "mineHardnessScaling": true,
+  "defaultController": "FlyingAI",
+  "flying": true,
+  "weapons": [
+	{
+      "name": "arei-weapon",
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "reload": 300,
+      "rotate": false,
+      "continuous": true,
+      "shootSound": "laserblast",
+	  "shootSoundVolume": 0.25,
+	  "shootStatusDuration": "240",
+      "shootStatus": "slow",
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "length": 200,
+        "width": 2,
+        "damage": 50,
+        "lifetime": 120,
+        "collidesTeam": true,
+        "healPercent": 5,
+        "damageInterval": 15,
+        "colors": ["70d581", "98ffa9", "ffffff"],
+        "fadeTime": 30
+      }
+    }
+  ],
+  "research": {
+    "parent": "sterna",
+    "requirements": [
+      {"item": "lead", "amount": 2000},
+	  {"item": "copper", "amount": 2000},
+      {"item": "silicon", "amount": 2000},
+      {"item": "titanium", "amount": 2000}
+    ]
+  },
+  "abilities": [
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 1,
+    "faceOutwards": true,
+    "unit": "fossores"
+    },
+    {
+      "type": "ForceFieldAbility",
+      "radius": 50,
+      "regen": 0.5,
+      "max": 500,
+      "cooldown": 600
+    }
+  ]
+}

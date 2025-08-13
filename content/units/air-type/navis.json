@@ -1,0 +1,87 @@
+{
+  "localizedName": "[#ff66]Navis",
+  "description": "A cargo ship and artillery",
+  "type": "flying",
+  "lowAltitude": true,
+  "canMine": false,
+  "canAttack": true,
+  "buildSpeed": 1.0,
+  "hitSize": 36,
+  "engineOffset": 18,
+  "engineSize": 4,
+  "armor": 10,
+  "itemCapacity": 1000,
+  "speed": 1.0,
+  "accel": 0.04,
+  "drag": 0.017,
+  "drawBuildBeam": true,
+  "health": 5000,
+  "flying": true,
+  "defaultController": "FlyingAI",
+    "weapons": [
+    {
+	  "rotate": false,
+      "mirror": false,
+      "top": "true",
+      "shake": 1,
+      "x": 0,
+      "y": 0,
+      "reload": 300,
+      "recoil": 2.5,
+      "shootSound": "artillery",
+	    "ejectEffect": "casing4",
+	  
+      "bullet": {
+          "type": "BasicBulletType",
+	      "collidesTiles": true,
+	      "collides" : true,
+        
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": false,
+	"homingPower": 0.025,
+
+		    "pierce": true,
+        "hitEffect": "titanExplosion",
+		    "pierceCap": 2,
+			"pierceBuilding": true,
+        "status": "burning",
+	"statusDuration": 600,
+        "makeFire": true,
+	"damage": 1000,
+        "splashDamage": 1000,
+        "splashDamageRadius": 60,
+        "width": 12,
+        "height": 30,
+        "lifetime": 120,
+        "speed": 4,
+        "backColor": "ff6600",
+        "frontColor": "ffffff",		
+      }
+    }
+  ],
+  "research": {
+    "parent": "arei",
+    "requirements": [
+      {"item": "lead", "amount": 1000},
+	    {"item": "copper", "amount": 1000},
+      {"item": "silicon", "amount": 1000},
+      {"item": "titanium", "amount": 1500}
+    ]
+  },
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 50,
+      "regen": 1,
+      "max": 2500,
+      "cooldown": 600
+    },
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 5,
+    "faceOutwards": true,
+    "unit": "fossores"
+    }
+  ]
+}
