@@ -1,0 +1,93 @@
+{
+"type": "tank",
+"localizedName": "[#00ff00]Curativo",
+"description": "A medium sized support tank"
+"flying": false,
+"health": 1000,
+"armor": 10,
+"buildSpeed": 1,
+"drawBuildBeam": true,
+"mineHardnessScaling": false,
+"itemCapacity": 100,
+"mineSpeed": 5,
+"mineTier": 5,
+"faceTarget": false,
+"outlineRadius": 3,
+"crushDamage": 5.0,
+"hitSize": 18,
+"speed": 1.5,
+"omniMovement": false,
+"canAttack": true,
+"useUnitCap": true,
+"range": 120,
+"treadRects": [
+  {
+  "x": 6,
+  "y": -25,
+  "width": 14,
+  "height": 51
+  }
+],
+"defaultController": "GroundAI",
+  "weapons": [
+     {
+      "name": "small-blaster",
+	    "ejectEffect": "casing1",
+      "x": -3,
+      "y": 2,
+      "mirror": true,
+      "reload": 30,
+      "rotate": true,
+      "shootSound": "lasershoot",
+      "inaccuracy": 2,
+      "shoot": {
+        "shots": 30
+      },
+      "bullet": {
+        "type": "LaserBoltBulletType",
+
+        "laserAbsorb": true,
+        "hittable": false,
+        "absorbable": true,
+        
+        "length": 2,
+        "width": 1,
+        "damage": 10,
+        "speed": 6,
+        "lifetime": 35,
+        "collidesTeam": true,
+        "healPercent": 1,
+        "backColor": "98ffa9",
+        "frontColor": "ffffff"
+      }
+    },
+	{
+      "type": "RepairBeamWeapon",
+      "name": "small-repair-point",
+      "x": -0,
+      "y": -4,
+      "beamWidth": 0.5,
+      "mirror": false,
+      "repairSpeed": 0.25,
+      "bullet": {
+        "maxRange": 75
+      }
+	 },
+	]
+	 "abilities": [
+    {
+    "type": "SpawnDeathAbility",
+    "amount": 1,
+    "faceOutwards": true,
+    "unit": "samarthanam"
+    },
+    ],
+  "research": {
+    "parent": "tier-1-factory",
+    "requirements": [
+      {"item": "lead", "amount": 500},
+	     {"item": "copper", "amount": 500},
+      {"item": "silicon", "amount": 500}
+    ]
+  },
+ }
