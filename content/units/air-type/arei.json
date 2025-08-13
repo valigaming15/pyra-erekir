@@ -27,7 +27,7 @@
       "x": 0,
       "y": 0,
       "mirror": false,
-      "reload": 300,
+      "reload": 100,
       "rotate": false,
       "continuous": true,
       "shootSound": "laserblast",
@@ -36,13 +36,13 @@
       "shootStatus": "slow",
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "length": 200,
+        "length": 250,
         "width": 2,
         "damage": 50,
         "lifetime": 120,
         "collidesTeam": true,
         "healPercent": 5,
-        "damageInterval": 15,
+        "damageInterval": 20,
         "colors": ["70d581", "98ffa9", "ffffff"],
         "fadeTime": 30
       }
