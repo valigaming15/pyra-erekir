@@ -36,6 +36,8 @@
       "shootStatus": "slow",
       "bullet": {
         "type": "ContinuousLaserBulletType",
+        "status": "energyDrain",
+        "statusDuration": 240,
         "length": 250,
         "width": 2,
         "damage": 100,
