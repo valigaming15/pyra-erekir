@@ -81,6 +81,13 @@
     "faceOutwards": true,
     "unit": "samarthanam"
     },
+    {
+      "type": "ForceFieldAbility",
+      "radius": 30,
+      "regen": 0.5,
+      "max": 250,
+      "cooldown": 600
+    }
     ],
   "research": {
     "parent": "tier-1-factory",
@@ -91,3 +98,4 @@
     ]
   },
  }
+
