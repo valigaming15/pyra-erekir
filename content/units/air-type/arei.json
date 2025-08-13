@@ -17,7 +17,7 @@
   "accel": 0.058,
   "drag": 0.017,
   "drawBuildBeam": true,
-  "health": 500,
+  "health": 1000,
   "mineHardnessScaling": true,
   "defaultController": "FlyingAI",
   "flying": true,
@@ -67,8 +67,8 @@
     {
       "type": "ForceFieldAbility",
       "radius": 50,
-      "regen": 0.5,
-      "max": 500,
+      "regen": 1.0,
+      "max": 1000,
       "cooldown": 600
     }
   ]
