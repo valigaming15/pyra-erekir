@@ -10,8 +10,8 @@
     "silicon/50",
     "pyratite/1"
   ],
-  "targetAir": false,
-  "targetGround": false,
+  "targetAir": true,
+  "targetGround": true,
   "targetHealing": true,
   "outlineIcon": true,
   "range": 100,
