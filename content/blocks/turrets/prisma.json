@@ -27,7 +27,7 @@
   "shootWarmupSpeed": 0.05,
   "shootY": 1,
   "consumes": {
-  "power": 40.0,
+  "power": 20.0,
   "liquid": {
   "liquid": "cryofluid",
   "amount": 0.2
