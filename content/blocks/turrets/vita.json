@@ -7,7 +7,7 @@
   "category": "turret",
   "requirements": [
     "copper/50",
-    "lead/50",
+    "silicon/50",
     "pyratite/1"
   ],
   "targetAir": false,
@@ -29,7 +29,7 @@
   "sprite": "pyra-tiny-laser",
   "collidesTeam": true,
   "healAmount": 5,
-	"damage": 1,
+	"damage": 2.5,
 },
 "drawer": {
   "type": "DrawTurret",
