@@ -6,8 +6,8 @@
   "size": 1,
   "powerProduction": 0.25,
 	"requirements": [
-	    "lead/25",
-	    "silicon/25",
+	    "lead/15",
+	    "silicon/15",
 	    "molten-alloy/5"
 	],
   "category": "power",
