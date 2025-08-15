@@ -6,9 +6,9 @@
   "size": 3,
   "powerProduction": 5,
 	"requirements": [
-	    "lead/200",
-	    "silicon/200",
-	    "magmium/20"
+	    "lead/100",
+	    "silicon/100",
+	    "magmium/10"
 	],
   "category": "power",
     "research": {
