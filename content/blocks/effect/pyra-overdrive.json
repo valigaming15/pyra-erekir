@@ -1,0 +1,41 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Pyra overdrive",
+  "description": "A upgrade overdrive projector",
+  "health": 250,
+  "size": 2,
+  "range": 90,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": false,
+  "conductivePower": true,
+  "speedBoost": 2.0,
+  "speedBoostPhase": 1.0,
+  "phaseRangeBoost": 30,
+  "liquidCapacity": 10,
+  "reload": 1,
+  "consumes": {
+    "power": 4.0,
+    "liquid": {
+      "booster": true,
+      "optional": true,
+      "liquid": "diesel",
+      "amount": 0.1
+    }
+  },
+  "requirements": [
+	  {"item": "lead", "amount": 100},
+	  {"item": "titanium", "amount": 100},
+	  {"item": "silicon", "amount": 100},
+	  {"item": "magmium", "amount": 25}
+  ],
+"category": "effect",
+"research": {
+    "parent": "pyra-panel",
+    "requirements": [
+      {"item": "silicon", "amount": 500},
+	  {"item": "titanium", "amount": 500},
+      {"item": "molten-alloy", "amount": 100}
+    ]
+  }
+}
