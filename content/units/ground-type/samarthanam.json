@@ -30,6 +30,13 @@
                  "range": 80,
                  "reload": 300,
                  "duration": 7200
+          },
+		  {
+                 "type": "ShieldRegenFieldAbility",
+                 "range": 80,
+                 "reload": 240,
+				 "amount": 100,
+				 "max": 1000
           }
     ],
   "research": {
@@ -41,4 +48,5 @@
     ]
   },
  }
+
 
