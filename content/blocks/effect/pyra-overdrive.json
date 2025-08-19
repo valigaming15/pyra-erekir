@@ -20,7 +20,7 @@
       "booster": true,
       "optional": true,
       "liquid": "diesel",
-      "amount": 0.1
+      "amount": 0.05
     }
   },
   "requirements": [
