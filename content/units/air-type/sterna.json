@@ -27,7 +27,7 @@
       "x": -3.5,
       "y": 2,
       "mirror": true,
-      "reload": 15,
+      "reload": 30,
       "rotate": true,
       "shootSound": "lasershoot",
       "inaccuracy": 5,
