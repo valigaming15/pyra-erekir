@@ -15,6 +15,7 @@
   "targetGround": false,
   "targetHealing": true,
   "outlineIcon": true,
+  "conductivePower": true,
   "range": 175,
   "loopSound": "minebeam",
   "loopSoundVolume": 1,
