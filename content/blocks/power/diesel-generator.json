@@ -49,7 +49,7 @@
  ]
 },
 	"requirements": [  	
-		"titanium/100",
+		"titanium/50",
 	    "silicon/75",
 		"metaglass/50",
 		"magmium/10"
