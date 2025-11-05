@@ -37,14 +37,6 @@
   ],
   "research": {
     "parent": "tier-1-factory",
-  "abilities": [
-    {
-    "type": "SpawnDeathAbility",
-    "amount": 1,
-    "faceOutwards": true,
-    "unit": "healing-dorito"
-    },
-]
     "requirements": [
       {"item": "lead", "amount": 500},
 	  {"item": "copper", "amount": 500},
