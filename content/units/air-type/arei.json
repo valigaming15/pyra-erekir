@@ -64,7 +64,7 @@
     "type": "SpawnDeathAbility",
     "amount": 1,
     "faceOutwards": true,
-    "unit": "fossores"
+    "unit": "sterna"
     },
     {
       "type": "ForceFieldAbility",
