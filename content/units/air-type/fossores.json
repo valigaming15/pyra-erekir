@@ -44,7 +44,7 @@
     "faceOutwards": true,
     "unit": "healing-dorito"
     },
-],
+]
     "requirements": [
       {"item": "lead", "amount": 500},
 	  {"item": "copper", "amount": 500},
