@@ -20,8 +20,6 @@
   "buildSpeed": 2,
   "mineSpeed": 5,
   "mineTier": 4,
-"shootStatusDuration": "600",
-"shootStatus": "energyDrain",
 "defaultController": "DefenderAI",
 "weapons": [
 		{
@@ -75,10 +73,10 @@
 	  {
 		 "type": "EnergyFieldAbility",
 		 "effectRadius": 1,
-		 "range": 180,
-		 "damage": 25,
-		 "reload": 30,
-		 "maxTargets": 25
+		 "range": 200,
+		 "damage": 20,
+		 "reload": 60,
+		 "maxTargets": 20
 	  }
   ]
  }
