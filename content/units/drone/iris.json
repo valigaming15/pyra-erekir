@@ -4,14 +4,14 @@
 "localizedName": "[green]Iris",
 "description": "A drone that follows units and heals",
 "lowAltitude": true,
-"health": 2000,
+"health": 1000,
 "canAttack": false,
 "useUnitCap": true,
 "isEnemy": false,
   "hitSize": 16,
   "engineOffset": 9,
   "engineSize": 3,
-  "armor": 25,
+  "armor": 10,
   "itemCapacity": 100,
   "speed": 2.5,
   "accel": 0.06,
@@ -73,16 +73,10 @@
 	  {
 		 "type": "EnergyFieldAbility",
 		 "effectRadius": 1,
-		 "range": 120,
+		 "range": 180,
 		 "damage": 25,
 		 "reload": 30,
 		 "maxTargets": 25
-	  },
-          {
-                 "type": "RepairFieldAbility",
-                 "range": 60,
-                 "reload": 300,
-                 "amount": 50
-         }
+	  }
   ]
  }
