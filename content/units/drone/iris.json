@@ -20,6 +20,8 @@
   "buildSpeed": 2,
   "mineSpeed": 5,
   "mineTier": 4,
+"shootStatusDuration": "600",
+"shootStatus": "energyDrain",
 "defaultController": "DefenderAI",
 "weapons": [
 		{
