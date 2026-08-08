@@ -23,7 +23,7 @@
           "display": false,
           "alwaysShooting": true,
           "shootCone": 360,
-          "ignoreRotation: true,
+          "ignoreRotation": true,
 		  "alwaysShooting": true,
           "useAttackRange": false,
 		  "shoot": {
