@@ -8,7 +8,7 @@
     "power": 5.0
 	},
 	"alwaysShooting": false,
-    "range": 400,
+    "range": 200,
     "reload": 600,
 	"maxAmmo": 10,
 	"ammoPerShot": 1,
