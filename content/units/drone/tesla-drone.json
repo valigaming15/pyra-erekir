@@ -27,7 +27,7 @@
 		  "alwaysShooting": true,
           "useAttackRange": false,
 		  "shoot": {
-			  "firstShotDelay": 3600
+			  "firstShotDelay": 600
 		  },
 		  "x": 0,
 		  "shootY": 0,
@@ -49,10 +49,10 @@
 	  {
 		 "type": "EnergyFieldAbility",
 		 "effectRadius": 1,
-		 "range": 200,
-		 "damage": 20,
+		 "range": 120,
+		 "damage": 25,
 		 "reload": 60,
-		 "maxTargets": 20
+		 "maxTargets": 10
 	  }
   ]
 }
