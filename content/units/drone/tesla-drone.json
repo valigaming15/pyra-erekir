@@ -10,7 +10,7 @@
   "logicControllable": false,
   "lowAltitude": true,
   "outlineColor": 222222,
-  "armor": 1000,
+  "armor": 10,
   "health": 100,
   "canAttack": true,
   "useUnitCap": false,
