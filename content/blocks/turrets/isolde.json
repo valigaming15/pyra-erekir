@@ -9,7 +9,7 @@
 	},
 	"alwaysShooting": false,
     "range": 200,
-    "reload": 600,
+    "reload": 60,
 	"maxAmmo": 10,
 	"ammoPerShot": 1,
     "ammoTypes": {
