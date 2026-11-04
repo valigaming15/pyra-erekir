@@ -22,7 +22,7 @@
 	  {
 		  "reload": 30,
           "display": false,
-          "alwaysShooting": true,
+          "alwaysShooting": false,
           "shootCone": 360,
           "ignoreRotation": true,
 		  "alwaysShooting": true,
