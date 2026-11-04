@@ -4,10 +4,10 @@
   "localizedName": "Tesla drone",
   "description": "part of the tesla turret",
   "defaultController": "MissileAI",
-  "playerControllable": false,
+  "playerControllable": true,
   "createWreck": false,
   "createScorch": false,
-  "logicControllable": false,
+  "logicControllable": true,
   "lowAltitude": true,
   "outlineColor": 222222,
   "armor": 10,
@@ -34,7 +34,7 @@
 		  "shootY": 0,
 		  "bullet": {
 			  "type": "BulletType",
-			  "killShooter": true,
+			  "killShooter": false,
 		  }
 	  }
   ],
